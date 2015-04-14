@@ -109,7 +109,7 @@ fields = """
     MainSpecialism2 (name)
     MSOA (name)
     NextInspectionVisit
-    Norentry
+    Northing
     NumberOfBoys
     NumberOfGirls
     NumberOfPupils
