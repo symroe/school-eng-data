@@ -194,7 +194,7 @@ def process(reader, writer):
         entry.easting = row['Easting']
         entry.northing = row['Northing']
         if (entry.easting and entry.northing):
-            entry.latitude, entry.longitude = osgb_to_wgs84(
+            entry.longitude, entry.latitude = osgb_to_wgs84(
                 entry.easting, entry.northing)
 
         # keep head teacher with school entry for the moment
