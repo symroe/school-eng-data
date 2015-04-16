@@ -1,7 +1,8 @@
 # the list of schools is OGL, and public:
 # http://www.education.gov.uk/edubase/home.xhtml
 # but you need an account to download it as CSV from this source:
-EDUBASE_URL=http://www.education.gov.uk/edubase/edubase20150414.csv
+EDUBASE_URL=http://www.education.gov.uk/edubase/edubase20150416.csv
+
 
 # the file gets updated from time to time and so the above url breaks
 # check http://www.education.gov.uk/edubase/register/subscription.xhtml

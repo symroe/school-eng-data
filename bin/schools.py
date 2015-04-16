@@ -175,7 +175,7 @@ def process(reader, writer):
         entry.name = row['EstablishmentName']
         entry.type = row['TypeOfEstablishment (name)'].replace(' ', '')
         entry.type = entry.type.replace('-', '')
-        entry.edubase = row['URN']
+        entry.school = row['URN']
         entry.gender = row['Gender (name)']
         entry.telephone = row['TelephoneSTD'] + row['TelephoneNum']
 
@@ -186,7 +186,7 @@ def process(reader, writer):
         # file for property.register, we use the line number as a fake
         # uprn - this is only until we have a proper address/property register
         # this allows us to create a link to property register.
-        entry.address = 'property:uprn:%s' % num
+        entry.address = 'address:%s' % num
 
         if row["WebsiteAddress"]:
             entry.sameAs = http_url(row["WebsiteAddress"])
@@ -211,7 +211,7 @@ if __name__ == '__main__':
 
     writer = Writer(open(out_file, 'w'), fieldnames=[
         'name',
-        'edubase',
+        'school',
         'gender',
         'telephone',
         'sameAs',
