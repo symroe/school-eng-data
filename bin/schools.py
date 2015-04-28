@@ -3,12 +3,38 @@
 """Explode Edubase CSV into entries for schools"""
 
 import sys
+import os
 import csv
+import json
+
+from pymongo import MongoClient
 
 from gbgeo import osgb_to_wgs84
 
 from entry import Entry
 from entry.representations.tsv import Writer
+
+# TODO fetch field names from register register.
+
+school_fields = ['school', 'name', 'startDate', 'endDate',
+                 'religiousCharacter', 'minAge', 'maxAge', 'headTeacher',
+                 'telephone', 'website', 'address']
+
+address_fields = ['address', 'streetAddress', 'postTown', 'county', 'postcode',
+                  'country', 'latitude', 'longitude']
+
+post_town_fields = ['postTown', 'startDate', 'endDate', 'text']
+
+postcode_fields = ['postcode', 'polygon']
+
+fieldnames = {'schools': school_fields,
+              'addresses': address_fields,
+              'posttowns': post_town_fields,
+              'postcodes': postcode_fields}
+
+
+posttowns = set([])
+postcodes = set([])
 
 
 def http_url(url):
@@ -16,212 +42,141 @@ def http_url(url):
     return url if url.startswith("http") else "http://" + url
 
 
-fields = """
-    Address3
-    AdministrativeWard (name)
-    AdmissionsPolicy (name)
-    ApprovedNumberBoardersSpecial
-    ASCHighestAge
-    ASCLowestAge
-    Boarders (name)
-    Boys10
-    Boys11
-    Boys12
-    Boys13
-    Boys14
-    Boys15
-    Boys16
-    Boys17
-    Boys18
-    Boys19plus
-    Boys2
-    Boys3
-    Boys4a
-    Boys4b
-    Boys4c
-    Boys5
-    Boys6
-    Boys7
-    Boys8
-    Boys9
-    CCF (name)
-    CensusDate
-    CloseDate
-    County (name)
-    DateOfLastInspectionVisit
-    Diocese (name)
-    Easting
-    EBD (name)
-    EdByOther (name)
-    EstablishmentName
-    EstablishmentNumber
-    EstablishmentStatus (name)
-    EstablishmentTypeGroup (name)
-    EYFSExemption (name)
-    FederationFlag (name)
-    Federations (name)
-    FEHEIdentifier
-    FreshStart (name)
-    FTProv (name)
-    FurtherEducationType (name)
-  * Gender (name)
-    Girls10
-    Girls11
-    Girls12
-    Girls13
-    Girls14
-    Girls15
-    Girls16
-    Girls17
-    Girls18
-    Girls19plus
-    Girls2andUnder
-    Girls3
-    Girls4a
-    Girls4b
-    Girls4c
-    Girls5
-    Girls6
-    Girls7
-    Girls8
-    Girls9
-    GOR (name)
-    GSSLACode (name)
-    HeadFirstName
-    HeadHonours
-    HeadLastName
-    HeadPreferredJobTitle
-    HeadTitle (name)
-    HP_Leading_Option_1 (name)
-    HP_Leading_Option_2 (name)
-    HP_Leading_Option_3 (name)
-    Inspectorate (name)
-    InspectorateName (name)
-    InspectorateReport
-    InvestorInPeople (name)
-    LA (name)
-    LastChangedDate
-    LeadershipIncentiveGrant (name)
-    LLSC (name)
-    Locality
-    LSOA (name)
-    MainSpecialism1 (name)
-    MainSpecialism2 (name)
-    MSOA (name)
-    NextInspectionVisit
-    Northing
-    NumberOfBoys
-    NumberOfGirls
-    NumberOfPupils
-    OfficialSixthForm (name)
-    OfstedLastInsp
-    OfstedSpecialMeasures (name)
-    OpenDate
-    ParliamentaryConstituency (name)
-    PercentageFSM
-    PFI (name)
-    PhaseOfEducation (name)
-  * Postcode
-    PreviousEstablishmentNumber
-    PropsLastName
-    ReasonEstablishmentClosed (name)
-    ReasonEstablishmentOpened (name)
-    RegisteredEY (name)
-  * ReligiousCharacter (name)
-    ResourcedProvisionCapacity
-    ResourcedProvisionOnRoll
-    SchoolCapacity
-    SchoolSponsorFlag (name)
-    SchoolSponsors (name)
-    SecondarySpecialism1 (name)
-    SecondarySpecialism2 (name)
-    Section41Approved (name)
-    SEN1 (name)
-    SEN2 (name)
-    SEN3 (name)
-    SEN4 (name)
-    SENNoStat
-    SENPRU (name)
-    SENStat
-    SenUnitCapacity
-    SenUnitOnRoll
-    SixthFormSchool
-    SpecialClasses (name)
-    SpecialPupils
-    StatutoryHighAge
-    StatutoryLowAge
-    Street
-    StudioSchoolIndicator (name)
-    TeenMoth (name)
-    TeenMothPlaces
-  * TelephoneNum
-  * TelephoneSTD
-  * Town
-    Trusts (name)
-    TrustSchoolFlag (name)
-  * TypeOfEstablishment (name)
-    TypeOfReservedProvision (name)
-    UKPRN
-    UrbanRural (name)
-  * URN
-  * WebsiteAddress
-"""
+def get_writer(directory, file_name):
+    out_file = '%s/%s' % (directory, file_name+'.tsv')
+    writer = Writer(open(out_file, 'w'), fieldnames=fieldnames[file_name])
+    return writer
 
 
-def process(reader, writer):
-    for num, row in enumerate(reader):
+def write_to_local_file(postcode, json_data):
+    out_file = "data/raw_addresses/%s.json" % postcode
+    with open(out_file, 'w') as file:
+        file.write(json.dumps(json_data))
+
+
+def close_enough(value, target):
+    return abs(value - target) < 0.001
+
+
+def get_best_match(row, addresses):
+    easting = row['Easting']
+    northing = row['Northing']
+    if (easting and northing):
+        longitude, latitude = osgb_to_wgs84(easting, northing)
+
+    for address in addresses:
+        try:
+            if not address['details']['classification'].startswith('CE0'):
+                print('\nSkip: Not a school', address, '\n')
+                continue
+            if latitude and longitude:
+                addressbase_lat = address['location']['lat']
+                addressbase_long = address['location']['long']
+                lat_close = close_enough(latitude, addressbase_lat)
+                long_close = close_enough(longitude, addressbase_long)
+                if lat_close and long_close:
+                    print('matched on lat and long', latitude,
+                          longitude, address)
+                    return address
+        except Exception as e:
+            print('Problem extracting address details', e)
+    else:
+        return {}
+
+
+def get_address_match(row, addressbase):
+    postcode = row['Postcode'].replace(' ', '').lower()
+    address_records = addressbase.find({"postcode": postcode})
+    return get_best_match(row, address_records)
+
+
+def split_address(address, address_writer):
+    entry = Entry()
+    entry.address = address['uprn']
+    if address['presentation'].get('property'):
+        property_name = "%s," % address['presentation']['property']
+    else:
+        property_name = ''
+
+    if address['presentation'].get('street'):
+        street_address = "%s %s" % (property_name,
+                                    address['presentation']['street'])
+    else:
+        street_address = property_name
+
+    entry.streetAddress = street_address.strip()
+    entry.postTown = 'postTown:%s' % address['presentation']['town']
+    entry.postcode = 'postcode:%s' % address['presentation']['postcode']
+    entry.country = 'GB'
+    entry.latitude = address['location']['lat']
+    entry.longitude = address['location']['long']
+
+    posttowns.add(address['presentation']['town'].title())
+    postcodes.add(address['presentation']['postcode'].strip())
+
+    address_writer.write(entry)
+
+
+def write_postcodes(writer):
+    for postcode in sorted(postcodes):
         entry = Entry()
-        # School
-        entry.name = row['EstablishmentName']
-        entry.type = row['TypeOfEstablishment (name)'].replace(' ', '')
-        entry.type = entry.type.replace('-', '')
-        entry.school = row['URN']
-        entry.gender = row['Gender (name)']
-        entry.telephone = row['TelephoneSTD'] + row['TelephoneNum']
-
-        if row["WebsiteAddress"]:
-            entry.sameAs = http_url(row["WebsiteAddress"])
-
-        # PostalAddress. As we have generated address data from same
-        # file for property.register, we use the line number as a fake
-        # uprn - this is only until we have a proper address/property register
-        # this allows us to create a link to property register.
-        entry.address = 'address:%s' % num
-
-        if row["WebsiteAddress"]:
-            entry.sameAs = http_url(row["WebsiteAddress"])
-
-        entry.easting = row['Easting']
-        entry.northing = row['Northing']
-        if (entry.easting and entry.northing):
-            entry.longitude, entry.latitude = osgb_to_wgs84(
-                entry.easting, entry.northing)
-
-        # keep head teacher with school entry for the moment
-        entry.headTeacher = "%s %s %s" % (row['HeadTitle (name)'],
-                                          row['HeadFirstName'],
-                                          row['HeadLastName'])
-
+        entry.postcode = postcode
         writer.write(entry)
 
 
+def write_posttowns(writer):
+    for posttown in sorted(posttowns):
+        entry = Entry()
+        entry.postTown = posttown
+        writer.write(entry)
+
+
+def process_school(reader, addressbase):
+    school_writer = get_writer(sys.argv[1], 'schools')
+    address_writer = get_writer(sys.argv[2], 'addresses')
+    post_code_writer = get_writer(sys.argv[3], 'postcodes')
+    post_town_writer = get_writer(sys.argv[4], 'posttowns')
+
+    for num, row in enumerate(reader):
+        entry = Entry()
+        # School
+        entry.school = row['URN']
+        entry.name = row['EstablishmentName']
+        entry.startDate = row['OpenDate']
+        entry.endDate = row['CloseDate']
+        entry.religiousCharacter = row['ReligiousCharacter (name)']
+        entry.minAge = row['ASCLowestAge']
+        entry.maxAge = row['ASCHighestAge']
+        entry.headTeacher = "%s %s %s" % (row['HeadTitle (name)'],
+                                          row['HeadFirstName'],
+                                          row['HeadLastName'])
+        entry.telephone = row['TelephoneSTD'] + row['TelephoneNum']
+        if row["WebsiteAddress"]:
+            entry.website = http_url(row["WebsiteAddress"])
+
+        address = get_address_match(row, addressbase)
+        if address:
+            entry.address = 'address:%s' % address['uprn']
+            split_address(address, address_writer)
+            school_writer.write(entry)
+
+    write_postcodes(post_code_writer)
+    write_posttowns(post_town_writer)
+
+    school_writer.close()
+    address_writer.close()
+    post_code_writer.close()
+    post_town_writer.close()
+
 if __name__ == '__main__':
+
+    mongo_uri = os.environ.get('MONGO_URI')
+    if not mongo_uri:
+        print('You need to set enviroment variables for:')
+        print('MONGO_URI')
+
+    client = MongoClient(mongo_uri)
+    addressbase = client.get_default_database().addresses
+
     reader = csv.DictReader(sys.stdin)
-    out_file = '%s/%s' % (sys.argv[1], 'schools.tsv')
-
-    writer = Writer(open(out_file, 'w'), fieldnames=[
-        'name',
-        'school',
-        'gender',
-        'telephone',
-        'sameAs',
-        'easting',
-        'northing',
-        'latitude',
-        'longitude',
-        'headTeacher',
-        'type',
-        'address'])
-
-    process(reader, writer)
-    writer.close()
+    process_school(reader, addressbase)

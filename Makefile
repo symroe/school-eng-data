@@ -6,14 +6,22 @@ EDUBASE_URL=http://www.education.gov.uk/edubase/edubase${DATE}.csv
 
 all:: flake8 data/edubase
 
+# The scripts invoked in this makefile will create data for
+# 4 registers: School, Address, PostTown and Postcode
 #
-# entry for each school
-# entry for each address of school record extracted
-# from edubase data as temporary work around
+# This will create files in the data directory that will contain:
 #
-data/edubase:	cache/edubase.csv bin/schools.py
-	@mkdir -p data/School
-	cat cache/edubase.csv | bin/schools.py data/School
+# an entry for each school
+# an entry for each address of school record extracted
+# an entry for each post town of address record extracted
+# an entry for each postcode of address record extracted
+
+# All of the above is based in edubase data
+#
+
+data/edubase: bin/schools.py
+	@mkdir -p data/School data/Address data/PostTown data/Postcode
+	cat cache/edubase.csv | bin/schools.py data/School data/Address data/PostTown data/Postcode
 
 cache/results.csv:
 	@mkdir cache
@@ -40,5 +48,3 @@ flake8:
 clean::
 	-find . -name "*.pyc" | xargs rm -f
 	-find . -name "__pycache__" | xargs rm -rf
-
-

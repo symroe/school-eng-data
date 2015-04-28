@@ -58,3 +58,6 @@ target/
 
 .DS_Store
 cache
+
+environment.sh
+raw_addresses
