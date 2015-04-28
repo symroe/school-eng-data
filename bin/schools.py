@@ -105,8 +105,8 @@ def split_address(address, address_writer):
         street_address = property_name
 
     entry.streetAddress = street_address.strip()
-    entry.postTown = 'postTown:%s' % address['presentation']['town']
-    entry.postcode = 'postcode:%s' % address['presentation']['postcode']
+    entry.postTown = address['presentation']['town']
+    entry.postcode = address['presentation']['postcode']
     entry.country = 'GB'
     entry.latitude = address['location']['lat']
     entry.longitude = address['location']['long']
@@ -134,8 +134,8 @@ def write_posttowns(writer):
 def process_school(reader, addressbase):
     school_writer = get_writer(sys.argv[1], 'schools')
     address_writer = get_writer(sys.argv[2], 'addresses')
-    post_code_writer = get_writer(sys.argv[3], 'postcodes')
-    post_town_writer = get_writer(sys.argv[4], 'posttowns')
+    post_town_writer = get_writer(sys.argv[3], 'posttowns')
+    post_code_writer = get_writer(sys.argv[4], 'postcodes')
 
     for num, row in enumerate(reader):
         entry = Entry()
@@ -156,7 +156,7 @@ def process_school(reader, addressbase):
 
         address = get_address_match(row, addressbase)
         if address:
-            entry.address = 'address:%s' % address['uprn']
+            entry.address = address['uprn']
             split_address(address, address_writer)
             school_writer.write(entry)
 
