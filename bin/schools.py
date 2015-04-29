@@ -35,6 +35,7 @@ fieldnames = {'schools': school_fields,
 
 posttowns = set([])
 postcodes = set([])
+uprns = set([])
 
 
 def http_url(url):
@@ -91,30 +92,32 @@ def get_address_match(row, addressbase):
 
 
 def split_address(address, address_writer):
-    entry = Entry()
-    entry.address = address['uprn']
-    if address['presentation'].get('property'):
-        property_name = "%s," % address['presentation']['property']
-    else:
-        property_name = ''
+    if address['uprn'] not in uprns:
+        entry = Entry()
+        entry.address = address['uprn']
+        if address['presentation'].get('property'):
+            property_name = "%s," % address['presentation']['property']
+        else:
+            property_name = ''
 
-    if address['presentation'].get('street'):
-        street_address = "%s %s" % (property_name,
-                                    address['presentation']['street'])
-    else:
-        street_address = property_name
+        if address['presentation'].get('street'):
+            street_address = "%s %s" % (property_name,
+                                        address['presentation']['street'])
+        else:
+            street_address = property_name
 
-    entry.streetAddress = street_address.strip()
-    entry.postTown = address['presentation']['town']
-    entry.postcode = address['presentation']['postcode']
-    entry.country = 'GB'
-    entry.latitude = address['location']['lat']
-    entry.longitude = address['location']['long']
+        entry.streetAddress = street_address.strip()
+        entry.postTown = address['presentation']['town']
+        entry.postcode = address['presentation']['postcode']
+        entry.country = 'GB'
+        entry.latitude = address['location']['lat']
+        entry.longitude = address['location']['long']
 
-    posttowns.add(address['presentation']['town'].title())
-    postcodes.add(address['presentation']['postcode'].strip())
+        posttowns.add(address['presentation']['town'].title())
+        postcodes.add(address['presentation']['postcode'].strip())
 
-    address_writer.write(entry)
+        address_writer.write(entry)
+        uprns.add(address['uprn'])
 
 
 def write_postcodes(writer):
