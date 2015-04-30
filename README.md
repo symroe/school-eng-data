@@ -1,9 +1,42 @@
 School Data
 -------------
 
-* The source data is retrieved from: http://www.education.gov.uk/edubase/edubase20150414.csv. The file gets updated from time to time and so the above url breaks. Check http://www.education.gov.uk/edubase/register/subscription.xhtml for the current file.
+* The prinical source data for this register is retrieved from: http://www.education.gov.uk/edubase/edubase{date}.csv.
 
-* The addresses are extracted from the school records and a fake UPRN is generated that is actually the line number of the record in the file.
+* For each school record we try to extract data for the following registers:
+  * School
+  * Address
+  * Postcode
+  * Posttown
 
+If all runs well you'll end up with a tsv file for the registers in the data directory.
 
-Note: if you regenerate data with a new source file from edubase, do the same for the property register, as the line number in the file determines the fake UPRN that is used to link the property and school registers.
+How to use all of this
+----------------------
+
+#### Prerequisites
+* Python 3
+* mongodb
+
+#### Install dependencies
+```
+pip install -r requirements.txt
+```
+
+* Load address data into mongo (mongod needs to be running)
+```
+cd data 
+cd tar -xvf raw_addresses.tar.gz
+cd raw_addresses
+mongoimport -d addressbase -c addresses --file=addresses.json
+```
+
+* Set environment variable for mongo uri
+```
+export MONGO_URI='mongodb://127.0.0.1:27017/addressbase'
+```
+
+* Run make
+```
+make
+```
