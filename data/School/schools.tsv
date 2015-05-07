@@ -1,4 +1,4 @@
-school	name	startDate	endDate	religiousCharacter	minAge	maxAge	headTeacher	telephone	website	address
+school	name	start-date	end-date	religious-character	min-age	max-age	headteacher	telephone	website	address
 100000	Sir John Cass's Foundation Primary School			Church of England	3	10	Mr T Wilson	02072831147	http://www.sirjohncassprimary.org	200000071925
 100001	City of London School for Girls	01-01-1920		Church of England	7	17	Mrs Ena Harrop	02078475500	http://www.clsg.org.uk	200000074491
 100002	St Paul's Cathedral School	01-01-1939		Christian	4	12	Mr Neil Chippington	02072485156	http://www.stpauls.co.uk/school/school.htm	200000072075

@@ -1,4 +1,4 @@
-address	streetAddress	postTown	county	postcode	country	latitude	longitude
+address	street	post-town	county	postcode	country	latitude	longitude
 200000071925	Sir John Cass C Of E School, St James's Passage	London		EC3A 5DE	GB	51.51366237126181	-0.07748588635831655
 200000074491	City Of London School For Girls Preparatory Department, St Giles' Terrace	London		EC2Y 8BB	GB	51.51914334409767	-0.09429242836019383
 200000072075	St Paul's Cathedral School, 2 New Change	London		EC4M 9AD	GB	51.513833814981666	-0.09682000273192379
