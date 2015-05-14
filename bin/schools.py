@@ -16,14 +16,14 @@ from entry.representations.tsv import Writer
 
 # TODO fetch field names from register register.
 
-school_fields = ['school', 'name', 'startDate', 'endDate',
-                 'religiousCharacter', 'minAge', 'maxAge', 'headTeacher',
-                 'telephone', 'website', 'address']
+school_fields = ["school", "name", "start-date", "end-date", "gender",
+                 "religious-character", "min-age", "max-age",
+                 "headteacher", "website", "address"]
 
-address_fields = ['address', 'streetAddress', 'postTown', 'county', 'postcode',
-                  'country', 'latitude', 'longitude']
+address_fields = ["address", "street", "locality", "post-town",
+                  "postcode", "country", "latitude", "longitude"]
 
-post_town_fields = ['postTown', 'startDate', 'endDate', 'text']
+post_town_fields = ['post-town', 'start-date', 'end-date', 'text']
 
 postcode_fields = ['postcode', 'polygon']
 
@@ -106,8 +106,8 @@ def split_address(address, address_writer):
         else:
             street_address = property_name
 
-        entry.streetAddress = street_address.strip()
-        entry.postTown = address['presentation']['town']
+        entry.street = street_address.strip()
+        setattr(entry, 'post-town', address['presentation']['town'])
         entry.postcode = address['presentation']['postcode']
         entry.country = 'GB'
         entry.latitude = address['location']['lat']
@@ -130,7 +130,7 @@ def write_postcodes(writer):
 def write_posttowns(writer):
     for posttown in sorted(posttowns):
         entry = Entry()
-        entry.postTown = posttown
+        setattr(entry, 'post-town', posttown)
         writer.write(entry)
 
 
@@ -145,15 +145,15 @@ def process_school(reader, addressbase):
         # School
         entry.school = row['URN']
         entry.name = row['EstablishmentName']
-        entry.startDate = row['OpenDate']
-        entry.endDate = row['CloseDate']
-        entry.religiousCharacter = row['ReligiousCharacter (name)']
-        entry.minAge = row['ASCLowestAge']
-        entry.maxAge = row['ASCHighestAge']
-        entry.headTeacher = "%s %s %s" % (row['HeadTitle (name)'],
+        setattr(entry, 'start-date', row['OpenDate'])
+        setattr(entry, 'end-date', row['CloseDate'])
+        setattr(entry, 'religious-character', row['ReligiousCharacter (name)'])
+        setattr(entry, 'min-age', row['ASCLowestAge'])
+        setattr(entry, 'max-age', row['ASCHighestAge'])
+        entry.headteacher = "%s %s %s" % (row['HeadTitle (name)'],
                                           row['HeadFirstName'],
                                           row['HeadLastName'])
-        entry.telephone = row['TelephoneSTD'] + row['TelephoneNum']
+        # entry.telephone = row['TelephoneSTD'] + row['TelephoneNum']
         if row["WebsiteAddress"]:
             entry.website = http_url(row["WebsiteAddress"])
 
