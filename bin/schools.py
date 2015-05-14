@@ -7,10 +7,11 @@ import os
 import csv
 import json
 
+from datetime import datetime
+
 from pymongo import MongoClient
 
 from gbgeo import osgb_to_wgs84
-
 from entry import Entry
 from entry.representations.tsv import Writer
 
@@ -145,8 +146,15 @@ def process_school(reader, addressbase):
         # School
         entry.school = row['URN']
         entry.name = row['EstablishmentName']
-        setattr(entry, 'start-date', row['OpenDate'])
-        setattr(entry, 'end-date', row['CloseDate'])
+
+        if row['OpenDate']:
+            date = datetime.strptime(row['OpenDate'], "%d-%m-%Y").date()
+            setattr(entry, 'start-date', date.isoformat())
+
+        if row['CloseDate']:
+            date = datetime.strptime(row['CloseDate'], "%d-%m-%Y").date()
+            setattr(entry, 'end-date', date.isoformat())
+
         setattr(entry, 'religious-character', row['ReligiousCharacter (name)'])
         setattr(entry, 'min-age', row['ASCLowestAge'])
         setattr(entry, 'max-age', row['ASCHighestAge'])
