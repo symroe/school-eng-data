@@ -1,4 +1,4 @@
-school	name	start-date	end-date	gender	religious-character	min-age	max-age	headteacher	website	address
+school	name	start-date	end-date	gender	religious-character	minimum-age	maximum-age	headteacher	website	address
 100000	Sir John Cass's Foundation Primary School				Church of England	3	10	Mr T Wilson	http://www.sirjohncassprimary.org	200000071925
 100001	City of London School for Girls	1920-01-01			Church of England	7	17	Mrs Ena Harrop	http://www.clsg.org.uk	200000074491
 100002	St Paul's Cathedral School	1939-01-01			Christian	4	12	Mr Neil Chippington	http://www.stpauls.co.uk/school/school.htm	200000072075

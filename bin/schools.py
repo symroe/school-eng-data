@@ -18,7 +18,7 @@ from entry.representations.tsv import Writer
 # TODO fetch field names from register register.
 
 school_fields = ["school", "name", "start-date", "end-date", "gender",
-                 "religious-character", "min-age", "max-age",
+                 "religious-character", "minimum-age", "maximum-age",
                  "headteacher", "website", "address"]
 
 address_fields = ["address", "street", "locality", "post-town",
@@ -156,8 +156,8 @@ def process_school(reader, addressbase):
             setattr(entry, 'end-date', date.isoformat())
 
         setattr(entry, 'religious-character', row['ReligiousCharacter (name)'])
-        setattr(entry, 'min-age', row['ASCLowestAge'])
-        setattr(entry, 'max-age', row['ASCHighestAge'])
+        setattr(entry, 'minimum-age', row['ASCLowestAge'])
+        setattr(entry, 'maximum-age', row['ASCHighestAge'])
         entry.headteacher = "%s %s %s" % (row['HeadTitle (name)'],
                                           row['HeadFirstName'],
                                           row['HeadLastName'])
