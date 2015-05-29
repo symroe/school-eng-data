@@ -35,6 +35,15 @@ cd raw_addresses
 mongoimport -d addressbase -c addresses --file=addresses.json
 ```
 
+* To speed things up create an index on postcodes
+
+Shell into mongo then:
+
+```
+use addressbase
+db.addresses.createIndex( { postcode: 1 } )
+```
+
 * Set environment variable for mongo uri
 ```
 export MONGO_URI='mongodb://127.0.0.1:27017/addressbase'

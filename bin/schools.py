@@ -21,7 +21,7 @@ school_fields = ["school", "name", "start-date", "end-date", "gender",
                  "religious-character", "minimum-age", "maximum-age",
                  "headteacher", "website", "address"]
 
-address_fields = ["address", "street", "locality", "post-town",
+address_fields = ["address", "property", "street", "locality", "town", "area",
                   "postcode", "country", "latitude", "longitude"]
 
 post_town_fields = ['post-town', 'start-date', 'end-date', 'text']
@@ -96,20 +96,8 @@ def split_address(address, address_writer):
     if address['uprn'] not in uprns:
         entry = Entry()
         entry.address = address['uprn']
-        if address['presentation'].get('property'):
-            property_name = "%s," % address['presentation']['property']
-        else:
-            property_name = ''
-
-        if address['presentation'].get('street'):
-            street_address = "%s %s" % (property_name,
-                                        address['presentation']['street'])
-        else:
-            street_address = property_name
-
-        entry.street = street_address.strip()
-        setattr(entry, 'post-town', address['presentation']['town'])
-        entry.postcode = address['presentation']['postcode']
+        for key, val in address['presentation'].items():
+            setattr(entry, key, val)
         entry.country = 'GB'
         entry.latitude = address['location']['lat']
         entry.longitude = address['location']['long']
