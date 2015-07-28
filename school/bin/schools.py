@@ -26,16 +26,12 @@ address_fields = ["address", "property", "street", "locality", "town", "area",
 
 post_town_fields = ['post-town', 'start-date', 'end-date', 'text']
 
-postcode_fields = ['postcode', 'polygon']
-
 fieldnames = {'schools': school_fields,
               'addresses': address_fields,
-              'posttowns': post_town_fields,
-              'postcodes': postcode_fields}
+              'posttowns': post_town_fields}
 
 
 posttowns = set([])
-postcodes = set([])
 uprns = set([])
 
 
@@ -103,17 +99,9 @@ def split_address(address, address_writer):
         entry.longitude = address['location']['long']
 
         posttowns.add(address['presentation']['town'].title())
-        postcodes.add(address['presentation']['postcode'].strip())
 
         address_writer.write(entry)
         uprns.add(address['uprn'])
-
-
-def write_postcodes(writer):
-    for postcode in sorted(postcodes):
-        entry = Entry()
-        entry.postcode = postcode
-        writer.write(entry)
 
 
 def write_posttowns(writer):
@@ -127,7 +115,6 @@ def process_school(reader, addressbase):
     school_writer = get_writer(sys.argv[1], 'schools')
     address_writer = get_writer(sys.argv[2], 'addresses')
     post_town_writer = get_writer(sys.argv[3], 'posttowns')
-    post_code_writer = get_writer(sys.argv[4], 'postcodes')
 
     for num, row in enumerate(reader):
         entry = Entry()
@@ -156,15 +143,15 @@ def process_school(reader, addressbase):
         address = get_address_match(row, addressbase)
         if address:
             entry.address = address['uprn']
+            entry.postcode = address['presentation']['postcode']
+
             split_address(address, address_writer)
             school_writer.write(entry)
 
-    write_postcodes(post_code_writer)
     write_posttowns(post_town_writer)
 
     school_writer.close()
     address_writer.close()
-    post_code_writer.close()
     post_town_writer.close()
 
 if __name__ == '__main__':

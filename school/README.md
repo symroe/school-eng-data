@@ -6,7 +6,6 @@ School Data
 * For each school record we try to extract data for the following registers:
   * School
   * Address
-  * Postcode
   * Posttown
 
 If all runs well you'll end up with a tsv file for the registers in the data directory.

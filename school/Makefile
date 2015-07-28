@@ -7,20 +7,19 @@ EDUBASE_URL=http://www.education.gov.uk/edubase/edubase${DATE}.csv
 all:: flake8 data/edubase
 
 # The scripts invoked in this makefile will create data for
-# 4 registers: School, Address, PostTown and Postcode
+# 4 registers: School, Address, PostTown
 #
 # This will create files in the data directory that will contain:
 #
 # an entry for each school
 # an entry for each address of school record extracted
 # an entry for each post town of address record extracted
-# an entry for each postcode of address record extracted
 
 # All of the above is based in edubase data
 #
 
 data/edubase: bin/schools.py
-	@mkdir -p data/School data/Address data/PostTown data/Postcode
+	@mkdir -p data/School data/Address data/PostTown
 	cat cache/edubase.csv | bin/schools.py data/School data/Address data/PostTown data/Postcode
 
 cache/results.csv:
