@@ -9,11 +9,11 @@
 "TypeOfEstablishment (name)", list of school types "Voluntary Aided School"
 "EstablishmentStatus (name)", "Open" / "Closed"   start-date/end-date
 
-"ReasonEstablishmentOpened (name)", 
+"ReasonEstablishmentOpened (name)",  [tag]
 
 "OpenDate", start-date
 
-"ReasonEstablishmentClosed (name)",
+"ReasonEstablishmentClosed (name)", [tag]
 
 "CloseDate", end-date
 
@@ -21,7 +21,7 @@
 "StatutoryLowAge",
 "StatutoryHighAge",
 
-"Boarders (name)", 
+"Boarders (name)", [tag]
 
 "OfficialSixthForm (name)", [tag]
 
