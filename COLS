@@ -1,0 +1,112 @@
+"URN"
+
+"LA (code)"
+"LA (name)"
+
+"EstablishmentNumber" (legacy)
+"EstablishmentName",  school name
+
+"TypeOfEstablishment (name)", list of school types "Voluntary Aided School"
+"EstablishmentStatus (name)", "Open" / "Closed"   start-date/end-date
+
+"ReasonEstablishmentOpened (name)", 
+
+"OpenDate", start-date
+
+"ReasonEstablishmentClosed (name)",
+
+"CloseDate", end-date
+
+"PhaseOfEducation (name)",
+"StatutoryLowAge",
+"StatutoryHighAge",
+
+"Boarders (name)", 
+
+"OfficialSixthForm (name)", [tag]
+
+"Gender (name)", school-intake-gender
+
+"ReligiousCharacter (name)",
+"Diocese (name)",
+
+"AdmissionsPolicy (name)", "comprehensive, etc"
+
+"SchoolCapacity",
+
+"SpecialClasses (name)", [tag]
+
+x"CensusDate",
+x"NumberOfPupils",
+x"NumberOfBoys",
+x"NumberOfGirls",
+x"PercentageFSM",
+
+"TrustSchoolFlag (name)", [tags]
+"Trusts (name)", company
+
+x"SchoolSponsorFlag (name)",
+"SchoolSponsors (name)", charity
+
+
+"FederationFlag (name)",
+"Federations (name)",
+
+x"UKPRN",
+
+x"FEHEIdentifier",
+x"FurtherEducationType (name)",
+
+x"OfstedLastInsp",
+x"OfstedSpecialMeasures (name)",
+x"LastChangedDate",
+
+  "Street",
+  "Locality",
+  "Address3",
+  "Town",
+  "County (name)",
+  "Postcode", -> address
+
+"SchoolWebsite",
+
+"TelephoneNum",
+
+"HeadTitle (name)",
+"HeadFirstName",
+"HeadLastName",
+"HeadHonours",
+
+"HeadPreferredJobTitle",
+
+
+"TeenMoth (name)",
+"TeenMothPlaces",
+
+"CCF (name)", [tag]
+"SENPRU (name)", [tag]
+"EBD (name)", [tag]
+"FTProv (name)", [tag]
+"EdByOther (name)", [tag]
+"Section41Approved (name)", [tag]
+"SEN1 (name)", [tag]
+"SEN2 (name)", [tag]
+"SEN3 (name)", [tag]
+
+x"GOR (name)",
+
+  "AdministrativeWard (name)", -> ONS
+  "ParliamentaryConstituency (name)",
+  "UrbanRural (name)", superoutput area
+  "GSSLACode (name)",
+
+x"Easting",
+x"Northing",
+
+  "MSOA (name)", -> superoutput areas
+  "LSOA (name)",
+  
+x"BoardingEstablishment (name)", [tag]
+x"PreviousLA (code)",
+x"PreviousLA (name)",
+x"PreviousEstablishmentNumber"
