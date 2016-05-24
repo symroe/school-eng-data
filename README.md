@@ -19,7 +19,7 @@ Use make to build register shaped data
 # Address matching
 
 Matching a text address found in edubase to the register entry requires a local copy
-of the locate database as used by [address-data](https://github.com/openregister/address-data).
+of [address-data](https://github.com/openregister/address-data).
 
 # Licence
 

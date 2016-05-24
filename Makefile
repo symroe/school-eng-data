@@ -2,19 +2,13 @@ DATE:=$(shell date +"%Y%m%d")
 EDUBASE_URL=http://www.education.gov.uk/edubase/edubasealldata$(DATE).csv
 
 REGISTERS=\
-	data/school/schools.tsv\
-	data/location/schools.tsv
+	data/school/schools.tsv
 
 all:: flake8 $(REGISTERS)
 
 data/school/schools.tsv: bin/schools.py cache/edubase.csv
 	@mkdir -p data/school
 	bin/schools.py < cache/edubase.csv > $@
-
-data/location/schools.tsv: bin/school_locations.py cache/edubase.csv
-	@mkdir -p data/location
-	bin/school_locations.py < cache/edubase.csv > $@
-
 
 # download from EDUBASE
 # - contains invalid UTF-8 characters ..

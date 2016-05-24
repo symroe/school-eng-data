@@ -20,5 +20,4 @@ def address_match(postcode, longitude, latitude):
         if address['details']['classification'].startswith('CE0'):
             return address
 
-    print("NOT FOUND")
     return {}
