@@ -1,22 +1,20 @@
-42909	
+43211	
 6	The Primary Advantage Federation
 6	The Compass Partnership of Schools
 6	Dartmoor Federation
-5	Thomas of Canterbury Partnership
-5	Holsworthy Area Federation
-4	Totnes Federation of Village Schools
-4	The Woodlands Federation
+5	The Woodlands Federation
 4	The Windmill Primary Federation
+4	The Unitas Collaboration
 4	The Pilgrim Federation
-4	The Aln Community Schools Federation
-4	St Mary's & St Joseph's Roman Catholic Federation
+4	The Penk Valley Federation
 4	South Hams Federation
 4	Sefton Park Infant & Junior Schools Federation
+4	Holsworthy Area Federation
 4	Golden Valley Collaboration
 4	Axe Beacon Federation
 3	Woodleigh Federation
-3	West Tyne Federation
 3	West Exmoor Federation
+3	The Wolds Federation
 3	The United Schools Federation (USF)
 3	The Two Valleys Federation
 3	The Trinity Federation
@@ -27,7 +25,6 @@
 3	The Riverside Learning Trust
 3	The Oaks CE Learning Federation
 3	The Manchester Federation of BESD Special Schools
-3	The Leek Federation
 3	The Kingsbridge Area Church School Federation
 3	The Hall Green Federation
 3	The Gipsy Hill Federation of Kingswood, Elmwood & Paxton Primary Schools
@@ -42,12 +39,14 @@
 3	The Exe Valley Federation
 3	The Discovery Federation
 3	The Culm Valley Federation
+3	The Coastal Federation
 3	The Brindishe Federation
+3	The Aln Community Schools Federation
 3	Stratford Rural Schools Federation
 3	St. Mary's Catholic Primary Federation
 3	Seaton Valley Federation
 3	Netherhall Learning Campus
-3	Nar Valley Federation of Church Schools
+3	Mount Grace Federation
 3	Moorsway Federation
 3	Loughborough Federation of Schools
 3	Leatherseller's Federation of Schools
@@ -55,7 +54,6 @@
 3	Federation of Wellow School and Awbridge Primary School
 3	Federation of St James' CE (VA) Junior, St James' CE (VA) Infant and Nursery and Rosehill Community Infant Schools
 3	Federation of Etruria and Shelton Schools
-3	Easton and Witchingham Church of England Federation
 3	Crewkerne and Misterton Federation
 3	Cornfield, Oak Grove and Palatine Federation
 3	Codsall High Federation of Schools
@@ -63,15 +61,16 @@
 3	Cedar Centre, Downs Park and Patcham House Federation
 3	Carterton Community Schools Federation, Gateway to Excellence
 3	Barnet Early Years Alliance
-3	Ashington Learning Partnership
 3	All Saints, St. Andrew's and Hapton Federation
 2	Woodville Schools Federation
 2	Wirksworth Federation of Infant Schools
 2	Whitleigh Primary & Sir John Hunt CSC Federation
 2	Weston Federation
 2	Westcliffe and Priory Lane Federation
+2	Westcliffe Federation
 2	Westbury Woodlands Federation
 2	West Wivelshire Federation
+2	West Tyne Federation
 2	West Dartmoor Federation
 2	Wells Schools Federation
 2	Wellington Area Rural Federation
@@ -83,10 +82,10 @@
 2	Thorns and Park Hill Federation
 2	Thornhill & Washington Schools Federation
 2	The federation of Woodfield Infant and Woodfield Junior schools
-2	The federation of North Petherwin Primary School and Werrington Community Primary School
 2	The federation of East Cowton and Kirkby Fleetham C of E Schools
 2	The Wyken Croft & Charter Schools Federation
 2	The Wye Forest Federation
+2	The Wings' Federation
 2	The Windmill & Low Road Primary School Federation
 2	The Wiggenhall Federation
 2	The West Berry Federation
@@ -104,10 +103,9 @@
 2	The St Andrew's and Sherington Village Church Schools Partnership
 2	The Spire Federation
 2	The Sparkenhoe & Medway Federation
-2	The Spalding Special Schools Federation
 2	The Smile Trust (South Manchester Inclusive Learning Enterprise)
 2	The Silverstone Federation
-2	The Saxonbury Federation
+2	The Saxonbury Federation of Frant and Mark Cross Church of England Primary Schools
 2	The Saltfleetby and Theddlethorpe Learning Federation
 2	The Raleigh Federation
 2	The Raglan Schools
@@ -122,6 +120,7 @@
 2	The Manchester Federation of EBSD Schools
 2	The Lydbury North & Onny Schools Federation
 2	The Leamington Federation
+2	The Kite Primary Federation
 2	The King Alfred Federation
 2	The Keyham Lodge and Millgate Federation
 2	The Jubilee Federation
@@ -163,6 +162,7 @@
 2	The Federation of St Kew and Upto Cross Primary School
 2	The Federation of St Joseph's Juniors, Infant and Nursery School
 2	The Federation of St Joseph's Infant & Nursery & St Joseph's Junior Schools
+2	The Federation of St James the Great and St John's
 2	The Federation of St Dominic and St Mellion VA CofE Schools
 2	The Federation of St Cuthberts and St Sebastian's Catholic Primary Schools
 2	The Federation of St Breward and St Teath Schools
@@ -184,15 +184,12 @@
 2	The Federation of Parkfield Primary with St Stephen's CE
 2	The Federation of Park Lane and Moorlands Primary Schools
 2	The Federation of Orchard & Southwold Primary Schools
-2	The Federation of Oakington and Furness Primary Schools
 2	The Federation of Northern Infant and Junior Schools
 2	The Federation of North Walsham Infant School and Nursery and North Walsham Junior School
 2	The Federation of Newent Schools
 2	The Federation of Nettlestone Primary and Newchurch Primary School
-2	The Federation of Moorlands Infant and Junior School
 2	The Federation of Middleton Primary and Peasenhall Primary Schools
 2	The Federation of Mary Howard and St. Andrew's CE (C) Primary Schools
-2	The Federation of Lyon Park Infant School and Lyon Park Junior School
 2	The Federation of Lutley and Lapal Primary Schools
 2	The Federation of Lower Halstow Primary and Newington CofE Primary School
 2	The Federation of Liphook Infant and Junior Schools
@@ -200,9 +197,10 @@
 2	The Federation of Kymbrook Lower School and Thurleigh Lower School
 2	The Federation of John Rankin Infant and Nursery School and John Rankin Junior School
 2	The Federation of Holy Trinity and Pewley Down Schools
-2	The Federation of Hilltop and Kelford Schools
+2	The Federation of Holy Trinity and Little Marlow C of E (VA) Schools
 2	The Federation of Heavers Farm and Selsdon Primary Schools
 2	The Federation of Heathfields Infant School and Wilnecote Junior School
+2	The Federation of Hazel Wood Infant School and Lydlynch Infant School
 2	The Federation of Half Acres and Ackton Pastures Primary Schools
 2	The Federation of Grove Junior and Hannah More Infant Schools
 2	The Federation of Greet Primary and Conway Primary Schools
@@ -217,6 +215,7 @@
 2	The Federation of Foley Infants and Brindley Heath Junior Schools
 2	The Federation of Farlow and Kinlet Primary Schools
 2	The Federation of Fairfield and Colneis
+2	The Federation of Eppleby Forcett CE and Middleton Tyas CE Primary Schools
 2	The Federation of Elmwood and Penrose Schools
 2	The Federation of Dunton and Wrestlingworth VC Lower Schools
 2	The Federation of Denmead Infand and Junior School
@@ -255,14 +254,13 @@
 2	The Durham Federation
 2	The Downs Federation
 2	The Devon Moors Federation
+2	The Dever Valley Federation
 2	The Debdale Federation
 2	The Crossways Schools
 2	The Colliers Vale Federation
-2	The Chittlehampton and Filleigh Federation
 2	The Chirbury & Stiperstones C E Primary School Federation
 2	The Carey Foundation
 2	The Calcot Schools
-2	The Burton and Ouseburn Federation
 2	The Burston & Tivetshall Federation
 2	The Brookland Federation
 2	The Bridges Federation
@@ -278,15 +276,18 @@
 2	The Angel Road Federation
 2	The Althorp Partnership of Primary Schools
 2	The Albert Pye and Ravensmere Schools Federation
+2	The Affinity Federation
+2	The Addmore Federation
 2	The Acorns Primary and Nursery and Whitley Village School Federation
 2	The Acorn Federation
 2	Sylvan Infant School and Branksome Heath Junior School
 2	Swell Primary School and Longborough Primary School
 2	St Thomas a' Beckett Church of England Federation
+2	St Richard Reynolds Catholic College
 2	St Paul's Catholic Schools Federation
 2	St Mary's Priory Catholic Infant and Junior Schools
 2	St Mary's College Federation
-2	St Katharine's Knockholt & Halstead Federation
+2	St Mary's & St Joseph's Roman Catholic Federation
 2	St Joseph's Camberwell Catholic Schools' Federation
 2	St John's & St Paul's Whitechapel Federation
 2	St Francis De Sales Catholic Infant and Junior School Federation
@@ -295,6 +296,7 @@
 2	Southwold & Barnby and North Cove Federation
 2	Southernway Hard Federation
 2	South Ashdown Federation
+2	Somerville Federation
 2	Shelton & Southill Schools Federation
 2	Sheerness West Federation
 2	Shedshep Hind Leys Federation
@@ -307,6 +309,7 @@
 2	Priddy and St Lawrence C of E Federation
 2	Pioneer Federation
 2	Pinxton Federation
+2	Pinvin Federation
 2	Pebworth First and Blackminster Middle Schools Federation
 2	Pear Tree and  Walbrook Nursery School Federation
 2	Parsons Down Partnership for Schools
@@ -315,9 +318,10 @@
 2	Oliver Tomkins Church of England Schools
 2	Old Catton and White Woman Lane Federation
 2	Norton-Sub-Hamdon and West Chinnock Federation
-2	Newton and Teign Federation
+2	Northam Schools Federation
 2	Newnham Castle Hazeldene Federation
-2	Middleton on the Wolds and Beswick & Watton Church of England (VC) Primary
+2	New Horizons Federation
+2	Mayflower Federation
 2	Maxilla and Golborne Federation
 2	Marlpool Federation of Schools
 2	Marlbrooke and Little Dewchurch C0fE Federation
@@ -325,11 +329,10 @@
 2	MY Schools Together
 2	Longmeadow & Shephalbury Primary School Federation
 2	Loddon Primary Federation
-2	Littlegreen & St Anthony's Federation
 2	Leesland Schools Federation
+2	Learn to Live Federation
 2	Lavington Park Federation
 2	Ladysmith Federation
-2	Kingsley St John and Norley Church of England Federation
 2	King's Hedges Educational Federation
 2	Kenn and Kenton Federation
 2	John Hampden Tetsworth Federation
@@ -341,7 +344,7 @@
 2	Hundon and Thurlow Primary Federation
 2	Hornsea Burton and Skipsea Federation
 2	Horizons Learning Federation
-2	Hope & Worthen C of E Federation
+2	Hope, Worthen, Westbury Trinity
 2	Holybrook and Parkland Primary Schools Federation
 2	Holton Le Clay Federation
 2	Holmewood and Triangle Federation
@@ -364,6 +367,7 @@
 2	Great Ellingham Primary and Rocklands Primary
 2	Grazebrook and Shacklewell Primary Federation
 2	Gorse Ride Infant and Junior Schools Federation
+2	Goodleigh C of E Primary School & Ilfracombe Infant & Nursery School Federation
 2	Goldstar
 2	Gardners Lane and Oakwood Federation
 2	Frettenham and Hainford Primary Partnership Schools
@@ -388,8 +392,10 @@
 2	Federation of Scapegoat Hill J&I and Linthwaite Clough JI & EY Schools
 2	Federation of Rudham and Weasenham Church of England Primary Schools
 2	Federation of Rosegrove Nursery and Infant Schools
+2	Federation of Newtown and Welshampton Schools
 2	Federation of Manor Mead and Walton Leigh Schools
 2	Federation of Longhorsley and Whalton First School
+2	Federation of Knaphill Schools
 2	Federation of Hob Moor Oaks and Hob Moor Community Primary Schools
 2	Federation of Heritage Park and Holgate Meadows Community School
 2	Federation of Grove House Nursery and Infant and King's Park Infant Schools
@@ -399,7 +405,8 @@
 2	Federation of Earlswood Schools
 2	Federation of EGA and Copenhagen Primary School
 2	Federation of College Park and Queen Elizabeth II Jubilee Schools
-2	Federation of Catholic Primary Schools. of the Waveney Valley
+2	Federation of Canewdon Endowed (CofE) VC Primary School and St. Nicholas CofE (VC) Primary Schools
+2	Federation of Burley and Sopley Primary Schools
 2	Federation of Bounds Green Infant &. Bounds Green Junior School
 2	Federation of Arreton St George's CE Controlled and Oakfield CE Aided Primaries
 2	Federation of All Saints CoE Primary School and Sharnford CoE Primary
@@ -408,11 +415,14 @@
 2	Ellingham and Woodton Primary Federation
 2	Durrington First School and Durrington Middle School Federation
 2	Dryden & Hill Top Learning Federation
+2	Dove-Shell Federation
+2	Devon Moors Federation
 2	Cutcombe and Timberscombe Federation
 2	Crowcombe and Stogumber Federation
 2	Croscombe and Stoke St Michael Federation
 2	Crofton Anne Dale Federation
 2	Coventry South East Federation
+2	Cople and Willington
 2	Clipston Endowed Voluntary Controlled Primary School
 2	Children's Learning Partnership
 2	Chalfont St Giles Infant and Nursery and Chalfont St Giles Junior
@@ -422,19 +432,27 @@
 2	Carlisle Infant and Hampton Hill Federation
 2	Cantley & Horning Primary Schools Federation
 2	Campsbourne School
+2	Cambridge Nursery Federation
 2	Calstock Community Primary School and Stoke Climsland School Federation
+2	Caddington and Slip End Alliance
 2	Bursledon Federation of Schools
 2	Brewood and Wheaton Aston Federation
+2	Breamore Hale Federation
 2	Bramford and Somersham Primary School Federation
 2	Boulevard Primary Partnership
+2	Bomere and the XI Towns Federation
 2	Blakeney and Pillowell Federation
 2	Bishop Martin and Garston Church School Federation
 2	Bilsdale Midcable Chop Gate & Carlton & Faceby CE Confederated Schools
+2	Bentley High Street Primary School and Scawsby Rosedale Primary School Federation
+2	Beckley & Peasmarsh Federation
 2	Beauclerc and Chennestone Schools
 2	Beamish and Pelton Federation of Schools
 2	Bayonne and James Lee Federation
+2	Avondale Park Primary School
 2	Astley & Hallow Federation
 2	Ashley Down Schools Federation
+2	Ashington Learning Partnership
 2	Alvaston junior School and Village Primary School federation
 2	Alvanley & Manley Federated Schools
 2	Alston Moor Federation

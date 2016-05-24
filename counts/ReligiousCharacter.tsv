@@ -1,14 +1,14 @@
-24005	Does not apply
-7606	None
-5801	Church of England
-3040	
-2719	Roman Catholic
+24201	Does not apply
+7637	None
+5861	Church of England
+3048	
+2750	Roman Catholic
 290	Christian
 67	Jewish
-45	Islam
-41	Muslim
+46	Islam
+42	Muslim
+41	Church of England/Methodist
 40	Methodist
-40	Church of England/Methodist
 26	Plymouth Brethren Christian Church
 23	Church of England/Roman Catholic
 21	Anglican
@@ -17,10 +17,10 @@
 11	Orthodox Jewish
 11	Catholic
 10	Quaker
-7	Hindu
+8	Hindu
+6	Seventh Day Adventist
 6	Christian/Evangelical
 6	Anglican/Christian
-5	Seventh Day Adventist
 5	Church of England/Christian
 4	United Reformed Church
 3	Protestant/Evangelical
@@ -28,6 +28,7 @@
 3	Church of England/Evangelical
 2	Roman Catholic/Anglican
 2	Church of England/United Reformed Church
+2	Charadi Jewish
 2	Anglican/Evangelical
 2	Anglican/Church of England
 1	Sunni Deobandi
@@ -43,5 +44,4 @@
 1	Christian/non-denominational
 1	Christian/Methodist
 1	Christian Science
-1	Charadi Jewish
 1	Buddhist

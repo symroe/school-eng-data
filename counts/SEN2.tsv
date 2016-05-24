@@ -1,25 +1,25 @@
-43057	
-147	MLD - Moderate Learning Difficulty
-145	ASD - Autistic Spectrum Disorder
-91	SLD - Severe Learning Difficulty
-58	SLCN - Speech, language and Communication
-56	SEMH - Social, Emotional and Mental Health
-37	PMLD - Profound and Multiple Learning Difficulty
-27	SpLD - Specific Learning Difficulty
-21	PD - Physical Disability
+43339	
+157	ASD - Autistic Spectrum Disorder
+154	MLD - Moderate Learning Difficulty
+97	SLD - Severe Learning Difficulty
+64	SLCN - Speech, language and Communication
+58	SEMH - Social, Emotional and Mental Health
+39	PMLD - Profound and Multiple Learning Difficulty
+29	SpLD - Specific Learning Difficulty
+20	PD - Physical Disability
+19	OTH - Other Difficulty/Disability
 15	Attention Deficit Hyperactivity Disorders [archived]
+14	MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
+14	HI - Hearing Impairment
 14	Aspergers Syndrome [archived]
-13	OTH - Other Difficulty/Disability
-12	HI - Hearing Impairment
-11	MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 10	SpLD - Specific Learning Difficulty~SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~Delicate Medical Problems [archived]~MSI - Multi-Sensory Impairment~PD - Physical Disability~MLD - Moderate Learning Difficulty~PMLD - Profound and Multiple Learning Difficulty
 8	SpLD - Specific Learning Difficulty~SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~Delicate Medical Problems [archived]~MSI - Multi-Sensory Impairment~PD - Physical Disability~SLD - Severe Learning Difficulty~PMLD - Profound and Multiple Learning Difficulty
 8	SEMH - Social, Emotional and Mental Health~MLD - Moderate Learning Difficulty
 7	PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
+7	Not Applicable
 6	SpLD - Specific Learning Difficulty~SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 6	SpLD - Specific Learning Difficulty~SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~Delicate Medical Problems [archived]~PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 6	Delicate Medical Problems [archived]~MLD - Moderate Learning Difficulty
-5	Not Applicable
 5	ASD - Autistic Spectrum Disorder~SLD - Severe Learning Difficulty
 5	ASD - Autistic Spectrum Disorder~MLD - Moderate Learning Difficulty
 4	SpLD - Specific Learning Difficulty~SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~Delicate Medical Problems [archived]~MSI - Multi-Sensory Impairment~PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty~PMLD - Profound and Multiple Learning Difficulty
@@ -41,6 +41,7 @@
 2	SpLD - Specific Learning Difficulty~SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~Delicate Medical Problems [archived]~PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 2	SpLD - Specific Learning Difficulty~MLD - Moderate Learning Difficulty
 2	SpLD - Specific Learning Difficulty~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
+2	SpLD - Specific Learning Difficulty~ASD - Autistic Spectrum Disorder~PD - Physical Disability~MLD - Moderate Learning Difficulty
 2	SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 2	SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder
 2	HI - Hearing Impairment~ASD - Autistic Spectrum Disorder
@@ -66,19 +67,18 @@
 1	SpLD - Specific Learning Difficulty~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 1	SpLD - Specific Learning Difficulty~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~MSI - Multi-Sensory Impairment~PD - Physical Disability~MLD - Moderate Learning Difficulty~PMLD - Profound and Multiple Learning Difficulty
 1	SpLD - Specific Learning Difficulty~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~MLD - Moderate Learning Difficulty
-1	SpLD - Specific Learning Difficulty~ASD - Autistic Spectrum Disorder~PD - Physical Disability~MLD - Moderate Learning Difficulty
 1	SLCN - Speech, language and Communication~SEMH - Social, Emotional and Mental Health~PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 1	SLCN - Speech, language and Communication~MLD - Moderate Learning Difficulty
 1	SLCN - Speech, language and Communication~Delicate Medical Problems [archived]
 1	SLCN - Speech, language and Communication~Aspergers Syndrome [archived]
 1	SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SLD - Severe Learning Difficulty
 1	SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~PD - Physical Disability~MLD - Moderate Learning Difficulty
-1	SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~MLD - Moderate Learning Difficulty
 1	SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~Delicate Medical Problems [archived]~PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 1	SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~MSI - Multi-Sensory Impairment~SLD - Severe Learning Difficulty~PMLD - Profound and Multiple Learning Difficulty
 1	SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~Delicate Medical Problems [archived]~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 1	SEMH - Social, Emotional and Mental Health~Delicate Medical Problems [archived]~MLD - Moderate Learning Difficulty
 1	PD - Physical Disability~MLD - Moderate Learning Difficulty
+1	Not Applicable~PMLD - Profound and Multiple Learning Difficulty
 1	Hospital School
 1	HI - Hearing Impairment~SLCN - Speech, language and Communication~ASD - Autistic Spectrum Disorder~SEMH - Social, Emotional and Mental Health~Delicate Medical Problems [archived]~MSI - Multi-Sensory Impairment~PD - Physical Disability~MLD - Moderate Learning Difficulty~SLD - Severe Learning Difficulty
 1	HI - Hearing Impairment~SEMH - Social, Emotional and Mental Health

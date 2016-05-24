@@ -1,170 +1,170 @@
-1064	Kent
-939	Essex
-879	Surrey
-872	Hertfordshire
-857	Lancashire
-832	Birmingham
+1071	Kent
+944	Essex
+881	Surrey
+873	Hertfordshire
+859	Lancashire
+838	Birmingham
 752	Hampshire
-731	Norfolk
-702	Leeds
-635	Lincolnshire
-604	Northamptonshire
-602	Staffordshire
-586	Nottinghamshire
-576	Oxfordshire
-572	Devon
-565	Suffolk
-543	Derbyshire
+747	Norfolk
+707	Leeds
+639	Lincolnshire
+624	Staffordshire
+611	Northamptonshire
+590	Nottinghamshire
+583	Devon
+580	Suffolk
+580	Oxfordshire
+547	Derbyshire
 524	West Sussex
 522	Gloucestershire
-516	Cumbria
-503	Warwickshire
-499	Leicestershire
-490	Cornwall
-478	Somerset
-476	North Yorkshire
+517	Cumbria
+504	Warwickshire
+502	Leicestershire
+501	Cornwall
+481	Somerset
+478	North Yorkshire
+458	Worcestershire
 454	Liverpool
-453	Worcestershire
-434	Cambridgeshire
-417	Bradford
-412	Sheffield
-412	Manchester
-409	Wiltshire
+441	Cambridgeshire
+424	Bradford
+416	Sheffield
+413	Manchester
+410	Wiltshire
 395	Durham
-379	Buckinghamshire
+381	Buckinghamshire
+330	East Sussex
+328	Wakefield
 328	Bristol City of
-326	Wakefield
-326	East Sussex
-307	Kirklees
-292	Dorset
-280	Croydon
-274	Doncaster
-269	Northumberland
-265	Coventry
-257	Shropshire
-249	Salford
-246	Barnet
+308	Kirklees
+301	Dorset
+284	Croydon
+276	Doncaster
+270	Northumberland
+266	Coventry
+258	Shropshire
+250	Salford
+247	Barnet
 242	Nottingham
+242	Bromley
 238	Sandwell
-237	Bromley
-235	Stockport
+237	Stockport
+230	Wolverhampton
+230	Cheshire East
 228	Sunderland
 227	Wigan
-226	Cheshire East
-223	Wolverhampton
-221	Walsall
-218	Barnsley
-217	Rotherham
+223	Walsall
+220	Rotherham
+219	Barnsley
+214	Bolton
 213	East Riding of Yorkshire
 213	Cheshire West and Chester
-205	Bolton
-204	Newcastle upon Tyne
+206	Newcastle upon Tyne
 204	Ealing
 201	Wirral
 200	Central Bedfordshire
 198	Rhondda, Cynon, Taff
+197	Kingston upon Hull City of
 196	Stoke-on-Trent
 196	Rochdale
+196	Oldham
 196	Lambeth
-196	Kingston upon Hull City of
-194	Oldham
-192	Cardiff
-190	Hackney
+193	Cardiff
+192	Medway
+191	Hackney
 189	Southwark
-189	Medway
 188	Sefton
 187	Wandsworth
-184	Leicester
+186	Leicester
 184	Calderdale
+181	Newham
 180	Milton Keynes
 180	Carmarthenshire
 179	Haringey
 178	South Gloucestershire
-178	Newham
+177	Brent
+176	Plymouth
 176	Greenwich
 175	Hillingdon
-175	Brent
-174	Plymouth
-172	Waltham Forest
-169	Derby
-165	Trafford
+173	Waltham Forest
+170	Derby
+168	Trafford
 165	Dudley
+164	Swindon
 163	Tower Hamlets
-162	Swindon
-162	North East Lincolnshire
+163	North East Lincolnshire
 162	Herefordshire
-161	Bexley
+162	Bexley
 160	Gateshead
-156	Havering
-155	Enfield
-153	Tameside
+157	Havering
+157	Enfield
+156	Tameside
+151	Redbridge
 151	Hounslow
-150	Redbridge
 150	Pre LGR (1996) Humberside
 149	Powys
 144	Southampton
+144	Hammersmith and Fulham
 143	Solihull
-142	Hammersmith and Fulham
+142	Stockton-on-Tees
+141	Swansea
 141	Lewisham
 141	Camden
-140	Swansea
-139	Stockton-on-Tees
+140	Bath and North East Somerset
+139	Telford and Wrekin
 139	Pre LGR (1998) Kent
 138	Westminster
-138	Bath and North East Somerset
 137	St. Helens
-136	Telford and Wrekin
 135	Gwynedd
 134	North Lincolnshire
 134	Luton
-132	North Tyneside
+133	North Tyneside
+131	Caerphilly
 131	Brighton and Hove
-130	Caerphilly
-129	Harrow
-128	Knowsley
+130	Harrow
+130	Does not apply
+129	Knowsley
+128	South Tyneside
 128	Blackburn with Darwen
-127	South Tyneside
+127	North Somerset
 127	Merton
 127	Islington
-125	West Berkshire
-125	North Somerset
+126	West Berkshire
 124	Warrington
 124	Peterborough
 122	Bury
 122	Bedford
+121	Middlesbrough
+118	Windsor and Maidenhead
 118	Pre LGR (1998) Cheshire
-118	Middlesbrough
+117	York
 116	Pre LGR (1997) Hampshire
 116	Kensington and Chelsea
-115	Windsor and Maidenhead
-114	York
 113	Wrexham
-111	Portsmouth
+112	Portsmouth
 110	Sutton
 109	Thurrock
 109	Richmond upon Thames
 108	Flintshire
-107	Does not apply
-107	Barking and Dagenham
-106	Redcar and Cleveland
-106	Pembrokeshire
+108	Barking and Dagenham
+107	Redcar and Cleveland
+107	Pembrokeshire
 106	Halton
 104	Wokingham
 104	Darlington
+103	Reading
 103	Isle of Wight
-102	Reading
 102	Pre LGR (1997) Staffordshire
-99	Southend-on-Sea
+101	Southend-on-Sea
+98	Slough
 98	Neath Port Talbot
-97	Slough
 97	Ceredigion
+95	Torbay
 95	Pre LGR (1998) Devon
-93	Torbay
+95	Bournemouth
+93	Kingston upon Thames
 92	Bridgend
 91	Pre LGR (2009) Cheshire
-90	Kingston upon Thames
 88	Newport
-88	Bournemouth
 86	Denbighshire
 84	Conwy
 81	The Vale of Glamorgan
@@ -178,8 +178,8 @@
 62	Isle of Anglesey
 61	Pre LGR (1998) Nottinghamshire
 61	Pre LGR (1998) Essex
+60	Bracknell Forest
 58	Hartlepool
-58	Bracknell Forest
 57	Pre LGR (1996) Cleveland
 56	Pre LGR (1998) Shropshire
 55	Pre LGR (1998) Berkshire
@@ -191,12 +191,12 @@
 47	Jersey Offshore Establishments
 47	Isle of Man Offshore Establishments
 47	Blaenau Gwent
+45	Rutland
 45	Pre LGR (1998) Cambridgeshire
 44	Pre LGR (1998) Hereford & Worcester
-43	Rutland
 41	Pre LGR (1996) North Yorkshire
 41	Pre LGR (1996) Avon
-39	Guernsey Offshore Establishments
+38	Guernsey Offshore Establishments
 35	Pre LGR (1997) Durham
 32	Pre LGR (1997) Wiltshire
 27	Pre LGR (1997) Bedfordshire
