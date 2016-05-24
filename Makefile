@@ -6,7 +6,7 @@ REGISTERS=\
 
 all:: flake8 $(REGISTERS)
 
-data/school/schools.tsv: bin/schools.py cache/edubase.csv
+data/school/schools.tsv: bin/schools.py cache/edubase.csv maps/addresses.tsv
 	@mkdir -p data/school
 	bin/schools.py < cache/edubase.csv > $@
 

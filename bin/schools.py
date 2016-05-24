@@ -4,9 +4,6 @@ import sys
 import csv
 from datetime import datetime
 
-from locate import address_match
-from gbgeo import osgb_to_wgs84
-
 from openregister import Item
 from openregister.representations.tsv import Writer
 
@@ -20,6 +17,8 @@ fieldnames = [
     "website",
     "address"]
 
+address = {}
+
 writer = Writer(sys.stdout, fieldnames=fieldnames)
 
 
@@ -29,6 +28,12 @@ def http_url(url):
 
 if __name__ == '__main__':
 
+    # load addresses
+    reader = csv.DictReader(open('maps/addresses.tsv'), delimiter='\t')
+    for row in reader:
+        address[row['school']] = row['address']
+
+    # read edubase
     reader = csv.DictReader(sys.stdin)
 
     for num, row in enumerate(reader):
@@ -53,13 +58,7 @@ if __name__ == '__main__':
         if row["SchoolWebsite"]:
             item.website = http_url(row["SchoolWebsite"])
 
-        postcode = row['Postcode']
-
-        if row['Easting'] and row['Northing']:
-            lon, lat = osgb_to_wgs84(row['Easting'], row['Northing'])
-
-            address = address_match(postcode, lon, lat)
-            if address:
-                item.address = address['uprn']
+        if item.school in address:
+            item.address = address[item.school]
 
         writer.write(item)
