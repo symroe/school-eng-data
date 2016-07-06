@@ -1,4 +1,4 @@
-1341	
+1354	
 86	Channel Islands
 49	Kettering 003
 46	Isle of Man
@@ -33,6 +33,7 @@
 18	Liverpool 040
 18	Camden 008
 18	Bristol 003
+18	Bradford 039
 17	Wellingborough 006
 17	Plymouth 029
 17	Oldham 035
@@ -43,7 +44,6 @@
 17	Castle Point 003
 17	Burnley 003
 17	Bristol 002
-17	Bradford 039
 16	Vale of White Horse 016
 16	Tonbridge and Malling 014
 16	Shepway 006
@@ -55,7 +55,6 @@
 16	Nottingham 020
 16	Nottingham 014
 16	Northumberland 003
-16	Manchester 023
 16	Manchester 008
 16	Lichfield 004
 16	Leeds 085
@@ -66,6 +65,7 @@
 16	Cambridge 012
 16	Calderdale 007
 16	Bristol 045
+16	Breckland 002
 16	Bolton 016
 16	Birmingham 079
 16	Birmingham 039
@@ -81,6 +81,7 @@
 15	North Warwickshire 005
 15	North Warwickshire 003
 15	Mid Sussex 008
+15	Manchester 023
 15	Liverpool 011
 15	Leeds 047
 15	Kingston upon Hull 033
@@ -90,7 +91,6 @@
 15	Croydon 013
 15	Cornwall 073
 15	Cornwall 067
-15	Breckland 002
 15	Bradford 034
 15	Bournemouth 007
 15	Birmingham 126
@@ -108,6 +108,7 @@
 14	Swale 010
 14	Sunderland 022
 14	Stratford-on-Avon 011
+14	Southend-on-Sea 004
 14	South Somerset 017
 14	South Gloucestershire 011
 14	Slough 007
@@ -125,10 +126,8 @@
 14	Liverpool 024
 14	Liverpool 022
 14	Liverpool 014
-14	Leicester 028
 14	Leeds 064
 14	King's Lynn and West Norfolk 009
-14	Kensington and Chelsea 001
 14	Harrogate 018
 14	Harlow 010
 14	Hackney 025
@@ -167,6 +166,7 @@
 13	Stratford-on-Avon 002
 13	Stoke-on-Trent 023
 13	Staffordshire Moorlands 012
+13	Stafford 012
 13	Southwark 021
 13	South Kesteven 003
 13	Slough 004
@@ -196,6 +196,7 @@
 13	Liverpool 001
 13	Lincoln 003
 13	Lewes 012
+13	Leicester 028
 13	Leeds 110
 13	Leeds 055
 13	Leeds 042
@@ -203,6 +204,7 @@
 13	Leeds 005
 13	Lambeth 036
 13	Knowsley 003
+13	Kensington and Chelsea 001
 13	Isle of Wight 011
 13	Ipswich 001
 13	Hinckley and Bosworth 008
@@ -264,11 +266,9 @@
 12	Sunderland 034
 12	Sunderland 020
 12	Stockport 021
-12	Stafford 012
 12	St Albans 002
 12	Southend-on-Sea 009
 12	Southend-on-Sea 005
-12	Southend-on-Sea 004
 12	South Tyneside 015
 12	South Tyneside 009
 12	South Northamptonshire 003
@@ -287,6 +287,7 @@
 12	Salford 001
 12	Ryedale 007
 12	Rotherham 023
+12	Rother 001
 12	Rossendale 010
 12	Redditch 009
 12	Powys 015
@@ -318,12 +319,12 @@
 12	Lambeth 017
 12	Kirklees 017
 12	King's Lynn and West Norfolk 011
+12	Kettering 005
 12	Kensington and Chelsea 016
 12	Islington 018
 12	Huntingdonshire 021
 12	Hounslow 014
 12	Hinckley and Bosworth 004
-12	Hillingdon 027
 12	Hillingdon 025
 12	Hillingdon 018
 12	Hastings 010
@@ -399,6 +400,7 @@
 11	Woking 011
 11	Wirral 006
 11	Windsor and Maidenhead 014
+11	Windsor and Maidenhead 005
 11	Wiltshire 041
 11	Wiltshire 012
 11	Wigan 022
@@ -430,6 +432,7 @@
 11	Stoke-on-Trent 014
 11	Stockton-on-Tees 003
 11	Staffordshire Moorlands 006
+11	Stafford 014
 11	Stafford 010
 11	Stafford 008
 11	Stafford 003
@@ -458,7 +461,6 @@
 11	Rotherham 029
 11	Rotherham 015
 11	Rotherham 003
-11	Rother 001
 11	Ribble Valley 001
 11	Reading 014
 11	Purbeck 006
@@ -480,6 +482,7 @@
 11	North Hertfordshire 014
 11	North Hertfordshire 008
 11	North East Lincolnshire 015
+11	North East Lincolnshire 003
 11	North Dorset 008
 11	North Dorset 005
 11	Newcastle-under-Lyme 014
@@ -490,6 +493,7 @@
 11	Melton 003
 11	Mansfield 004
 11	Manchester 030
+11	Manchester 027
 11	Manchester 001
 11	Maidstone 008
 11	Luton 021
@@ -511,10 +515,10 @@
 11	King's Lynn and West Norfolk 018
 11	King's Lynn and West Norfolk 008
 11	Kettering 011
-11	Kettering 005
 11	Ipswich 010
 11	Huntingdonshire 008
 11	Horsham 005
+11	Hillingdon 031
 11	Hillingdon 017
 11	High Peak 004
 11	Hertsmere 001
@@ -615,7 +619,6 @@
 10	Wirral 035
 10	Wirral 025
 10	Wirral 011
-10	Windsor and Maidenhead 005
 10	Wiltshire 057
 10	Wigan 015
 10	Weymouth and Portland 003
@@ -691,6 +694,7 @@
 10	Rugby 011
 10	Rugby 007
 10	Rotherham 025
+10	Rotherham 018
 10	Rotherham 014
 10	Rother 004
 10	Rossendale 004
@@ -729,7 +733,6 @@
 10	North Kesteven 006
 10	North Hertfordshire 005
 10	North Hertfordshire 002
-10	North East Lincolnshire 003
 10	Newham 036
 10	Newcastle-under-Lyme 010
 10	Newcastle-under-Lyme 002
@@ -751,7 +754,6 @@
 10	Mansfield 009
 10	Mansfield 007
 10	Mansfield 006
-10	Manchester 027
 10	Manchester 017
 10	Manchester 012
 10	Manchester 006
@@ -802,6 +804,7 @@
 10	Flintshire 009
 10	Exeter 008
 10	Erewash 015
+10	Epsom and Ewell 010
 10	Eden 007
 10	Eden 004
 10	Eden 002
@@ -820,6 +823,7 @@
 10	Ealing 026
 10	Dover 006
 10	Doncaster 035
+10	Doncaster 011
 10	Doncaster 003
 10	Doncaster 002
 10	Derbyshire Dales 006
@@ -835,10 +839,12 @@
 10	Craven 004
 10	Craven 003
 10	Coventry 029
+10	Coventry 013
 10	County Durham 047
 10	County Durham 035
 10	Cotswold 004
 10	Cotswold 003
+10	Cornwall 039
 10	Cornwall 027
 10	Cornwall 023
 10	Cornwall 004
@@ -914,7 +920,6 @@
 9	Wolverhampton 014
 9	Wokingham 013
 9	Wirral 020
-9	Windsor and Maidenhead 008
 9	Winchester 009
 9	Wiltshire 056
 9	Wiltshire 050
@@ -962,6 +967,7 @@
 9	Taunton Deane 014
 9	Taunton Deane 004
 9	Tamworth 002
+9	Tameside 020
 9	Swindon 023
 9	Swindon 013
 9	Swindon 001
@@ -970,6 +976,7 @@
 9	Swale 012
 9	Sutton 011
 9	Sutton 005
+9	Sutton 004
 9	Surrey Heath 010
 9	Sunderland 019
 9	Sunderland 014
@@ -988,7 +995,6 @@
 9	Stockport 018
 9	Stockport 013
 9	Staffordshire Moorlands 011
-9	Stafford 014
 9	Stafford 013
 9	St Edmundsbury 014
 9	St Edmundsbury 012
@@ -1036,7 +1042,7 @@
 9	Rutland 002
 9	Rugby 006
 9	Rugby 001
-9	Rotherham 018
+9	Rotherham 013
 9	Rother 008
 9	Rother 007
 9	Richmond upon Thames 002
@@ -1054,6 +1060,7 @@
 9	Powys 018
 9	Powys 017
 9	Portsmouth 016
+9	Poole 012
 9	Plymouth 011
 9	Plymouth 006
 9	Peterborough 010
@@ -1086,13 +1093,14 @@
 9	North Norfolk 013
 9	North Lincolnshire 014
 9	North Lincolnshire 012
-9	North Lincolnshire 008
 9	North East Lincolnshire 020
 9	North East Lincolnshire 018
+9	North East Lincolnshire 004
 9	North East Lincolnshire 002
 9	North East Derbyshire 013
 9	North Dorset 002
 9	Newport 015
+9	Newport 006
 9	Newham 028
 9	Newham 024
 9	Newham 017
@@ -1189,7 +1197,6 @@
 9	Forest of Dean 009
 9	Forest Heath 004
 9	Fenland 001
-9	Epsom and Ewell 010
 9	Epsom and Ewell 008
 9	Enfield 035
 9	Elmbridge 013
@@ -1199,16 +1206,15 @@
 9	East Lindsey 004
 9	East Hampshire 001
 9	East Dorset 005
-9	East Cambridgeshire 003
 9	Ealing 038
 9	Ealing 029
 9	Ealing 018
 9	Doncaster 033
+9	Doncaster 032
 9	Doncaster 029
 9	Doncaster 022
 9	Doncaster 018
 9	Doncaster 015
-9	Doncaster 011
 9	Doncaster 006
 9	Derbyshire Dales 002
 9	Derby 025
@@ -1225,7 +1231,6 @@
 9	Crawley 006
 9	Coventry 036
 9	Coventry 015
-9	Coventry 013
 9	County Durham 056
 9	County Durham 051
 9	County Durham 042
@@ -1235,8 +1240,8 @@
 9	Cotswold 009
 9	Cornwall 059
 9	Cornwall 040
-9	Cornwall 039
 9	Cornwall 032
+9	Cornwall 024
 9	Cornwall 005
 9	Corby 006
 9	Corby 003
@@ -1342,12 +1347,15 @@
 8	Wokingham 005
 8	Woking 003
 8	Wirral 015
+8	Windsor and Maidenhead 008
 8	Windsor and Maidenhead 006
 8	Winchester 005
 8	Wiltshire 061
 8	Wiltshire 053
 8	Wiltshire 049
 8	Wiltshire 047
+8	Wiltshire 046
+8	Wiltshire 045
 8	Wiltshire 039
 8	Wiltshire 036
 8	Wiltshire 019
@@ -1427,14 +1435,12 @@
 8	Tandridge 005
 8	Tamworth 010
 8	Tameside 028
-8	Tameside 020
 8	Tameside 003
 8	Swindon 022
 8	Swindon 006
 8	Swansea 012
 8	Swansea 011
 8	Swale 015
-8	Sutton 004
 8	Surrey Heath 008
 8	Surrey Heath 001
 8	Suffolk Coastal 008
@@ -1551,6 +1557,7 @@
 8	Portsmouth 002
 8	Poole 011
 8	Plymouth 032
+8	Plymouth 027
 8	Plymouth 026
 8	Plymouth 010
 8	Plymouth 009
@@ -1583,16 +1590,15 @@
 8	North Somerset 006
 8	North Norfolk 014
 8	North Norfolk 009
+8	North Lincolnshire 008
 8	North Lincolnshire 001
 8	North Kesteven 005
 8	North Hertfordshire 010
 8	North East Lincolnshire 023
 8	North East Lincolnshire 010
-8	North East Lincolnshire 004
 8	North East Derbyshire 004
 8	North Dorset 004
 8	Newport 010
-8	Newport 006
 8	Newport 003
 8	Newcastle upon Tyne 025
 8	Newcastle upon Tyne 024
@@ -1655,8 +1661,10 @@
 8	Liverpool 026
 8	Liverpool 020
 8	Lewes 002
+8	Leicester 037
 8	Leicester 032
 8	Leeds 112
+8	Leeds 107
 8	Leeds 099
 8	Leeds 092
 8	Leeds 087
@@ -1678,6 +1686,7 @@
 8	Kingston upon Hull 019
 8	Kingston upon Hull 009
 8	Kingston upon Hull 007
+8	King's Lynn and West Norfolk 002
 8	Kettering 001
 8	Kensington and Chelsea 010
 8	Islington 023
@@ -1696,6 +1705,7 @@
 8	Hounslow 004
 8	Horsham 008
 8	Hinckley and Bosworth 001
+8	Hillingdon 027
 8	Hillingdon 004
 8	Herefordshire 020
 8	Herefordshire 011
@@ -1706,6 +1716,7 @@
 8	Hastings 007
 8	Hartlepool 014
 8	Hartlepool 012
+8	Hartlepool 003
 8	Harrow 023
 8	Harrogate 006
 8	Harrogate 001
@@ -1765,6 +1776,7 @@
 8	East Hertfordshire 009
 8	East Hertfordshire 001
 8	East Dorset 001
+8	East Cambridgeshire 003
 8	Ealing 030
 8	Ealing 019
 8	Dudley 039
@@ -1773,7 +1785,6 @@
 8	Dover 010
 8	Dover 002
 8	Doncaster 037
-8	Doncaster 032
 8	Doncaster 007
 8	Derbyshire Dales 003
 8	Derby 029
@@ -1810,7 +1821,6 @@
 8	Cornwall 065
 8	Cornwall 047
 8	Cornwall 030
-8	Cornwall 024
 8	Cornwall 009
 8	Cornwall 003
 8	Copeland 007
@@ -1835,6 +1845,7 @@
 8	Cheshire East 050
 8	Cheshire East 046
 8	Cheshire East 044
+8	Cheshire East 035
 8	Cheshire East 028
 8	Cheshire East 019
 8	Cheshire East 018
@@ -1887,6 +1898,7 @@
 8	Breckland 012
 8	Bradford 044
 8	Bradford 041
+8	Bradford 023
 8	Bradford 019
 8	Bournemouth 010
 8	Bournemouth 009
@@ -1919,6 +1931,7 @@
 8	Bedford 008
 8	Bedford 006
 8	Bedford 005
+8	Bath and North East Somerset 027
 8	Bath and North East Somerset 021
 8	Bassetlaw 016
 8	Bassetlaw 004
@@ -1978,7 +1991,7 @@
 7	Wiltshire 060
 7	Wiltshire 058
 7	Wiltshire 051
-7	Wiltshire 045
+7	Wiltshire 037
 7	Wiltshire 031
 7	Wiltshire 030
 7	Wiltshire 022
@@ -2017,7 +2030,7 @@
 7	Warwick 010
 7	Warwick 008
 7	Warrington 023
-7	Warrington 012
+7	Warrington 014
 7	Warrington 008
 7	Wandsworth 023
 7	Wandsworth 016
@@ -2033,6 +2046,7 @@
 7	Walsall 012
 7	Wakefield 038
 7	Wakefield 031
+7	Wakefield 024
 7	Wakefield 013
 7	Wakefield 012
 7	Wakefield 010
@@ -2076,6 +2090,7 @@
 7	Sutton 019
 7	Sutton 009
 7	Surrey Heath 004
+7	Sunderland 033
 7	Sunderland 017
 7	Sunderland 003
 7	Suffolk Coastal 013
@@ -2140,6 +2155,7 @@
 7	South Derbyshire 009
 7	South Derbyshire 008
 7	South Cambridgeshire 015
+7	South Cambridgeshire 014
 7	South Cambridgeshire 013
 7	South Bucks 006
 7	Solihull 029
@@ -2193,10 +2209,10 @@
 7	Rugby 008
 7	Rugby 004
 7	Rugby 003
+7	Rotherham 027
 7	Rotherham 026
 7	Rotherham 021
 7	Rotherham 019
-7	Rotherham 013
 7	Rotherham 008
 7	Rotherham 005
 7	Rother 003
@@ -2233,11 +2249,10 @@
 7	Portsmouth 008
 7	Portsmouth 007
 7	Portsmouth 004
-7	Poole 012
 7	Poole 003
-7	Plymouth 027
 7	Plymouth 021
 7	Plymouth 019
+7	Plymouth 015
 7	Plymouth 008
 7	Plymouth 001
 7	Peterborough 019
@@ -2277,6 +2292,7 @@
 7	North Tyneside 019
 7	North Tyneside 009
 7	North Somerset 017
+7	North Somerset 010
 7	North Somerset 008
 7	North Norfolk 010
 7	North Norfolk 006
@@ -2355,7 +2371,6 @@
 7	Leicester 022
 7	Leicester 017
 7	Leicester 011
-7	Leeds 107
 7	Leeds 106
 7	Leeds 103
 7	Leeds 101
@@ -2389,7 +2404,7 @@
 7	Kingston upon Hull 003
 7	Kingston upon Hull 001
 7	King's Lynn and West Norfolk 004
-7	King's Lynn and West Norfolk 002
+7	King's Lynn and West Norfolk 003
 7	Kettering 009
 7	Kensington and Chelsea 012
 7	Kensington and Chelsea 008
@@ -2417,7 +2432,6 @@
 7	Horsham 010
 7	Horsham 006
 7	Hinckley and Bosworth 003
-7	Hillingdon 031
 7	Hillingdon 002
 7	Hillingdon 001
 7	High Peak 008
@@ -2434,7 +2448,6 @@
 7	Havant 006
 7	Hartlepool 009
 7	Hartlepool 007
-7	Hartlepool 003
 7	Harrow 029
 7	Harrogate 020
 7	Harrogate 017
@@ -2471,6 +2484,7 @@
 7	Gateshead 015
 7	Gateshead 010
 7	Fylde 008
+7	Forest Heath 006
 7	Forest Heath 001
 7	Flintshire 019
 7	Flintshire 013
@@ -2554,11 +2568,12 @@
 7	Cornwall 031
 7	Cornwall 021
 7	Cornwall 019
+7	Cornwall 015
 7	Cornwall 010
 7	Conwy 012
 7	Conwy 009
 7	Colchester 001
-7	Christchurch 005
+7	Christchurch 006
 7	Chorley 014
 7	Chichester 014
 7	Chichester 010
@@ -2576,13 +2591,13 @@
 7	Cheshire East 042
 7	Cheshire East 039
 7	Cheshire East 036
-7	Cheshire East 035
 7	Cheshire East 033
 7	Cheshire East 030
 7	Cheshire East 017
 7	Cheshire East 012
 7	Cheshire East 004
 7	Cherwell 016
+7	Cherwell 014
 7	Cherwell 009
 7	Cherwell 005
 7	Cherwell 001
@@ -2697,7 +2712,7 @@
 7	Bedford 020
 7	Bedford 010
 7	Bedford 003
-7	Bath and North East Somerset 027
+7	Bath and North East Somerset 018
 7	Bath and North East Somerset 008
 7	Bath and North East Somerset 007
 7	Bassetlaw 014
@@ -2774,7 +2789,6 @@
 6	Wiltshire 048
 6	Wiltshire 042
 6	Wiltshire 038
-6	Wiltshire 037
 6	Wiltshire 006
 6	Wigan 018
 6	Wigan 011
@@ -2818,7 +2832,7 @@
 6	Warwick 004
 6	Warwick 001
 6	Warrington 024
-6	Warrington 014
+6	Warrington 012
 6	Warrington 009
 6	Warrington 001
 6	Wandsworth 035
@@ -2838,7 +2852,6 @@
 6	Walsall 013
 6	Walsall 006
 6	Wakefield 039
-6	Wakefield 024
 6	Wakefield 022
 6	Wakefield 020
 6	Wakefield 016
@@ -2898,7 +2911,6 @@
 6	Sutton 015
 6	Sutton 012
 6	Sunderland 035
-6	Sunderland 033
 6	Sunderland 030
 6	Sunderland 026
 6	Sunderland 010
@@ -2928,6 +2940,7 @@
 6	St. Helens 010
 6	St. Helens 001
 6	St Edmundsbury 011
+6	St Edmundsbury 010
 6	St Edmundsbury 009
 6	St Edmundsbury 005
 6	St Albans 019
@@ -2974,7 +2987,6 @@
 6	South Cambridgeshire 019
 6	South Cambridgeshire 018
 6	South Cambridgeshire 017
-6	South Cambridgeshire 014
 6	South Cambridgeshire 011
 6	South Cambridgeshire 010
 6	South Cambridgeshire 003
@@ -3030,7 +3042,6 @@
 6	Runnymede 002
 6	Rotherham 032
 6	Rotherham 030
-6	Rotherham 027
 6	Rotherham 009
 6	Rother 005
 6	Rother 002
@@ -3080,7 +3091,6 @@
 6	Portsmouth 001
 6	Poole 004
 6	Plymouth 028
-6	Plymouth 015
 6	Plymouth 003
 6	Pembrokeshire 013
 6	Pembrokeshire 012
@@ -3115,7 +3125,6 @@
 6	North Somerset 022
 6	North Somerset 013
 6	North Somerset 011
-6	North Somerset 010
 6	North Somerset 009
 6	North Somerset 007
 6	North Somerset 003
@@ -3199,7 +3208,6 @@
 6	Lewisham 034
 6	Lewisham 025
 6	Lewisham 009
-6	Leicester 037
 6	Leicester 035
 6	Leicester 020
 6	Leicester 019
@@ -3239,7 +3247,6 @@
 6	Kingston upon Hull 014
 6	King's Lynn and West Norfolk 016
 6	King's Lynn and West Norfolk 010
-6	King's Lynn and West Norfolk 003
 6	Kettering 002
 6	Kensington and Chelsea 019
 6	Kensington and Chelsea 005
@@ -3280,6 +3287,7 @@
 6	Hart 001
 6	Harrow 028
 6	Harrow 025
+6	Harrow 022
 6	Harrow 011
 6	Harrow 001
 6	Harrogate 015
@@ -3287,6 +3295,7 @@
 6	Harrogate 007
 6	Harlow 002
 6	Harlow 001
+6	Haringey 025
 6	Haringey 020
 6	Haringey 016
 6	Haringey 014
@@ -3325,7 +3334,6 @@
 6	Forest of Dean 006
 6	Forest of Dean 003
 6	Forest Heath 008
-6	Forest Heath 006
 6	Forest Heath 005
 6	Flintshire 015
 6	Flintshire 005
@@ -3404,6 +3412,7 @@
 6	Croydon 024
 6	Croydon 023
 6	Croydon 022
+6	Croydon 020
 6	Crawley 005
 6	Coventry 028
 6	Coventry 027
@@ -3421,10 +3430,10 @@
 6	County Durham 004
 6	Cornwall 071
 6	Cornwall 066
+6	Cornwall 061
 6	Cornwall 051
 6	Cornwall 044
 6	Cornwall 035
-6	Cornwall 015
 6	Cornwall 014
 6	Cornwall 008
 6	Cornwall 001
@@ -3437,7 +3446,7 @@
 6	Colchester 010
 6	Colchester 008
 6	City of London 001
-6	Christchurch 006
+6	Christchurch 005
 6	Christchurch 001
 6	Chiltern 003
 6	Chichester 003
@@ -3449,7 +3458,6 @@
 6	Cheshire East 016
 6	Cheshire East 008
 6	Cherwell 019
-6	Cherwell 014
 6	Cherwell 008
 6	Cherwell 002
 6	Charnwood 016
@@ -3518,8 +3526,8 @@
 6	Braintree 002
 6	Bradford 043
 6	Bradford 026
-6	Bradford 023
 6	Bradford 015
+6	Bradford 014
 6	Bradford 007
 6	Bracknell Forest 006
 6	Bracknell Forest 003
@@ -3527,8 +3535,8 @@
 6	Bolton 033
 6	Bolton 031
 6	Bolton 018
+6	Bolton 003
 6	Bolsover 008
-6	Blackpool 007
 6	Blackpool 002
 6	Blackburn with Darwen 014
 6	Blackburn with Darwen 004
@@ -3556,7 +3564,6 @@
 6	Bedford 013
 6	Bedford 009
 6	Bath and North East Somerset 020
-6	Bath and North East Somerset 018
 6	Bassetlaw 008
 6	Basingstoke and Deane 018
 6	Basingstoke and Deane 014
@@ -3576,7 +3583,6 @@
 6	Barnsley 005
 6	Barnsley 002
 6	Barnet 027
-6	Barnet 026
 6	Barnet 022
 6	Barnet 010
 6	Barnet 006
@@ -3638,7 +3644,6 @@
 5	Winchester 003
 5	Wiltshire 059
 5	Wiltshire 055
-5	Wiltshire 046
 5	Wiltshire 044
 5	Wiltshire 027
 5	Wiltshire 023
@@ -3796,6 +3801,7 @@
 5	Sunderland 005
 5	Sunderland 001
 5	Suffolk Coastal 014
+5	Suffolk Coastal 011
 5	Suffolk Coastal 006
 5	Stratford-on-Avon 001
 5	Stoke-on-Trent 029
@@ -3816,7 +3822,6 @@
 5	Stevenage 008
 5	Stevenage 001
 5	Staffordshire Moorlands 004
-5	St Edmundsbury 010
 5	St Edmundsbury 007
 5	St Edmundsbury 002
 5	St Albans 020
@@ -3925,6 +3930,7 @@
 5	Runnymede 005
 5	Rotherham 033
 5	Rotherham 031
+5	Rotherham 016
 5	Rotherham 011
 5	Rotherham 006
 5	Rotherham 001
@@ -3955,6 +3961,7 @@
 5	Redbridge 029
 5	Redbridge 020
 5	Redbridge 013
+5	Reading 010
 5	Reading 008
 5	Reading 006
 5	Reading 004
@@ -3967,6 +3974,7 @@
 5	Powys 005
 5	Portsmouth 017
 5	Portsmouth 011
+5	Poole 017
 5	Poole 014
 5	Poole 006
 5	Plymouth 024
@@ -4023,11 +4031,13 @@
 5	North Somerset 020
 5	North Somerset 016
 5	North Somerset 014
+5	North Somerset 004
 5	North Norfolk 007
 5	North Norfolk 001
 5	North Lincolnshire 022
 5	North Lincolnshire 020
 5	North Lincolnshire 018
+5	North Lincolnshire 007
 5	North Lincolnshire 003
 5	North Kesteven 001
 5	North Hertfordshire 003
@@ -4104,7 +4114,6 @@
 5	Malvern Hills 009
 5	Malvern Hills 007
 5	Malvern Hills 004
-5	Maidstone 015
 5	Maidstone 012
 5	Maidstone 011
 5	Maidstone 010
@@ -4117,6 +4126,7 @@
 5	Liverpool 002
 5	Lincoln 005
 5	Lincoln 002
+5	Lichfield 011
 5	Lichfield 006
 5	Lichfield 002
 5	Lewisham 030
@@ -4230,18 +4240,17 @@
 5	Hastings 004
 5	Hartlepool 002
 5	Hart 003
-5	Harrow 022
 5	Harrow 020
 5	Harrow 017
 5	Harrow 016
 5	Harrow 013
+5	Harrogate 021
 5	Harrogate 011
 5	Harrogate 009
 5	Harrogate 004
 5	Haringey 036
 5	Haringey 030
 5	Haringey 029
-5	Haringey 025
 5	Haringey 011
 5	Haringey 002
 5	Harborough 009
@@ -4291,9 +4300,11 @@
 5	Fareham 007
 5	Exeter 015
 5	Exeter 006
+5	Exeter 005
 5	Erewash 009
 5	Erewash 008
 5	Erewash 005
+5	Epsom and Ewell 001
 5	Epping Forest 015
 5	Epping Forest 007
 5	Epping Forest 004
@@ -4368,7 +4379,6 @@
 5	Croydon 037
 5	Croydon 029
 5	Croydon 025
-5	Croydon 020
 5	Croydon 016
 5	Croydon 009
 5	Croydon 008
@@ -4390,7 +4400,6 @@
 5	County Durham 013
 5	Cornwall 069
 5	Cornwall 068
-5	Cornwall 061
 5	Cornwall 060
 5	Cornwall 054
 5	Cornwall 049
@@ -4427,7 +4436,6 @@
 5	Cheshire West and Chester 007
 5	Cheshire West and Chester 005
 5	Cheshire East 048
-5	Cheshire East 031
 5	Cheshire East 026
 5	Cheshire East 024
 5	Cheshire East 022
@@ -4535,11 +4543,11 @@
 5	Braintree 012
 5	Braintree 007
 5	Braintree 006
+5	Braintree 005
 5	Bradford 047
 5	Bradford 036
 5	Bradford 029
 5	Bradford 025
-5	Bradford 014
 5	Bradford 010
 5	Bradford 003
 5	Bradford 001
@@ -4549,13 +4557,14 @@
 5	Boston 007
 5	Boston 001
 5	Bolton 028
+5	Bolton 025
 5	Bolton 010
 5	Bolton 004
-5	Bolton 003
 5	Bolsover 010
 5	Bolsover 009
 5	Blaenau Gwent 008
 5	Blackpool 019
+5	Blackpool 007
 5	Blackpool 001
 5	Blackburn with Darwen 017
 5	Blackburn with Darwen 015
@@ -4571,6 +4580,7 @@
 5	Birmingham 094
 5	Birmingham 067
 5	Birmingham 064
+5	Birmingham 033
 5	Birmingham 028
 5	Birmingham 023
 5	Birmingham 017
@@ -4599,6 +4609,7 @@
 5	Barnsley 012
 5	Barnsley 008
 5	Barnsley 004
+5	Barnet 026
 5	Barnet 004
 5	Barking and Dagenham 023
 5	Barking and Dagenham 022
@@ -4650,6 +4661,7 @@
 4	Wirral 016
 4	Wirral 004
 4	Windsor and Maidenhead 016
+4	Windsor and Maidenhead 009
 4	Windsor and Maidenhead 003
 4	Windsor and Maidenhead 001
 4	Winchester 014
@@ -4756,6 +4768,7 @@
 4	Telford and Wrekin 015
 4	Telford and Wrekin 007
 4	Teignbridge 019
+4	Teignbridge 011
 4	Teignbridge 001
 4	Taunton Deane 012
 4	Taunton Deane 006
@@ -4791,9 +4804,9 @@
 4	Surrey Heath 002
 4	Sunderland 031
 4	Sunderland 029
+4	Sunderland 025
 4	Sunderland 012
 4	Sunderland 009
-4	Suffolk Coastal 011
 4	Suffolk Coastal 009
 4	Suffolk Coastal 005
 4	Stratford-on-Avon 012
@@ -4816,7 +4829,6 @@
 4	Staffordshire Moorlands 013
 4	Staffordshire Moorlands 008
 4	Staffordshire Moorlands 003
-4	Stafford 011
 4	Stafford 006
 4	Stafford 001
 4	St. Helens 022
@@ -4882,6 +4894,7 @@
 4	South Cambridgeshire 007
 4	Solihull 025
 4	Solihull 023
+4	Solihull 018
 4	Solihull 015
 4	Slough 002
 4	Shropshire 027
@@ -4890,6 +4903,7 @@
 4	Shepway 010
 4	Shepway 005
 4	Shepway 003
+4	Sheffield 070
 4	Sheffield 049
 4	Sheffield 048
 4	Sheffield 041
@@ -4922,7 +4936,6 @@
 4	Runnymede 003
 4	Rotherham 024
 4	Rotherham 022
-4	Rotherham 016
 4	Rotherham 012
 4	Rother 009
 4	Rochford 002
@@ -4948,7 +4961,6 @@
 4	Redbridge 005
 4	Redbridge 002
 4	Reading 013
-4	Reading 010
 4	Purbeck 002
 4	Preston 001
 4	Powys 020
@@ -4957,6 +4969,7 @@
 4	Portsmouth 020
 4	Portsmouth 010
 4	Poole 016
+4	Poole 015
 4	Poole 009
 4	Plymouth 031
 4	Plymouth 025
@@ -5002,13 +5015,11 @@
 4	North Somerset 026
 4	North Somerset 015
 4	North Somerset 012
-4	North Somerset 004
 4	North Norfolk 012
 4	North Norfolk 011
 4	North Norfolk 004
 4	North Lincolnshire 016
 4	North Lincolnshire 009
-4	North Lincolnshire 007
 4	North Hertfordshire 006
 4	North East Lincolnshire 022
 4	North East Derbyshire 011
@@ -5044,6 +5055,7 @@
 4	Neath Port Talbot 010
 4	Neath Port Talbot 002
 4	Monmouthshire 009
+4	Mole Valley 006
 4	Mole Valley 001
 4	Milton Keynes 028
 4	Milton Keynes 008
@@ -5071,16 +5083,17 @@
 4	Medway 004
 4	Medway 002
 4	Mansfield 003
+4	Manchester 046
 4	Manchester 036
 4	Manchester 024
 4	Maldon 008
+4	Maidstone 015
 4	Maidstone 014
 4	Luton 015
 4	Liverpool 046
 4	Liverpool 029
 4	Liverpool 015
 4	Liverpool 007
-4	Lichfield 011
 4	Lewisham 024
 4	Lewisham 015
 4	Lewisham 014
@@ -5140,6 +5153,7 @@
 4	Kensington and Chelsea 014
 4	Kensington and Chelsea 007
 4	Kensington and Chelsea 006
+4	Kensington and Chelsea 004
 4	Islington 015
 4	Islington 002
 4	Isle of Wight 017
@@ -5196,7 +5210,6 @@
 4	Harrow 007
 4	Harrow 004
 4	Harrow 002
-4	Harrogate 021
 4	Harrogate 012
 4	Harrogate 008
 4	Harrogate 005
@@ -5250,14 +5263,12 @@
 4	Fareham 010
 4	Fareham 008
 4	Fareham 006
-4	Exeter 005
 4	Exeter 003
 4	Erewash 011
 4	Erewash 007
 4	Erewash 001
 4	Epsom and Ewell 009
 4	Epsom and Ewell 002
-4	Epsom and Ewell 001
 4	Epping Forest 008
 4	Epping Forest 006
 4	Epping Forest 005
@@ -5287,7 +5298,6 @@
 4	East Hertfordshire 007
 4	East Hampshire 012
 4	East Dorset 012
-4	East Dorset 009
 4	East Dorset 003
 4	East Cambridgeshire 007
 4	Ealing 039
@@ -5374,6 +5384,7 @@
 4	Cheshire West and Chester 012
 4	Cheshire West and Chester 008
 4	Cheshire West and Chester 004
+4	Cheshire East 031
 4	Cheshire East 013
 4	Cheshire East 011
 4	Cherwell 018
@@ -5463,7 +5474,6 @@
 4	Brent 004
 4	Breckland 015
 4	Breckland 004
-4	Braintree 005
 4	Braintree 004
 4	Braintree 001
 4	Bradford 045
@@ -5483,7 +5493,6 @@
 4	Bournemouth 002
 4	Boston 004
 4	Bolton 035
-4	Bolton 025
 4	Bolton 021
 4	Bolton 015
 4	Bolsover 005
@@ -5493,7 +5502,9 @@
 4	Blaenau Gwent 003
 4	Blaenau Gwent 002
 4	Blackpool 009
+4	Blackpool 005
 4	Blaby 013
+4	Blaby 005
 4	Birmingham 138
 4	Birmingham 125
 4	Birmingham 107
@@ -5505,7 +5516,6 @@
 4	Birmingham 063
 4	Birmingham 058
 4	Birmingham 049
-4	Birmingham 033
 4	Birmingham 026
 4	Birmingham 020
 4	Bexley 021
@@ -5537,6 +5547,7 @@
 4	Barking and Dagenham 004
 4	Barking and Dagenham 002
 4	Babergh 002
+4	Aylesbury Vale 023
 4	Aylesbury Vale 020
 4	Aylesbury Vale 016
 4	Ashford 014
@@ -5579,7 +5590,6 @@
 3	Wirral 027
 3	Wirral 021
 3	Wirral 003
-3	Windsor and Maidenhead 009
 3	Winchester 012
 3	Winchester 008
 3	Winchester 002
@@ -5663,7 +5673,6 @@
 3	Telford and Wrekin 013
 3	Telford and Wrekin 005
 3	Telford and Wrekin 004
-3	Teignbridge 011
 3	Teignbridge 009
 3	Tamworth 009
 3	Tamworth 004
@@ -5690,7 +5699,6 @@
 3	Sutton 006
 3	Sutton 003
 3	Sunderland 036
-3	Sunderland 025
 3	Sunderland 024
 3	Sunderland 013
 3	Suffolk Coastal 012
@@ -5706,6 +5714,7 @@
 3	Stevenage 012
 3	Stevenage 007
 3	Staffordshire Moorlands 005
+3	Stafford 011
 3	Stafford 004
 3	St. Helens 006
 3	St. Helens 003
@@ -5751,7 +5760,6 @@
 3	South Derbyshire 003
 3	South Bucks 003
 3	South Bucks 002
-3	Solihull 018
 3	Solihull 009
 3	Solihull 001
 3	Slough 014
@@ -5763,7 +5771,6 @@
 3	Shepway 013
 3	Shepway 004
 3	Shepway 002
-3	Sheffield 070
 3	Sheffield 062
 3	Sheffield 060
 3	Sheffield 046
@@ -5823,8 +5830,7 @@
 3	Portsmouth 022
 3	Portsmouth 012
 3	Portsmouth 003
-3	Poole 017
-3	Poole 015
+3	Poole 013
 3	Poole 008
 3	Poole 001
 3	Plymouth 030
@@ -5926,7 +5932,6 @@
 3	Mansfield 001
 3	Manchester 059
 3	Manchester 057
-3	Manchester 046
 3	Manchester 045
 3	Manchester 005
 3	Manchester 004
@@ -5997,7 +6002,6 @@
 3	King's Lynn and West Norfolk 005
 3	Kettering 004
 3	Kensington and Chelsea 009
-3	Kensington and Chelsea 004
 3	Islington 017
 3	Islington 005
 3	Isle of Wight 007
@@ -6110,6 +6114,7 @@
 3	East Hertfordshire 008
 3	East Hampshire 017
 3	East Hampshire 010
+3	East Dorset 009
 3	East Devon 012
 3	East Cambridgeshire 004
 3	East Cambridgeshire 001
@@ -6259,6 +6264,7 @@
 3	Brent 017
 3	Braintree 016
 3	Bradford 055
+3	Bradford 038
 3	Bradford 032
 3	Bradford 027
 3	Bradford 006
@@ -6280,10 +6286,8 @@
 3	Blackpool 017
 3	Blackpool 008
 3	Blackpool 006
-3	Blackpool 005
 3	Blackburn with Darwen 013
 3	Blaby 012
-3	Blaby 005
 3	Blaby 004
 3	Blaby 002
 3	Birmingham 137
@@ -6306,6 +6310,7 @@
 3	Bexley 006
 3	Bedford 012
 3	Bedford 011
+3	Bath and North East Somerset 025
 3	Bath and North East Somerset 014
 3	Bath and North East Somerset 006
 3	Bath and North East Somerset 005
@@ -6332,7 +6337,6 @@
 3	Barking and Dagenham 011
 3	Barking and Dagenham 003
 3	Babergh 006
-3	Aylesbury Vale 023
 3	Aylesbury Vale 014
 3	Aylesbury Vale 012
 3	Ashford 009
@@ -6533,7 +6537,6 @@
 2	Preston 015
 2	Portsmouth 024
 2	Portsmouth 019
-2	Poole 013
 2	Peterborough 003
 2	Pendle 004
 2	Pendle 001
@@ -6571,7 +6574,6 @@
 2	New Forest 020
 2	Neath Port Talbot 015
 2	Monmouthshire 007
-2	Mole Valley 006
 2	Milton Keynes 026
 2	Milton Keynes 007
 2	Middlesbrough 010
@@ -6604,9 +6606,11 @@
 2	Lewisham 001
 2	Lewes 008
 2	Leicester 039
+2	Leicester 031
 2	Leicester 029
 2	Leicester 013
 2	Leicester 010
+2	Leeds 108
 2	Leeds 094
 2	Leeds 093
 2	Leeds 044
@@ -6626,6 +6630,7 @@
 2	King's Lynn and West Norfolk 006
 2	Kensington and Chelsea 018
 2	Kensington and Chelsea 017
+2	Kensington and Chelsea 015
 2	Kensington and Chelsea 013
 2	Islington 021
 2	Islington 014
@@ -6836,7 +6841,6 @@
 2	Braintree 009
 2	Bradford 060
 2	Bradford 054
-2	Bradford 038
 2	Bradford 011
 2	Bracknell Forest 015
 2	Bracknell Forest 010
@@ -6863,7 +6867,6 @@
 2	Birmingham 025
 2	Birmingham 008
 2	Bedford 007
-2	Bath and North East Somerset 025
 2	Bath and North East Somerset 015
 2	Bath and North East Somerset 013
 2	Bath and North East Somerset 011
@@ -6918,6 +6921,7 @@
 1	Tendring 012
 1	Tendring 001
 1	Teignbridge 018
+1	Swansea 025
 1	Swansea 023
 1	Swale 006
 1	Sunderland 015
@@ -6993,9 +6997,7 @@
 1	Lewisham 026
 1	Lewisham 018
 1	Lewes 006
-1	Leicester 031
 1	Leicester 002
-1	Leeds 108
 1	Lancaster 010
 1	Lancaster 009
 1	Lancaster 004
@@ -7004,7 +7006,6 @@
 1	Kingston upon Thames 006
 1	Kingston upon Hull 005
 1	King's Lynn and West Norfolk 007
-1	Kensington and Chelsea 015
 1	Kensington and Chelsea 011
 1	Hyndburn 005
 1	Horsham 007

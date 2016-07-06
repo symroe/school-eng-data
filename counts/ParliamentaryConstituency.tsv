@@ -1,8 +1,8 @@
-1340	
+1352	
 144	Leeds Central
-144	Birmingham, Ladywood
+143	Birmingham, Ladywood
 134	Blackley and Broughton
-122	Kettering
+123	Kettering
 116	Skipton and Ripon
 114	Hackney North and Stoke Newington
 113	South West Norfolk
@@ -13,10 +13,11 @@
 108	Milton Keynes South
 108	Corby
 108	Bradford West
+108	Bradford East
 107	Mansfield
-106	Hemsworth
-106	Bradford East
+107	Hemsworth
 105	Salford and Eccles
+105	Devizes
 104	Wyre Forest
 104	South Northamptonshire
 104	North Warwickshire
@@ -24,7 +25,6 @@
 103	Witney
 102	Rochdale
 101	Wantage
-101	Devizes
 100	Slough
 100	Penrith and The Border
 100	Liverpool, Walton
@@ -43,23 +43,24 @@
 97	Nottingham North
 97	Hammersmith
 97	Halton
+97	Croydon North
 97	Coventry South
 97	Ceredigion
 96	Salisbury
 96	Oxford East
 96	Oldham West and Royton
 96	Norwich South
+96	North Cornwall
 96	Newbury
-96	Croydon North
+96	Don Valley
 95	West Lancashire
 95	Somerton and Frome
-95	North Cornwall
 95	Middlesbrough
 95	Louth and Horncastle
-95	Hendon
-95	Don Valley
 94	The Cotswolds
 94	North East Bedfordshire
+94	Hendon
+94	Great Grimsby
 94	Grantham and Stamford
 94	Gainsborough
 93	West Dorset
@@ -70,36 +71,36 @@
 93	Bristol North West
 93	Ashford
 92	South West Surrey
+92	South Cambridgeshire
 92	Peterborough
-92	Great Grimsby
 92	Burnley
-91	South Cambridgeshire
+91	Tottenham
+91	St Ives
 91	Sevenoaks
+91	North West Norfolk
 91	Leeds East
+91	Doncaster Central
 91	Derbyshire Dales
 91	Daventry
 91	Cleethorpes
+91	Buckingham
 90	Yeovil
-90	Tottenham
-90	St Ives
 90	Nottingham East
 90	North East Cambridgeshire
+90	Maidenhead
 90	Harlow
 90	Guildford
-90	Doncaster Central
-90	Buckingham
 90	Bristol South
 90	Bethnal Green and Bow
 90	Bassetlaw
+89	Washington and Sunderland West
 89	Richmond (Yorks)
-89	North West Norfolk
 89	Newcastle upon Tyne Central
-89	Maidenhead
 89	Leigh
 89	East Surrey
 89	Darlington
+89	Banbury
 88	Westmorland and Lonsdale
-88	Washington and Sunderland West
 88	Stratford-on-Avon
 88	Oxford West and Abingdon
 88	Mid Bedfordshire
@@ -109,15 +110,15 @@
 88	Forest of Dean
 88	Dartford
 88	Croydon South
-88	Banbury
+88	Coventry North East
 87	Wycombe
 87	Wolverhampton North East
 87	Walsall North
 87	Sittingbourne and Sheppey
+87	Rotherham
 87	North Herefordshire
 87	Liverpool, Wavertree
 87	Elmet and Rothwell
-87	Coventry North East
 87	Chesham and Amersham
 86	Wellingborough
 86	Tonbridge and Malling
@@ -127,6 +128,7 @@
 86	Chichester
 86	Channel Islands
 86	Camberwell and Peckham
+85	Stafford
 85	South West Bedfordshire
 85	Rochester and Strood
 85	Poplar and Limehouse
@@ -147,30 +149,29 @@
 84	Wakefield
 84	Truro and Falmouth
 84	Staffordshire Moorlands
+84	South West Wiltshire
 84	North Dorset
 84	Mid Sussex
 84	Lincoln
+84	Kensington
 84	City of Chester
 84	Bristol West
 84	Bedford
 84	Batley and Spen
 84	Barrow and Furness
+83	Wythenshawe and Sale East
+83	West Suffolk
 83	Wealden
 83	Torridge and West Devon
-83	Stafford
-83	South West Wiltshire
 83	South Norfolk
 83	Saffron Walden
 83	Rugby
-83	Rotherham
 83	Plymouth, Moor View
 83	North Wiltshire
-83	Kensington
 83	Heywood and Middleton
 83	Gloucester
 83	Cities of London and Westminster
 83	Bury St Edmunds
-82	Wythenshawe and Sale East
 82	Waveney
 82	Thurrock
 82	Telford
@@ -180,27 +181,30 @@
 82	North Swindon
 82	North Devon
 82	Huntingdon
+82	Bolton South East
 82	Birmingham, Northfield
 82	Birmingham, Edgbaston
-81	West Suffolk
 81	Wentworth and Dearne
+81	Suffolk Coastal
 81	South East Cornwall
+81	Plymouth, Sutton and Devonport
 81	Nuneaton
 81	Milton Keynes North
+81	Maidstone and The Weald
 81	Holborn and St Pancras
 81	Hertsmere
 81	Hastings and Rye
 81	Folkestone and Hythe
 81	Derby South
 81	Copeland
-81	Bolton South East
+81	Birmingham, Perry Barr
 80	Totnes
 80	Thirsk and Malton
-80	Suffolk Coastal
 80	Stretford and Urmston
-80	Plymouth, Sutton and Devonport
+80	St Austell and Newquay
 80	Nottingham South
-80	Maidstone and The Weald
+80	Mole Valley
+80	Mid Norfolk
 80	Hereford and South Herefordshire
 80	Gateshead
 80	Dover
@@ -216,46 +220,43 @@
 79	Rossendale and Darwen
 79	Orpington
 79	Oldham East and Saddleworth
-79	Mid Norfolk
 79	Hemel Hempstead
 79	Feltham and Heston
 79	Dwyfor Meirionnydd
 79	Boston and Skegness
-79	Birmingham, Perry Barr
 79	Birmingham, Hall Green
 79	Berwick-upon-Tweed
 78	Workington
 78	The Wrekin
 78	St Helens North
-78	St Austell and Newquay
-78	South East Cambridgeshire
-78	Mole Valley
+78	Rother Valley
+78	North East Somerset
 78	Macclesfield
+78	Leicester South
 78	Leeds North West
 78	Gravesham
 78	Ellesmere Port and Neston
-78	Congleton
 78	Colchester
 78	Carmarthen East and Dinefwr
 78	Bosworth
 77	Tewkesbury
 77	Streatham
 77	St Albans
-77	Rother Valley
+77	South East Cambridgeshire
 77	Redcar
 77	Meriden
 77	Liverpool, West Derby
-77	Leicester South
 77	Harborough
+77	Congleton
 77	City of Durham
 77	Cheadle
 77	Brecon and Radnorshire
 76	Windsor
 76	Stockton South
 76	Stockton North
-76	North East Somerset
 76	Lichfield
 76	Derby North
+76	Crewe and Nantwich
 76	Central Devon
 76	Beverley and Holderness
 76	Aylesbury
@@ -269,13 +270,14 @@
 75	North Tyneside
 75	Luton South
 75	Loughborough
+75	Epsom and Ewell
 75	Eddisbury
-75	Crewe and Nantwich
 75	Coventry North West
 75	Chorley
 75	Chelmsford
 75	Bromley and Chislehurst
 75	Bradford South
+75	Bolton North East
 75	Barking
 74	Wolverhampton South East
 74	Wokingham
@@ -283,6 +285,7 @@
 74	Sutton Coldfield
 74	Sheffield Central
 74	Ribble Valley
+74	Reading East
 74	Preseli Pembrokeshire
 74	North West Hampshire
 74	North West Durham
@@ -291,6 +294,7 @@
 74	Hackney South and Shoreditch
 74	Greenwich and Woolwich
 74	Great Yarmouth
+74	Exeter
 74	Dulwich and West Norwood
 74	Chippenham
 74	Chelsea and Fulham
@@ -298,7 +302,6 @@
 74	Canterbury
 74	Burton
 74	Bootle
-74	Bolton North East
 73	Weaver Vale
 73	Torbay
 73	Stockport
@@ -308,26 +311,23 @@
 73	Runnymede and Weybridge
 73	Richmond Park
 73	Redditch
-73	Reading East
 73	North West Leicestershire
+73	Morley and Outwood
 73	Makerfield
 73	Islington South and Finsbury
 73	Finchley and Golders Green
-73	Exeter
-73	Epsom and Ewell
 73	Crawley
 73	Brentwood and Ongar
+73	Bexhill and Battle
 72	Worcester
 72	Warley
 72	Newcastle-under-Lyme
 72	High Peak
 72	Hayes and Harlington
-72	Faversham and Mid Kent
 72	Carlisle
 72	Broxbourne
 72	Brentford and Isleworth
 72	Birmingham, Yardley
-72	Bexhill and Battle
 72	Bermondsey and Old Southwark
 71	York Central
 71	Thornbury and Yate
@@ -336,10 +336,10 @@
 71	Scarborough and Whitby
 71	Portsmouth North
 71	Pendle
-71	Morley and Outwood
 71	Kenilworth and Southam
 71	Horsham
 71	Hexham
+71	Faversham and Mid Kent
 71	Ealing, Southall
 71	Colne Valley
 71	Chatham and Aylesford
@@ -347,6 +347,7 @@
 71	Broadland
 71	Birmingham, Erdington
 70	Warwick and Leamington
+70	Tamworth
 70	St Helens South and Whiston
 70	Southampton, Test
 70	South Holland and The Deepings
@@ -368,32 +369,34 @@
 70	Cannock Chase
 70	Camborne and Redruth
 70	Bristol East
+70	Bath
 69	Wigan
 69	Welwyn Hatfield
 69	Warrington South
-69	Tamworth
 69	South Shields
 69	South Dorset
+69	Sheffield, Heeley
+69	North Somerset
 69	Jarrow
 69	Filton and Bradley Stoke
 69	Carmarthen West and South Pembrokeshire
 69	Brigg and Goole
-69	Bath
 68	Wyre and Preston North
 68	Vauxhall
-68	Sheffield, Heeley
 68	North Norfolk
 68	Lewes
+68	Harrogate and Knaresborough
 68	East Ham
 68	Cynon Valley
 68	Bournemouth West
 67	West Bromwich West
 67	Uxbridge and South Ruislip
 67	South Ribble
-67	North Somerset
+67	South Leicestershire
+67	Leicester East
 67	Kingston upon Hull East
 67	Ilford South
-67	Harrogate and Knaresborough
+67	Hartlepool
 67	Gillingham and Rainham
 67	Esher and Walton
 67	Brent North
@@ -401,10 +404,10 @@
 67	Basingstoke
 67	Ashton-under-Lyne
 66	Walthamstow
-66	South Leicestershire
+66	Stalybridge and Hyde
 66	Rhondda
+66	Newton Abbot
 66	Hyndburn
-66	Hartlepool
 66	East Hampshire
 66	Bolsover
 66	Beckenham
@@ -412,13 +415,10 @@
 66	Amber Valley
 65	West Bromwich East
 65	Stevenage
-65	Stalybridge and Hyde
 65	Penistone and Stocksbridge
-65	Newton Abbot
 65	Mitcham and Morden
 65	Manchester, Withington
-65	Leicester West
-65	Leicester East
+65	Keighley
 65	Clwyd West
 65	Chipping Barnet
 65	Chingford and Woodford Green
@@ -428,6 +428,7 @@
 65	Bolton West
 65	Altrincham and Sale West
 64	Merthyr Tydfil and Rhymney
+64	Leicester West
 64	Kingston upon Hull West and Hessle
 64	Clwyd South
 64	Bury North
@@ -437,9 +438,11 @@
 63	Warrington North
 63	Stoke-on-Trent South
 63	Southampton, Itchen
+63	Solihull
 63	Rushcliffe
 63	Romford
 63	Monmouth
+63	Carshalton and Wallington
 63	Broxtowe
 63	Blaydon
 63	Aldershot
@@ -447,30 +450,27 @@
 62	Weston-Super-Mare
 62	Westminster North
 62	Twickenham
-62	Solihull
 62	Sheffield, Hallam
 62	Newcastle upon Tyne North
 62	New Forest East
 62	Lancaster and Fleetwood
-62	Keighley
 62	Ilford North
+62	Houghton and Sunderland South
 62	Havant
 62	Gedling
 62	Epping Forest
 62	Chesterfield
-62	Carshalton and Wallington
+62	Braintree
 61	Vale of Glamorgan
+61	South West Devon
 61	Rochford and Southend East
 61	Rayleigh and Wickford
 61	North Durham
-61	Houghton and Sunderland South
 61	Harwich and North Essex
 61	Ealing Central and Acton
 61	Bromsgrove
-61	Braintree
 60	Wansbeck
 60	Tooting
-60	South West Devon
 60	South Derbyshire
 60	Sheffield South East
 60	Northampton South
@@ -483,6 +483,7 @@
 59	Wimbledon
 59	Spelthorne
 59	Sefton Central
+59	Ruislip, Northwood and Pinner
 59	Old Bexley and Sidcup
 59	Mid Dorset and North Poole
 59	Maldon
@@ -493,7 +494,6 @@
 59	Birmingham, Selly Oak
 59	Bexleyheath and Crayford
 58	Torfaen
-58	Ruislip, Northwood and Pinner
 58	Kingston and Surbiton
 58	Blyth Valley
 58	Basildon and Billericay
@@ -507,6 +507,7 @@
 56	Ogmore
 56	Bury South
 56	Brighton, Pavilion
+55	Southend West
 55	Harrow West
 55	Bournemouth East
 55	Arfon
@@ -522,7 +523,6 @@
 54	Dagenham and Rainham
 54	Blackpool South
 53	Vale of Clwyd
-53	Southend West
 53	Leyton and Wanstead
 53	Halesowen and Rowley Regis
 53	Gosport
@@ -534,10 +534,10 @@
 52	Islington North
 52	Haltemprice and Howden
 51	Wirral West
+51	Newport West
 51	Neath
 51	Morecambe and Lunesdale
 51	Fareham
-50	Newport West
 50	Gower
 50	Brighton, Kemptown
 49	Mid Derbyshire
@@ -545,6 +545,7 @@
 49	Islwyn
 49	Dudley North
 49	Alyn and Deeside
+48	Poole
 48	Pontypridd
 48	Fylde
 47	South Staffordshire
@@ -564,16 +565,15 @@
 44	Cardiff Central
 43	Wirral South
 43	Wallasey
-42	Poole
 42	Bognor Regis and Littlehampton
 41	Stourbridge
 41	Hove
 41	Dudley South
-41	Christchurch
 41	Cardiff North
+40	Christchurch
 39	Aberconwy
 36	Worthing West
-32	Swansea West
+33	Swansea West
 2	North East Fife
 1	Ochil and South Perthshire
 1	Gordon

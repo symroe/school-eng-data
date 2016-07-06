@@ -1,69 +1,69 @@
-35143	Headteacher
-3444	
-1816	Principal
-754	Executive Headteacher
-623	Head Teacher
-573	Acting Headteacher
-293	Head of School
+35164	Headteacher
+3442	
+1833	Principal
+769	Executive Headteacher
+634	Head Teacher
+579	Acting Headteacher
+300	Head of School
 201	Headmaster
-148	Executive Principal
-77	Head
-76	Interim Headteacher
-68	Executive Head Teacher
-58	Headmistress
-50	Head teacher
+146	Executive Principal
+85	Interim Headteacher
+78	Head
+70	Executive Head Teacher
+59	Headmistress
+51	Head teacher
 45	Acting Principal
-35	Head of Centre
-35	Executive Head
+37	Executive Head
+33	Head of Centre
 32	Head of Education
 24	Associate Headteacher
-21	Head Master
+22	Head of Academy
+22	Head Master
 21	Co-Headteacher
-20	Head of Academy
+20	Interim Principal
 20	Acting Head Teacher
-18	Interim Principal
 17	Teacher In Charge
 16	Vice-Chancellor
+15	Chief Executive
 15	Acting Executive Headteacher
 14	Principal & Chief Executive
 14	HeadTeacher
-14	Chief Executive
 13	Principle
 13	Headteacher (Acting)
-12	Director
+13	Director
+11	Interim Executive Headteacher
 11	Associate Principal
+11	Acting Head
 10	Principal Designate
-10	Interim Executive Headteacher
 10	Director of Education
-10	Acting Head
 9	Principal and Chief Executive
 9	Acting
+8	Acting Head of School
 7	Federation Headteacher
 7	Chief Executive Officer
 7	Centre Manager
-7	Acting Head of School
 6	Manager
 6	Head of Teaching and Learning
 6	Head of Service
+6	Head of College
 6	Co Headteacher
 6	Academy Principal
 5	Senior Teacher
 5	Headteachers
-5	Head of College
-5	Consultant Headteacher
 4	Vice Chancellor
 4	Joint Headteachers
 4	Interim Head Teacher
 4	Head of Learning
-4	Head of Federation
+4	Consultant Headteacher
 4	Co-Principal
 3	Proprietor
 3	Principal & Ceo
 3	Joint Headteacher
-3	Headteacher (Interim)
 3	Head of Unit
+3	Head of Federation
 3	Head Sebd
 3	Deputy Headteacher
+3	Coordinator
 3	CEO
 3	Assistant Head Teacher
 3	Academy Headteacher
@@ -71,21 +71,20 @@
 2	Service Manager
 2	Senior Head of Centre
 2	School Principal
-2	School Leader
 2	School Director
 2	Principal/Chief Executive
 2	Principal and Ceo
-2	Principal (Interim)
 2	Principal & Chief Exec
 2	Partnership Headteacher
 2	Operations Manager
-2	Operational Headteacher
 2	Mr
 2	Master
 2	Locum Headteacher
 2	Interim Ht
+2	Interim Head of School
 2	High Master
 2	Headteacher From Jan 07
+2	Headteacher (Interim)
 2	Head of Senior School
 2	Head Teacher Designate
 2	Head Short Stay School
@@ -97,7 +96,6 @@
 2	Director of Services
 2	Director of Learning
 2	Deputy Principal
-2	Coordinator
 2	Coheadteachers
 2	Co-Headteachers
 2	Chief Executive & Principal
@@ -127,6 +125,7 @@
 1	Senior Principal
 1	Senior Deputy Headteacher
 1	School Manager
+1	School Leader
 1	School Administrator
 1	Registered Person
 1	Region Head of Education
@@ -140,15 +139,17 @@
 1	Principal Teacher
 1	Principal Head
 1	Principal / Chief Executive
+1	Principal (Interim)
 1	Principal &Amp; Chief Executive
 1	Principal & Head of Secondary
 1	Primary Principal
 1	Primary Executive Principal
 1	Prijncipal
 1	Pricipal
+1	Pincipal
 1	Partnership Manager
 1	Partner Headteacher
-1	Operational Principal
+1	Operational Headteacher
 1	Operational Head Teacher
 1	Officer In Charge
 1	Ms
@@ -166,13 +167,11 @@
 1	Interim Partnership Headteacher
 1	Interim Leader
 1	Interim Joint Headteachers
-1	Interim Head of School
 1	Interim Head of Centre
 1	Interim Head
-1	Interim Executive Principal
-1	Interim Executive Head Teacher
 1	Interim Executive Head
 1	Interim Exec Headteacher
+1	Interim  Principal
 1	Infant Headteacher
 1	Hospital Education Mgr
 1	Hhts County Manager
@@ -235,12 +234,14 @@
 1	Executive Head Teachers
 1	Executive Director
 1	Executive  Headteacher
+1	Exectutive Head
 1	Exective Principal
 1	Exec Headteacher
 1	Excutive Principal
 1	Excutive Headteacher
 1	Exceutive Headteacher
 1	Ex Principal
+1	Education Principal
 1	Education Manager - Care 4 Children
 1	Education Director
 1	Education Centre Headteacher
@@ -277,6 +278,7 @@
 1	Chief Executive and Principal
 1	Chief Executive & Academy Principal
 1	Chair of the College of Teachers
+1	Chair of Smt
 1	Chair of College of Teachers
 1	Ceo and Principal
 1	Centre Head
@@ -287,7 +289,6 @@
 1	Business Manager
 1	Associate Head of Short Stay
 1	Associate Head Teacher
-1	Associate Executive Principal
 1	Associate Director
 1	Assistant Headteacher
 1	Assistant Executive Headteacher
@@ -301,7 +302,6 @@
 1	Acting Teacher In Charge
 1	Acting Project Manager
 1	Acting Leader
-1	Acting Joint Headteacher
 1	Acting Interim Head of School
 1	Acting Heamdaster
 1	Acting Headmaster
@@ -313,6 +313,7 @@
 1	Acting Collegiatedirector
 1	Acting Co-Principal
 1	Acting Co Headteacher
+1	Acting Ceo
 1	Academy Leader
 1	Academy Lead
 1	Aacc

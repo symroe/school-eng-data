@@ -1,6 +1,6 @@
-41087	
+41131	
 68	Academies Enterprise Trust (AET)
-60	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+59	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
 52	REAch2
 47	School Partnership Trust Academies (SPTA)
 47	Oasis Community Learning
@@ -12,14 +12,14 @@
 34	ARK Schools
 30	Greenwood Dale Foundation Trust
 28	Ormiston Academies Trust
-26	Diocese of Norwich
+28	Diocese of Norwich Education Academies Trust
 23	E-ACT
+22	Wakefield City Academies Trust
 22	The Elliot Foundation Academies Trust
-21	Enquire Learning Trust
-20	Wakefield City Academies Trust
+22	Enquire Learning Trust
+21	Diocese of Oxford
 20	Northern Education Trust
 20	Kent Catholic Schools Partnership (KCSP)
-20	Diocese of Oxford
 20	Diocese of Ely
 20	Academy Transformation Trust (ATT)
 19	Outwood Grange Academies Trust
@@ -32,30 +32,32 @@
 14	Active Learning Trust (ALT)
 13	University of Brighton
 13	The Hamwic Trust
+13	L.E.A.D. Multi-Academy Trust
 13	Education Central Multi Academy Trust
 13	Diocese of Bath and Wells Multi Academy Trust
 13	Cabot Learning Federation
 12	The Griffin Schools Trust
 12	The Education Fellowship Trust
 12	Tauheedul Education Trust.
-12	L.E.A.D. Multi-Academy Trust
+12	Diocese of Exeter
 12	Diocese of Coventry
 12	Creative Education Academies Trust (CEAT)
 12	Bishop Konstant Catholic Academy Trust
 12	Aspirations Academies Trust (AAT)
+11	The Thinking Schools Academy Trust
 11	The Primary Academies Trust
 11	Nottingham Roman Catholic Diocesan Education Service (NRCDES)
 11	Inspiration Trust
 11	Focus-Trust
 11	Diocese of Middlesbrough
 11	Diocese of Leicester Academies Trust (DLAT)
-11	Diocese of Exeter
+11	Diocese of Canterbury
 11	Community Academies Trust (CAT)
-10	The Thinking Schools Academy Trust
+10	Truro and Penwith College
 10	The Spencer Academies Trust
 10	The Bishop Wheeler Catholic Academy Trust
 10	The Aldridge Foundation
-10	Diocese of Canterbury
+10	Diocese of Chelmsford
 9	The Newman Collegiate MAC (North Stoke)
 9	The Flying High Trust
 9	The Collaborative Academies Trust
@@ -64,9 +66,8 @@
 9	First Federation Trust
 9	Discovery Schools Academies Trust Ltd
 9	Diocese of Gloucester Academies Trust
-9	Diocese of Chelmsford
 9	Brooke Weston Trust
-8	Truro and Penwith College
+8	West Norfolk Academies Trust
 8	The Holy Trinity MAC (South Staffordshire)
 8	The GORSE Academies Trust
 8	The Co-operative Group
@@ -75,6 +76,7 @@
 8	Tapton School Academy trust
 8	Swale Academy Trust
 8	Pontefract Academies Trust
+8	Peninsula Learning Trust
 8	Montsaye Community Learning Partnership
 8	Dixons Academy Trust
 8	Diocese of Salisbury
@@ -84,7 +86,6 @@
 8	Bright Futures Educational Trust
 8	Aquinas Church of England Education Trust Ltd
 8	Acorn Care
-7	West Norfolk Academies Trust
 7	Wellspring Academy Trust
 7	UCAT
 7	Tudhoe Learning Trust
@@ -93,11 +94,15 @@
 7	The Midland Academies Trust
 7	The Dominic Barberi MAC (South Oxfordshire)
 7	The Arthur Terry School
+7	TBAP Trust
 7	St Marys Academy Trust
+7	St John the Baptist Catholic Multi Academy Trust
 7	Samuel Ward Academy Trust
 7	STEP Academy Trust
 7	Rosedale Hewens Academy Trust
-7	Peninsula Learning Trust
+7	Reach4 Academy Trust
+7	Midsomer Norton Schools Partnership
+7	Diverse Academies Trust
 7	Diocese of York Educational Trust
 7	Diocese of Sheffield Trust
 7	Diocese of Derby
@@ -121,9 +126,7 @@
 6	The Haberdashers' Livery Company
 6	The Dean Trust
 6	The Castle School Education Trust
-6	TBAP Trust
 6	St Nicholas Owen MAC (North Worcestershire/Dudley/Birmingham)
-6	Reach4 Academy Trust
 6	Partnership Learning
 6	Orchard Hill College
 6	Ninestiles Academy Trust
@@ -134,7 +137,6 @@
 6	Holy Spirit MAC (Warwickshire)
 6	Excalibur Academies Trust
 6	EMLC Academy Trust
-6	Diverse Academies Trust
 6	Diocese of Lincoln
 6	Diocese of Lichfield
 6	Community Inclusive Trust (CIT)
@@ -148,6 +150,7 @@
 6	Acorn Multi Academy Trust
 6	Academies South West
 5	Woodard Academies Trust
+5	White Woods Primary Academy Trust
 5	Waterton MAT
 5	Victoria Park Primary Academy
 5	Tudor Grange Academies Trust
@@ -178,14 +181,16 @@
 5	Diocese of Hereford
 5	Comberton Academy Trust
 5	Bradford Diocesan Academies Trust
+5	Bolton Impact Trust
 5	Belgrave St Bartholomew's Academy
 5	Adventure Learning Academy Trust
 4	Windsor Academy Trust
-4	White Woods Primary Academy Trust
+4	Washwood Heath Academy
 4	WISE Academies
 4	Trenance Learning Academy Trust (TLAT)
 4	Torch Academy Gateway Trust
 4	Tollbar Academy Trust
+4	The de Ferrers Academy
 4	The Stanway Federation Academy Trust
 4	The Rivers CofE Multi Academy Trust
 4	The Priory Federation of Academies Trust
@@ -193,11 +198,11 @@
 4	The Mossbourne Federation
 4	The John Paul II MAC (Sutton Coldfield)
 4	The Heath Family Trust
+4	The Heart Education Trust
 4	The Harmony Trust
 4	The Fallibroome Academy
 4	The Boston Witham Academies Federation
 4	St Luke Academies Trust
-4	St John the Baptist Catholic Multi Academy Trust
 4	St Cuthbert's Roman Catholic Multi Academy Trust
 4	St Clere's Co-operative Academy Trust
 4	St Catherine of Sienna MAC (South Sandwell)
@@ -206,26 +211,29 @@
 4	Sharnbrook Academy Federation
 4	Saffron Academy Trust
 4	SHARE Multi Academy Trust
+4	Rushey Mead
 4	Robus Multi Academy Trust
 4	River Learning Trust
 4	Portsmouth & Winchester Diocesan Academies Trust
 4	Pope John 23rd MAC (Wolverhampton)
 4	Phoenix Multi-Academy Trust
+4	Perry Hall Multi Academy Trust
 4	Pegasus Academy Trust
 4	Park SEN - Anchorsholme PS - Devonshire PS
 4	Parallel Learning Trust
 4	Paradigm Trust
 4	Our Lady of Lourdes MAC (North Worcs)
 4	Milton Keynes Educational Trust
-4	Midsomer Norton Schools Partnership
 4	Lion Academy Trust
 4	Learning Academy Partnership
+4	John Taylor High School
 4	Invictus Education Trust
 4	Hornbeam Academy Trust
 4	HEARTS Academy Trust
 4	Greenshaw Learning Trust (Greenshaw High School)
 4	Fylde Coast Teaching School Ltd
 4	Future Academies
+4	Fosse Way School
 4	Fort Pitt Grammar School
 4	Eveleigh LINK Academy Trust
 4	Education Partnership Trust
@@ -234,19 +242,20 @@
 4	Diocese of St Edmundsbury and Ipswich Academy Trust
 4	Diocese of Southwell & Nottingham
 4	Diocese of Carlisle
+4	Connected Learning
 4	Coastal Academies Trust
 4	Christ the King MAC (North Staffordshire)
 4	Castleford Academy
 4	Bury St Edmunds County Upper School
 4	Bridgwater College Trust
 4	Bridge Multi Academy Trust
-4	Bolton Impact Trust
 4	Aurora Academies Trust
 4	Aston Community Education Trust (ACET)
 4	Airedale Academy
 4	Advance Trust
 3	drb Ignite Limited
 3	Woodland Academy Trust, The
+3	Woodkirk Academy
 3	Wise Owl Trust
 3	William Willett Learning Trust (WWLT)
 3	William Howard Trust
@@ -254,10 +263,10 @@
 3	Wigston Academies Trust
 3	West London Free School Academy Trust
 3	Waycroft Academy
-3	Washwood Heath Academy
 3	Trust in Learning (Academies)
 3	Trinity Church of England School, Belvedere
 3	Trent Academies Group
+3	The Ted Wragg Multi Academy Trust
 3	The Staploe Education Trust
 3	The St John Bosco MAC (Dudley)
 3	The Slough and East Berkshire C of E Multi Academy Trust (SEBMAT)
@@ -275,11 +284,11 @@
 3	The Learning Pathways Trust
 3	The Learning Partnership Trust
 3	The Inspire Trust
-3	The Heart Education Trust
 3	The Evolve Trust
 3	The Challenger Multi-Academy Trust
 3	The Athelstan Trust
 3	The Acorn Education Trust
+3	Tenax Schools Trust
 3	Tees Valley Education
 3	Tall Oaks Academies Trust
 3	Synaptic Trust
@@ -294,13 +303,13 @@
 3	Portswood Primary Academy Trust
 3	Pope Francis MAC (North Oxfordshire)
 3	Pioneer Academies Co-operative Trust
-3	Perry Hall Primary School
 3	Pendle Education Trust
 3	Passmores Cooperative Learning Community
 3	Northern Star Academies Trust
 3	Northern House School
 3	North Norfolk Academy Trust
 3	North Carr Collaborative Academies Trust
+3	Nexus Multi Academy Trust
 3	Newstead Primary Multi Academy Trust
 3	New Dawn Trust
 3	Matrix Academy Trust
@@ -312,11 +321,12 @@
 3	Learning Schools Trust
 3	Leaf Trust
 3	Laidlaw Schools Trust
-3	John Taylor High School
 3	Isle Education Trust
 3	Inspire Education Trust
+3	Inspirational Futures Trust
 3	Innovation Enterprise Academy
 3	Heathfield Academy Trust
+3	Healing Science Academy Ltd
 3	Hatton Academies Trust
 3	Hart Schools Trust
 3	Greenacre Academy Trust
@@ -325,15 +335,12 @@
 3	Grace Foundation
 3	Gloucestershire Learning Alliance
 3	Future Schools Trust
-3	Fosse Way School
 3	Every Child Matters Academy Trust
-3	Emmanuel Schools Foundation
 3	Education for the 21st Century
 3	Diocese of Lancaster
 3	Diocese of Hallam
 3	Dilkes Academy Trust (Catalyst Academies Trust)
 3	Coombe Secondary Schools Academy Trust (CSSAT)
-3	Connected Learning
 3	Coast Academies
 3	Clevedon Learning Trust
 3	City of London Corporation
@@ -377,7 +384,6 @@
 2	The Westbrook Trust
 2	The Violet Way Academy
 2	The Vaynor First School
-2	The Ted Wragg Multi Academy Trust
 2	The Stanford & Corringham Schools Trust
 2	The South Shropshire Academy Trust
 2	The Shotton Hall Learning Trust
@@ -396,13 +402,12 @@
 2	The Hinkler Academies Trust
 2	The Engage Multi Academy Trust
 2	The Dunham Trust
-2	The Dove Family Trust
 2	The Corsham School
 2	The Castleman Multi Academy Trust
 2	The Castle School, Taunton
 2	The Blue Kite Academy Trust
 2	The Adelaide Academy Trust
-2	Tenax Schools Trust
+2	The Academy for Character and Excellence
 2	Teesside University
 2	TIMU Academy Trust
 2	Sussex Learning Trust
@@ -424,7 +429,7 @@
 2	Sandhill Multi Academy Trust
 2	Salterns Academy Trust
 2	Saltash Multi Academy Regional Trust
-2	Rushey Mead
+2	Royal Berkshire Schools Trust
 2	Roger De Haan
 2	Rise Park Academy Trust
 2	Ravens Wood School, Bromley
@@ -435,6 +440,7 @@
 2	Prestolee Community Primary School
 2	President Kennedy School Academy
 2	Portico Academy Trust
+2	Plym Academy Trust
 2	Plantsbrook School
 2	Pickhurst Junior School
 2	Peter Shalson
@@ -467,16 +473,16 @@
 2	Linton Village College
 2	Lee Chapel Academy Trust
 2	Learning Together Trust
+2	Leading Learning Trust
 2	Launde Primary School
 2	Launceston College
 2	Kirk Sandall Infant Academy Trust
 2	King John School
 2	Kennet School
 2	Ivybridge Academy Trust
-2	Inspirational Futures Trust
 2	Hummersknott Academy Trust
 2	Heighington Millfield Primary Academy
-2	Healing Science Academy Ltd
+2	Hartismere High School
 2	Hamstead Hall Academy
 2	Gravesend Grammar School
 2	Goldsworth Primary School
@@ -508,11 +514,13 @@
 2	Chingford Foundation School
 2	Chesterton Academies Trust
 2	Cherry Tree Academy Trust
+2	Cheney School Academy Trust
 2	Cheam Park Farm Junior Academy Trust
 2	Charles Darwin School
 2	Central College Nottingham
 2	CHESHAM GRAMMAR SCHOOL
 2	CHANGE Schools Partnership
+2	CECET The Church of England Central Education Trust
 2	Bury College Education Trust
 2	Brunel Primary Academy Trust
 2	Bromley College of Further and Higher Education
@@ -534,7 +542,6 @@
 1	Yardley Primary School
 1	Woolwich Polytechnic School for Boys
 1	Woodside High School
-1	Woodkirk Academy
 1	Witham St Hughs Academy
 1	Winstanley College, Wigan
 1	Wildern School
@@ -551,7 +558,6 @@
 1	UBS
 1	Trinity Academy Halifax (TAH)
 1	Thomas Estley Community College
-1	The de Ferrers Academy
 1	The Thomas Hardye Trust
 1	The Raleigh School
 1	The Lime Academy Trust
@@ -628,7 +634,6 @@
 1	Holiday Extras
 1	Hinchley Wood School
 1	Haywood Academy
-1	Hartismere High School
 1	Haileybury Academy Trust
 1	Guildford County School
 1	Grey Court School
@@ -670,7 +675,6 @@
 1	City College Brighton and Hove
 1	Churchend Primary Academy
 1	Chepping View Primary Academy
-1	Cheney School Academy Trust
 1	Cheam Academic Network
 1	Cheadle Hulme Education Trust
 1	Charles Dunstone
@@ -683,7 +687,6 @@
 1	Cardinal Hume Catholic School
 1	Canford School
 1	CTC Kingshurst Academy Trust
-1	CECET The Church of England Central Education Trust
 1	Burton and South Derbyshire College
 1	Broadclyst Primary Academy Trust
 1	British Telecom

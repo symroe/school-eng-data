@@ -1,26 +1,26 @@
-39116	
-257	Bed Hons
-184	Bed
-180	Ba Hons
-147	Ma
+39192	
+258	Bed Hons
+182	Ba Hons
+181	Bed
+145	Ma
 123	Npqh
 113	Ba
-87	MA
-79	Bsc
-75	Ba (Hons)
+88	MA
+77	Bsc
+76	Ba (Hons)
 72	Bed Hons Npqh
 72	Ba Hons Pgce
 66	Bed Npqh
 54	B.Ed
+53	Med
 53	B.Ed (Hons)
-52	Med
 44	BA
 43	Ba Hons Npqh
 40	Bed (Hons)
 31	Bsc Hons
 29	Ba (Hons) Pgce Npqh
 29	Ba (Hons) Npqh
-29	BEd
+28	BEd
 28	B Ed
 26	Ma Npqh
 26	Bsc (Hons)
@@ -29,73 +29,74 @@
 23	Bed Ma
 22	Ba Ma
 22	BA Hons
+22	B.Ed Hons
+22	B.Ed (Hons) Npqh
 21	Msc
 21	M.Ed
 21	Bed Hons Ma
 21	Bed (Hons) Npqh
-21	B.Ed Hons
-21	B.Ed (Hons) Npqh
-20	Ba(Hons)
-20	B Ed (Hons)
+21	Ba(Hons)
+21	B Ed (Hons)
 19	Bsc Hons Pgce
 19	Ba Hons Qts
-19	Ba Hons Pgce Npqh
+18	Bed(Hons)
 18	Ba Hons, Pgce, Npqh
+18	Ba Hons Pgce Npqh
 18	BEd Hons
 18	B Ed Hons
-17	Bed(Hons)
 17	Ba Npqh
 17	BA (Hons)
 16	Bed Hons, Npqh
 16	Ba Pgce Npqh
+15	NPQH
 15	Ba Med
-14	NPQH
 14	Ma Ed
 14	Cert Ed
 14	BSc
 14	B.Ed(Hons) Npqh
 14	B.Ed Hons Npqh
-13	Cbe
+13	Bsc Pgce Npqh
 13	Bsc Ma
 13	Ba Pgce
-12	Bsc Pgce Npqh
+12	Cbe
 12	Bsc Npqh
 11	Obe
 10	Ma Bed
-10	M Ed
-10	Bed Med
-10	Ba (Hons) Qts Npqh
 10	Ba (Hons) Pgce
 10	B.Ed(Hons)
 9	Med Npqh
 9	Ma Cantab
+9	M Ed
+9	Bed Med
+9	Ba Hons, Pgce
 9	Ba Hons Med
 9	Ba Cert Ed
+9	Ba (Hons) Qts Npqh
+9	B.Ed. (Hons)
 9	B.Ed, Npqh
 9	B.Ed Npqh
 8	Ma Bed Hons
-8	Ma (Oxon)
 8	M.A
 8	Bsc(Hons) Pgce Npqh
+8	Bsc (Hons) Pgce Npqh
 8	Bed Hons Med
-8	Ba Hons, Pgce
+8	Ba(Hons) Pgce Npqh
+8	Ba Hons Qts Npqh
 8	Ba Hons Ma
 8	Ba (Hons), Npqh
-8	Ba (Hons) Qts
-8	B.Ed. (Hons)
 8	B.A
+7	Pgce
+7	Ma (Oxon)
 7	Head Teacher
 7	Bsc Med
-7	Bsc (Hons) Pgce Npqh
 7	Ba, Pgce, Npqh
-7	Ba(Hons) Pgce Npqh
 7	Ba Hons, Npqh
-7	Ba Hons Qts Npqh
+7	Ba Honours
 7	Ba (Hons), Pgce
+7	Ba (Hons) Qts
 7	BSc Hons
 7	B.Ed (Hons), Npqh
 7	B.A. (Hons)
-6	Pgce
 6	Msc Npqh
 6	Mba
 6	Ma, Npqh
@@ -110,34 +111,33 @@
 6	Ba Qts Hons
 6	Ba (Hons) Ma Npqh
 6	BA (Hons) PGCE NPQH
+6	B.A (Hons)
 5	Mba Bed Hons
 5	Ma Bsc
 5	Ma Ba Hons
 5	Ma (Hons)
 5	Ma (Cantab)
-5	MEd
 5	Cert Ed Npqh
 5	Cert Ed Bed
 5	Bsc, Pgce, Npqh
 5	Bsc, Msc
 5	Bsc(Hons)
+5	Bsc Msc
+5	Bsc Med Npqh
 5	Bsc (Hons) Pgce
 5	Bed Ma Npqh
 5	Ba, Ma, Npqh
-5	Ba(Qts)
 5	Ba Qts
 5	Ba Med Npqh
 5	Ba Med Cert Ed
 5	Ba Ma Npqh
 5	Ba Ma Ed
-5	Ba Honours
 5	Ba (Qts) Npqh
 5	Ba (Hons), Ma
 5	BSc (Hons)
 5	BEd (Hons)
 5	B.Ed.Hons
 5	B.A. Hons
-5	B.A (Hons)
 5	B Ed. Hons
 5	B Ed Hons Npqh
 4	Med Bed Hons
@@ -145,22 +145,22 @@
 4	Ma, Mba, Npqh
 4	Ma(Ed)
 4	Ma (Ed)
+4	MEd
+4	MA (Oxon)
 4	M.Ed Npqh
 4	Headteacher
 4	Dip/He Ba(Hons) Pgce
 4	Cert Ed Ba Npqh
 4	Bsc.(Hons) Pgce Npqh
 4	Bsc, Npqh
-4	Bsc Msc
-4	Bsc Med Npqh
 4	Bsc Ma Npqh
 4	Bsc Cert Ed
 4	Bsc (Hons) Npqh
 4	Bmus Hons Pgce
 4	Bed(Hons), Npqh
 4	Bed Msc
-4	Bed (Hons), Npqh
 4	Ba(Qts) Npqh
+4	Ba(Qts)
 4	Ba(Hons) Npqh
 4	Ba(Ed) Hons
 4	Ba Qts (Hons)
@@ -175,12 +175,10 @@
 4	BA PGCE
 4	BA (Hons) NPQH
 4	B.Ed.(Hons)
-4	B.Ed Hons, Npqh
 4	B. Ed Hons
 4	B Ed (Hons) Npqh
 4	Acting
 3	Qts, Npqh
-3	Principal
 3	Pgce Npqh
 3	O.B.E
 3	Not Yet Known
@@ -198,12 +196,10 @@
 3	Ma (Hons), Npqh
 3	MBE
 3	MBA
-3	MA (Oxon)
 3	Jp Ma
 3	DBE
 3	CBE
 3	Bsc, Ma
-3	Bsc(Hons) Npqh
 3	Bsc Qts Npqh
 3	Bsc Qts
 3	Bsc Msc Npqh
@@ -222,6 +218,7 @@
 3	Bed Dpse
 3	Bed Diped
 3	Bed Adv Dip Ed
+3	Bed (Hons), Npqh
 3	Baqts Hons Npqh
 3	Ba,Ma
 3	Ba, Npqh
@@ -242,24 +239,26 @@
 3	Ba (Qts) Hons
 3	Ba (Hons) Qts, Npqh
 3	Ba (Ed)
-3	BEd(Hons)
 3	BA PGCE NPQH
 3	BA Hons PGCE
 3	BA Hons Npqh
 3	BA Hons MA PGCE
-3	BA (Hons), NPQH
+3	BA (Hons) QTS NPQH
 3	B.Sc
 3	B.Ed.(Hons) Npqh
 3	B.Ed(Hons), Npqh
 3	B.Ed Hons. Npqh
+3	B.Ed Hons, Npqh
 3	B.Ed (Hons) NPQH
 3	B.Ed  Npqh
 3	B.Ed   Npqh
+3	B Mus Hons
 3	B Ed(Hons)
 3	B Ed Npqh
 3	B Ed Hons, Npqh
 2	Yes
 2	Principle
+2	Principal
 2	Msc, Npqh
 2	Msc Msc Ed
 2	Msc Bsc
@@ -314,6 +313,8 @@
 2	Bsc,  Ma (Education)
 2	Bsc(Hons)Pgce,Npqh
 2	Bsc(Hons),Pgce,Npqh
+2	Bsc(Hons) Npqh
+2	Bsc(Hons) NPQH
 2	Bsc(Ed) Hons
 2	Bsc Qts Hons
 2	Bsc Pgce Msc
@@ -356,6 +357,7 @@
 2	Bed (Hons), Ma, Npqh
 2	Bed (Hons) Bsc Npqh
 2	Bed (Hons)  Npqh
+2	Bed  (Hons) Npqh
 2	Bd (Hons)
 2	Baqts Npqh
 2	Baed
@@ -389,10 +391,8 @@
 2	Ba Hons With Ed
 2	Ba Hons Primary Ed
 2	Ba Hons PGCE NPQH
-2	Ba Hons PGCE
 2	Ba Hons (Qts), Npqh
 2	Ba Hons (Qts) Npqh
-2	Ba Hons (Qts)
 2	Ba Hons  Pgce  Npqh
 2	Ba Ed Hons Npqh
 2	Ba Cert Ed Npqh
@@ -413,6 +413,7 @@
 2	BSc MAED NPQH
 2	BSc Hons Pgce
 2	BEd, NPQH
+2	BEd(Hons)
 2	BEd Msc
 2	BEd Hons Npqh
 2	BEd Hons NPQH
@@ -422,9 +423,10 @@
 2	BA MA PGCE NPQH
 2	BA MA
 2	BA Hons, PGCE
-2	BA (Hons) QTS NPQH
+2	BA (Hons), NPQH
 2	B.Soc.Sci
 2	B.Sc.Hons
+2	B.Sc., Pgce, Npqh
 2	B.Sc., M.A
 2	B.Sc(Hons) Npqh
 2	B.Sc Hons
@@ -452,10 +454,10 @@
 2	B.A Hons
 2	B. Ed. (Hons), Npqh
 2	B. Ed (Hons) Npqh
+2	B. Ed (Hons)
 2	B'ed Hons
 2	B'ed (Hons) Npqh
 2	B'ed (Hons)
-2	B Mus Hons
 2	B Ed, Npqh
 2	B Ed Hons, NPQH
 2	B Ed Hons Ma
@@ -489,6 +491,7 @@
 1	OBE JP
 1	OBE BA
 1	Npqicl
+1	Npqh, Nle
 1	Npqh, Ma, Bsc (Hons)
 1	Npqh, Lle
 1	Npqh, Bsc Hons, Pgce
@@ -532,7 +535,6 @@
 1	Msc Grncm
 1	Msc Ed Man
 1	Msc Ed Bsc Hons
-1	Msc Ed
 1	Msc Cert Ed
 1	Msc Bsc Bed Npqh
 1	Msc Bed Npqh
@@ -552,7 +554,6 @@
 1	Med, Bed, Advdiped
 1	Med, Ba (Hons)
 1	Med, Ba
-1	Med(Cantab)
 1	Med Msc
 1	Med Mba
 1	Med Frsa
@@ -580,6 +581,7 @@
 1	Ma,Mphil,Phd,Frsa
 1	Ma,B.Ed (Hons),Npqh
 1	Ma, Npqh, Fcollt
+1	Ma, Npqh, Bed (Hons)
 1	Ma, Nle
 1	Ma, Med, Ma(Ed)
 1	Ma, Mba, Pgce
@@ -594,6 +596,7 @@
 1	Ma(Hons)
 1	Ma(Ed),Npqh
 1	Ma(Ed), Npqh
+1	Ma(Ed) Bed(Hons)
 1	Ma(Contab)
 1	Ma(Cantab) Phd
 1	Ma(Cantab)
@@ -657,6 +660,7 @@
 1	Ma (Hons) Npqh
 1	Ma (Ed), Ba (Hons)
 1	Ma (Ed) Ba, Npqh
+1	Ma (Ed) Ba Hons Pgce
 1	Ma (Cantab), Pgce
 1	Ma (Cantab) Frsa
 1	Ma  Npqh
@@ -664,7 +668,6 @@
 1	Ma  Bed (Hons)
 1	MSc NPQH
 1	MSc BEd (Hons)
-1	MSc (Hons), MEd
 1	MSc
 1	MEd (Cantab)
 1	MA,BAHons,PGCE(Fahe)
@@ -729,6 +732,7 @@
 1	M.A  Ed.D
 1	M. Ed., Npqh
 1	M Sc
+1	M Mus Acp
 1	M Ed, Frsa
 1	M Ed, Bsc
 1	M Ed, Ba(Hons)
@@ -761,6 +765,7 @@
 1	Gtcl (Hons)
 1	Grsm/Lram/Prf Crt/Ma
 1	Grncm: Pgce
+1	Goodinson
 1	Ggsm Alcm Cert
 1	Ggsm  Pgce  Npqh
 1	G.T.CL.  Pgce. Npqh
@@ -844,7 +849,6 @@
 1	Bsc(Hons), Finstlm
 1	Bsc(Hons) Qts
 1	Bsc(Hons) Pgce
-1	Bsc(Hons) NPQH
 1	Bsc(Hons) Med Npqh
 1	Bsc(Hons) / Pgce
 1	Bsc(Honours) PGCE
@@ -889,6 +893,7 @@
 1	Bsc Hons With Qts
 1	Bsc Hons Pharm Npqh
 1	Bsc Hons PGCE
+1	Bsc Hons NLE
 1	Bsc Hons Msc Npqh
 1	Bsc Hons Med
 1	Bsc Hons Cert
@@ -915,6 +920,7 @@
 1	Bsc (Hons), Dip Ed
 1	Bsc (Hons) PGCE NPQH
 1	Bsc (Hons) Med
+1	Bsc (Hons) Ma Ed
 1	Bsc (Hons) Lth
 1	Bsc (Hons) Jp
 1	Bsc (Hons) ARCS
@@ -939,7 +945,6 @@
 1	Bmus Ma
 1	Bmus Hons
 1	Bmus (Hons), Npqh
-1	Bhum(Hons),Pgce,Npqh
 1	Bhed(Hons)
 1	Bh Ma
 1	Bh Hons, Npqh
@@ -974,6 +979,7 @@
 1	Bed(Hons) Med P
 1	Bed(Hons) Med Autism
 1	Bed(Hons) Maed Npqh
+1	Bed(Hons) Ma Ed Npqh
 1	Bed(Hons) Dms Maed
 1	Bed(Hons) Cantab Qts
 1	Bed(Hons)  Npqh
@@ -1055,13 +1061,11 @@
 1	Bed ( Hons) Npqh
 1	Bed  Ma  Npqh
 1	Bed  Ma
-1	Bed  (Hons) Npqh
 1	Bed   Npqh
 1	BeD Ma
 1	Be.D Honours
 1	Be'ed (Hons), Npqh
 1	Bd, Pgce
-1	Bd, Ma
 1	Bd(Hons)
 1	Bd Hons Pgce
 1	Bcs Pg Dip Npqh
@@ -1089,7 +1093,6 @@
 1	Ba/Ed
 1	Ba.Ed, Npqh
 1	Ba.Ed
-1	Ba. Pgce, Npqh
 1	Ba. Pgce
 1	Ba. (Hons) Npqh
 1	Ba,Pgce, Npqh, Ma
@@ -1179,12 +1182,14 @@
 1	Ba Mth
 1	Ba Msc Ma
 1	Ba Med Frsa
+1	Ba Med Admin
 1	Ba Med (Oxon)
 1	Ba Ma Pgce Npqh
 1	Ba Ma Pgce
 1	Ba Ma Npqh Lle
 1	Ba Ma Nle
 1	Ba Ma Msc
+1	Ba Ma Mba Npqh
 1	Ba Ma Frsa
 1	Ba Ma Frca
 1	Ba Ma Ed Frsa
@@ -1224,7 +1229,9 @@
 1	Ba Hons Pgce Ma
 1	Ba Hons Pgce Lram
 1	Ba Hons Pgce Dis
+1	Ba Hons PGCE
 1	Ba Hons Ots
+1	Ba Hons Nqt
 1	Ba Hons Nqph
 1	Ba Hons Npqh Qts
 1	Ba Hons NPQH
@@ -1252,12 +1259,14 @@
 1	Ba Hons / NPQH
 1	Ba Hons - Primary Ed
 1	Ba Hons + Qts Npqh
+1	Ba Hons (Qts)
 1	Ba Hons (Pgce) Npqh
 1	Ba Hons (Hons)
 1	Ba Hons (Econ)
 1	Ba Honours Qts, Npqh
 1	Ba Honours Qts Mpqh
 1	Ba Honours Npqh
+1	Ba Hda Dip Ad
 1	Ba Eng (Qts) Hons
 1	Ba Ed/Mus
 1	Ba Ed. (Hons)
@@ -1332,6 +1341,7 @@
 1	Ba (Education)
 1	Ba (Ed) Npqh
 1	Ba (Ed) Hons, Npqh
+1	Ba & Npqh
 1	Ba & Bsc Hons Ma Med
 1	Ba  Hons
 1	BSc.Hons MA.(Ed)
@@ -1346,6 +1356,8 @@
 1	BSc Hons PGCE
 1	BSc Cert Ed Dip
 1	BSc ,QTS, NPQH
+1	BSc (Hons), MEd
+1	BSc (Hons), MA, PGCE
 1	BSc (Hons) Phd PGCE
 1	BSc (Hons) Npqh
 1	BSc  P.G.C.E  NPQH
@@ -1367,6 +1379,7 @@
 1	BEd (Hons), MEd
 1	BEd (Hons), Cert Ed
 1	BEd (Hons) Msc
+1	BD, MA
 1	BAHons.
 1	BA, PGCE
 1	BA, MSc, PGCE
@@ -1415,7 +1428,6 @@
 1	B.Sc.[Hons]  Pgce
 1	B.Sc.Ed Exon
 1	B.Sc.Econ. N.P.Q.H
-1	B.Sc., Pgce, Npqh
 1	B.Sc., P.G.C.E
 1	B.Sc. Pgce Npqh
 1	B.Sc. Hons
@@ -1434,6 +1446,7 @@
 1	B.Sc Pgce
 1	B.Sc Dea London
 1	B.Sc (Hons), Npqh
+1	B.Sc (Econ) Hons
 1	B.S. (Hons)
 1	B.Ph.Ed/Cert.Ed
 1	B.Mus, Npqh
@@ -1482,6 +1495,7 @@
 1	B.Ed, Dipsen, Npqh
 1	B.Ed, Ba, M.Ed
 1	B.Ed,  Npqh
+1	B.Ed(Hons)Npqml/Npqh
 1	B.Ed(Hons)Npqh Pqsi
 1	B.Ed(Hons)Npqh
 1	B.Ed(Hons)Msc Ed.Man
@@ -1585,7 +1599,6 @@
 1	B. Ed (Oxon)
 1	B. Ed (Hons/ Npqh)
 1	B. Ed (Hons), Npqh
-1	B. Ed (Hons)
 1	B. Ed
 1	B. A. (Hons)
 1	B-Ed Hons
