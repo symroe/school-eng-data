@@ -25,6 +25,7 @@ writer = Writer(sys.stdout, fieldnames=fieldnames)
 
 
 def http_url(url):
+    url = url.replace('http;//', 'http://')
     return url if url.startswith("http") else "http://" + url
 
 
