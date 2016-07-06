@@ -25,7 +25,7 @@ flake8:
 
 prune::
 	rm -rf cache
-	rm -rf data
+	rm -rf data/school
 
 clean::
 	-find . -name "*.pyc" | xargs rm -f
