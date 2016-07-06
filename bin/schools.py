@@ -12,12 +12,22 @@ from openregister.representations.tsv import Writer
 fieldnames = [
     "school",
     "name",
-    "start-date", "end-date",
-    "gender", "religious-character",
-    "minimum-age", "maximum-age",
+    "address",
+    "local-authority",
+    "minimum-age",
+    "maximum-age",
     "headteacher",
     "website",
-    "address"]
+    "denomination",
+    "school-type",
+    "school-phase",
+    "school-admissions-policy",
+    "school-gender",
+    "school-tags",
+    "school-federation",
+    "start-date",
+    "end-date",
+]
 
 address = {}
 
@@ -52,7 +62,7 @@ if __name__ == '__main__':
             date = datetime.strptime(row['CloseDate'], "%d-%m-%Y").date()
             setattr(item, 'end-date', date.isoformat())
 
-        item['religious-character'] = row['ReligiousCharacter (name)']
+        item['denomination'] = row['ReligiousCharacter (name)']
         item['minimum-age'] = row['StatutoryLowAge']
         item['maximum-age'] = row['StatutoryHighAge']
         item.headteacher = "%s %s %s" % (
