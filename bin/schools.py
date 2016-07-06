@@ -3,6 +3,8 @@
 import sys
 import csv
 from datetime import datetime
+from base32_crockford import encode
+
 
 from openregister import Item
 from openregister.representations.tsv import Writer
@@ -31,7 +33,7 @@ if __name__ == '__main__':
     # load addresses
     reader = csv.DictReader(open('maps/addresses.tsv'), delimiter='\t')
     for row in reader:
-        address[row['school']] = row['address']
+        address[row['school']] = encode(row['address'])
 
     # read edubase
     reader = csv.DictReader(sys.stdin)
