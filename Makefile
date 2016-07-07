@@ -5,11 +5,16 @@ REGISTERS=\
 	data/school/schools.tsv
 
 DATA=\
+	data/diocese/dioceses.tsv\
+	data/school-federation/school-federations.tsv\
+	data/school-phase/school-phases.tsv\
 	data/school-type/school-types.tsv
 
 MAPS=\
 	maps/addresses.tsv\
+	maps/diocese.tsv\
 	maps/school-gender.tsv\
+	maps/school-phase.tsv\
 	maps/school-type.tsv
 
 all:: flake8 $(REGISTERS)

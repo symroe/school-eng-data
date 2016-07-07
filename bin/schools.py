@@ -95,10 +95,21 @@ if __name__ == '__main__':
         address[row['school']] = encode(row['address'])
 
     # load other maps
-    load_names('school-type', 'data/school-type/school-types.tsv')
-    load_names('school-type', 'maps/school-type.tsv')
+    load_names('school-admissions-policy', 'data/school-admissions-policy/school-admissions-policies.tsv')
+
+    load_names('diocese', 'data/diocese/dioceses.tsv')
+    load_names('diocese', 'maps/diocese.tsv')
+
+    load_names('school-federation', 'data/school-federation/school-federations.tsv')
+
     load_names('school-gender', 'data/school-gender/school-genders.tsv')
     load_names('school-gender', 'maps/school-gender.tsv')
+
+    load_names('school-phase', 'data/school-phase/school-phases.tsv')
+    load_names('school-phase', 'maps/school-phase.tsv')
+
+    load_names('school-type', 'data/school-type/school-types.tsv')
+    load_names('school-type', 'maps/school-type.tsv')
 
     # read edubase
     reader = csv.DictReader(sys.stdin)
@@ -119,10 +130,15 @@ if __name__ == '__main__':
         item['denomination'] = ''
         #     map_name('denomination', row['ReligiousCharacter (name)'])
 
-        item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
+        item['diocese'] = map_name('diocese', row['Diocese (name)'])
+        item['school-federation'] = map_name('school-federation', row['Federations (name)'])
         item['school-gender'] = map_name('school-gender', row['Gender (name)'])
+        item['school-phase'] = map_name('school-phase', row['PhaseOfEducation (name)'])
+        item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
+
         item['minimum-age'] = fix_age(row['StatutoryLowAge'])
         item['maximum-age'] = fix_age(row['StatutoryHighAge'])
+
         item.headteacher = "%s %s %s" % (
             row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
 
