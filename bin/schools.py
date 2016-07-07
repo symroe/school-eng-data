@@ -34,7 +34,21 @@ address = {}
 writer = Writer(sys.stdout, fieldnames=fieldnames)
 
 
-def http_url(url):
+def log(s):
+    print(s, file=sys.stderr)
+
+
+def fix_age(n):
+    if not n or n == '0':
+        return ''
+    if str(int(n)) != n:
+        log("invalid age:", n)
+        exit(1)
+
+    return n
+
+
+def fix_http_url(url):
     url = url.replace('http;//', 'http://')
     return url if url.startswith("http") else "http://" + url
 
@@ -63,13 +77,13 @@ if __name__ == '__main__':
             setattr(item, 'end-date', date.isoformat())
 
         item['denomination'] = row['ReligiousCharacter (name)']
-        item['minimum-age'] = row['StatutoryLowAge']
-        item['maximum-age'] = row['StatutoryHighAge']
+        item['minimum-age'] = fix_age(row['StatutoryLowAge'])
+        item['maximum-age'] = fix_age(row['StatutoryHighAge'])
         item.headteacher = "%s %s %s" % (
             row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
 
         if row["SchoolWebsite"]:
-            item.website = http_url(row["SchoolWebsite"])
+            item.website = fix_http_url(row["SchoolWebsite"])
 
         if item.school in address:
             item.address = address[item.school]
