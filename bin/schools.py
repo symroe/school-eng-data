@@ -19,7 +19,8 @@ fieldnames = [
     "maximum-age",
     "headteacher",
     "website",
-    "denomination",
+    "denominations",
+    "dioceses",
     "school-type",
     "school-phase",
     "school-admissions-policy",
@@ -71,6 +72,10 @@ def map_name(field, name):
     return ''
 
 
+def map_list(field, names):
+    return ";".join([map_name(field, name) for name in names.split("/")])
+
+
 def fix_age(n):
     if not n or n == '0':
         return ''
@@ -96,6 +101,9 @@ if __name__ == '__main__':
 
     # load other maps
     load_names('school-admissions-policy', 'data/school-admissions-policy/school-admissions-policies.tsv')
+
+    load_names('denomination', 'data/denomination/denominations.tsv')
+    load_names('denomination', 'maps/denomination.tsv')
 
     load_names('diocese', 'data/diocese/dioceses.tsv')
     load_names('diocese', 'maps/diocese.tsv')
@@ -130,7 +138,8 @@ if __name__ == '__main__':
         item['denomination'] = ''
         #     map_name('denomination', row['ReligiousCharacter (name)'])
 
-        item['diocese'] = map_name('diocese', row['Diocese (name)'])
+        item['denominations'] = map_list('denomination', row['ReligiousCharacter (name)'])
+        item['dioceses'] = map_name('diocese', row['Diocese (name)'])
         item['school-federation'] = map_name('school-federation', row['Federations (name)'])
         item['school-gender'] = map_name('school-gender', row['Gender (name)'])
         item['school-phase'] = map_name('school-phase', row['PhaseOfEducation (name)'])

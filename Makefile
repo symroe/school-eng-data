@@ -5,6 +5,7 @@ REGISTERS=\
 	data/school/schools.tsv
 
 DATA=\
+	data/denomination/denominations.tsv\
 	data/diocese/dioceses.tsv\
 	data/school-federation/school-federations.tsv\
 	data/school-phase/school-phases.tsv\
@@ -12,6 +13,7 @@ DATA=\
 
 MAPS=\
 	maps/addresses.tsv\
+	maps/denomination.tsv\
 	maps/diocese.tsv\
 	maps/school-gender.tsv\
 	maps/school-phase.tsv\
