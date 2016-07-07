@@ -50,6 +50,7 @@ def fix_age(n):
 
 def fix_http_url(url):
     url = url.replace('http;//', 'http://')
+    url = url.strip('/')
     return url if url.startswith("http") else "http://" + url
 
 
