@@ -4,9 +4,17 @@ EDUBASE_URL=http://www.education.gov.uk/edubase/edubasealldata$(DATE).csv
 REGISTERS=\
 	data/school/schools.tsv
 
+DATA=\
+	data/school-type/school-types.tsv
+
+MAPS=\
+	maps/addresses.tsv\
+	maps/school-gender.tsv\
+	maps/school-type.tsv
+
 all:: flake8 $(REGISTERS)
 
-data/school/schools.tsv: bin/schools.py cache/edubase.csv maps/addresses.tsv
+data/school/schools.tsv: bin/schools.py cache/edubase.csv $(DATA) $(MAPS)
 	@mkdir -p data/school
 	bin/schools.py < cache/edubase.csv > $@
 
@@ -21,7 +29,7 @@ init::
 	pip3 install -r requirements.txt
 
 flake8:
-	flake8 bin
+	flake8 --max-line-length=109 bin
 
 prune::
 	rm -rf cache

@@ -2,6 +2,7 @@
 
 import sys
 import csv
+import re
 from datetime import datetime
 from base32_crockford import encode
 
@@ -30,12 +31,44 @@ fieldnames = [
 ]
 
 address = {}
+names = {}
 
 writer = Writer(sys.stdout, fieldnames=fieldnames)
 
 
 def log(s):
     print(s, file=sys.stderr)
+
+
+# normalize a name
+def n7e(s):
+    if not s:
+        return ''
+    s = s.lower()
+    s = re.sub('&', ' and ', s)
+    s = re.sub('[^a-z]+', ' ', s)
+    s = " ".join(s.split())
+    s = s.strip()
+    return s
+
+
+def load_names(field, path):
+    if field not in names:
+        names[field] = {}
+
+    for row in csv.DictReader(open(path),
+                              delimiter='\t', quoting=csv.QUOTE_NONE):
+            names[field][n7e(row['name'])] = row[field]
+
+
+def map_name(field, name):
+    if not name:
+        return ''
+    _name = n7e(name)
+    if _name in names[field]:
+        return names[field][_name]
+    log("unknown %s value [%s]" % (field, name))
+    return ''
 
 
 def fix_age(n):
@@ -56,10 +89,16 @@ def fix_http_url(url):
 
 if __name__ == '__main__':
 
-    # load addresses
+    # load map of addresses
     reader = csv.DictReader(open('maps/addresses.tsv'), delimiter='\t')
     for row in reader:
         address[row['school']] = encode(row['address'])
+
+    # load other maps
+    load_names('school-type', 'data/school-type/school-types.tsv')
+    load_names('school-type', 'maps/school-type.tsv')
+    load_names('school-gender', 'data/school-gender/school-genders.tsv')
+    load_names('school-gender', 'maps/school-gender.tsv')
 
     # read edubase
     reader = csv.DictReader(sys.stdin)
@@ -77,7 +116,11 @@ if __name__ == '__main__':
             date = datetime.strptime(row['CloseDate'], "%d-%m-%Y").date()
             setattr(item, 'end-date', date.isoformat())
 
-        item['denomination'] = row['ReligiousCharacter (name)']
+        item['denomination'] = ''
+        #     map_name('denomination', row['ReligiousCharacter (name)'])
+
+        item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
+        item['school-gender'] = map_name('school-gender', row['Gender (name)'])
         item['minimum-age'] = fix_age(row['StatutoryLowAge'])
         item['maximum-age'] = fix_age(row['StatutoryHighAge'])
         item.headteacher = "%s %s %s" % (
