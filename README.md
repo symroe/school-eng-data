@@ -33,7 +33,7 @@ http://diocese.discovery.openregister.org
 
 ## [denomination](data/denomination/denominations.tsv)
 
-http://denominations.discovery.openregister.org
+http://denomination.discovery.openregister.org
 
 # Addresses
 
