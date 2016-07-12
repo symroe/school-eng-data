@@ -4,9 +4,8 @@ import sys
 import csv
 import re
 from datetime import datetime
+
 from base32_crockford import encode
-
-
 from openregister import Item
 from openregister.representations.tsv import Writer
 
@@ -87,6 +86,8 @@ def fix_age(n):
 
 
 def fix_http_url(url):
+    if 'office@' in url:
+        return ""
     url = url.replace('http;//', 'http://')
     url = url.strip('/')
     return url if url.startswith("http") else "http://" + url
