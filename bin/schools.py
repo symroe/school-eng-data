@@ -5,7 +5,6 @@ import csv
 import re
 from datetime import datetime
 
-from base32_crockford import encode
 from openregister import Item
 from openregister.representations.tsv import Writer
 
@@ -98,7 +97,7 @@ if __name__ == '__main__':
     # load map of addresses
     reader = csv.DictReader(open('maps/addresses.tsv'), delimiter='\t')
     for row in reader:
-        address[row['school']] = encode(row['address'])
+        address[row['school']] = row['address']
 
     # load other maps
     load_names('school-admissions-policy', 'data/school-admissions-policy/school-admissions-policies.tsv')
