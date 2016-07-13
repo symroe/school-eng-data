@@ -9,7 +9,8 @@ DATA=\
 	data/diocese/dioceses.tsv\
 	data/school-federation/school-federations.tsv\
 	data/school-phase/school-phases.tsv\
-	data/school-type/school-types.tsv
+	data/school-type/school-types.tsv\
+	data/address/addresses.tsv
 
 MAPS=\
 	maps/addresses.tsv\
@@ -30,6 +31,12 @@ data/school/schools.tsv: bin/schools.py cache/edubase.csv $(DATA) $(MAPS)
 cache/edubase.csv:
 	@mkdir -p cache
 	curl -s $(EDUBASE_URL) | iconv -f ISO-8859-1 -t UTF-8 > $@
+
+
+# extract school addresses from address-data
+data/address/addresses.tsv:	bin/addresses.py maps/addresses.tsv
+	@mkdir -p data/address
+	bin/addresses.py > $@
 
 
 init::
