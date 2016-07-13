@@ -10,7 +10,7 @@ addresses = {}
 
 if __name__ == '__main__':
 
-    # load addresses from the map
+    # load addresses from schools
     for row in csv.DictReader(sys.stdin, delimiter='\t'):
         addresses[row['address']] = {}
 
@@ -20,11 +20,13 @@ if __name__ == '__main__':
 
     # collect primary and parent addresses ..
     for path in glob('../address-data/data/address/*.tsv'):
-        if 'parent-address' in row:
-            addresses[row['parent-address']] = {}
+        for row in csv.DictReader(open(path), delimiter='\t'):
+            if (row['address'] in addresses):
+                if 'parent-address' in row:
+                    addresses[row['parent-address']] = {}
 
-        if 'primary-address' in row:
-            addresses[row['primary-address']] = {}
+                if 'primary-address' in row:
+                    addresses[row['primary-address']] = {}
 
     for path in glob('../address-data/data/address/*.tsv'):
         for row in csv.DictReader(open(path), delimiter='\t'):
