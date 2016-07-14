@@ -34,6 +34,14 @@ if __name__ == '__main__':
                 addresses[row['address']] = row
 
     for address in sorted(addresses):
+        # swap point, hack for now!
+        if 'point' in addresses[address]:
+            p = addresses[address]['point']
+            p = p.replace('[', '')
+            p = p.replace(']', '')
+            (lat, lon) = p.split(",")
+            addresses[address]['point'] = "[%s,%s]" % (lon, lat)
+
         if 'address' not in addresses[address]:
             print("unknown address: ", address, file=sys.stderr)
         else:
