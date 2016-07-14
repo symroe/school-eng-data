@@ -37,7 +37,7 @@ data/address/addresses.tsv:	bin/addresses.py data/school/schools.tsv
 	bin/addresses.py < data/school/schools.tsv > $@
 
 # extract school streets from address-data
-data/street/streets.tsv:	bin/streets.py data/address/addresses.tsv
+data/street/streets.tsv:	bin/streets.py data/address/addresses.tsv maps/locality.tsv
 	@mkdir -p data/street
 	bin/streets.py < data/address/addresses.tsv > $@
 
