@@ -5,10 +5,7 @@ import csv
 import re
 from datetime import datetime
 
-from openregister import Item
-from openregister.representations.tsv import Writer
-
-fieldnames = [
+fields = [
     "school",
     "name",
     "address",
@@ -29,10 +26,9 @@ fieldnames = [
     "end-date",
 ]
 
+sep = "\t"
 address = {}
 names = {}
-
-writer = Writer(sys.stdout, fieldnames=fieldnames)
 
 
 def log(s):
@@ -122,18 +118,23 @@ if __name__ == '__main__':
     # read edubase
     reader = csv.DictReader(sys.stdin)
 
+    print(sep.join(fields))
+
     for num, row in enumerate(reader):
-        item = Item()
-        item.school = row['URN']
-        item.name = row['EstablishmentName']
+        item = {}
+        item['school'] = row['URN']
+        item['name'] = row['EstablishmentName']
+
+        item['start-date'] = ''
+        item['end-date'] = ''
 
         if row['OpenDate']:
             date = datetime.strptime(row['OpenDate'], "%d-%m-%Y").date()
-            setattr(item, 'start-date', date.isoformat())
+            item['start-date'] = date.isoformat()
 
         if row['CloseDate']:
             date = datetime.strptime(row['CloseDate'], "%d-%m-%Y").date()
-            setattr(item, 'end-date', date.isoformat())
+            item['end-date'] = date.isoformat()
 
         item['denomination'] = ''
         #     map_name('denomination', row['ReligiousCharacter (name)'])
@@ -145,16 +146,20 @@ if __name__ == '__main__':
         item['school-phase'] = map_name('school-phase', row['PhaseOfEducation (name)'])
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
 
+        item['school-admissions-policy'] = ''
+        item['local-authority'] = ''
+        item['school-tags'] = ''
+
         item['minimum-age'] = fix_age(row['StatutoryLowAge'])
         item['maximum-age'] = fix_age(row['StatutoryHighAge'])
 
-        item.headteacher = "%s %s %s" % (
+        item['headteacher'] = "%s %s %s" % (
             row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
 
         if row["SchoolWebsite"]:
-            item.website = fix_http_url(row["SchoolWebsite"])
+            item['website'] = fix_http_url(row["SchoolWebsite"])
 
-        if item.school in address:
-            item.address = address[item.school]
+        if item['school'] in address:
+            item['address'] = address[item['school']]
 
-        writer.write(item)
+        print(sep.join([item.get(field, "") for field in fields]))
