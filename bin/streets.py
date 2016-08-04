@@ -4,7 +4,7 @@ import sys
 import csv
 from glob import glob
 
-fields = ['street', 'name', 'name-cy', 'place', 'local-authority', 'polyline', 'end-date']
+fields = ['street', 'name', 'name-cy', 'place', 'local-authority', 'point', 'end-date']
 
 streets = {}
 places = {}
