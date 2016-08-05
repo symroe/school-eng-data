@@ -27,7 +27,7 @@ MAPS=\
 
 all:: flake8 $(DATA)
 
-data/school/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS)
+data/school/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
 	@mkdir -p data/school
 	bin/schools.py < cache/edubase.csv > $@
 
