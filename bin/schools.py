@@ -9,7 +9,7 @@ fields = [
     "school",
     "name",
     "address",
-    "local-authority",
+    "school-authority",
     "minimum-age",
     "maximum-age",
     "headteacher",
@@ -47,13 +47,13 @@ def n7e(s):
     return s
 
 
-def load_names(field, path):
+def load_names(field, path, name_field='name'):
     if field not in names:
         names[field] = {}
 
     for row in csv.DictReader(open(path),
                               delimiter='\t', quoting=csv.QUOTE_NONE):
-            names[field][n7e(row['name'])] = row[field]
+            names[field][n7e(row[name_field])] = row[field]
 
 
 def map_name(field, name):
@@ -115,6 +115,8 @@ if __name__ == '__main__':
     load_names('school-type', 'data/school-type/school-types.tsv')
     load_names('school-type', 'maps/school-type.tsv')
 
+    load_names('school-authority', 'data/school-authority/school-authority.tsv', 'school-authority')
+
     # read edubase
     reader = csv.DictReader(sys.stdin)
 
@@ -144,7 +146,7 @@ if __name__ == '__main__':
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
 
         item['school-admissions-policy'] = ''
-        item['local-authority'] = ''
+        item['school-authority'] = map_name('school-authority', row['LA (code)'])
         item['school-tags'] = ''
 
         item['minimum-age'] = fix_age(row['StatutoryLowAge'])
