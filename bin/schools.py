@@ -136,9 +136,6 @@ if __name__ == '__main__':
             date = datetime.strptime(row['CloseDate'], "%d-%m-%Y").date()
             item['end-date'] = date.isoformat()
 
-        item['denomination'] = ''
-        #     map_name('denomination', row['ReligiousCharacter (name)'])
-
         item['denominations'] = map_list('denomination', row['ReligiousCharacter (name)'])
         item['dioceses'] = map_name('diocese', row['Diocese (name)'])
         item['school-federation'] = map_name('school-federation', row['Federations (name)'])
