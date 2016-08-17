@@ -1,0 +1,208 @@
+school-authority	name	organisation
+301		local-authority-eng:BDG
+302		local-authority-eng:BNE
+370		local-authority-eng:BNS
+800		local-authority-eng:BAS
+822		local-authority-eng:BDF
+303		local-authority-eng:BEX
+702	BFPO Overseas Establishments	
+330		local-authority-eng:BIR
+889		local-authority-eng:BBD
+890		local-authority-eng:BPL
+677		local-authority-wls:BGW
+350		local-authority-eng:BOL
+837		local-authority-eng:BMH
+867		local-authority-eng:BRC
+380		local-authority-eng:BRD
+304		local-authority-eng:BEN
+672		local-authority-wls:BGE
+846		local-authority-eng:BNH
+801		local-authority-eng:BST
+305		local-authority-eng:BRY
+825		local-authority-eng:BKM
+351		local-authority-eng:BUR
+676		local-authority-wls:CAY
+381		local-authority-eng:CLD
+873		local-authority-eng:CAM
+202		local-authority-eng:CMD
+681		local-authority-wls:CRF
+669		local-authority-wls:CMN
+823		local-authority-eng:CBF
+667		local-authority-wls:CGN
+895		local-authority-eng:CHE
+896		local-authority-eng:CHW
+201		local-authority-eng:LND
+662		local-authority-wls:CWY
+908		local-authority-eng:CON
+331		local-authority-eng:COV
+306		local-authority-eng:CRY
+909		local-authority-eng:CMA
+841		local-authority-eng:DAL
+663		local-authority-wls:DEN
+831		local-authority-eng:DER
+830		local-authority-eng:DBY
+878		local-authority-eng:DEV
+371		local-authority-eng:DNC
+835		local-authority-eng:DOR
+332		local-authority-eng:DUD
+840		local-authority-eng:DUR
+307		local-authority-eng:EAL
+811		local-authority-eng:ERY
+845		local-authority-eng:ESX
+308		local-authority-eng:ENF
+881		local-authority-eng:ESS
+704	Fieldwork Overseas Establishments	
+664		local-authority-wls:FLN
+390		local-authority-eng:GAT
+708	Gibraltar Overseas Establishments	
+916		local-authority-eng:GLS
+203		local-authority-eng:GRE
+706	Guernsey Offshore Establishments	
+661		local-authority-wls:GWN
+204		local-authority-eng:HCK
+876		local-authority-eng:HAL
+205		local-authority-eng:HMF
+850		local-authority-eng:HAM
+309		local-authority-eng:HRY
+310		local-authority-eng:HRW
+805		local-authority-eng:HPL
+311		local-authority-eng:HAV
+884		local-authority-eng:HEF
+919		local-authority-eng:HRT
+312		local-authority-eng:HIL
+313		local-authority-eng:HNS
+660		local-authority-wls:AGY
+705	Isle of Man Offshore Establishments	
+921		local-authority-eng:IOW
+420		local-authority-eng:IOS
+206		local-authority-eng:ISL
+707	Jersey Offshore Establishments	
+207		local-authority-eng:KEC
+886		local-authority-eng:KEN
+810		local-authority-eng:KHL
+314		local-authority-eng:KTT
+382		local-authority-eng:KIR
+340		local-authority-eng:KWL
+208		local-authority-eng:LBH
+888		local-authority-eng:LAN
+383		local-authority-eng:LDS
+856		local-authority-eng:LCE
+855		local-authority-eng:LEC
+209		local-authority-eng:LEW
+925		local-authority-eng:LIN
+341		local-authority-eng:LIV
+821		local-authority-eng:LUT
+352		local-authority-eng:MAN
+887		local-authority-eng:MDW
+675		local-authority-wls:MTY
+315		local-authority-eng:MRT
+806		local-authority-eng:MDB
+826		local-authority-eng:MIK
+679		local-authority-wls:MON
+671		local-authority-wls:NTL
+391		local-authority-eng:NET
+316		local-authority-eng:NWM
+680		local-authority-wls:NWP
+926		local-authority-eng:NFK
+812		local-authority-eng:NEL
+813		local-authority-eng:NLN
+802		local-authority-eng:NSM
+392		local-authority-eng:NTY
+815		local-authority-eng:NYK
+928		local-authority-eng:NTH
+929		local-authority-eng:NBL
+892		local-authority-eng:NGM
+891		local-authority-eng:NTT
+353		local-authority-eng:OLD
+931		local-authority-eng:OXF
+668		local-authority-wls:PEM
+874		local-authority-eng:PTE
+879		local-authority-eng:PLY
+836		local-authority-eng:POL
+851		local-authority-eng:POR
+666		local-authority-wls:POW
+901	Pre LGR (1996) Avon	
+907	Pre LGR (1996) Cleveland	
+920	Pre LGR (1996) Humberside	
+927	Pre LGR (1996) North Yorkshire	
+902	Pre LGR (1997) Bedfordshire	
+904	Pre LGR (1997) Buckinghamshire	
+910	Pre LGR (1997) Derbyshire	
+912	Pre LGR (1997) Dorset	
+913	Pre LGR (1997) Durham	
+914	Pre LGR (1997) East Sussex	
+917	Pre LGR (1997) Hampshire	
+924	Pre LGR (1997) Leicestershire	
+934	Pre LGR (1997) Staffordshire	
+939	Pre LGR (1997) Wiltshire	
+903	Pre LGR (1998) Berkshire	
+905	Pre LGR (1998) Cambridgeshire	
+906	Pre LGR (1998) Cheshire	
+911	Pre LGR (1998) Devon	
+915	Pre LGR (1998) Essex	
+918	Pre LGR (1998) Hereford & Worcester	
+922	Pre LGR (1998) Kent	
+923	Pre LGR (1998) Lancashire	
+930	Pre LGR (1998) Nottinghamshire	
+932	Pre LGR (1998) Shropshire	
+820	Pre LGR (2009) Bedfordshire	
+875	Pre LGR (2009) Cheshire	
+870		local-authority-eng:RDG
+317		local-authority-eng:RDB
+807		local-authority-eng:RCC
+674		local-authority-wls:RCT
+318		local-authority-eng:RIC
+354		local-authority-eng:RCH
+372		local-authority-eng:ROT
+857		local-authority-eng:RUT
+355		local-authority-eng:SLF
+333		local-authority-eng:SAW
+701	Scotland Offshore Establishments	
+343		local-authority-eng:SFT
+373		local-authority-eng:SHF
+893		local-authority-eng:SHR
+871		local-authority-eng:SLG
+334		local-authority-eng:SOL
+933		local-authority-eng:SOM
+803		local-authority-eng:SGC
+393		local-authority-eng:STY
+852		local-authority-eng:STH
+882		local-authority-eng:SOS
+210		local-authority-eng:SWK
+342		local-authority-eng:SHN
+860		local-authority-eng:STS
+356		local-authority-eng:SKP
+808		local-authority-eng:STT
+861		local-authority-eng:STE
+935		local-authority-eng:SFK
+394		local-authority-eng:SND
+936		local-authority-eng:SRY
+319		local-authority-eng:STN
+670		local-authority-wls:SWA
+866		local-authority-eng:SWD
+357		local-authority-eng:TAM
+894		local-authority-eng:TFW
+673		local-authority-wls:VGL
+883		local-authority-eng:THR
+880		local-authority-eng:TOB
+678		local-authority-wls:TOF
+211		local-authority-eng:TWH
+358		local-authority-eng:TRF
+384		local-authority-eng:WKF
+335		local-authority-eng:WLL
+320		local-authority-eng:WFT
+212		local-authority-eng:WND
+877		local-authority-eng:WRT
+937		local-authority-eng:WAR
+869		local-authority-eng:WBK
+938		local-authority-eng:WSX
+213		local-authority-eng:WSM
+359		local-authority-eng:WGN
+865		local-authority-eng:WIL
+868		local-authority-eng:WNM
+344		local-authority-eng:WRL
+872		local-authority-eng:WOK
+336		local-authority-eng:WLV
+885		local-authority-eng:WOR
+665		local-authority-wls:WRX
+816		local-authority-eng:YOR
