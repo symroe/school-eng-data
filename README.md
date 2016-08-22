@@ -35,6 +35,10 @@ http://diocese.discovery.openregister.org
 
 http://denomination.discovery.openregister.org
 
+## [school-authority](data/school-authority/school-authority.tsv)
+
+http://school-authority.discovery.openregister.org
+
 # Addresses
 
 This repository also contains discovery data for the address and street registers, only for those addresses linked to by the school register.
