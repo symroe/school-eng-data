@@ -146,7 +146,7 @@ if __name__ == '__main__':
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
 
         item['school-admissions-policy'] = ''
-        item['school-authority'] = map_name('school-authority', row['LA (code)'])
+        item['school-authority'] = row['LA (code)']
         item['school-tags'] = ''
 
         item['minimum-age'] = fix_age(row['StatutoryLowAge'])
