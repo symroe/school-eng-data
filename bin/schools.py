@@ -21,7 +21,7 @@ fields = [
     "school-admissions-policy",
     "school-gender",
     "school-tags",
-    "school-federation",
+    # "school-federation",
     "start-date",
     "end-date",
 ]
@@ -104,7 +104,7 @@ if __name__ == '__main__':
     load_names('diocese', 'data/diocese/dioceses.tsv')
     load_names('diocese', 'maps/diocese.tsv')
 
-    load_names('school-federation', 'data/school-federation/school-federations.tsv')
+    # load_names('school-federation', 'data/school-federation/school-federations.tsv')
 
     load_names('school-gender', 'data/school-gender/school-genders.tsv')
     load_names('school-gender', 'maps/school-gender.tsv')
@@ -140,7 +140,7 @@ if __name__ == '__main__':
 
         item['denominations'] = map_list('denomination', row['ReligiousCharacter (name)'])
         item['dioceses'] = map_name('diocese', row['Diocese (name)'])
-        item['school-federation'] = map_name('school-federation', row['Federations (name)'])
+        # item['school-federation'] = map_name('school-federation', row['Federations (name)'])
         item['school-gender'] = map_name('school-gender', row['Gender (name)'])
         item['school-phase'] = map_name('school-phase', row['PhaseOfEducation (name)'])
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
