@@ -13,7 +13,7 @@ fields = [
     "minimum-age",
     "maximum-age",
     # "headteacher",
-    "website",
+    # "website",
     "denominations",
     "dioceses",
     "school-type",
@@ -155,8 +155,8 @@ if __name__ == '__main__':
         # item['headteacher'] = "%s %s %s" % (
         #     row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
 
-        if row["SchoolWebsite"]:
-            item['website'] = fix_http_url(row["SchoolWebsite"])
+        # if row["SchoolWebsite"]:
+        #     item['website'] = fix_http_url(row["SchoolWebsite"])
 
         if item['school'] in address:
             item['address'] = address[item['school']]
