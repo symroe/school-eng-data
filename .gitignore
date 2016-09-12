@@ -63,3 +63,10 @@ environment.sh
 raw_addresses
 *.swp
 tmp
+
+_build
+deps
+mix.lock
+
+*.tsv
+*.ods
