@@ -22,6 +22,7 @@ fields = [
     "school-gender",
     "school-tags",
     # "school-federation",
+    "school-trust",
     "start-date",
     "end-date",
 ]
@@ -53,13 +54,21 @@ def load_names(field, path, name_field='name'):
 
     for row in csv.DictReader(open(path),
                               delimiter='\t', quoting=csv.QUOTE_NONE):
-            names[field][n7e(row[name_field])] = row[field]
+            name_key = n7e(row[name_field])
+            if name_key == '':
+                name_key = row[name_field]
+            value = row[field]
+            names[field][name_key] = value
 
 
 def map_name(field, name):
+
     if not name:
         return ''
     _name = n7e(name)
+    if _name == '':
+        _name = name
+
     if _name in names[field]:
         return names[field][_name]
     log("unknown %s value [%s]" % (field, name))
@@ -112,6 +121,8 @@ if __name__ == '__main__':
     load_names('school-phase', 'data/school-phase/school-phases.tsv')
     load_names('school-phase', 'maps/school-phase.tsv')
 
+    load_names('school-trust', 'maps/school-trust.tsv', 'school')
+
     load_names('school-type', 'data/school-type/school-types.tsv')
     load_names('school-type', 'maps/school-type.tsv')
 
@@ -144,6 +155,8 @@ if __name__ == '__main__':
         item['school-gender'] = map_name('school-gender', row['Gender (name)'])
         item['school-phase'] = map_name('school-phase', row['PhaseOfEducation (name)'])
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
+
+        item['school-trust'] = map_name('school-trust', row['URN'])
 
         item['school-admissions-policy'] = ''
         item['school-authority'] = row['LA (code)']
