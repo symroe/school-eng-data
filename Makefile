@@ -3,6 +3,7 @@ EDUBASE_URL=http://www.education.gov.uk/edubase/edubasealldata$(DATE).csv
 
 DATA=\
 	data/school/schools.tsv\
+	data/alpha/school-eng/schools.tsv\
 	$(SCHOOL_DATA)\
 	$(ADDRESS_DATA)
 
@@ -31,6 +32,12 @@ all:: flake8 $(DATA)
 data/school/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
 	@mkdir -p data/school
 	[[ -e $@ ]] || bin/schools.py < cache/edubase.csv > $@
+
+data/alpha/school-eng/schools.tsv: mix.deps data/school/schools.tsv
+	@mkdir -p data/alpha/school-eng
+	[[ -e $@ ]] || mix run -e 'SchoolSubset.schools_in_local_authority("919")' < data/school/schools.tsv > data/alpha/school-eng/tmp.tsv
+	[[ -e $@ ]] || mix run -e 'SchoolSubset.school_tsv("./data/alpha/school-eng/tmp.tsv")' < data/school/schools.tsv > $@
+	rm -f data/alpha/school-eng/tmp.tsv
 
 data/school-trust/school-trusts.tsv: cache/links mix.deps
 	@mkdir -p data/school-trust
