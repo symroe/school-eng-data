@@ -2,22 +2,22 @@ DATE:=$(shell date +"%Y%m%d")
 EDUBASE_URL=http://www.education.gov.uk/edubase/edubasealldata$(DATE).csv
 
 DATA=\
-	data/school/schools.tsv\
+	data/discovery/school/schools.tsv\
 	data/alpha/school-eng/schools.tsv\
 	$(SCHOOL_DATA)\
 	$(ADDRESS_DATA)
 
 SCHOOL_DATA=\
-	data/denomination/denominations.tsv\
-	data/diocese/dioceses.tsv\
-	data/school-federation/school-federations.tsv\
-	data/school-phase/school-phases.tsv\
-	data/school-trust/school-trusts.tsv\
-	data/school-type/school-types.tsv
+	data/discovery/denomination/denominations.tsv\
+	data/discovery/diocese/dioceses.tsv\
+	data/discovery/school-federation/school-federations.tsv\
+	data/discovery/school-phase/school-phases.tsv\
+	data/alpha/school-trust/school-trusts.tsv\
+	data/discovery/school-type/school-types.tsv
 
 ADDRESS_DATA=\
-	data/address/addresses.tsv\
-	data/street/streets.tsv
+	data/discovery/address/addresses.tsv\
+	data/discovery/street/streets.tsv
 
 MAPS=\
 	maps/addresses.tsv\
@@ -29,34 +29,34 @@ MAPS=\
 
 all:: flake8 $(DATA)
 
-data/school/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
-	@mkdir -p data/school
+data/discovery/school/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
+	@mkdir -p data/discovery/school
 	[[ -e $@ ]] || bin/schools.py < cache/edubase.csv > $@
 
-data/alpha/school-eng/schools.tsv: mix.deps data/school/schools.tsv
+data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school/schools.tsv
 	@mkdir -p data/alpha/school-eng
-	[[ -e $@ ]] || csvgrep -tc school-authority -m "919" < data/school/schools.tsv | csvformat -T > $@
+	[[ -e $@ ]] || csvgrep -tc school-authority -m "919" < data/discovery/school/schools.tsv | csvformat -T > $@
 
-data/school-trust/school-trusts.tsv: cache/links mix.deps
-	@mkdir -p data/school-trust
-	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_tsv' > data/school-trust/tmp.tsv
-	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_map_tsv' < data/school-trust/tmp.tsv > maps/school-trust.tsv
-	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_data_tsv' < data/school-trust/tmp.tsv > $@
-	rm -f data/school-trust/tmp.tsv
+data/alpha/school-trust/school-trusts.tsv: cache/links mix.deps
+	@mkdir -p data/alpha/school-trust
+	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_tsv' > data/alpha/school-trust/tmp.tsv
+	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_map_tsv' < data/alpha/school-trust/tmp.tsv > maps/school-trust.tsv
+	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_data_tsv' < data/alpha/school-trust/tmp.tsv > $@
+	rm -f data/alpha/school-trust/tmp.tsv
 
 mix.deps:
 	[[ -e mix.lock ]] || mix deps.get
 	mix compile
 
 # extract school addresses from address-data
-data/address/addresses.tsv:	bin/addresses.py data/school/schools.tsv
-	@mkdir -p data/address
-	bin/addresses.py < data/school/schools.tsv > $@
+data/discovery/address/addresses.tsv:	bin/addresses.py data/discovery/school/schools.tsv
+	@mkdir -p data/discovery/address
+	bin/addresses.py < data/discovery/school/schools.tsv > $@
 
 # extract school streets from address-data
-data/street/streets.tsv:	bin/streets.py data/address/addresses.tsv maps/locality.tsv
-	@mkdir -p data/street
-	bin/streets.py < data/address/addresses.tsv > $@
+data/discovery/street/streets.tsv:	bin/streets.py data/discovery/address/addresses.tsv maps/locality.tsv
+	@mkdir -p data/discovery/street
+	bin/streets.py < data/discovery/address/addresses.tsv > $@
 
 
 # download from EDUBASE
@@ -81,7 +81,7 @@ flake8:
 
 prune::
 	rm -rf cache
-	rm -rf data/school
+	rm -rf data/discovery/school
 
 clean::
 	-find . -name "*.pyc" | xargs rm -f
