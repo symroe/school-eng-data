@@ -105,28 +105,30 @@ if __name__ == '__main__':
         address[row['school']] = row['address']
 
     # load other maps
-    load_names('school-admissions-policy', 'data/school-admissions-policy/school-admissions-policies.tsv')
+    load_names('school-admissions-policy',
+               'data/discovery/school-admissions-policy/school-admissions-policies.tsv')
 
-    load_names('denomination', 'data/denomination/denominations.tsv')
+    load_names('denomination', 'data/discovery/denomination/denominations.tsv')
     load_names('denomination', 'maps/denomination.tsv')
 
-    load_names('diocese', 'data/diocese/dioceses.tsv')
+    load_names('diocese', 'data/discovery/diocese/dioceses.tsv')
     load_names('diocese', 'maps/diocese.tsv')
 
-    # load_names('school-federation', 'data/school-federation/school-federations.tsv')
+    # load_names('school-federation', 'data/discovery/school-federation/school-federations.tsv')
 
-    load_names('school-gender', 'data/school-gender/school-genders.tsv')
+    load_names('school-gender', 'data/discovery/school-gender/school-genders.tsv')
     load_names('school-gender', 'maps/school-gender.tsv')
 
-    load_names('school-phase', 'data/school-phase/school-phases.tsv')
+    load_names('school-phase', 'data/discovery/school-phase/school-phases.tsv')
     load_names('school-phase', 'maps/school-phase.tsv')
 
     load_names('school-trust', 'maps/school-trust.tsv', 'school')
 
-    load_names('school-type', 'data/school-type/school-types.tsv')
+    load_names('school-type', 'data/discovery/school-type/school-types.tsv')
     load_names('school-type', 'maps/school-type.tsv')
 
-    load_names('school-authority', 'data/school-authority/school-authority.tsv', 'school-authority')
+    load_names('school-authority',
+               'data/discovery/school-authority/school-authority.tsv', 'school-authority')
 
     # read edubase
     reader = csv.DictReader(sys.stdin)

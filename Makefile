@@ -2,7 +2,8 @@ DATE:=$(shell date +"%Y%m%d")
 EDUBASE_URL=http://www.education.gov.uk/edubase/edubasealldata$(DATE).csv
 
 DATA=\
-	data/discovery/school/schools.tsv\
+	data/discovery/school-eng/schools.tsv\
+	data/discovery/school-wls/schools.tsv\
 	data/alpha/school-eng/schools.tsv\
 	$(SCHOOL_DATA)\
 	$(ADDRESS_DATA)
@@ -29,13 +30,17 @@ MAPS=\
 
 all:: flake8 $(DATA)
 
-data/discovery/school/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
-	@mkdir -p data/discovery/school
-	[[ -e $@ ]] || bin/schools.py < cache/edubase.csv > $@
-
-data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school/schools.tsv
+data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.tsv
 	@mkdir -p data/alpha/school-eng
-	[[ -e $@ ]] || csvgrep -tc school-authority -m "919" < data/discovery/school/schools.tsv | csvformat -T > $@
+	[[ -e $@ ]] || csvgrep -tc school-authority -m "919" < data/discovery/school-eng/schools.tsv | csvformat -T > $@
+
+data/discovery/school-eng/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
+	@mkdir -p data/discovery/school-eng
+	[[ -e $@ ]] || csvgrep -c 'GOR (name)' -im 'Wales' < cache/edubase.csv | bin/schools.py > $@
+
+data/discovery/school-wls/schools.tsv:
+	@mkdir -p data/discovery/school-wls
+	[[ -e $@ ]] || csvgrep -c 'GOR (name)' -m 'Wales' < cache/edubase.csv | bin/schools.py > $@
 
 data/alpha/school-trust/school-trusts.tsv: cache/links mix.deps
 	@mkdir -p data/alpha/school-trust
@@ -49,15 +54,14 @@ mix.deps:
 	mix compile
 
 # extract school addresses from address-data
-data/discovery/address/addresses.tsv:	bin/addresses.py data/discovery/school/schools.tsv
+data/discovery/address/addresses.tsv:	bin/addresses.py data/discovery/school-eng/schools.tsv
 	@mkdir -p data/discovery/address
-	bin/addresses.py < data/discovery/school/schools.tsv > $@
+	bin/addresses.py < data/discovery/school-eng/schools.tsv > $@
 
 # extract school streets from address-data
 data/discovery/street/streets.tsv:	bin/streets.py data/discovery/address/addresses.tsv maps/locality.tsv
 	@mkdir -p data/discovery/street
 	bin/streets.py < data/discovery/address/addresses.tsv > $@
-
 
 # download from EDUBASE
 # - contains invalid UTF-8 characters ..
