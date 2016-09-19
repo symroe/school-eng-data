@@ -9,7 +9,7 @@ DATA=\
 	$(ADDRESS_DATA)
 
 SCHOOL_DATA=\
-	data/discovery/denomination/denominations.tsv\
+	data/discovery/religious-character/religious-characters.tsv\
 	data/discovery/diocese/dioceses.tsv\
 	data/discovery/school-federation/school-federations.tsv\
 	data/discovery/school-phase/school-phases.tsv\
@@ -22,7 +22,7 @@ ADDRESS_DATA=\
 
 MAPS=\
 	maps/addresses.tsv\
-	maps/denomination.tsv\
+	maps/religious-character.tsv\
 	maps/diocese.tsv\
 	maps/school-gender.tsv\
 	maps/school-phase.tsv\

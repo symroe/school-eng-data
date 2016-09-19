@@ -14,7 +14,7 @@ fields = [
     "maximum-age",
     # "headteacher",
     # "website",
-    "denominations",
+    "religious-characters",
     "dioceses",
     "school-type",
     "school-phase",
@@ -108,8 +108,8 @@ if __name__ == '__main__':
     load_names('school-admissions-policy',
                'data/discovery/school-admissions-policy/school-admissions-policies.tsv')
 
-    load_names('denomination', 'data/discovery/denomination/denominations.tsv')
-    load_names('denomination', 'maps/denomination.tsv')
+    load_names('religious-character', 'data/discovery/religious-character/religious-characters.tsv')
+    load_names('religious-character', 'maps/religious-character.tsv')
 
     load_names('diocese', 'data/discovery/diocese/dioceses.tsv')
     load_names('diocese', 'maps/diocese.tsv')
@@ -151,7 +151,7 @@ if __name__ == '__main__':
             date = datetime.strptime(row['CloseDate'], "%d-%m-%Y").date()
             item['end-date'] = date.isoformat()
 
-        item['denominations'] = map_list('denomination', row['ReligiousCharacter (name)'])
+        item['religious-characters'] = map_list('religious-character', row['ReligiousCharacter (name)'])
         item['dioceses'] = map_name('diocese', row['Diocese (name)'])
         # item['school-federation'] = map_name('school-federation', row['Federations (name)'])
         item['school-gender'] = map_name('school-gender', row['Gender (name)'])
