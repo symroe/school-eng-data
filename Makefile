@@ -13,7 +13,6 @@ SCHOOL_DATA=\
 	data/discovery/diocese/dioceses.tsv\
 	data/discovery/school-federation/school-federations.tsv\
 	data/discovery/school-phase/school-phases.tsv\
-	data/alpha/school-trust/school-trusts.tsv\
 	data/discovery/school-type/school-types.tsv
 
 ADDRESS_DATA=\
@@ -26,6 +25,8 @@ MAPS=\
 	maps/diocese.tsv\
 	maps/school-gender.tsv\
 	maps/school-phase.tsv\
+	lists/edubase-school-trust-name/trusts.tsv\
+	lists/edubase-school-trust/trusts.tsv\
 	maps/school-type.tsv
 
 all:: flake8 $(DATA)
@@ -42,12 +43,65 @@ data/discovery/school-wls/schools.tsv:
 	@mkdir -p data/discovery/school-wls
 	[[ -e $@ ]] || csvgrep -c 'GOR (name)' -m 'Wales' < cache/edubase.csv | bin/schools.py | sed 's/^school\([[:blank:]]\)/school-wls\1/' > $@
 
-data/alpha/school-trust/school-trusts.tsv: cache/links mix.deps
-	@mkdir -p data/alpha/school-trust
-	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_tsv' > data/alpha/school-trust/tmp.tsv
-	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_map_tsv' < data/alpha/school-trust/tmp.tsv > maps/school-trust.tsv
-	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_data_tsv' < data/alpha/school-trust/tmp.tsv > $@
-	rm -f data/alpha/school-trust/tmp.tsv
+lists/edubase-school-trust/trusts.tsv: lists/edubase-school-trust-name/trusts.tsv
+	@mkdir -p lists/edubase-school-trust
+	[[ -e $@ ]] || \
+	csvjoin --outer -tc name lists/edubase-school-trust-name/trusts.tsv lists/edubase-multi-academy-trust/trusts.tsv \
+	| csvcut -c school-trust,name,type,edubase-school-trust,organisation \
+	> tmp.csv
+	csvjoin --outer -c name tmp.csv lists/edubase-umbrella-trusts/trusts.csv \
+	| csvcut -c school-trust,name,type,is-umbrella,edubase-school-trust,organisation \
+	| csvformat -T \
+	> $@
+	rm tmp.csv
+
+lists/edubase-multi-academy-trust/trusts.tsv: cache/links mix.deps
+	@mkdir -p lists/edubase-multi-academy-trust
+	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_tsv' > maps/tmp.tsv
+
+	[[ -e $@ ]] || csvcut -tc urn,school-trust maps/tmp.tsv \
+	| csvsort -c urn \
+	| csvformat -T \
+	| sed 's/urn\([[:blank:]]\)/school\1/' \
+	| sed 's/\([[:blank:]]\)school-trust/\1edubase-school-trust/' \
+	> maps/school-to-edubase-school-trust.tsv
+
+	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_data_tsv' < maps/tmp.tsv > $@
+	rm -f maps/tmp.tsv
+
+lists/edubase-school-trust-name/trusts.tsv: lists/edubase-multi-academy-trust/trusts.tsv
+	# split two trusts separated by ~ onto separate lines
+	# remove duplicate trust names
+	# sort by school URN
+	# remove school URN
+	# remove blank lines
+	# add line number
+	@mkdir -p lists/edubase-school-trust-name
+	csvcut -c URN,"Trusts (name)","TrustSchoolFlag (name)" cache/edubase.csv \
+	| sed 's/Supported by a multi-academy trust~Supported by an umbrella trust/multi-academy trust + umbrella trust/' \
+	| sed 's/Supported by a single-academy trust~Supported by an umbrella trust/single-academy trust + umbrella trust/' \
+	| sed 's/St Hildas Catholic Academy Trust/St Hilda’s Catholic Academy Trust/' \
+	| sed 's/Ridings Federation of Academies Trust, The/Ridings’ Federation of Academies Trust, The/' \
+	| sed 's/The Helston and Lizard Peninsula Trust~The Helston and Lizard Peninsula Education Trust/The Helston and Lizard Peninsula Education Trust/' \
+	| sed 's/The Helston and Lizard Peninsula Trust/The Helston and Lizard Peninsula Education Trust/' \
+	| sed 's/South Cheshire Catholic Multi-academy Trust, The~South Cheshire Catholic Multi-Academy Trust/South Cheshire Catholic Multi-academy Trust, The/' \
+	| sed 's/created in error-//' \
+	| sed 's/^URN,Trusts .*/urn,name,type/' \
+	| csvgrep -c name -r "." \
+	| sed 's/Supported by a //' \
+	| sed 's/^\([^,]*,\)\(".*\)~\(.*"\),\([^,]*\)/\1\2\",\4~\1"\3,\4/g' \
+	| sed 's/^\([^,]*,\)\([^"].*\)~\(.*\),\([^,]*\)/\1\2,\4~\1\3,\4/g' \
+	| tr '~' $$'\n'   \
+	| csvsort -c name \
+	| csvformat -T    \
+	| uniq -f1        \
+	| csvsort -tc urn \
+	| csvcut -c name,type \
+	| csvgrep -c name -r "." \
+	| csvcut -lc name,type \
+	| sed 's/^line_number/school-trust/' \
+	| csvformat -T    \
+	> $@
 
 mix.deps:
 	[[ -e mix.lock ]] || mix deps.get
