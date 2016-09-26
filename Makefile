@@ -36,11 +36,11 @@ data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.ts
 
 data/discovery/school-eng/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
 	@mkdir -p data/discovery/school-eng
-	[[ -e $@ ]] || csvgrep -c 'GOR (name)' -im 'Wales' < cache/edubase.csv | bin/schools.py | sed '1,/school/s/school/school-eng/' > $@
+	[[ -e $@ ]] || csvgrep -c 'GOR (name)' -im 'Wales' < cache/edubase.csv | bin/schools.py | sed 's/^school\([[:blank:]]\)/school-eng\1/' > $@
 
 data/discovery/school-wls/schools.tsv:
 	@mkdir -p data/discovery/school-wls
-	[[ -e $@ ]] || csvgrep -c 'GOR (name)' -m 'Wales' < cache/edubase.csv | bin/schools.py | sed '1,/school/s/school/school-wls/' > $@
+	[[ -e $@ ]] || csvgrep -c 'GOR (name)' -m 'Wales' < cache/edubase.csv | bin/schools.py | sed 's/^school\([[:blank:]]\)/school-wls\1/' > $@
 
 data/alpha/school-trust/school-trusts.tsv: cache/links mix.deps
 	@mkdir -p data/alpha/school-trust
