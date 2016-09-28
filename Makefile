@@ -13,6 +13,7 @@ SCHOOL_DATA=\
 	data/discovery/diocese/dioceses.tsv\
 	data/discovery/school-federation/school-federations.tsv\
 	data/discovery/school-phase/school-phases.tsv\
+	data/alpha/school-trust/school-trusts.tsv\
 	data/discovery/school-type/school-types.tsv
 
 ADDRESS_DATA=\
@@ -43,17 +44,26 @@ data/discovery/school-wls/schools.tsv:
 	@mkdir -p data/discovery/school-wls
 	[[ -e $@ ]] || csvgrep -c 'GOR (name)' -m 'Wales' < cache/edubase.csv | bin/schools.py | sed 's/^school\([[:blank:]]\)/school-wls\1/' > $@
 
+data/alpha/school-trust/school-trusts.tsv: mix.deps
+	@mkdir -p data/alpha/school-trust
+	[[ -e $@ ]] || \
+	csvcut -c school-trust,name,company lists/edubase-school-trust/trusts-with-matched-company.csv \
+	| sed 's/school-trust,name,company/school-trust,name,organisation/' \
+	| mix run -e 'SchoolTrust.final_trust_tsv' \
+	> $@
+
 lists/edubase-school-trust/trusts.tsv: lists/edubase-school-trust-name/trusts.tsv
 	@mkdir -p lists/edubase-school-trust
 	[[ -e $@ ]] || \
 	csvjoin --outer -tc name lists/edubase-school-trust-name/trusts.tsv lists/edubase-multi-academy-trust/trusts.tsv \
 	| csvcut -c school-trust,name,type,edubase-school-trust,organisation \
 	> tmp.csv
+	[[ -e $@ ]] || \
 	csvjoin --outer -c name tmp.csv lists/edubase-umbrella-trusts/trusts.csv \
 	| csvcut -c school-trust,name,type,is-umbrella,edubase-school-trust,organisation \
 	| csvformat -T \
 	> $@
-	rm tmp.csv
+	rm -f tmp.csv
 
 lists/edubase-multi-academy-trust/trusts.tsv: cache/links mix.deps
 	@mkdir -p lists/edubase-multi-academy-trust

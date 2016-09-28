@@ -46,4 +46,22 @@ defmodule SchoolTrust do
     |> DataMorph.puts_tsv(~w[edubase-school-trust name organisation])
   end
 
+  defp suppress_name(["school-trust", "name", "organisation"]) do
+    ["school-trust", "name", "organisation"]
+  end
+  defp suppress_name([key, name, ""]) do
+    [key, name, ""]
+  end
+  defp suppress_name([key, _, organisation]) do
+    [key, "", organisation]
+  end
+
+  def final_trust_tsv do
+    :stdio
+    |> IO.stream(:line)
+    |> CSV.decode(headers: false)
+    |> Stream.map(&suppress_name/1)
+    |> DataMorph.puts_tsv
+  end
+
 end
