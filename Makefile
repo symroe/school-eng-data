@@ -92,9 +92,12 @@ lists/edubase-school-trust-name/trusts.tsv: lists/edubase-multi-academy-trust/tr
 	| sed 's/^\([^,]*,\)\(".*\)~\(.*"\),\([^,]*\)/\1\2\",\4~\1"\3,\4/g' \
 	| sed 's/^\([^,]*,\)\([^"].*\)~\(.*\),\([^,]*\)/\1\2,\4~\1\3,\4/g' \
 	| tr '~' $$'\n'   \
-	| csvsort -c name \
+	| csvcut -c urn,type,name \
+	| tr ' ' '_' \
+	| csvsort -c name,urn \
 	| csvformat -T    \
-	| uniq -f1        \
+	| uniq -f2        \
+	| tr '_' ' ' \
 	| csvsort -tc urn \
 	| csvcut -c name,type \
 	| csvgrep -c name -r "." \
