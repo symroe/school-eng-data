@@ -1,5 +1,7 @@
 require 'morph'
 
+umbrella = (ENV["UMBRELLA"] == "true")
+
 csv = `csvcut -c 'URN,Trusts (name)' ./cache/edubase.csv | awk NF \
 | sed 's/St Hildas Catholic Academy Trust/St Hilda’s Catholic Academy Trust/' \
 | sed 's/Ridings Federation of Academies Trust, The/Ridings’ Federation of Academies Trust, The/' \
@@ -20,12 +22,12 @@ trusts_with_company = Morph.
 
 edubase_trust_to_company = Morph.
   from_tsv(IO.read('./lists/edubase-multi-academy-trust/trusts.tsv'), :edubase_trust).
-  group_by(&:edubase_school_trust) ; nil
+  group_by(&:edubase_school_trust) if umbrella ; nil
 # @edubase_school_trust="15710", @name="Activate Learning Education Trust", @organisation="company:08707909"
 
 urn_to_edubase_trust = Morph.
   from_tsv(IO.read('./maps/school-to-edubase-school-trust.tsv'), :school_edubase_trust).
-  group_by(&:school) ; nil
+  group_by(&:school) if umbrella ; nil
 # @school="101857", @edubase_school_trust="15885"
 
 def edubase_trust_match urn, urn_to_edubase_trust, edubase_trust_to_company, trusts_with_company
@@ -46,11 +48,11 @@ def edubase_trust_match urn, urn_to_edubase_trust, edubase_trust_to_company, tru
   end
 end
 
-def trust_names_match names, trusts_with_company
+def trust_names_match names, trusts_with_company, use_umbrella=nil
   n1, n2 = names.split('~')
   m1 = trust_name_match n1, trusts_with_company
   m2 = trust_name_match n2, trusts_with_company
-  match = [m1, m2].select{|x| !x.is_umbrella}
+  match = [m1, m2].select{|x| x.is_umbrella == use_umbrella }
   if match.size == 1
     match.first
   elsif match.size > 1
@@ -95,11 +97,32 @@ def add_school_trust! urn_to_trust_name, urn_to_edubase_trust, edubase_trust_to_
   end ; nil
 end
 
-if true
+def add_school_umbrella_trust! urn_to_trust_name, trusts_with_company
+  urn_to_trust_name.each do |school|
+    begin
+      school.school_umbrella_trust = trust_names_match(school.trusts_name,
+          trusts_with_company, use_umbrella='yes').school_trust
+    rescue Exception => e
+      puts e.to_s
+      raise " school: #{school.try(:urn).to_s}"
+    end
+  end ; nil
+end
+
+if !umbrella
   add_school_trust! urn_to_trust_name, urn_to_edubase_trust, edubase_trust_to_company, trusts_with_company
 
   puts ["school", "school-trust"].join("\t") ; nil
   urn_to_trust_name.each do |school|
     puts [school.urn, school.school_trust].join("\t")
+  end ; nil
+else
+  urn_to_trust_name = urn_to_trust_name.select{|x| x.trusts_name.include?('~') }
+
+  add_school_umbrella_trust! urn_to_trust_name, trusts_with_company
+  puts ["school", "school-umbrella-trust"].join("\t") ; nil
+
+  urn_to_trust_name.each do |school|
+    puts [school.urn, school.school_umbrella_trust].join("\t")
   end ; nil
 end

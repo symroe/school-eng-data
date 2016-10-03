@@ -29,6 +29,7 @@ MAPS=\
 	lists/edubase-school-trust-name/trusts.tsv\
 	lists/edubase-school-trust/trusts.tsv\
 	maps/school-trust.tsv\
+	maps/school-umbrella-trust.tsv\
 	maps/school-type.tsv
 
 all:: flake8 $(DATA)
@@ -66,7 +67,11 @@ data/alpha/school-trust/school-trusts.tsv: mix.deps
 
 maps/school-trust.tsv: bundle.install
 	[[ -e $@ ]] || \
-	bundle exec ruby ./lib/school_trust.rb > $@
+	UMBRELLA=false bundle exec ruby ./lib/school_trust.rb > $@
+
+maps/school-umbrella-trust.tsv: bundle.install
+	[[ -e $@ ]] || \
+	UMBRELLA=true bundle exec ruby ./lib/school_trust.rb > $@
 
 lists/edubase-school-trust/trusts.tsv: lists/edubase-school-trust-name/trusts.tsv
 	@mkdir -p lists/edubase-school-trust
