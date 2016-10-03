@@ -68,5 +68,7 @@ _build
 deps
 mix.lock
 
+Gemfile.lock
+
 *.tsv
 *.ods
