@@ -28,6 +28,7 @@ MAPS=\
 	maps/school-phase.tsv\
 	lists/edubase-school-trust-name/trusts.tsv\
 	lists/edubase-school-trust/trusts.tsv\
+	maps/school-trust.tsv\
 	maps/school-type.tsv
 
 all:: flake8 $(DATA)
@@ -62,6 +63,10 @@ data/alpha/school-trust/school-trusts.tsv: mix.deps
 	| sed 's/school-trust,name,company/school-trust,name,organisation/' \
 	| mix run -e 'SchoolTrust.final_trust_tsv' \
 	> $@
+
+maps/school-trust.tsv: bundle.install
+	[[ -e $@ ]] || \
+	bundle exec ruby ./lib/school_trust.rb > $@
 
 lists/edubase-school-trust/trusts.tsv: lists/edubase-school-trust-name/trusts.tsv
 	@mkdir -p lists/edubase-school-trust
@@ -130,6 +135,9 @@ lists/edubase-school-trust-name/trusts.tsv: lists/edubase-multi-academy-trust/tr
 mix.deps:
 	[[ -e mix.lock ]] || mix deps.get
 	mix compile
+
+bundle.install:
+	[[ -e Gemfile.lock ]] || bundle install
 
 # extract school addresses from address-data
 data/discovery/address/addresses.tsv:	bin/addresses.py data/discovery/school-eng/schools.tsv
