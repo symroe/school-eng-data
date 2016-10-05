@@ -27,20 +27,14 @@ defmodule SchoolTrust do
   end
 
   def trust_rows do
-    trust_htmls |> Stream.map(& trust_row(&1) ) |> Stream.reject(& (&1 |> Enum.at(3)) == "School sponsor" )
+    trust_htmls
+    |> Stream.map(&trust_row/1)
+    |> Stream.reject(& (&1 |> Enum.at(3)) == "School sponsor" )
   end
 
   def trust_tsv do
     headers = ~w[school-trust name company type urn]
     trust_rows |> Stream.uniq |> Enum.sort_by(& &1 |> List.first) |> DataMorph.puts_tsv(headers)
-  end
-
-  def trust_map_tsv do
-    :stdio
-    |> IO.stream(:line)
-    |> DataMorph.structs_from_tsv(:dfe, :school_trust)
-    |> Stream.map(& [&1.urn, &1.school_trust])
-    |> DataMorph.puts_tsv(~w[school school-trust])
   end
 
   def trust_data_tsv do
@@ -49,7 +43,25 @@ defmodule SchoolTrust do
     |> DataMorph.structs_from_tsv(:dfe, :school_trust)
     |> Stream.map(& [&1.school_trust, &1.name, "company:"<>&1.company])
     |> Enum.uniq
-    |> DataMorph.puts_tsv(~w[school-trust name organisation])
+    |> DataMorph.puts_tsv(~w[edubase-school-trust name organisation])
+  end
+
+  defp suppress_name(["school-trust", "name", "organisation"]) do
+    ["school-trust", "name", "organisation"]
+  end
+  defp suppress_name([key, name, ""]) do
+    [key, name, ""]
+  end
+  defp suppress_name([key, _, organisation]) do
+    [key, "", organisation]
+  end
+
+  def final_trust_tsv do
+    :stdio
+    |> IO.stream(:line)
+    |> CSV.decode(headers: false)
+    |> Stream.map(&suppress_name/1)
+    |> DataMorph.puts_tsv
   end
 
 end

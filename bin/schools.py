@@ -23,6 +23,7 @@ fields = [
     "school-tags",
     # "school-federation",
     "school-trust",
+    "school-umbrella-trust",
     "start-date",
     "end-date",
 ]
@@ -71,7 +72,9 @@ def map_name(field, name):
 
     if _name in names[field]:
         return names[field][_name]
-    log("unknown %s value [%s]" % (field, name))
+    if field != 'school-trust':
+        if field != 'school-umbrella-trust':
+            log("unknown %s value [%s]" % (field, name))
     return ''
 
 
@@ -123,6 +126,7 @@ if __name__ == '__main__':
     load_names('school-phase', 'maps/school-phase.tsv')
 
     load_names('school-trust', 'maps/school-trust.tsv', 'school')
+    load_names('school-umbrella-trust', 'maps/school-umbrella-trust.tsv', 'school')
 
     load_names('school-type', 'data/discovery/school-type/school-types.tsv')
     load_names('school-type', 'maps/school-type.tsv')
@@ -159,6 +163,7 @@ if __name__ == '__main__':
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
 
         item['school-trust'] = map_name('school-trust', row['URN'])
+        item['school-umbrella-trust'] = map_name('school-umbrella-trust', row['URN'])
 
         item['school-admissions-policy'] = ''
         item['school-authority'] = row['LA (code)']

@@ -1,879 +1,879 @@
-school-eng	name	address	school-authority	minimum-age	maximum-age	religious-characters	dioceses	school-type	school-phase	school-admissions-policy	school-gender	school-tags	school-trust	start-date	end-date
-102256	Purcell School	9B1AK1J	919	8	19			11			M			1962-10-11	
-117065	Weston Way Nursery School	2X6MXMZY	919	3	5			15	NUR		M				
-117066	Arlesdene Nursery School and Pre-School	4D4TEB	919	2	5			15	NUR		M				
-117067	Greenfield Nursery School	4D4SBT	919	2	4			15	NUR		M				
-117068	Batford Nursery School	2X6MTFQ8	919	2	5			15	NUR		M				
-117069	Birchwood Nursery School	2X6MTB00	919	2	5			15	NUR		M				
-117070	Heath Lane Nursery School	9AQJZND	919	3	5			15	NUR		M				
-117071	York Road Nursery School	2X6MXJA5	919	3	5			15	NUR		M				
-117072	Rye Park Nursery School	4D5GWB	919	2	5			15	NUR		M				
-117073	Nevells Road Nursery School		919	3	5			15	NUR		M				2001-12-31
-117074	Muriel Green Nursery School		919	3	5			15	NUR		M				2001-01-01
-117075	London Colney Nursery School	2X6MTBMW	919	3	5			15	NUR		M				2015-03-31
-117076	Kingswood Nursery School	2X6MYGEW	919	2	5			15	NUR		M				
-117077	Oxhey Early Years Centre	2X6MYCMV	919	3	5			15	NUR		M				
-117078	Tenterfield Nursery School	2X6MTG52	919	3	5			15	NUR		M				
-117079	Ludwick Nursery School	2X6MTH11	919	2	5			15	NUR		M				
-117080	Peartree Way Nursery School	9C3QP0K	919	2	5			15	NUR		M				
-117081	Wall Hall Nursery School		919	3	5			15	NUR		M				2003-12-31
-117082	Lea Valley Education Support Centre		919	5	16			14			M			1995-09-01	2009-08-31
-117083	Abbots Langley School	5T8FR7NZ	919	3	11			1	PRI		M				
-117084	Ashwell Primary School	9C3H2ZH	919	3	11			1	PRI		M				
-117085	Northgate Primary School	2X6MTK10	919	3	11			1	PRI		M				2012-07-31
-117086	Bovingdon Junior School	2X6MV9XY	919	7	11			1	PRI		M				1998-09-01
-117087	Jenyns First School and Nursery	9B09NDE	919	3	9			1	PRI		M				
-117088	Bushey Heath Primary School	9B1AJWD	919	3	11			1	PRI		M				
-117089	Highwood Primary School	9B1AK0C	919	3	11			1	PRI		M				
-117090	Merry Hill Infant School and Nursery	9B1AJY1	919	3	7			1	PRI		M				
-117091	Holdbrook Primary School	4D50QJ	919	3	11			1	PRI		M				
-117092	Four Swannes Primary School	4D50QH	919	3	11			1	PRI		M				
-117093	Chorleywood Primary School	5T8FR9MQ	919	3	11			1	PRI		M				
-117094	Beechfield School	9A2MXPG	919	3	11			1	PRI		M				
-117095	New Briars Primary and Nursery School		919	3	11			1	PRI		M				2007-08-31
-117096	Shepherd Primary	5T8FR93G	919	3	11			1	PRI		M				
-117097	Hobletts Manor Junior School	9A2N6M9	919	7	11			1	PRI		M				
-117098	The Russell School	5T8FR999	919	3	11			1	PRI		M				
-117099	Cowley Hill School	9B1AJ1X	919	3	11			1	PRI		M				
-117100	Flamstead Village School	2X6MTE37	919	3	11			1	PRI		M				
-117101	Gaddesden Row JMI School	9A2N6TH	919	4	11			1	PRI		M				
-117102	Sauncey Wood Primary School	5T8GM330	919	4	11			1	PRI		M				
-117103	Manland Primary School	2X6MTFDJ	919	4	11			1	PRI		M				
-117104	Gascoyne Cecil Junior School	9AE9CV7	919	7	11			1	PRI		M				1999-09-01
-117105	Green Lanes Primary School	2X6MTBHN	919	5	11			1	PRI		M				
-117106	George Street Primary School	5T8JQF7A	919	3	11			1	PRI		M				
-117107	Boxmoor Primary School	5T8JQEZ2	919	4	11			1	PRI		M				
-117108	Two Waters Primary School	2X6MV9Y3	919	3	11			1	PRI		M				
-117109	Tudor Primary School	2X6MVAE8	919	3	11			1	PRI		M				
-117110	South Hill Primary School	9AQJZND	919	5	11			1	PRI		M				
-117111	Abel Smith School	9B09VV9	919	2	11			1	PRI		M				
-117112	Hexton Junior Mixed and Infant School	9C3H2AA	919	4	11			1	PRI		M				
-117113	Highbury Infant School and Nursery	2X6MXHN8	919	3	7			1	PRI		M				
-117114	Strathmore Infant and Nursery School	5T8GM5Z2	919	3	7			1	PRI		M				
-117115	Highover Junior Mixed and Infant School	2X6MXGR1	919	3	11			1	PRI		M				
-117116	Wilshere-Dacre Junior School	9C3H8GG	919	7	11			1	PRI		M				2014-02-28
-117117	Hunsdon Junior Mixed and Infant School		919	4	11			1	PRI		M				
-117118	Kimpton Primary School	2X6MXHA3	919	3	11			1	PRI		M				
-117119	Breachwood Green Junior Mixed and Infant School	9C3H4CS	919	4	11			1	PRI		M				
-117120	Knebworth Primary and Nursery School	9C3H3W0	919	3	11			1	PRI		M				
-117121	Wilbury Junior School	2X6MXM4C	919	7	11			1	PRI		M				
-117122	Grange Junior School	2X6MXMAX	919	7	11			1	PRI		M				
-117123	Hillshott Infant School and Nursery	2X6MXKC1	919	3	7			1	PRI		M				
-117124	Westbury Primary and Nursery School	9APZHC2	919	3	11			1	PRI		M				2009-08-31
-117125	Hertford Heath Primary and Nursery School	9B09MHA	919	3	11			1	PRI		M				
-117126	Little Hadham Primary School	9B09XQM	919	4	11			1	PRI		M				
-117127	Markyate Village School and Nursery	5T8JQERT	919	4	11			1	PRI		M				
-117128	Pirton School	5T8GM5Z6	919	4	11			1	PRI		M				
-117129	Reed First School	2X6MXNM0	919	3	9			1	PRI		M				
-117130	Yorke Mead Primary School	5T8FRBSD	919	3	11			1	PRI		M				
-117131	Harvey Road Primary School	5T8FR9S8	919	3	11			1	PRI		M				
-117132	Little Green Junior School	5T8FR9SA	919	7	11			1	PRI		M				
-117133	Malvern Way Infant and Nursery School	5T8FR9SP	919	3	7			1	PRI		M				
-117134	Tannery Drift School	2X6MXNAM	919	3	9			1	PRI		M				
-117135	Bernards Heath Infant and Nursery School	2X6MTANG	919	3	7			1	PRI		M				
-117136	Camp Primary and Nursery School	5T8JAKCQ	919	3	11			1	PRI		M				
-117137	Fleetville Junior School	5T8JAG03	919	7	11			1	PRI		M			1997-02-26	2012-05-31
-117138	Fleetville Infant and Nursery School	2X6MTAHR	919	3	7			1	PRI		M			1996-06-05	2012-05-31
-117139	Garden Fields Junior Mixed and Infant School	5T8JAKZZ	919	5	11			1	PRI		M				
-117140	St Peter's School	2X6MT9N0	919	3	11			1	PRI		M				
-117141	Aboyne Lodge Junior Mixed and Infant School	2X6MTDHF	919	3	11			1	PRI		M				
-117142	Mandeville Primary School	9A1RF1A	919	3	11			1	PRI		M				2012-12-31
-117143	Bernards Heath Junior School	5T8JAQW9	919	7	11			1	PRI		M				
-117144	St Paul's Walden Primary School	2X6MXHA2	919	4	11			1	PRI		M				
-117145	Colney Heath Junior Mixed Infant and Nursery School	2X6MTEC1	919	4	11			1	PRI		M				
-117146	London Colney Primary & Nursery School	2X6MTBMW	919	3	11			1	PRI		M				
-117147	Sandon Junior Mixed and Infant School	2X6MXNX1	919	4	11			1	PRI		M				
-117148	Sandridge School	2X6MTEVR	919	4	11			1	PRI		M				
-117149	Fawbert and Barnard Infants' School	9B09WDC	919	3	7			1	PRI		M				
-117150	Shenley Primary School	9B1AHCZ	919	3	11			1	PRI		M				
-117151	Letchmore Infants' and Nursery School	9C3QN7X	919	3	7			1	PRI		M				
-117152	Fairlands Primary School and Nursery	9C3QN1A	919	3	11			1	PRI		M				
-117153	Therfield First School	2X6MXNSQ	919	5	9			1	PRI		M				
-117154	Walkern Primary School	2X6MXFT3	919	4	11			1	PRI		M				
-117155	The Orchard Primary School	2X6MYG70	919	3	11			1	PRI		M				
-117156	Central Primary School	5T8FR0MP	919	3	11			1	PRI		M				
-117157	Bushey and Oxhey Infant School	5T8FR2HA	919	5	7			1	PRI		M				
-117158	Chater Junior School	2X6MYDFF	919	7	11			1	PRI		M				
-117159	Chater Infant School		919	3	7			1	PRI		M				
-117160	Field Junior School	2X6MYE01	919	7	11			1	PRI		M				
-117161	Watford Field School (Infant & Nursery)	5T8FR161	919	3	7			1	PRI		M				
-117162	Parkgate Junior School	2X6MYFQH	919	7	11			1	PRI		M				
-117163	Parkgate Infants' and Nursery School	2X6MYFQM	919	3	7			1	PRI		M				
-117164	Garston Infants' School		919	5	7			1	PRI		M				2005-08-31
-117165	Knutsford School	2X6MYFQJ	919	3	11			1	PRI		M				
-117166	St Meryl School	2X6MYCWQ	919	3	11			1	PRI		M				
-117167	Cassiobury Junior School	5T8FR15R	919	7	11			1	PRI		M				
-117168	Kingsway Junior School	2X6MYGF8	919	7	11			1	PRI		M				
-117169	Warren Dell Primary School	5T8FR6C3	919	2	11			1	PRI		M				
-117170	Oxhey Wood Primary School	5T8FRCN0	919	3	11			1	PRI		M				
-117171	Watton-at-Stone Primary and Nursery School	9B1RF4K	919	2	11			1	PRI		M				
-117172	Peartree Primary School	2X6MTH0Y	919	5	11			1	PRI		M				
-117173	Blackthorn Junior School	9AE9CV8	919	7	11			1	PRI		M				2001-12-31
-117174	Templewood Primary School	5T8JHBRH	919	3	11			1	PRI		M				
-117175	Holwell Primary School	2X6MTH11	919	5	11			1	PRI		M				
-117176	Widford School	9B09WXS	919	4	11			1	PRI		M				
-117177	Wymondley Junior Mixed and Infant School	2X6MXGZ4	919	4	11			1	PRI		M				
-117178	Tanners Wood Junior Mixed and Infant School	2X6MYKRX	919	3	11			1	PRI		M				
-117179	Havers Infant School		919	3	7			1	PRI		M				2005-12-31
-117180	Hurst Drive Primary School	4D4SBT	919	4	11			1	PRI		M				
-117181	Woodlands Primary School	9B1AJ1Y	919	3	11			1	PRI		M				
-117182	Summerswood Primary School	9B1AHM6	919	3	11			1	PRI		M				
-117183	Kenilworth Primary School	9B1AHNW	919	3	11			1	PRI		M				
-117184	Meryfield Primary School	9B1AJ14	919	3	11			1	PRI		M				
-117185	Salisbury Infants' School	9AE9CV7	919	5	7			1	PRI		M				1999-09-01
-117186	Icknield Infant and Nursery School	2X6MXM4M	919	3	7			1	PRI		M				
-117187	Bowmansgreen Primary School	5T8JAMAR	919	4	11			1	PRI		M				
-117188	Margaret Wix Primary School	5T8JAM3C	919	3	11			1	PRI		M				
-117189	Broom Barns Community Primary School	9ADG70X	919	4	11			1	PRI		M				
-117190	Lea Farm Junior School		919	7	11			1	PRI		M				2005-08-31
-117191	Alban Wood Junior School		919	7	11			1	PRI		M				2005-08-31
-117192	Little Furze Junior Mixed and Infant School		919	3	11			1	PRI		M				2004-12-16
-117193	Greenfields Primary School	2X6MYCZB	919	3	11			1	PRI		M				
-117194	Woodhall Primary School	5T8FR714	919	3	11			1	PRI		M				
-117195	Saffron Green Primary School	9B1AHQY	919	3	11			1	PRI		M				
-117196	Hazelgrove Primary School		919	4	11			1	PRI		M				2004-08-31
-117197	Hobletts Manor Infants' School	9A2N6M9	919	3	7			1	PRI		M				
-117198	Chaulden Junior School	2X6MTSD8	919	7	11			1	PRI		M				2013-04-30
-117199	Roebuck Junior School	9C3QNHH	919	7	11			1	PRI		M				2001-04-18
-117200	Bedwell Primary School	9C3QP13	919	4	11			1	PRI		M				
-117201	Flamstead End Junior School	4D4PHZ	919	7	11			1	PRI		M				2003-08-31
-117202	Chaulden Infants' and Nursery	2X6MTSD8	919	3	7			1	PRI		M				
-117203	Haslewood Junior School	4D5VED	919	7	11			1	PRI		M				2002-12-31
-117204	Roebuck Infant School	9C3QNHH	919	3	7			1	PRI		M				2001-04-18
-117205	Peartree Spring Junior School	5T8FDF2Q	919	7	11			1	PRI		M				2014-08-31
-117206	Peartree Spring Primary School	5T8FDF2Q	919	4	11			1	PRI		M				
-117207	Longmeadow Junior School	5T8FDGYV	919	7	11			1	PRI		M				2005-08-31
-117208	Longmeadow Infant and Nursery School	5T8FDGYV	919	3	7			1	PRI		M				2005-08-31
-117209	Bandley Hill Junior School	9ADG70Y	919	7	11			1	PRI		M				1998-03-20
-117210	Bandley Hill Infants' School	9ADG70Y	919	5	7			1	PRI		M				1998-03-20
-117211	Roundwood Primary School	5T8JAR3E	919	3	11			1	PRI		M				
-117212	Wheatfields Junior Mixed School	9AQQQ70	919	7	11			1	PRI		M				
-117213	Thumbswood Infant School	9AE9CV8	919	5	7			1	PRI		M				2001-12-31
-117214	Chambersbury Primary School	2X6MVA2W	919	3	11			1	PRI		M				
-117215	Broadfield Junior School	5T8JQEN7	919	7	11			1	PRI		M				2007-12-31
-117216	Broadfield Infants' School	2X6MV4MW	919	3	7			1	PRI		M				2007-12-31
-117217	Windermere Primary School	2X6MTAYM	919	5	11			1	PRI		M				
-117218	Anstey First School	9B1RAP4	919	2	9			1	PRI		M				
-117219	Monksmead School	9AE03VX	919	2	11			1	PRI		M				
-117220	Howe Dell Primary School	9AE9DVC	919	3	11			1	PRI		M				
-117221	Almond Hill Junior School	5T8FDH6F	919	7	11			1	PRI		M				
-117222	Oakwood Primary School	2X6MTEAJ	919	4	11			1	PRI		M				
-117223	Northfields Infants and Nursery School	2X6MXMBX	919	3	7			1	PRI		M				
-117224	Purwell Primary School	5T8GM5YV	919	3	11			1	PRI		M				
-117225	Killigrew Junior School	5T8JAQST	919	7	11			1	PRI		M				2008-08-31
-117226	Camps Hill Community Primary School	9C3QPE3	919	2	11			1	PRI		M				
-117227	Harwood Hill Junior Mixed Infant and Nursery School		919	3	11			1	PRI		M				
-117228	Fair Field Junior School	9B1AHFC	919	7	11			5	PRI		M				2015-03-31
-117229	Creswick Primary and Nursery School		919	4	11			1	PRI		M				
-117230	Thorley Hill Primary School	2X6MTKB4	919	3	11			1	PRI		M				
-117231	Micklem Primary School	2X6MTSD9	919	3	11			1	PRI		M				
-117232	Mayfield Infants' School and Nursery	4D609B	919	3	7			1	PRI		M				2010-08-31
-117233	Brookland Junior School	4D559A	919	7	11			1	PRI		M				
-117234	The Reddings Primary School	2X6MVA2V	919	3	11			1	PRI		M				
-117235	How Wood Primary and Nursery School	5T8JAQT4	919	3	11			1	PRI		M				
-117236	Redbourn Infants' and Nursery School	2X6MTDTD	919	3	7			1	PRI		M				
-117237	Lodge Farm Junior Mixed School	9C3QPF8	919	7	11			1	PRI		M				2000-04-30
-117238	Lodge Farm Infants' School		919	3	7			1	PRI		M				2000-04-30
-117239	Rossgate Primary School	2X6MTSE6	919	3	11			1	PRI		M				2008-08-31
-117240	Skyswood Primary & Nursery School	2X6MTEVX	919	3	11			1	PRI		M				
-117241	Martindale Primary and Nursery School	2X6MTSDA	919	3	11			1	PRI		M				2008-08-31
-117242	Bushey Manor Junior School	9B1AK1Q	919	7	11			1	PRI		M				
-117243	Goffs Oak Primary & Nursery School	4D4RPT	919	3	11			1	PRI		M				
-117244	Summercroft Junior School	9B09V9Y	919	7	11			1	PRI		M				2005-12-31
-117245	Eastbury Farm Primary School	5T8FRA25	919	3	11			1	PRI		M				
-117246	Burydale Junior School	9C3QNZ0	919	7	11			1	PRI		M				2005-08-31
-117247	Shephall Green Infant and Nursery School	9C3QNZ4	919	3	7			1	PRI		M				2005-08-31
-117248	Bedmond Village Primary and Nursery School	5T8FR7WQ	919	3	11			1	PRI		M				
-117249	Gade Valley Junior Mixed Infant and Nursery School	2X6MZ9HS	919	3	11			1	PRI		M				
-117250	Cunningham Hill Junior School	9AQQSA0	919	7	11			1	PRI		M				
-117251	Pin Green Primary School and Nursery		919	4	11			1	PRI		M				2005-08-31
-117252	Homerswood Primary and Nursery School	5T8JHBMF	919	3	11			1	PRI		M				
-117253	Whitehill Junior School	2X6MXHN9	919	7	11			1	PRI		M				
-117254	Westfield Primary School and Nursery	5T8JQF0C	919	3	11			1	PRI		M				
-117255	Downfield Primary School	4D50X6	919	2	11			1	PRI		M				
-117256	Pixies Hill Primary School	2X6MTSD7	919	4	11			1	PRI		M				
-117257	Rowans Primary School	2X6MTGAS	919	3	11			1	PRI		M				
-117258	The Grove Junior School	2X6MTEXS	919	7	11			1	PRI		M				
-117259	Pixmore Junior School	9APZNCK	919	7	11			1	PRI		M				
-117260	Swing Gate Infant School and Nursery	2X6MVB3M	919	3	7			1	PRI		M				
-117261	Oaklands Primary School	2X6MTFVS	919	5	11			1	PRI		M				
-117262	Flamstead End Infant and Nursery School	4D4PHZ	919	3	7			1	PRI		M				2003-08-31
-117263	Hollybush Primary School	9B09VVZ	919	3	11			1	PRI		M				
-117264	Oughtonhead Junior School	5T8GM5Z3	919	7	11			1	PRI		M				2001-09-01
-117265	Oughtonhead Infants' School	5T8GM5Z3	919	3	7			1	PRI		M				2001-09-01
-117266	Maple Cross Junior Mixed Infant and Nursery School	5T8FR8QR	919	4	11			1	PRI		M				
-117267	Killigrew Infant and Nursery School	5T8JAQST	919	3	7			1	PRI		M				2008-08-31
-117268	Wheatfields Infants' and Nursery School	9AQQQ70	919	3	7			1	PRI		M				
-117269	Moss Bury Primary School and Nursery	9C3QP1W	919	3	11			1	PRI		M				
-117270	Westfield Community Primary School	4D5ZBM	919	5	11			1	PRI		M				
-117271	Priors Wood Primary School	2X6MXAJ9	919	3	11			1	PRI		M				
-117272	Brookland Infant and Nursery School	4D559A	919	3	7			1	PRI		M				
-117273	Summercroft Infant and Nursery School	9B09V9Y	919	3	7			1	PRI		M				2005-12-31
-117274	Goldfield Infants' and Nursery School	5T8JQEW6	919	3	7			1	PRI		M				
-117275	Tower Primary School	9B09WW3	919	2	11			1	PRI		M				
-117276	Greenway Primary and Nursery School		919	3	11			1	PRI		M				
-117277	Thorn Grove Primary School	2X6MTM1G	919	3	11			1	PRI		M				
-117278	Icknield Walk First School	2X6MXNF3	919	3	9			1	PRI		M				
-117279	Cunningham Hill Infant School	9AQQSA0	919	5	7			1	PRI		M				
-117280	Reedings Junior School	9B09WC0	919	7	11			1	PRI		M				
-117281	The Grove Infant and Nursery School	2X6MTF03	919	3	7			1	PRI		M				
-117282	The Hammond Primary School	5T8JQEQG	919	5	11			1	PRI		M				2011-07-31
-117283	Kings Langley Primary School	5T8JQEXY	919	3	11			1	PRI		M				
-117284	Forres Primary School	4D5JF9	919	5	11			1	PRI		M				
-117285	Martins Wood Primary School	2X6MX9VD	919	2	11			1	PRI		M				
-117286	Dundale Primary School and Nursery		919	3	11			1	PRI		M				
-117287	Crabtree Junior School	2X6MTFQN	919	7	11			1	PRI		M				2014-03-31
-117288	Redbourn Junior School	2X6MTDTD	919	7	11			1	PRI		M				
-117289	Arnett Hills Junior Mixed and Infant School	5T8FR8CN	919	4	11			1	PRI		M				
-117290	Holywell Primary School	5T8FR0E4	919	3	11			1	PRI		M				
-117291	The Firs Junior School		919	7	11			1	PRI		M				2005-12-31
-117292	Trotts Hill Primary and Nursery School	9C3QNTR	919	4	11			1	PRI		M				
-117293	Cassiobury Infant and Nursery School	9CPSB9K	919	3	7			1	PRI		M				
-117294	Panshanger Primary School	2X6MTGAT	919	3	11			1	PRI		M				
-117295	Bovingdon Infants' School		919	5	7			1	PRI		M				1998-09-01
-117296	Bournehall Primary School		919	4	11			1	PRI		M				
-117297	Mill Mead Primary School	9B09W4W	919	3	11			1	PRI		M				
-117298	Maple Primary School	5T8JAQW1	919	4	11			1	PRI		M				
-117299	Round Diamond Primary School	9ADX0GP	919	3	11			1	PRI		M				
-117300	Hartsbourne Primary School	9B1AK05	919	4	11			1	PRI		M				
-117301	Beech Hyde Primary School and Nursery	5T8JAR6M	919	3	11			1	PRI		M				
-117302	Andrews Lane Primary School	4D5ZRZ	919	3	11			1	PRI		M				
-117303	Newberries Primary School	9B1AHFF	919	4	11			1	PRI		M				
-117304	Rickmansworth Park Junior Mixed and Infant School	5T8FR92K	919	5	11			1	PRI		M				
-117305	Mandeville Primary School	9B09WF3	919	3	11			1	PRI		M				
-117306	Giles Junior School	5T8FDH1E	919	7	11			1	PRI		M				
-117307	The Cranbourne Primary School	4D5MF5	919	4	11			1	PRI		M				2016-08-31
-117308	Bromet Primary School	2X6MYCN6	919	5	11			1	PRI		M				
-117309	Millfield First and Nursery School	2X6MXNXS	919	3	9			1	PRI		M				
-117310	Hillmead Primary School	9B09Q1V	919	3	11			1	PRI		M				
-117311	Nascot Wood Junior School	5T8FR16E	919	7	11			1	PRI		M				
-117312	Crabtree Infants' School	2X6MTFQN	919	5	7			1	PRI		M				2014-03-31
-117313	The Ryde School	2X6MTHTH	919	3	11			1	PRI		M				
-117314	William Ransom Primary School	5T8GM5Z0	919	4	11			1	PRI		M				
-117315	Prae Wood Primary School	2X6MTD7F	919	3	11			1	PRI		M				
-117316	The Giles Infant and Nursery School	5T8FDH1E	919	3	7			1	PRI		M				
-117317	Kingsway Infants' School	5T8FR163	919	5	7			1	PRI		M				
-117318	Alban Wood Infant and Nursery School	2X6MYGZD	919	3	7			1	PRI		M				2005-08-31
-117319	Kingshill Infant School	5T8HG06K	919	3	7			1	PRI		M				
-117320	Laurance Haines School	5T8FR3MT	919	3	11			1	PRI		M				
-117321	Woodside Primary School	4D4KHF	919	4	11			1	PRI		M				
-117322	Woolenwick Junior School	5T8FDH83	919	7	11			1	PRI		M				
-117323	Woolenwick Infant and Nursery School	5T8FDH83	919	3	7			1	PRI		M				
-117324	Leavesden JMI School	2X6MYGZE	919	3	11			1	PRI		M				
-117325	Springmead Primary School	5T8JHB1W	919	3	11			1	PRI		M				
-117326	Longlands Primary School and Nursery	4D56ZK	919	3	11			1	PRI		M				
-117327	The Lea Primary School and Nursery	5T8JAMXC	919	3	11			1	PRI		M				
-117328	Wheatcroft Primary School	2X6MXBM8	919	3	11			1	PRI		M				
-117329	Mary Exton Primary School	5T8GM5YW	919	5	11			1	PRI		M				
-117330	Lordship Farm Primary School	9C3H4EB	919	3	11			1	PRI		M				
-117331	Studlands Rise First School	2X6MXNSX	919	3	9			1	PRI		M				
-117332	Roman Way First School	2X6MXNAP	919	3	9			1	PRI		M				
-117333	Lime Walk Primary School	2X6MVAGM	919	3	11			1	PRI		M				
-117334	Fairfields Primary School and Nursery	4D4Q88	919	3	11			1	PRI		M				
-117335	Aycliffe Drive Primary School	2X6MV52E	919	3	11			1	PRI		M				
-117336	Holtsmere End Junior School	2X6MV5B2	919	7	11			1	PRI		M				
-117337	Samuel Lucas Junior Mixed and Infant School	9ADWWZ9	919	4	11			1	PRI		M				
-117338	Roselands Primary School	4D5CE2	919	5	11			1	PRI		M				2016-08-31
-117339	Cherry Tree Primary School	5T8FR0ZN	919	3	11			1	PRI		M				
-117340	Coates Way JMI and Nursery School	9A2MY90	919	3	11			1	PRI		M				
-117341	Grove Road Primary School	2X6MV8D9	919	3	11			1	PRI		M				
-117342	High Beeches Primary School	5T8JAR5S	919	5	11			1	PRI		M				
-117343	Barncroft Primary School	5T8JQH12	919	3	11			1	PRI		M				2008-08-31
-117344	Jupiter Drive Junior Mixed and Infant School	2X6MV4WB	919	5	11			1	PRI		M				2008-08-31
-117345	Stonehill School	2X6MXMC2	919	3	11			1	PRI		M				
-117346	Richard Whittington Primary School	2X6MTKGY	919	3	11			1	PRI		M				
-117347	Mount Pleasant Lane Junior Mixed and Infant School and Nursery	5T8JAMHS	919	3	11			1	PRI		M				
-117348	Watchlytes Junior Mixed Infant and Nursery School	2X6MTGVX	919	3	11			1	PRI		M				
-117349	Brockswood Primary School	9A2N4RC	919	3	11			1	PRI		M				
-117350	Lannock Primary School	9C3H64A	919	3	11			1	PRI		M				2009-08-31
-117351	Ryelands Primary School	4D5GPC	919	5	11			1	PRI		M				2007-08-31
-117352	Ashtree Primary School and Nursery	9C3QPDM	919	3	11			1	PRI		M				
-117353	Sheredes Primary School	4D5BFS	919	3	11			1	PRI		M				
-117354	Radburn Primary School	2X6MXKK5	919	3	11			1	PRI		M				2012-08-31
-117355	Applecroft School	2X6MTHMA	919	3	11			1	PRI		M				2012-02-29
-117356	Ley Park Primary School	4D59VX	919	3	11			1	PRI		M				2008-08-31
-117357	Five Oaks Primary and Nursery School	2X6MTBF0	919	3	11			1	PRI		M				2004-08-31
-117358	Wood End School	2X6MTFBZ	919	4	11			1	PRI		M				
-117359	Eastbrook Primary School	2X6MV5B0	919	5	11			1	PRI		M				2008-08-31
-117360	Meriden Primary School		919	3	11			1	PRI		M				2005-08-31
-117361	Bengeo Primary School		919	3	11			1	PRI		M				
-117362	Stream Woods Junior Mixed Infant and Nursery School	2X6MTBEZ	919	3	11			1	PRI		M				2007-08-31
-117363	Morgans Primary School & Nursery	9B09KZQ	919	3	11			1	PRI		M				
-117364	The Leys Primary and Nursery School	2X6MX9R5	919	3	11			1	PRI		M				
-117365	Belswains Primary School	5T8JQGDJ	919	3	11			1	PRI		M				
-117366	Bonneygrove Primary School	4D4MDG	919	3	11			1	PRI		M				
-117367	Burleigh Primary School	4D4WFP	919	4	11			1	PRI		M				
-117368	Hobbs Hill Wood Primary School	2X6MVA3W	919	3	11			1	PRI		M				
-117369	Cranborne Primary School	9AE03PB	919	3	11			1	PRI		M				
-117370	Ladbrooke Junior Mixed and Infant School	9B1AKBC	919	3	11			1	PRI		M				
-117371	Oakmere Primary School	9B1AJKB	919	3	11			1	PRI		M				
-117372	Sunny Bank Junior School		919	7	11			1	PRI		M				1999-08-31
-117373	Sunny Bank Infants' School		919	3	7			1	PRI		M				1999-08-31
-117374	Nascot Wood Infant and Nursery School	5T8FR0J2	919	3	7			1	PRI		M				
-117375	The Pines Junior Mixed and Infant School		919	4	11			1	PRI		M				2003-08-31
-117376	Hartsfield Junior Mixed and Infant School	9C3H4K7	919	4	11			1	PRI		M				
-117377	Holtsmere End Infant and Nursery School	2X6MV5B2	919	3	7			1	PRI		M				
-117378	Commonswood Primary & Nursery School	2X6MTH6E	919	4	11			1	PRI		M				
-117379	Millbrook School	4D4TB6	919	4	11			1	PRI		M				
-117380	Manor Fields Primary School	2X6MTKPQ	919	3	11			1	PRI		M				
-117381	Bellgate Primary School	5T8JQF4Y	919	4	11			1	PRI		M				2008-08-31
-117382	Aldbury Church of England Primary School	2X6MV8DA	919	4	11	C22	CE32	3	PRI		M				
-117383	St John's Church of England Infant and Nursery School	9B1AHEP	919	3	7	C22	CE32	3	PRI		M				
-117384	St Mary's Infants' School	9APZMWE	919	5	7	C22	CE32	3	PRI		M				
-117385	St Mary's Junior Mixed School	9APZMWE	919	7	11	C22	CE32	3	PRI		M				
-117386	Barley Church of England Voluntary Controlled First School	2X6MXNGE	919	5	9	C22	CE32	3	PRI		M				
-117387	Bayford Church of England Voluntary Controlled Primary School	2X6MXBTA	919	3	11	C22	CE32	3	PRI		M				
-117388	Tonwell St Mary's Church of England Primary School	2X6MXAD5	919	3	11	C22	CE32	3	PRI		M				
-117389	Benington Church of England Primary School	9B09TXM	919	4	11	C22	CE32	3	PRI		M				
-117390	Layston Church of England First School	9B09N7S	919	5	9	C22	CE32	3	PRI		M				
-117391	Ashfield Junior School	9B1AJY4	919	7	11			3	PRI		M				
-117392	Codicote Church of England Primary School	2X6MXHA4	919	3	11	C22	CE32	3	PRI		M				
-117393	Essendon CofE (VC) Primary School	2X6MTHWN	919	3	11	C22	CE32	3	PRI		M				
-117394	Furneux Pelham Church of England School	9B1RA9H	919	4	11	C22	CE32	3	PRI		M				
-117395	Graveley Primary School	2X6MXGZ5	919	4	11	C22	CE32	3	PRI		M				
-117396	Ponsbourne St Mary's Church of England Primary School	2X6MXBT5	919	4	11	C22	CE32	3	PRI		M				
-117397	Hertford St Andrew CofE Primary School	9B09VSP	919	3	11	C22	CE32	3	PRI		M				
-117398	High Wych Church of England Primary School	9B1RA9Z	919	3	11	C22	CE32	3	PRI		M				
-117399	St Paul's Voluntary Controlled Church of England Infants' School	4D5VED	919	5	7	C22	CE32	3	PRI		M				2002-12-31
-117400	Wormley Primary School	4D59VX	919	3	11	C22	CE32	3	PRI		M				
-117401	Ickleford Primary School	9C3H9EJ	919	4	11	C22	CE32	3	PRI		M				
-117402	Little Munden Church of England Voluntary Controlled Primary School	9B1N3BC	919	3	11	C22	CE32	3	PRI		M				
-117403	Preston Primary School	9C3H4EC	919	4	11	C22	CE32	3	PRI		M				
-117404	Sarratt Church of England Primary School	9A1SV6E	919	4	11	C22	CE32	3	PRI		M				
-117405	Spellbrook Primary School	9B09PAV	919	3	11	C22	CE32	3	PRI		M				
-117406	Roger De Clare First CofE School	9B09WFN	919	3	9	C22	CE32	3	PRI		M				
-117407	St Andrew's Church of England Voluntary Controlled Primary School	9B09WH6	919	3	11	C22	CE32	3	PRI		M				
-117408	Thundridge Church of England Primary School	2X6MXADA	919	3	11	C22	CE32	3	PRI		M				
-117409	St Mary's Voluntary Controlled Church of England Junior School	5T8HG06K	919	7	11	C22	CE32	3	PRI		M				
-117410	St Catherine's Church of England Primary School	9B09WT8	919	3	11	C22	CE32	3	PRI		M				
-117411	Musley Infant School	2X6MXADK	919	5	7	C22	CE32	3	PRI		M				2003-08-31
-117412	Wareside Church of England Primary School	9B09XT0	919	4	11	C22	CE32	3	PRI		M				
-117413	Weston Primary School	9C3H8X2	919	3	11	C22	CE32	3	PRI		M				
-117414	Potten End CofE Primary School	5T8JQEX2	919	3	11	C22	CE32	3	PRI		M				
-117415	Dewhurst St Mary CofE Primary School	4D5QVQ	919	5	11	C22	CE32	3	PRI		M				
-117416	Leverstock Green Church of England Primary School	9AQK0QK	919	3	11	C22	CE32	3	PRI		M				
-117417	St Paul's Church of England Primary School, Langleybury	9A1STCM	919	3	11	C22	CE32	2	PRI		M				
-117418	Nash Mills Church of England Primary School	5T8JQ82D	919	3	11	C22	CE32	2	PRI		M				
-117419	Albury Church of England Voluntary Aided Primary School	2X6MXA42	919	2	11	C22	CE32	2	PRI		M				
-117420	Ardeley St Lawrence Church of England Voluntary Aided Primary School		919	3	11	C22	CE32	2	PRI		M				
-117421	Aston St Mary's Church of England Aided Primary School	9B09TW7	919	4	11	C22	CE32	2	PRI		M				
-117422	Barkway VA Church of England First School	2X6MXNK3	919	5	9	C22	CE32	2	PRI		M				
-117423	Victoria Church of England Infant and Nursery School	5T8JQ7K1	919	3	7	C22	CE32	2	PRI		M				
-117424	St Mary's CofE Primary School, Northchurch	5T8JQGB2	919	3	11	C22	CE32	2	PRI		M				
-117425	St Joseph's Catholic Primary School	9B09V4B	919	3	11	C67	RC01	2	PRI		M				
-117426	St Michael's Church of England Primary School	2X6MTKB7	919	3	11	C22	CE32	2	PRI		M				
-117427	St Clement's Church of England Voluntary Aided Junior School	4D609B	919	7	11	C22	CE32	2	PRI		M				2010-08-31
-117428	Holy Trinity Church of England Primary School	4D5QTZ	919	4	11	C22	CE32	2	PRI		M				
-117429	St Joseph's Catholic Primary School	4D51HB	919	3	11	C67	RC01	2	PRI		M				
-117430	All Saints Church of England Voluntary Aided Primary School, Datchworth	9B09VQ6	919	5	11	C22	CE32	2	PRI		M				
-117431	St Nicholas Elstree Church of England VA Primary School	9B1AHZ8	919	3	11	C22	CE32	2	PRI		M				
-117432	St John the Baptist Voluntary Aided Church of England Primary School	9B09VQM	919	4	11	C22	CE32	2	PRI		M				
-117433	Great Gaddesden Church of England Primary School	9A2N3ZG	919	4	11	C22	CE32	2	PRI		M				
-117434	St Nicholas CofE VA Primary School	5T8JAR4F	919	4	11	C22	CE32	2	PRI		M				
-117435	St John's Voluntary Aided Church of England Primary School, Lemsford	5T8JHC7Q	919	4	11	C22	CE32	2	PRI		M				
-117436	St Joseph's Catholic Primary School		919	3	11	C67	RC01	2	PRI		M				
-117437	Broxbourne CofE Primary School	4D5AD2	919	3	11	C22	CE32	2	PRI		M				
-117438	St Augustine Roman Catholic Primary School	4D5FRY	919	3	11	C67	RC01	2	PRI		M				
-117439	Hormead Church of England (VA) First School	9B1N45D	919	3	9	C22	CE32	2	PRI		M				
-117440	St Ippolyts Church of England Aided Primary School	2X6MXGZ6	919	5	11	C22	CE32	2	PRI		M				
-117441	St Paul's Church of England Voluntary Aided Primary School, Chipperfield	2X6MYKF6	919	3	11	C22	CE32	2	PRI		M				
-117442	Norton St Nicholas CofE (VA) Primary School	2X6MXJXW	919	3	11	C22	CE32	2	PRI		M				
-117443	Little Gaddesden Church of England Voluntary Aided Primary School	2X6MVAPK	919	4	11	C22	CE32	2	PRI		M				
-117444	St Andrew's CofE Primary School and Nursery	9B09WAV	919	3	11	C22	CE32	2	PRI		M				
-117445	Offley Endowed Primary School	9C3HAY7	919	4	11	C22	CE32	2	PRI		M				
-117446	Cockernhoe Endowed CofE Primary School	9C3H7Z4	919	3	11	C22	CE32	2	PRI		M				
-117447	St Mary's Church of England Primary School, Rickmansworth	5T8FR94D	919	3	11	C22	CE32	2	PRI		M				
-117448	St Peter's Church of England Voluntary Aided Primary School	2X6MYHQ6	919	4	11	C22	CE32	2	PRI		M				
-117449	The Abbey Church of England Voluntary Aided Primary School, St Albans	5T8JAEJ1	919	4	11	C22	CE32	2	PRI		M				
-117450	St Alban and St Stephen Roman Catholic Infant and Nursery School	5T8JAQVQ	919	3	7	C67	RC01	2	PRI		M				
-117451	St Michael's Church of England Voluntary Aided Primary School, St Albans	5T8JAKVE	919	5	11	C22	CE32	2	PRI		M				
-117452	Park Street Church of England Voluntary Aided Primary School	5T8JAHE1	919	3	11	C22	CE32	2	PRI		M				
-117453	Puller Memorial, Church of England, Voluntary Aided Primary School	9B1RB29	919	3	11	C22	CE32	2	PRI		M				
-117454	St Thomas of Canterbury Roman Catholic Primary School	9B09WFA	919	3	11	C67	RC01	2	PRI		M				
-117455	Stapleford Primary School	9B09WHE	919	2	11	C22	CE32	2	PRI		M				
-117456	St Nicholas CofE (VA) Primary School and Nursery	9C3QNK2	919	3	11	C22	CE32	2	PRI		M				
-117457	Tewin Cowper Church of England Voluntary Aided Primary School	2X6MTFVR	919	4	11	C22	CE32	2	PRI		M				
-117458	Bishop Wood Church of England Junior School, Tring	2X6MV8D8	919	7	11	C22	CE32	2	PRI		M				
-117459	Long Marston VA Church of England Primary School	5T8JQGSM	919	5	11	C22	CE32	2	PRI		M				
-117460	St John's CofE Primary School	5T8JHAGW	919	3	11	C22	CE32	2	PRI		M				
-117461	St Michael's Woolmer Green CofE VA Primary School	5T8JHCKE	919	4	11	C22	CE32	2	PRI		M				
-117462	St Helen's Church of England Primary School	2X6MTEJG	919	4	11	C22	CE32	2	PRI		M				
-117463	St Bartholomew's Church of England Voluntary Aided Primary School, Wigginton	5T8JQEXV	919	4	11	C22	CE32	2	PRI		M				
-117464	Our Lady Roman Catholic Primary School	5T8JHBYW	919	4	11	C67	RC01	2	PRI		M				
-117465	St Joseph Catholic Primary School	5T8FR5R8	919	3	11	C67	RC01	2	PRI		M				
-117466	St Teresa Roman Catholic Primary School	9B1AHH8	919	3	11	C67	RC01	2	PRI		M				
-117467	St Andrew's Church of England Voluntary Aided Primary School, Hitchin	5T8GM5Z1	919	4	11	C22	CE32	2	PRI		M				
-117468	St Cuthbert Mayne Catholic Junior School	5T8JQ7VV	919	7	11	C67	RC01	2	PRI		M				
-117469	St Philip Howard Catholic Primary School	2X6MTBE4	919	4	11	C67	RC01	2	PRI		M				
-117470	St Adrian Roman Catholic Primary School	5T8JAQT5	919	3	11	C67	RC01	2	PRI		M				
-117471	Saint Albert the Great Catholic Primary School	5T8JQE5F	919	3	11	C67	RC01	2	PRI		M				
-117472	All Saints Church of England Primary School and Nursery, Bishop's Stortford	2X6MTM1E	919	3	11	C22	CE32	2	PRI		M				
-117473	Christ Church CofE (VA) Primary School and Nursery, Ware	2X6MXAE3	919	3	11	C22	CE32	2	PRI		M				
-117474	St Margaret Clitherow Roman Catholic Primary School	9C3QNHJ	919	3	11	C67	RC01	2	PRI		M				
-117475	St John Catholic Primary School	5T8FR8CM	919	4	11	C67	RC01	2	PRI		M				
-117476	Our Lady Roman Catholic Primary School	9C3H984	919	5	11	C67	RC01	2	PRI		M				2012-06-30
-117477	St Thomas More Roman Catholic Primary School	2X6MXKNC	919	3	11	C67	RC01	2	PRI		M				2012-06-30
-117478	St Dominic Catholic Primary School	5T8JAR3X	919	3	11	C67	RC01	2	PRI		M				
-117479	St Thomas More Roman Catholic Voluntary Aided Primary School	2X6MVBEF	919	3	11	C67	RC01	2	PRI		M				
-117480	St John Fisher Roman Catholic Primary School	5T8JAK3D	919	4	11	C67	RC01	2	PRI		M				
-117481	The Holy Family Catholic Primary School	5T8HFFSD	919	3	11	C67	RC01	2	PRI		M				
-117482	Countess Anne Voluntary Aided Church of England Primary School, Hatfield	5T8JHCB9	919	5	11	C22	CE32	2	PRI		M				2013-09-30
-117483	St Cross Catholic Primary School	4D5EF8	919	5	11	C67	RC01	2	PRI		M				
-117484	St Rose's Catholic Infants School	2X6MTS96	919	3	7	C67	RC01	2	PRI		M				
-117485	Divine Saviour Roman Catholic Primary School	5T8FRBGB	919	3	11	C67	RC01	2	PRI		M				
-117486	Holy Rood Catholic Junior School		919	7	11	C67	RC01	2	PRI		M				2006-08-31
-117487	St John Roman Catholic Primary School	9C3H55Z	919	3	11	C67	RC01	2	PRI		M				2012-06-30
-117488	Sacred Heart Catholic Primary School and Nursery	9B1AJXK	919	3	11	C67	RC01	2	PRI		M				
-117489	Saint Bernadette Catholic Primary School	5T8GM26F	919	4	11	C67	RC01	2	PRI		M				
-117490	Welwyn St Mary's Church of England Voluntary Aided Primary School	2X6MTG51	919	4	11	C22	CE32	2	PRI		M				
-117491	Saint Alban and St Stephen Catholic Junior School	5T8JAH43	919	7	11	C67	RC01	2	PRI		M				
-117492	St Paul's Catholic Primary School	4D4Q8A	919	3	11	C67	RC01	2	PRI		M				
-117493	Sacred Heart Catholic Primary School	9B09WMT	919	4	11	C67	RC01	2	PRI		M				
-117494	Holy Rood RC Infants' School	9A95YCZ	919	3	7	C67	RC01	2	PRI		M				2006-08-31
-117495	St Anthony's Catholic Primary School	5T8FR0DR	919	3	11	C67	RC01	2	PRI		M				
-117496	Pope Paul Catholic Primary School	9B1AJKK	919	4	11	C67	RC01	2	PRI		M				
-117497	St Mary's Church of England Primary School	2X6MTHYM	919	4	11	C22	CE32	2	PRI		M				
-117498	Saint Vincent de Paul Catholic Primary School	9C3QP13	919	4	11	C67	RC01	2	PRI		M				
-117499	The Priory School	9C3H7F5	919	11	18			5	SEC		M				
-117500	The Hemel Hempstead School	5T8JQ7X5	919	11	18			1	SEC		M				
-117501	Richard Hale School	9B09VXK	919	11	18			5	SEC		B				2013-06-30
-117502	Hitchin Boys' School	2X6MXHSD	919	11	18			1	SEC		B				2012-12-31
-117503	Hitchin Girls' School	2X6MXHBD	919	11	18			1	SEC		G				2011-08-16
-117504	Fearnhill School	9C3H9D6	919	11	18			5	SEC		M				
-117505	Verulam School	5T8FVP7Q	919	11	18			1	SEC		B				2011-07-31
-117506	Presdales School	2X6MXAZE	919	11	18			1	SEC		G				2012-03-31
-117507	Stanborough School	2X6MTHCA	919	11	18			1	SEC		M				2012-01-31
-117508	Langleybury School		919	11	18			1	SEC		M				1996-09-01
-117509	The Knights Templar School	2X6MXN06	919	11	18			1	SEC		M				2011-03-31
-117510	The Hillside School		919	13	18			1	SEC		M				2000-08-31
-117511	Sir John Lawes School	2X6MTFDH	919	11	18			5	SEC		M				2011-07-31
-117512	Adeyfield School	2X6MV4HS	919	11	18			1	SEC		M				
-117513	Norton School		919	11	18			1	SEC		M				2002-08-31
-117514	Beaumont School	2X6MTE5Z	919	11	18			1	SEC		M				2012-06-30
-117515	Barclay School	2X6N0357	919	11	18			1	SEC		M				
-117516	Hawksmoor School	9AE03ZP	919	13	18			1	SEC		M				2000-08-31
-117517	The Heathcote School	2X6MXG43	919	11	18			1	SEC		M				2012-08-31
-117518	Barnwell School	2X6MXG42	919	11	18			1	SEC		M				
-117519	Simon Balle School	2X6MXBT7	919	11	18			5	SEC		M				2013-10-31
-117520	Roundwood Park School	2X6MTFB6	919	11	18			5	SEC		M				2011-07-31
-117521	Lyndhurst Middle School		919	9	13			1	MDS		M				2001-08-31
-117522	Francis Combe School and Community College	9AQ026H	919	11	18			1	SEC		M				2009-08-31
-117523	Longdean School	2X6MV9YH	919	11	18			1	SEC		M				2011-07-31
-117524	St Albans Girls' School	2X6MTDMM	919	11	18			1	SEC		G				2011-08-31
-117525	Sir Frederic Osborn School	2X6MTGFN	919	11	18			1	SEC		M				
-117526	Kings Langley School	5T8JQHE1	919	11	18			1	SEC		M				2012-11-30
-117527	Bishop's Hatfield Girls' School	2X6MTBBS	919	11	18			1	SEC		G				2011-12-31
-117528	The Cavendish School	2X6MTSE5	919	11	18			1	SEC		M				
-117529	The Broxbourne School	4D59W3	919	11	18			5	SEC		M				2010-12-31
-117530	The Nobel School	9C3QPF9	919	11	18			1	SEC		M				
-117531	Turnford School	4D547M	919	11	18			1	SEC		M				2015-08-31
-117532	Westfield Community Technology College	2X6MYE5R	919	11	18			1	SEC		M				2013-08-31
-117533	Collenswood School	9C3QPAP	919	11	18			1	SEC		M				2006-08-31
-117534	Marriotts School		919	11	18			1	SEC		M				
-117535	The Sele School	2X6MXCRP	919	11	18			1	SEC		M				2012-07-31
-117536	Monk's Walk School	5T8JH9XV	919	11	18			5	SEC		M				2012-08-31
-117537	The Highfield School	2X6MXKNB	919	11	18			1	SEC		M				
-117538	Sheredes School	4D5BSY	919	11	18			1	SEC		M				2016-08-31
-117539	Meridian School	2X6MXNC2	919	13	18			1	SEC		M				2011-10-31
-117540	Freman College	2X6MXP1R	919	13	18			5	SEC		M				2011-07-31
-117541	Bridgewater Primary School	5T8JQEGB	919	4	11			1	PRI		M				
-117542	The Greneway School	2X6MXNC1	919	9	13			1	MDS		M				2011-10-31
-117543	Ralph Sadleir Middle School	9B09WFN	919	9	13			1	MDS		M				2013-09-30
-117544	Furzehill Middle School		919	9	13			1	MDS		M				2001-08-31
-117545	Roysia Middle School	2X6MXNAP	919	9	13			1	MDS		M				2011-10-31
-117546	Sir John Newsom School		919	11	18			1	SEC		M				1998-08-31
-117547	Onslow St Audrey's School	2X6MTBBK	919	11	18			1	SEC		M				2011-12-31
-117548	Sandringham School	5T8JAHHX	919	11	18			1	SEC		M				2011-03-31
-117549	Birchwood High School	9B09QS4	919	11	18			5	SEC		M				2011-10-31
-117550	The Thomas Alleyne School	9C3QN4X	919	11	18			1	SEC		M				2013-08-31
-117551	The Chauncy School	2X6MXAD9	919	11	18			5	SEC		M				2011-07-31
-117552	The Astley Cooper School	2X6MV56T	919	11	18			1	SEC		M				
-117553	Tring School	2X6MV863	919	11	18	C22	CE32	3	SEC		M				2012-06-30
-117554	Edwinstree Church of England Middle School	2X6MXNXN	919	9	13	C22	CE32	3	MDS		M				
-117555	Townsend CofE School	5T8JAHPF	919	11	18	C22	CE32	2	SEC		M				
-117556	St George's School	2X6N02Y7	919	11	18	C1		2	SEC		M				2012-06-30
-117557	John F Kennedy Catholic School	2X6MTSAV	919	11	18	C67	RC01	2	SEC		M				
-117558	Loreto College	2X6MTA14	919	11	18	C67	RC01	2	SEC		G				2012-04-30
-117559	The Thomas Coram Church of England School	5T8JQHHF	919	7	11	C22	CE32	2	PRI		M				
-117560	St Mary Roman Catholic Primary School	2X6MXNF8	919	3	11	C67	RC01	2	PRI		M				2012-06-30
-117561	Christ Church Church of England School		919	3	11	C22	CE32	2	PRI		M				2013-03-31
-117562	Parkside Community Primary School	9B1AHGK	919	3	11			5	PRI		M				
-117563	Hertingfordbury Cowper Primary School	9B09W9Z	919	4	11	C22	CE32	2	PRI		M				
-117564	St Giles' CofE Primary School	9B1AJ33	919	4	11	C22	CE32	2	PRI		M				
-117565	Cuffley School	2X6MTNZM	919	3	11			5	PRI		M				
-117566	The Wroxham School	9B1AJKR	919	4	11			5	PRI		M				2012-05-31
-117567	Little Heath Primary School	5T8JHCF1	919	3	11			5	PRI		M				
-117568	Little Reddings Primary School	9B1AJVM	919	3	11			5	PRI		M				2012-01-31
-117569	Northaw Church of England Primary School	5T8JH99K	919	3	11	C22	CE32	2	PRI		M				
-117570	Brookmans Park Primary School	2X6MTJ65	919	4	11			5	PRI		M				
-117571	St Catherine of Siena Catholic Primary School	5T8FR6JX	919	4	11	C67	RC01	2	PRI		M				2012-06-30
-117572	Rickmansworth School	9A1SV4G	919	11	18			5	SEC		M				2011-03-31
-117573	Watford Grammar School for Boys		919	11	18	C22		2	SEC		B				2010-08-31
-117574	Francis Bacon School	9AQQS5E	919	11	18			5	SEC		M				2012-08-31
-117575	Watford Grammar School for Girls	5T8FR333	919	11	18	C22		2	SEC		G				2010-08-31
-117576	Parmiter's School	2X6MYGZH	919	11	18			2	SEC		M				2011-06-30
-117577	The Bishop's Stortford High School	2X6MTK6F	919	11	18			5	SEC		B				
-117578	Ashlyns School	5T8GAB7X	919	11	18			5	SEC		M				
-117579	Dame Alice Owen's School	9B1AJKN	919	11	18			2	SEC		M				2011-03-31
-117580	Bushey Meads School	9B1AK1T	919	11	18			5	SEC		M				2012-01-31
-117581	Bushey Hall School	9B1AJXE	919	11	18			5	SEC		M				2009-08-31
-117582	Queens' School	9AE04NH	919	11	18			5	SEC		M				2011-06-30
-117583	Mount Grace School	9AE051S	919	11	18			5	SEC		M				2011-07-31
-117584	Nicholas Breakspear Catholic School	2X6MTE5Y	919	11	18	C67	RC01	2	SEC		M				2012-02-29
-117585	The John Henry Newman Catholic School	9C3QMQ7	919	11	18	C67	RC01	2	SEC		M				2012-02-29
-117586	Marlborough School	2X6MT9S6	919	11	18			5	SEC		M				2012-03-31
-117587	Goffs School	4D4ME9	919	11	18			5	SEC		M				2011-09-30
-117588	The Leventhorpe School	2X6MTJCP	919	11	18			5	SEC		M				2011-07-31
-117589	Saint Michael's Catholic High School		919	11	18	C67	RC01	2	SEC		M				2012-02-29
-117590	Saint Joan of Arc Catholic School		919	11	18	C67	RC01	2	SEC		M				2012-02-29
-117591	Chancellor's School	2X6MTHZS	919	11	18			5	SEC		M				
-117592	The Hertfordshire & Essex High School and Science College	2X6MZTDB	919	11	18			5	SEC		G				2014-03-31
-117593	St Clement Danes School	2X6MYJWD	919	11	18			2	SEC		M				2011-06-30
-117594	St Mary's Catholic School	2X6MTJQC	919	11	18	C67	RC01	2	SEC		M				
-117595	St Mary's Church of England High School (VA)	4D5Z7N	919	11	18	C22	CE32	2	SEC		M				2012-06-30
-117596	Cheshunt School	4D4TEG	919	11	18			5	SEC		M				
-117597	The John Warner School	4D5J74	919	11	18			5	SEC		M				2011-03-31
-117598	Hockerill Anglo-European College	9B09QK4	919	11	18			5	SEC		M				2011-01-31
-117599	Holmshill School	9B1AJ17	919	9	13			5	MDS		M				2001-08-31
-117600	Abbot's Hill School	2X6MS52Y	919	3	16			11			G			1941-01-01	
-117601	Edge Grove School		919	3	13			11			M			1938-01-01	
-117602	The Aldenham Foundation	9B1AK1W	919	3	19	C22		11			M			1910-01-01	
-117603	Berkhamsted School for Girls	2X6MVB5T	919	3	19			11			G				1996-12-06
-117604	Berkhamsted School		919	3	19	C4;C1		11			M			1902-01-01	
-117605	Bishop's Stortford College	2X6MZT6T	919	4	18			11			M			1907-01-01	
-117606	St Margaret's School	9B1AJXQ	919	4	18			11			G			1918-01-01	
-117607	Haileybury and Imperial Service College	9B0A2RT	919	11	18	C22		11			M			1920-01-01	
-117608	Aldwickbury School	2X6MTEZM	919	4	13			11			B			1950-01-01	
-117609	Queenswood School	2X6MTHW3	919	11	18	C49		11			G			1919-01-01	
-117610	Westbrook Hay Prep School		919	3	14			11			M			1920-01-01	
-117611	Lockers Park School	9A2N72Q	919	5	14	C22		11			B			1919-01-01	
-117612	St Christopher School		919	3	19			11			M			1929-01-01	
-117613	St Francis College		919	3	18	C1		11			G			1947-01-01	
-117614	Princess Helena College	9C3HAE9	919	11	18	C22		11			G			1919-01-01	
-117615	Radlett Preparatory School	9AD5AX0	919	4	11			11			M			1950-01-01	
-117616	Merchant Taylors' School		919	11	18			11			B			1927-01-01	
-117617	St Albans High School for Girls	2X6MTA18	919	4	18	C4		11			G			1908-01-01	
-117618	Tring Park School for the Performing Arts		919	8	18			11			M			1949-01-01	
-117619	Northfield School		919	2	19			11			G				1997-08-19
-117620	Beechwood Park School	5T8JQ7WB	919	3	13			11			M			1930-01-01	
-117621	Heath Mount School	9B09XVA	919	3	13			11			M			1921-01-01	
-117622	Sherrardswood School	5T8JHE7M	919	3	19			11			M			1950-01-01	
-117623	Egerton-Rothesay School	2X6MVBCY	919	6	19	C1		11			M			1956-01-01	
-117624	St Hilda's School		919	2	11			11			M			1957-10-18	
-117625	Westwood School		919	5	6			11			M			1957-10-21	2009-07-09
-117626	Harpenden Preparatory School	2X6MTF8X	919	5	10			11			M			1958-03-05	2005-07-15
-117627	St Hilda's School	2X6MTF1V	919	3	11			11			G			1957-10-15	
-117628	Duncombe School	9B09W8M	919	2	11			11			M			1957-11-13	
-117629	St Joseph's in the Park	9B1N3RZ	919	3	11			11			M			1957-10-15	
-117630	Kingshott School	9C3H9WD	919	3	13			11			M			1951-10-30	
-117631	Rudolf Steiner School	9AQJZR8	919	3	18			11			M			1957-10-18	
-117632	The Barn School	9B09WAV	919	2	8			11			M				1998-08-18
-117633	St Edmund's College	9B09SPZ	919	3	19	C67		11			M			1952-01-01	
-117634	Hart House School		919	2	7			11			M				1999-03-22
-117635	Charlotte House Preparatory School		919	3	11			11			G			1957-01-01	
-117636	York House School		919	3	13			11			M			1956-01-01	
-117637	Homewood Independent School	5T8JAQSS	919	5	6			11			M			1957-10-22	2006-07-07
-117638	St Columba's College	2X6MTCZY	919	4	18	C67		11			B			1957-12-06	
-117639	Francis House Preparatory School	2X6MZ9W3	919	3	11			11			M			1957-10-17	2014-12-12
-117640	Stanborough Secondary School		919	11	18	C73		11			M			1957-12-03	
-117641	Royal Masonic School for Girls		919	4	18			11			G			1935-01-01	
-117642	St Francis College		919	3	12			11			M			1947-01-01	2012-04-30
-117643	Lochinver House School	9B1AJKE	919	4	13			11			B			1952-01-01	
-117644	Stormont School	9B1AJMG	919	4	11			11			G			1944-01-01	
-117645	St Columba's Preparatory School	2X6MTCZY	919	5	10			11			B			1966-10-28	2005-02-02
-117646	Radlett Lodge School	2X6MYN7R	919	4	19			10			M			1974-09-30	
-117647	St Albans School	5T8JAGTK	919	11	19	C1;C1c		11			B			1980-09-30	
-117648	Haberdashers' Aske's Boys' School	9B1AHHC	919	5	18			11			B			1980-09-30	
-117649	Haberdashers' Aske's School for Girls	9B1AGR6	919	4	18			11			G			1980-09-30	
-117650	The King's School	9A1REM8	919	4	16	C1		11			M			1982-09-14	
-117651	Merchant Taylors' Prep School	5T8FRDD9	919	3	13	C1		11			B			1922-01-01	
-117652	Radlett Nursery and Infant School		919	5	6			11			M			1983-06-21	2005-09-01
-117653	Berkhamsted Pre-Prep School	5T8JQ7FV	919	3	7			11			M			1985-04-29	
-117654	Bhaktivedanta Manor School		919	4	11	D1		11			M			1985-05-16	
-117656	Haresfoot Senior School		919	11	17			11			M				2000-10-17
-117657	Immanuel College	9AD52PD	919	4	19	F1		11			M			1990-10-31	
-117658	Manor Lodge School	9B1AKKG	919	3	11			11			M			1992-02-04	
-117659	Warrax House School		919	11	16			10			M			1992-02-03	2006-03-31
-117660	High Elms Manor School	5T8FRBHC	919	1	11			11			M			1992-05-07	
-117661	South Lodge School		919	12	17			11			G				1999-12-22
-117662	Longwood School	9B1AJXV	919	3	11			11			M			1994-07-26	
-117663	Epping House School		919	7	12			7			M				1997-07-25
-117664	Pinewood School	2X6MZT45	919	11	16			12			M				2014-08-31
-117665	St Elizabeth's School		919	5	19			8			M				
-117666	Knightsfield School	5T8JHA3Z	919	10	18			7			M				2012-07-31
-117667	Garston Manor School	5T8FR09X	919	11	16			7			M				
-117668	Boxmoor House School	9A2N551	919	11	16			7			B				2006-03-31
-117669	The Valley School	5T8FDH0D	919	11	16			7			M				
-117670	Colnbrook School	2X6MYD37	919	4	11			7			M				
-117671	St Luke's School	2X6MTDT8	919	9	16			12			M				
-117672	The Collett School	2X6MTS3N	919	4	16			7			M				
-117673	Hailey Hall School	4D5CKW	919	11	16			12			B				2015-08-31
-117674	Batchwood School	2X6MTDG1	919	11	16			7			M				
-117675	The Hyde School		919	4	12			7			M				1995-09-01
-117676	Middleton School	2X6MXBAD	919	4	11			7			M				
-117677	Great Brookmead School		919	5	11			7			M				1995-08-31
-117678	Hilltop School	2X6N035B	919	5	11			7			B				1996-08-31
-117679	Lonsdale School		919	3	18			7			M				
-117680	Lakeside School	2X6MTHMB	919	2	19			7			M				
-117681	Breakspeare School	2X6MYKRW	919	2	19			7			M				
-117682	Woodfield School	2X6MV9YK	919	3	19			7			M				
-117683	Watling View School	2X6MT9W3	919	2	19			7			M				
-117684	Amwell View School	9B1N31S	919	2	19			7			M				
-117685	Heathlands School	2X6MTDHE	919	3	16			7			M				
-117686	Falconer School	9B1AJXG	919	11	16			7			B				
-117687	High Wick School	2X6N035B	919	6	11			7			M				1996-08-31
-117688	The Edward Jenner Hospital School	9AQQR2W	919	12	16			7			M				1999-10-18
-117689	Woolgrove School	2X6MXKK6	919	4	12			7			M				2012-03-31
-117690	Greenside School	9C3QNZ4	919	2	19			7			M				
-117691	Meadow Wood School	9AE04RC	919	3	11			7			M				
-127416	Holy Rood Catholic Primary School	9A95YCZ	919	3	11	C67	RC01	2	PRI		M			2006-09-01	
-127633	The Chrysalis School for Autism	9C3H48G	919	5	16			10			M			2005-07-14	2011-03-26
-129109	Highfield Nursery School		919					15	NUR						1988-08-31
-129110	Burleigh Junior School	4D4WFP	919	7	11			1	PRI		M				1994-12-31
-129111	Belswains Junior School	5T8JQGDJ	919	7	11			1	PRI		M				1993-12-31
-129112	Morgans Walk Junior Mixed School	9B09KZQ	919	7	11			1	PRI		M				1992-12-31
-129113	Mount Pleasant Lane Junior School	5T8JAMHS	919	7	11			1	PRI		M				1989-08-31
-129114	Leavesden Green Junior Mixed School		919	7	11			1	PRI		M				1992-08-31
-129115	Hobbs Hill Wood Junior School	2X6MVA3W	919	7	11			1	PRI		M				1995-08-31
-129116	Belswains Infants' School		919	4	7			1	PRI		M				1993-12-31
-129117	Hobbs Hill Wood Infants' School	2X6MVA3W	919	3	7			1	PRI		M				1995-08-31
-129118	Bengeo Junior School	9B09W62	919	7	11			1	PRI		M				1992-08-31
-129119	Bonneygrove Junior School	4D4MDG	919	7	11			1	PRI		M				1993-12-31
-129120	Broad Oaks Junior Mixed School		919					1	PRI						1991-08-31
-129121	Bishops Wood Infant School		919					1	PRI						1991-08-31
-129122	Bellgate Junior Mixed School	5T8JQF4Y	919	7	11			1	PRI		M				1987-12-31
-129123	Meriden Junior School		919	7	11			1	PRI		M				1992-08-31
-129124	St Stephen's Infant School		919					1	PRI						1989-08-31
-129125	Millwards Junior Mixed School	2X6MTBEZ	919	7	11			1	PRI		M				1992-08-31
-129126	The Downs Infant School	2X6MTBEZ	919	5	7			1	PRI		M				1992-08-31
-129127	Bellgate Infant School	5T8JQF4Y	919	5	7			1	PRI		M				1987-12-31
-129128	Meriden Infant School		919	5	7			1	PRI		M				1992-08-31
-129129	Bonneygrove Infants' School	4D4MDG	919	4	7			1	PRI		M				1993-12-31
-129130	Wood End Junior Mixed School	2X6MTFBZ	919	7	11			1	PRI		M				1991-08-31
-129131	Chalk Dell Infant School		919	5	7			1	PRI		M				1992-12-31
-129132	Bengeo Infant School		919	5	7			1	PRI		M				1992-08-31
-129133	Grangewood Infants' School	4D4WFP	919	4	7			1	PRI		M				1994-12-31
-129134	Cranbourne Junior School	4D5MF5	919	7	11			1	PRI		M				1990-08-31
-129135	Dundale Infant School		919					1	PRI						1988-08-31
-129136	Cranbourne Infant School	4D5MF5	919	5	7			1	PRI		M				1990-08-31
-129137	Leavesden Green Infant School		919	5	7			1	PRI		M				1992-08-31
-129138	Wood End Infant School	2X6MTFBZ	919	5	7			1	PRI		M				1991-08-31
-129139	Laurance Haines Infant School		919					1	PRI						1988-08-31
-129140	Eastbrook Junior School	2X6MV5B0	919	7	11			1	PRI		M				1991-08-31
-129141	Ley Park Junior School	4D59VX	919	7	11			1	PRI		M				1991-08-31
-129142	Eastbrook Infant and Nursery School	2X6MV5B0	919	5	7			1	PRI		M				1991-08-31
-129143	Wellfield Wood Junior School	2X6MX9R5	919	7	11			1	PRI		M				1993-03-31
-129144	Grove Road Junior School	2X6MV8D9	919	7	11			1	PRI		M				1992-12-31
-129145	Wellfield Wood Infant School	2X6MX9R5	919	5	7			1	PRI		M				1993-03-31
-129146	Ley Park Infant School	4D59VX	919	5	7			1	PRI		M				1991-08-31
-129147	Cottered VC Primary School		919	5	9			3	PRI		M				1992-12-31
-129148	Westmill First School		919					3	PRI						1989-08-31
-129149	Sir John Southworth RC Junior Mixed and Infant School		919					2	PRI						1990-08-31
-129150	Pope Pius XII RC Primary School		919					2	PRI						1990-08-31
-129151	Maragaret Dane School		919					1	SEC						1990-08-31
-129152	Hadham Hall School		919					1	SEC						1990-08-31
-129153	Hitchin School		919					1	SEC						1988-08-31
-129154	Durrants School		919	11	18			1	SEC		M				1991-08-31
-129155	Sir James Altham School		919					1	SEC						1989-08-31
-129156	Hatfield School		919					1	SEC						1990-08-31
-129157	Thomas Alleynes School		919					1	SEC						1989-08-31
-129158	Bowes Lyon High School		919					1	SEC						1988-08-31
-129159	The Marshalwick School	5T8JAHHX	919	11	18			1	SEC		M				1988-08-31
-129160	The Willian School		919	11	18			1	SEC		M				1991-08-31
-129161	Francis Bacon School		919					1	SEC						1990-08-31
-129162	Halsey School		919					1	SEC						1988-08-31
-129163	The Mountbatten School		919	11	18			1	SEC		M				1991-08-31
-129164	Wheathampstead School		919	11	18			1	SEC		M				1988-08-31
-129165	Stevenage Girls' School		919					1	SEC						1989-08-31
-129166	The Augustus Smith School		919					1	SEC						1988-08-31
-129167	Bishopslea School		919					1	SEC						1988-08-31
-129168	Cardinal Bourne School		919					2	SEC						1988-08-31
-129169	Thomas Bourne CofE Middle School		919					2	MDS						1988-08-31
-129170	Roasry Priory High School		919					11							1988-07-08
-129171	Lyndale School		919	3	17			11			M				1994-01-06
-129172	Sherrardswood Junior School		919					11						1950-01-01	2006-08-31
-129173	Rosary Priory Preparatory School		919					11							1988-07-08
-129174	Pamela Gardens School		919					11							1991-01-09
-129176	Marlin Montessori School		919					11							1991-10-20
-129177	Stanborough Secondary School		919					11						1950-01-01	2006-08-31
-129178	Broxbournebury School		919					7							1990-08-31
-129179	Chorleywood College		919	11	19			7			G				1987-07-31
-129180	Elmfield School		919	10	16			7			M				1987-07-31
-129181	Hangers Wood School		919	3	12			7			M				1994-09-01
-129182	Brandles School	2X6MXMZX	919	11	13			7			B				1990-09-30
-129183	Greenside School	9C3QNZ4	919					7							1989-03-31
-129184	Harperbury Hospital School	9AQQR2W	919					7							1993-12-31
-129185	Springfield School		919	3	19			7			M				1993-12-31
-129186	Home Field School	9C3QNZ4	919	3	18			7			M				1989-03-31
-130160	Summercroft Primary School	9B09V9Y	919	3	11			1	PRI		M			2006-01-01	2011-08-31
-130338	Norfolk Lodge School Ltd	9AD5DF0	919	5	10			11			M			1996-03-13	2009-08-31
-130344	North Area Pupil Referral Unit		919	5	16			14			M			1995-09-01	
-130347	Hertford, Ware and Bishop's Stortford Area Pupil Referral Unit	9B09VV9	919	5	16			14			M			1995-09-01	2009-08-31
-130348	The Park Education Support Centre	9B1AJCK	919	5	16			14			M			1995-09-01	
-130349	South West Area Pupil Referral Unit		919	5	16			14			M			1995-09-01	
-130355	Buntingford Area Pupil Referral Unit	2X6MXNXN	919	5	18			14			M			1996-04-01	1998-01-01
-130356	The Links Education Support Centre	5T8JAGKZ	919	5	16			14			M			1995-09-01	2013-01-31
-130359	Stevenage Education Support Centre	9C3QPE3	919	11	14			14			M			1995-09-01	
-130362	Southfield School	2X6MTBE4	919	4	11			7			M			1995-09-01	
-130363	Shepherd Montessori School		919	5	5			11			M			1996-05-02	1996-09-18
-130720	West Herts College	5T8FR0G2	919	16	99			18	16P		M				
-130721	North Hertfordshire College	2X6MXKN8	919	16	99			18	16P		M				
-130722	Hertford Regional College	9B09WV0	919	16	99			18	16P		M				
-130723	Oaklands College	9A1R8X0	919	16	99			18	16P		M				
-131060	Brandles School	2X6MXMZX	919	11	16			7			B			1993-10-25	
-131100	Dacorum Education Support Centre		919	5	16			14			M			1995-09-01	
-131188	Bovingdon Primary School	2X6MV9XY	919	3	11			1	PRI		M			1998-09-01	2011-06-30
-131319	Haywood Grove School	2X6MV5B0	919	5	11			7			M			1996-02-20	
-131456	Clore Shalom School	9B1AK53	919	3	11	F1		2	PRI		M			1999-09-01	
-131503	Larwood School	2X6N035B	919	5	11			12			M				
-131505	Featherstone Wood Primary School	9ADG70Y	919	3	11			1	PRI		M			1998-09-01	
-131651	Hertsmere Jewish Primary School		919	1	5			11			M				1999-09-22
-131955	Hertsmere Jewish Primary School	9B1AHEF	919	3	11	F1		2	PRI		M			1999-09-01	
-131971	Hertswood School	9AE03ZP	919	11	18			1	SEC		M			2000-09-01	2012-08-31
-132015	St Elizabeth's College (The Congregation of the Daughters of the Cross of the Liege)		919	19	25	C67		32	16P		M			2006-06-20	
-132091	Lodge Farm Primary School	9C3QPF8	919	3	11			1	PRI		M			2000-09-01	
-132105	Birchwood Avenue Primary School	9AE9CV7	919	5	11			1	PRI		M			2000-04-13	
-132118	Sunny Bank Primary School		919	3	11			5	PRI		M			1999-09-01	2008-08-31
-133065	Grove Road Infant School	2X6MV8D9	919	5	7			1	PRI		M				2001-03-29
-133134	South Lodge School		919	11	17			11			G				1993-06-21
-133263	Roebuck Primary School and Nursery		919	3	11			1	PRI		M			2001-04-18	
-133295	Integrated Services Programme		919	1	16			11			M			2001-03-26	2001-07-26
-133323	Oughton Primary and Nursery School	5T8GM5Z3	919	3	11			1	PRI		M			2001-09-01	
-133488	Swallow Dell Primary and Nursery School	9AE9CV8	919	2	11			1	PRI		M			2002-01-01	
-133738	Redemption Academy		919	3	18	C1		11			M			2002-07-26	2015-07-16
-133773	St Catherine's Hoddesdon CofE Primary School	4D5VED	919	4	11		CE32	3	PRI		M			2003-01-01	
-133783	University of Hertfordshire	2X6MTBJ3	919					29			M				
-133917	Littlebury Resource Centre	4D5QVY	919	11	16			27			M			2000-09-01	2004-05-17
-133975	Muriel Green Nursery School	5T8JARDV	919	3	5			15	NUR		M			2001-01-01	
-134087	St Albans Independent College		919	14	19			11			M			2003-01-20	
-134197	Flamstead End Primary and Nursery School	4D4PHZ	919	3	11			1	PRI		M			2003-09-01	2013-03-31
-134488	Littlebury Resource Centre	4D5QVY	919	11	16			11			M			2003-08-29	2004-09-29
-134682	Windhill School	2X6MTKCB	919	3	11			1	PRI		M			2006-01-01	2015-02-28
-134684	Berrygrove Primary and Nursery School	9A95Y4M	919	3	11			1	PRI		M			2005-09-02	2012-08-31
-134685	Alban Wood Primary School and Nursery	2X6MYGZD	919	3	11			1	PRI		M			2005-09-02	
-134716	De Havilland Primary School	2X6MTBF0	919	3	11			1	PRI		M			2004-09-01	
-134786	Village Montessori	9A2N6TH	919	4	11	C1		11			M			2004-09-01	2007-03-30
-134933	International Stanborough School		919	11	18			11			M			2005-02-10	
-134985	Yavneh College	9AE03VX	919	11	18	F1		2	SEC		M			2006-09-01	2011-06-30
-135083	Longmeadow Primary School	5T8FDGYV	919	3	11			1	PRI		M			2005-09-01	
-135084	Shephalbury Park Primary School	9C3QNZ0	919	3	11			1	PRI		M			2005-09-01	
-135221	Maple Grove Primary School	2X6MV5B0	919	3	11			1	PRI		M			2008-09-01	
-135222	Yewtree Primary School	5T8JQF4Y	919	3	11			1	PRI		M			2008-09-01	
-135223	Oak View Primary and Nursery School	2X6MTBEZ	919	3	11			1	PRI		M			2007-09-01	
-135224	Galley Hill Primary School and Nursery	2X6MTSE6	919	3	11			1	PRI		M			2008-09-01	
-135339	Broadfield Primary School	5T8JQEN7	919	3	11			1	PRI		M			2008-01-01	
-135402	Education and Youth Services (Herts)	5T8FDDY5	919	14	18			10			M			2007-09-05	2016-02-29
-135528	Killigrew Primary and Nursery School	5T8JAQST	919	3	11			1	PRI		M			2008-09-01	
-135553	Focus School - Cheshunt Primary Campus	4D5QVY	919	7	11	C61		11			M			2008-04-22	2014-10-22
-135560	Worldshapers Academy		919	13	16	C1		10			M			2008-04-24	2014-07-24
-135596	Stanborough Primary School	5T8FR15Q	919	3	11			11			M			1957-12-03	
-135876	Francis Combe Academy	9AQ026H	919	11	18			46	SEC		M		4996	2009-09-01	
-135890	Rivers Education Support Centre	4D5GPC	919	11	16			14			M			2009-09-01	
-135938	The Bushey Academy	9B1AJXE	919	11	18			46	SEC		M		4996	2009-09-01	
-136024	Churchfield CofE VA Primary	4D609B	919	3	11	C22	CE32	2	PRI		M			2010-09-01	
-136247	Roman Fields	9A2N551	919	11	18			14			M			2010-11-01	
-136276	Watford Grammar School for Boys		919	11	18	C22		45	SEC		B			2010-09-01	
-136289	Watford Grammar School for Girls	5T8FR333	919	11	18	C22		45	SEC		G			2010-09-01	
-136396	The Broxbourne School	4D59W3	919	11	18			45	SEC		M			2011-01-01	
-136482	Hockerill Anglo-European College	9B09QK4	919	11	18			45	SEC		M			2011-02-01	
-136554	Dame Alice Owen's School	9B1AJKN	919	11	18			45	SEC		M			2011-04-01	
-136606	Rickmansworth School	9A1SV4G	919	11	18			45	SEC		M			2011-04-01	
-136607	The John Warner School	4D5J74	919	11	18			45	SEC		M			2011-04-01	
-136608	The Knights Templar School	2X6MXN06	919	11	18			45	SEC		M			2011-04-01	
-136609	Sandringham School	5T8JAHHX	919	11	18			45	SEC		M			2011-04-01	
-136857	Bovingdon Primary Academy	2X6MV9XY	919	3	11			45	PRI		M		2189	2011-07-01	
-136877	Queens' School	9AE04NH	919	11	18			45	SEC		M			2011-07-01	
-136899	Parmiter's School	2X6MYGZH	919	11	18			45	SEC		M			2011-07-01	
-136901	St Clement Danes School	2X6MYJWD	919	11	18			45	SEC		M		16254	2011-07-01	
-136922	Yavneh College	9AE03VX	919	11	18	F1		45	SEC		M			2011-07-01	
-136973	Roundwood Park School	2X6MTFB6	919	11	18			45	SEC		M			2011-08-01	
-137002	Freman College	2X6MXP1R	919	13	18			45	SEC		M			2011-08-01	
-137038	Verulam School	5T8FVP7Q	919	11	18			45	SEC		B			2011-08-01	
-137090	The Chauncy School	2X6MXAD9	919	11	18			45	SEC		M			2011-08-01	
-137110	Longdean School	2X6MV9YH	919	11	18			45	SEC		M			2011-08-01	
-137156	Leventhorpe	2X6MTJCP	919	11	18			45	SEC		M		15905	2011-08-01	
-137224	Mount Grace School	9AE051S	919	11	18			45	SEC		M			2011-08-01	
-137238	Hammond Academy	5T8JQEQG	919	3	11			45	PRI		M		2189	2011-08-01	
-137270	Sir John Lawes School	2X6MTFDH	919	11	18			45	SEC		M		4533	2011-08-01	
-137288	Hitchin Girls' School	2X6MXHBD	919	11	18			45	SEC		G			2011-08-17	
-137339	St Albans Girls' School	2X6MTDMM	919	11	18			45	SEC		G			2011-09-01	
-137351	Summercroft Primary School	9B09V9Y	919	3	11			45	PRI		M			2011-09-01	
-137532	Goffs School	4D4ME9	919	11	18			45	SEC		M			2011-10-01	
-137637	Birchwood High School	9B09QS4	919	11	18			45	SEC		M			2011-11-01	
-137656	Meridian School	2X6MXNC2	919	13	18			45	SEC		M		4410	2011-11-01	
-137657	Roysia Middle School	2X6MXNAP	919	9	13			45	MDS		M		4410	2011-11-01	
-137658	The Greneway School	2X6MXNC1	919	9	13			45	MDS		M		4410	2011-11-01	
-137757	Bishop's Hatfield Girls' School	2X6MTBBS	919	11	18			45	SEC		G			2012-01-01	
-137792	Onslow St Audrey's School	2X6MTBBK	919	11	18			45	SEC		M			2012-01-01	
-137847	Stanborough School	2X6MTHCA	919	11	18			45	SEC		M			2012-02-01	
-137861	Little Reddings Primary School	9B1AJVM	919	3	11			45	PRI		M		2510	2012-02-01	
-137872	Bushey Meads School	9B1AK1T	919	11	18			45	SEC		M		2510	2012-02-01	
-137895	The John Henry Newman Catholic School	9C3QMQ7	919	11	18	C67	RC01	45	SEC		M		2928	2012-03-01	
-137914	Saint Joan of Arc Catholic School		919	11	18	C67	RC01	45	SEC		M		2111	2012-03-01	
-137922	Saint Michael's Catholic High School		919	11	18	C67	RC01	45	SEC		M		2928	2012-03-01	
-137938	Nicholas Breakspear Catholic School	2X6MTE5Y	919	11	18	C67	RC01	45	SEC		M		2928	2012-03-01	
-137943	Applecroft School	2X6MTHMA	919	3	11			45	PRI		M			2012-03-01	
-137985	Presdales School	2X6MXAZE	919	11	18			45	SEC		G			2012-04-01	
-137997	Woolgrove School, Special Needs Academy	2X6MXKK6	919	4	12			44			M			2012-04-01	
-138042	The Marlborough Science Academy	2X6MT9S6	919	11	18			45	SEC		M			2012-04-01	
-138106	Loreto College	2X6MTA14	919	11	18	C67	RC01	45	SEC		G			2012-05-01	
-138201	Hatfield Community Free School	9CQJSQ7	919	4	11			39	PRI		M			2012-09-01	
-138205	Fleetville Junior School	5T8JAG03	919	7	11			45	PRI		M		3107	2012-06-01	
-138206	Fleetville Infant and Nursery School	2X6MTAHR	919	3	7			45	PRI		M		3107	2012-06-01	
-138215	The Wroxham School	9B1AJKR	919	4	11			45	PRI		M			2012-06-01	
-138225	The Da Vinci Studio School of Science and Engineering	2X6MX8Y4	919	14	19			41	SEC		M		4020	2012-09-03	
-138231	Alban City School	5T8GN26J	919	5	11			39	PRI		M			2012-09-01	
-138286	Beaumont School	2X6MTE5Z	919	11	18			45	SEC		M			2012-07-01	
-138288	St Catherine of Siena Catholic Primary School	5T8FR6JX	919	4	11	C67	RC01	45	PRI		M		2928	2012-07-01	
-138292	St Mary Roman Catholic Primary School	2X6MXNF8	919	3	11	C67	RC01	45	PRI		M		2928	2012-07-01	
-138316	St John Roman Catholic Primary School	9C3H55Z	919	3	11	C67	RC01	45	PRI		M		2928	2012-07-01	
-138322	Our Lady Catholic Primary School	9C3H984	919	5	11	C67	RC01	45	PRI		M		2928	2012-07-01	
-138352	Tring School	2X6MV863	919	11	18	C22	CE32	45	SEC		M			2012-07-01	
-138354	St Thomas More Roman Catholic Primary School	2X6MXKNC	919	3	11	C67	RC01	45	PRI		M		2928	2012-07-01	
-138356	St George's School	2X6N02Y7	919	11	18	C1		45	SEC		M			2012-07-01	
-138360	St Mary's Church of England High School (VA)	4D5Z7N	919	11	18	C22	CE32	45	SEC		M			2012-07-01	
-138389	Garden City Academy	2X6MXKK5	919	3	11			46	PRI		M		4320	2012-09-01	
-138484	The Sele School	2X6MXCRP	919	11	18			45	SEC		M			2012-08-01	
-138485	Knightsfield School	5T8JHA3Z	919	10	18			44			M			2012-08-01	
-138507	The Grove Academy	9A95Y4M	919	3	11			46	PRI		M		2189	2012-09-01	
-138539	Northgate Primary School	2X6MTK10	919	3	11			45	PRI		M			2012-08-01	
-138561	Harpenden Free School		919	4	11			39	PRI		M		4533	2012-09-01	
-138582	Samuel Ryder Academy	9AQQS5E	919	4	19			46	ALL		M		4533	2012-09-01	
-138632	Monk's Walk School	5T8JH9XV	919	11	18			45	SEC		M			2012-09-01	
-138747	Hertswood Academy	9AE03ZP	919	11	18			45	SEC		M			2012-09-01	
-139036	Kings Langley School	5T8JQHE1	919	11	18			45	SEC		M			2012-12-01	
-139154	Hitchin Boys' School	2X6MXHSD	919	11	18			45	SEC		B			2013-01-01	
-139159	Mandeville Primary School	9A1RF1A	919	3	11			45	PRI		M		4610	2013-01-01	
-139197	Links Academy	5T8JAGKZ	919	5	16			42			M			2013-02-01	
-139416	The Elstree UTC		919	14	19			40	SEC		M			2013-09-01	
-139507	Christ Church Chorleywood CofE School		919	3	11	C22	CE32	45	PRI		M			2013-04-01	
-139545	Flamstead End School	4D4PHZ	919	2	11			45	PRI		M			2013-04-01	
-139550	Chaulden Junior School	2X6MTSD8	919	7	11			46	PRI		M		4610	2013-05-01	
-139662	The Reach Free School		919	11	18			39	SEC		M			2013-09-02	
-139835	Rhodes Farm School		919	8	18			11			M			2013-06-27	
-139873	Richard Hale School	9B09VXK	919	11	18			45	SEC		B			2013-07-01	
-139902	The Da Vinci Studio School of Creative Enterprise		919	14	19			41	SEC		M		4020	2013-09-02	
-140037	The Thomas Alleyne School	9C3QN4X	919	11	18			46	SEC		M		4020	2013-09-01	
-140049	Westfield Academy	2X6MYE5R	919	11	18			45	SEC		M			2013-09-01	
-140238	Countess Anne Church of England School	5T8JHCB9	919	5	11	C22	CE32	45	PRI		M			2013-10-01	
-140249	Ralph Sadleir School	9B09WFN	919	9	13			45	MDS		M		4301	2013-10-01	
-140294	Simon Balle All-Through School	2X6MXBT7	919	4	18			45	ALL		M		4528	2013-11-01	
-140611	Wilshere-Dacre Junior Academy	9C3H8GG	919	7	11			46	PRI		M		4320	2014-03-01	
-140707	Crabtree Infants' School	2X6MTFQN	919	5	7			45	PRI		M		4951	2014-04-01	
-140708	Crabtree Junior School	2X6MTFQN	919	7	11			45	PRI		M		4951	2014-04-01	
-140786	The Hertfordshire & Essex High School and Science College	2X6MZTDB	919	11	18			45	SEC		G			2014-04-01	
-140954	Lanchester Community Free School		919	4	11			39	PRI		M		5265	2014-09-01	
-140955	Jupiter Community Free School	2X6MV4WB	919	4	11			39	PRI		M		5265	2014-09-01	
-140956	Ascot Road Community Free School		919	4	11			39	PRI		M		5265	2014-09-01	
-141004	The Watford UTC		919	14	19			40	SEC		M			2014-09-01	
-141251	Pinewood School	2X6MZT45	919	11	16			44			M			2014-09-01	
-141851	Windhill21	2X6MTKCB	919	3	11			45	PRI		M			2015-03-01	
-141898	Fair Field Junior School	9B1AHFC	919	7	11			45	PRI		M		5616	2015-04-01	
-142051	Haileybury Turnford	4D547M	919	11	18			46	SEC		M			2015-09-01	
-142221	Watford St John's Church of England Primary School		919	4	11	C22;C1		39	PRI		M			2016-09-07	
-142257	Hailey Hall School	4D5CKW	919	11	16			44			B			2015-09-01	
-142413	Garden City Montessori School		919	2	12			11			M			2015-09-22	
-142862	Yavneh Primary School		919	4	11	F7		39	PRI		M			2016-09-01	
-143131	Sheredes School		919	11	18			46	SEC		M			2016-09-01	
-143409	Roselands Primary School		919	5	11			45	PRI		M			2016-09-01	
-143410	The Cranbourne Primary School		919	4	11			45	PRI		M			2016-09-01	
+school-eng	name	address	school-authority	minimum-age	maximum-age	religious-characters	dioceses	school-type	school-phase	school-admissions-policy	school-gender	school-tags	school-trust	school-umbrella-trust	start-date	end-date
+102256	Purcell School	9B1AK1J	919	8	19			11			M				1962-10-11	
+117065	Weston Way Nursery School	2X6MXMZY	919	3	5			15	NUR		M					
+117066	Arlesdene Nursery School and Pre-School	4D4TEB	919	2	5			15	NUR		M					
+117067	Greenfield Nursery School	4D4SBT	919	2	4			15	NUR		M					
+117068	Batford Nursery School	2X6MTFQ8	919	2	5			15	NUR		M					
+117069	Birchwood Nursery School	2X6MTB00	919	2	5			15	NUR		M					
+117070	Heath Lane Nursery School	9AQJZND	919	3	5			15	NUR		M					
+117071	York Road Nursery School	2X6MXJA5	919	3	5			15	NUR		M					
+117072	Rye Park Nursery School	4D5GWB	919	2	5			15	NUR		M					
+117073	Nevells Road Nursery School		919	3	5			15	NUR		M					2001-12-31
+117074	Muriel Green Nursery School		919	3	5			15	NUR		M					2001-01-01
+117075	London Colney Nursery School	2X6MTBMW	919	3	5			15	NUR		M					2015-03-31
+117076	Kingswood Nursery School	2X6MYGEW	919	2	5			15	NUR		M					
+117077	Oxhey Early Years Centre	2X6MYCMV	919	3	5			15	NUR		M					
+117078	Tenterfield Nursery School	2X6MTG52	919	3	5			15	NUR		M					
+117079	Ludwick Nursery School	2X6MTH11	919	2	5			15	NUR		M					
+117080	Peartree Way Nursery School	9C3QP0K	919	2	5			15	NUR		M					
+117081	Wall Hall Nursery School		919	3	5			15	NUR		M					2003-12-31
+117082	Lea Valley Education Support Centre		919	5	16			14			M				1995-09-01	2009-08-31
+117083	Abbots Langley School	5T8FR7NZ	919	3	11			1	PRI		M					
+117084	Ashwell Primary School	9C3H2ZH	919	3	11			1	PRI		M					
+117085	Northgate Primary School	2X6MTK10	919	3	11			1	PRI		M					2012-07-31
+117086	Bovingdon Junior School	2X6MV9XY	919	7	11			1	PRI		M					1998-09-01
+117087	Jenyns First School and Nursery	9B09NDE	919	3	9			1	PRI		M					
+117088	Bushey Heath Primary School	9B1AJWD	919	3	11			1	PRI		M					
+117089	Highwood Primary School	9B1AK0C	919	3	11			1	PRI		M					
+117090	Merry Hill Infant School and Nursery	9B1AJY1	919	3	7			1	PRI		M					
+117091	Holdbrook Primary School	4D50QJ	919	3	11			1	PRI		M					
+117092	Four Swannes Primary School	4D50QH	919	3	11			1	PRI		M					
+117093	Chorleywood Primary School	5T8FR9MQ	919	3	11			1	PRI		M					
+117094	Beechfield School	9A2MXPG	919	3	11			1	PRI		M					
+117095	New Briars Primary and Nursery School		919	3	11			1	PRI		M					2007-08-31
+117096	Shepherd Primary	5T8FR93G	919	3	11			1	PRI		M					
+117097	Hobletts Manor Junior School	9A2N6M9	919	7	11			1	PRI		M					
+117098	The Russell School	5T8FR999	919	3	11			1	PRI		M					
+117099	Cowley Hill School	9B1AJ1X	919	3	11			1	PRI		M					
+117100	Flamstead Village School	2X6MTE37	919	3	11			1	PRI		M					
+117101	Gaddesden Row JMI School	9A2N6TH	919	4	11			1	PRI		M					
+117102	Sauncey Wood Primary School	5T8GM330	919	4	11			1	PRI		M					
+117103	Manland Primary School	2X6MTFDJ	919	4	11			1	PRI		M					
+117104	Gascoyne Cecil Junior School	9AE9CV7	919	7	11			1	PRI		M					1999-09-01
+117105	Green Lanes Primary School	2X6MTBHN	919	5	11			1	PRI		M					
+117106	George Street Primary School	5T8JQF7A	919	3	11			1	PRI		M					
+117107	Boxmoor Primary School	5T8JQEZ2	919	4	11			1	PRI		M					
+117108	Two Waters Primary School	2X6MV9Y3	919	3	11			1	PRI		M					
+117109	Tudor Primary School	2X6MVAE8	919	3	11			1	PRI		M					
+117110	South Hill Primary School	9AQJZND	919	5	11			1	PRI		M					
+117111	Abel Smith School	9B09VV9	919	2	11			1	PRI		M					
+117112	Hexton Junior Mixed and Infant School	9C3H2AA	919	4	11			1	PRI		M					
+117113	Highbury Infant School and Nursery	2X6MXHN8	919	3	7			1	PRI		M					
+117114	Strathmore Infant and Nursery School	5T8GM5Z2	919	3	7			1	PRI		M					
+117115	Highover Junior Mixed and Infant School	2X6MXGR1	919	3	11			1	PRI		M					
+117116	Wilshere-Dacre Junior School	9C3H8GG	919	7	11			1	PRI		M					2014-02-28
+117117	Hunsdon Junior Mixed and Infant School		919	4	11			1	PRI		M					
+117118	Kimpton Primary School	2X6MXHA3	919	3	11			1	PRI		M					
+117119	Breachwood Green Junior Mixed and Infant School	9C3H4CS	919	4	11			1	PRI		M					
+117120	Knebworth Primary and Nursery School	9C3H3W0	919	3	11			1	PRI		M					
+117121	Wilbury Junior School	2X6MXM4C	919	7	11			1	PRI		M					
+117122	Grange Junior School	2X6MXMAX	919	7	11			1	PRI		M					
+117123	Hillshott Infant School and Nursery	2X6MXKC1	919	3	7			1	PRI		M					
+117124	Westbury Primary and Nursery School	9APZHC2	919	3	11			1	PRI		M					2009-08-31
+117125	Hertford Heath Primary and Nursery School	9B09MHA	919	3	11			1	PRI		M					
+117126	Little Hadham Primary School	9B09XQM	919	4	11			1	PRI		M					
+117127	Markyate Village School and Nursery	5T8JQERT	919	4	11			1	PRI		M					
+117128	Pirton School	5T8GM5Z6	919	4	11			1	PRI		M					
+117129	Reed First School	2X6MXNM0	919	3	9			1	PRI		M					
+117130	Yorke Mead Primary School	5T8FRBSD	919	3	11			1	PRI		M					
+117131	Harvey Road Primary School	5T8FR9S8	919	3	11			1	PRI		M					
+117132	Little Green Junior School	5T8FR9SA	919	7	11			1	PRI		M					
+117133	Malvern Way Infant and Nursery School	5T8FR9SP	919	3	7			1	PRI		M					
+117134	Tannery Drift School	2X6MXNAM	919	3	9			1	PRI		M					
+117135	Bernards Heath Infant and Nursery School	2X6MTANG	919	3	7			1	PRI		M					
+117136	Camp Primary and Nursery School	5T8JAKCQ	919	3	11			1	PRI		M					
+117137	Fleetville Junior School	5T8JAG03	919	7	11			1	PRI		M				1997-02-26	2012-05-31
+117138	Fleetville Infant and Nursery School	2X6MTAHR	919	3	7			1	PRI		M				1996-06-05	2012-05-31
+117139	Garden Fields Junior Mixed and Infant School	5T8JAKZZ	919	5	11			1	PRI		M					
+117140	St Peter's School	2X6MT9N0	919	3	11			1	PRI		M					
+117141	Aboyne Lodge Junior Mixed and Infant School	2X6MTDHF	919	3	11			1	PRI		M					
+117142	Mandeville Primary School	9A1RF1A	919	3	11			1	PRI		M					2012-12-31
+117143	Bernards Heath Junior School	5T8JAQW9	919	7	11			1	PRI		M					
+117144	St Paul's Walden Primary School	2X6MXHA2	919	4	11			1	PRI		M					
+117145	Colney Heath Junior Mixed Infant and Nursery School	2X6MTEC1	919	4	11			1	PRI		M					
+117146	London Colney Primary & Nursery School	2X6MTBMW	919	3	11			1	PRI		M					
+117147	Sandon Junior Mixed and Infant School	2X6MXNX1	919	4	11			1	PRI		M					
+117148	Sandridge School	2X6MTEVR	919	4	11			1	PRI		M					
+117149	Fawbert and Barnard Infants' School	9B09WDC	919	3	7			1	PRI		M					
+117150	Shenley Primary School	9B1AHCZ	919	3	11			1	PRI		M					
+117151	Letchmore Infants' and Nursery School	9C3QN7X	919	3	7			1	PRI		M					
+117152	Fairlands Primary School and Nursery	9C3QN1A	919	3	11			1	PRI		M					
+117153	Therfield First School	2X6MXNSQ	919	5	9			1	PRI		M					
+117154	Walkern Primary School	2X6MXFT3	919	4	11			1	PRI		M					
+117155	The Orchard Primary School	2X6MYG70	919	3	11			1	PRI		M					
+117156	Central Primary School	5T8FR0MP	919	3	11			1	PRI		M					
+117157	Bushey and Oxhey Infant School	5T8FR2HA	919	5	7			1	PRI		M					
+117158	Chater Junior School	2X6MYDFF	919	7	11			1	PRI		M					
+117159	Chater Infant School		919	3	7			1	PRI		M					
+117160	Field Junior School	2X6MYE01	919	7	11			1	PRI		M					
+117161	Watford Field School (Infant & Nursery)	5T8FR161	919	3	7			1	PRI		M					
+117162	Parkgate Junior School	2X6MYFQH	919	7	11			1	PRI		M					
+117163	Parkgate Infants' and Nursery School	2X6MYFQM	919	3	7			1	PRI		M					
+117164	Garston Infants' School		919	5	7			1	PRI		M					2005-08-31
+117165	Knutsford School	2X6MYFQJ	919	3	11			1	PRI		M					
+117166	St Meryl School	2X6MYCWQ	919	3	11			1	PRI		M					
+117167	Cassiobury Junior School	5T8FR15R	919	7	11			1	PRI		M					
+117168	Kingsway Junior School	2X6MYGF8	919	7	11			1	PRI		M					
+117169	Warren Dell Primary School	5T8FR6C3	919	2	11			1	PRI		M					
+117170	Oxhey Wood Primary School	5T8FRCN0	919	3	11			1	PRI		M					
+117171	Watton-at-Stone Primary and Nursery School	9B1RF4K	919	2	11			1	PRI		M					
+117172	Peartree Primary School	2X6MTH0Y	919	5	11			1	PRI		M					
+117173	Blackthorn Junior School	9AE9CV8	919	7	11			1	PRI		M					2001-12-31
+117174	Templewood Primary School	5T8JHBRH	919	3	11			1	PRI		M					
+117175	Holwell Primary School	2X6MTH11	919	5	11			1	PRI		M					
+117176	Widford School	9B09WXS	919	4	11			1	PRI		M					
+117177	Wymondley Junior Mixed and Infant School	2X6MXGZ4	919	4	11			1	PRI		M					
+117178	Tanners Wood Junior Mixed and Infant School	2X6MYKRX	919	3	11			1	PRI		M					
+117179	Havers Infant School		919	3	7			1	PRI		M					2005-12-31
+117180	Hurst Drive Primary School	4D4SBT	919	4	11			1	PRI		M					
+117181	Woodlands Primary School	9B1AJ1Y	919	3	11			1	PRI		M					
+117182	Summerswood Primary School	9B1AHM6	919	3	11			1	PRI		M					
+117183	Kenilworth Primary School	9B1AHNW	919	3	11			1	PRI		M					
+117184	Meryfield Primary School	9B1AJ14	919	3	11			1	PRI		M					
+117185	Salisbury Infants' School	9AE9CV7	919	5	7			1	PRI		M					1999-09-01
+117186	Icknield Infant and Nursery School	2X6MXM4M	919	3	7			1	PRI		M					
+117187	Bowmansgreen Primary School	5T8JAMAR	919	4	11			1	PRI		M					
+117188	Margaret Wix Primary School	5T8JAM3C	919	3	11			1	PRI		M					
+117189	Broom Barns Community Primary School	9ADG70X	919	4	11			1	PRI		M					
+117190	Lea Farm Junior School		919	7	11			1	PRI		M					2005-08-31
+117191	Alban Wood Junior School		919	7	11			1	PRI		M					2005-08-31
+117192	Little Furze Junior Mixed and Infant School		919	3	11			1	PRI		M					2004-12-16
+117193	Greenfields Primary School	2X6MYCZB	919	3	11			1	PRI		M					
+117194	Woodhall Primary School	5T8FR714	919	3	11			1	PRI		M					
+117195	Saffron Green Primary School	9B1AHQY	919	3	11			1	PRI		M					
+117196	Hazelgrove Primary School		919	4	11			1	PRI		M					2004-08-31
+117197	Hobletts Manor Infants' School	9A2N6M9	919	3	7			1	PRI		M					
+117198	Chaulden Junior School	2X6MTSD8	919	7	11			1	PRI		M					2013-04-30
+117199	Roebuck Junior School	9C3QNHH	919	7	11			1	PRI		M					2001-04-18
+117200	Bedwell Primary School	9C3QP13	919	4	11			1	PRI		M					
+117201	Flamstead End Junior School	4D4PHZ	919	7	11			1	PRI		M					2003-08-31
+117202	Chaulden Infants' and Nursery	2X6MTSD8	919	3	7			1	PRI		M					
+117203	Haslewood Junior School	4D5VED	919	7	11			1	PRI		M					2002-12-31
+117204	Roebuck Infant School	9C3QNHH	919	3	7			1	PRI		M					2001-04-18
+117205	Peartree Spring Junior School	5T8FDF2Q	919	7	11			1	PRI		M					2014-08-31
+117206	Peartree Spring Primary School	5T8FDF2Q	919	4	11			1	PRI		M					
+117207	Longmeadow Junior School	5T8FDGYV	919	7	11			1	PRI		M					2005-08-31
+117208	Longmeadow Infant and Nursery School	5T8FDGYV	919	3	7			1	PRI		M					2005-08-31
+117209	Bandley Hill Junior School	9ADG70Y	919	7	11			1	PRI		M					1998-03-20
+117210	Bandley Hill Infants' School	9ADG70Y	919	5	7			1	PRI		M					1998-03-20
+117211	Roundwood Primary School	5T8JAR3E	919	3	11			1	PRI		M					
+117212	Wheatfields Junior Mixed School	9AQQQ70	919	7	11			1	PRI		M					
+117213	Thumbswood Infant School	9AE9CV8	919	5	7			1	PRI		M					2001-12-31
+117214	Chambersbury Primary School	2X6MVA2W	919	3	11			1	PRI		M					
+117215	Broadfield Junior School	5T8JQEN7	919	7	11			1	PRI		M					2007-12-31
+117216	Broadfield Infants' School	2X6MV4MW	919	3	7			1	PRI		M					2007-12-31
+117217	Windermere Primary School	2X6MTAYM	919	5	11			1	PRI		M					
+117218	Anstey First School	9B1RAP4	919	2	9			1	PRI		M					
+117219	Monksmead School	9AE03VX	919	2	11			1	PRI		M					
+117220	Howe Dell Primary School	9AE9DVC	919	3	11			1	PRI		M					
+117221	Almond Hill Junior School	5T8FDH6F	919	7	11			1	PRI		M					
+117222	Oakwood Primary School	2X6MTEAJ	919	4	11			1	PRI		M					
+117223	Northfields Infants and Nursery School	2X6MXMBX	919	3	7			1	PRI		M					
+117224	Purwell Primary School	5T8GM5YV	919	3	11			1	PRI		M					
+117225	Killigrew Junior School	5T8JAQST	919	7	11			1	PRI		M					2008-08-31
+117226	Camps Hill Community Primary School	9C3QPE3	919	2	11			1	PRI		M					
+117227	Harwood Hill Junior Mixed Infant and Nursery School		919	3	11			1	PRI		M					
+117228	Fair Field Junior School	9B1AHFC	919	7	11			5	PRI		M					2015-03-31
+117229	Creswick Primary and Nursery School		919	4	11			1	PRI		M					
+117230	Thorley Hill Primary School	2X6MTKB4	919	3	11			1	PRI		M					
+117231	Micklem Primary School	2X6MTSD9	919	3	11			1	PRI		M					
+117232	Mayfield Infants' School and Nursery	4D609B	919	3	7			1	PRI		M					2010-08-31
+117233	Brookland Junior School	4D559A	919	7	11			1	PRI		M					
+117234	The Reddings Primary School	2X6MVA2V	919	3	11			1	PRI		M					
+117235	How Wood Primary and Nursery School	5T8JAQT4	919	3	11			1	PRI		M					
+117236	Redbourn Infants' and Nursery School	2X6MTDTD	919	3	7			1	PRI		M					
+117237	Lodge Farm Junior Mixed School	9C3QPF8	919	7	11			1	PRI		M					2000-04-30
+117238	Lodge Farm Infants' School		919	3	7			1	PRI		M					2000-04-30
+117239	Rossgate Primary School	2X6MTSE6	919	3	11			1	PRI		M					2008-08-31
+117240	Skyswood Primary & Nursery School	2X6MTEVX	919	3	11			1	PRI		M					
+117241	Martindale Primary and Nursery School	2X6MTSDA	919	3	11			1	PRI		M					2008-08-31
+117242	Bushey Manor Junior School	9B1AK1Q	919	7	11			1	PRI		M					
+117243	Goffs Oak Primary & Nursery School	4D4RPT	919	3	11			1	PRI		M					
+117244	Summercroft Junior School	9B09V9Y	919	7	11			1	PRI		M					2005-12-31
+117245	Eastbury Farm Primary School	5T8FRA25	919	3	11			1	PRI		M					
+117246	Burydale Junior School	9C3QNZ0	919	7	11			1	PRI		M					2005-08-31
+117247	Shephall Green Infant and Nursery School	9C3QNZ4	919	3	7			1	PRI		M					2005-08-31
+117248	Bedmond Village Primary and Nursery School	5T8FR7WQ	919	3	11			1	PRI		M					
+117249	Gade Valley Junior Mixed Infant and Nursery School	2X6MZ9HS	919	3	11			1	PRI		M					
+117250	Cunningham Hill Junior School	9AQQSA0	919	7	11			1	PRI		M					
+117251	Pin Green Primary School and Nursery		919	4	11			1	PRI		M					2005-08-31
+117252	Homerswood Primary and Nursery School	5T8JHBMF	919	3	11			1	PRI		M					
+117253	Whitehill Junior School	2X6MXHN9	919	7	11			1	PRI		M					
+117254	Westfield Primary School and Nursery	5T8JQF0C	919	3	11			1	PRI		M					
+117255	Downfield Primary School	4D50X6	919	2	11			1	PRI		M					
+117256	Pixies Hill Primary School	2X6MTSD7	919	4	11			1	PRI		M					
+117257	Rowans Primary School	2X6MTGAS	919	3	11			1	PRI		M					
+117258	The Grove Junior School	2X6MTEXS	919	7	11			1	PRI		M					
+117259	Pixmore Junior School	9APZNCK	919	7	11			1	PRI		M					
+117260	Swing Gate Infant School and Nursery	2X6MVB3M	919	3	7			1	PRI		M					
+117261	Oaklands Primary School	2X6MTFVS	919	5	11			1	PRI		M					
+117262	Flamstead End Infant and Nursery School	4D4PHZ	919	3	7			1	PRI		M					2003-08-31
+117263	Hollybush Primary School	9B09VVZ	919	3	11			1	PRI		M					
+117264	Oughtonhead Junior School	5T8GM5Z3	919	7	11			1	PRI		M					2001-09-01
+117265	Oughtonhead Infants' School	5T8GM5Z3	919	3	7			1	PRI		M					2001-09-01
+117266	Maple Cross Junior Mixed Infant and Nursery School	5T8FR8QR	919	4	11			1	PRI		M					
+117267	Killigrew Infant and Nursery School	5T8JAQST	919	3	7			1	PRI		M					2008-08-31
+117268	Wheatfields Infants' and Nursery School	9AQQQ70	919	3	7			1	PRI		M					
+117269	Moss Bury Primary School and Nursery	9C3QP1W	919	3	11			1	PRI		M					
+117270	Westfield Community Primary School	4D5ZBM	919	5	11			1	PRI		M					
+117271	Priors Wood Primary School	2X6MXAJ9	919	3	11			1	PRI		M					
+117272	Brookland Infant and Nursery School	4D559A	919	3	7			1	PRI		M					
+117273	Summercroft Infant and Nursery School	9B09V9Y	919	3	7			1	PRI		M					2005-12-31
+117274	Goldfield Infants' and Nursery School	5T8JQEW6	919	3	7			1	PRI		M					
+117275	Tower Primary School	9B09WW3	919	2	11			1	PRI		M					
+117276	Greenway Primary and Nursery School		919	3	11			1	PRI		M					
+117277	Thorn Grove Primary School	2X6MTM1G	919	3	11			1	PRI		M					
+117278	Icknield Walk First School	2X6MXNF3	919	3	9			1	PRI		M					
+117279	Cunningham Hill Infant School	9AQQSA0	919	5	7			1	PRI		M					
+117280	Reedings Junior School	9B09WC0	919	7	11			1	PRI		M					
+117281	The Grove Infant and Nursery School	2X6MTF03	919	3	7			1	PRI		M					
+117282	The Hammond Primary School	5T8JQEQG	919	5	11			1	PRI		M					2011-07-31
+117283	Kings Langley Primary School	5T8JQEXY	919	3	11			1	PRI		M					
+117284	Forres Primary School	4D5JF9	919	5	11			1	PRI		M					
+117285	Martins Wood Primary School	2X6MX9VD	919	2	11			1	PRI		M					
+117286	Dundale Primary School and Nursery		919	3	11			1	PRI		M					
+117287	Crabtree Junior School	2X6MTFQN	919	7	11			1	PRI		M					2014-03-31
+117288	Redbourn Junior School	2X6MTDTD	919	7	11			1	PRI		M					
+117289	Arnett Hills Junior Mixed and Infant School	5T8FR8CN	919	4	11			1	PRI		M					
+117290	Holywell Primary School	5T8FR0E4	919	3	11			1	PRI		M					
+117291	The Firs Junior School		919	7	11			1	PRI		M					2005-12-31
+117292	Trotts Hill Primary and Nursery School	9C3QNTR	919	4	11			1	PRI		M					
+117293	Cassiobury Infant and Nursery School	9CPSB9K	919	3	7			1	PRI		M					
+117294	Panshanger Primary School	2X6MTGAT	919	3	11			1	PRI		M					
+117295	Bovingdon Infants' School		919	5	7			1	PRI		M					1998-09-01
+117296	Bournehall Primary School		919	4	11			1	PRI		M					
+117297	Mill Mead Primary School	9B09W4W	919	3	11			1	PRI		M					
+117298	Maple Primary School	5T8JAQW1	919	4	11			1	PRI		M					
+117299	Round Diamond Primary School	9ADX0GP	919	3	11			1	PRI		M					
+117300	Hartsbourne Primary School	9B1AK05	919	4	11			1	PRI		M					
+117301	Beech Hyde Primary School and Nursery	5T8JAR6M	919	3	11			1	PRI		M					
+117302	Andrews Lane Primary School	4D5ZRZ	919	3	11			1	PRI		M					
+117303	Newberries Primary School	9B1AHFF	919	4	11			1	PRI		M					
+117304	Rickmansworth Park Junior Mixed and Infant School	5T8FR92K	919	5	11			1	PRI		M					
+117305	Mandeville Primary School	9B09WF3	919	3	11			1	PRI		M					
+117306	Giles Junior School	5T8FDH1E	919	7	11			1	PRI		M					
+117307	The Cranbourne Primary School	4D5MF5	919	4	11			1	PRI		M					2016-08-31
+117308	Bromet Primary School	2X6MYCN6	919	5	11			1	PRI		M					
+117309	Millfield First and Nursery School	2X6MXNXS	919	3	9			1	PRI		M					
+117310	Hillmead Primary School	9B09Q1V	919	3	11			1	PRI		M					
+117311	Nascot Wood Junior School	5T8FR16E	919	7	11			1	PRI		M					
+117312	Crabtree Infants' School	2X6MTFQN	919	5	7			1	PRI		M					2014-03-31
+117313	The Ryde School	2X6MTHTH	919	3	11			1	PRI		M					
+117314	William Ransom Primary School	5T8GM5Z0	919	4	11			1	PRI		M					
+117315	Prae Wood Primary School	2X6MTD7F	919	3	11			1	PRI		M					
+117316	The Giles Infant and Nursery School	5T8FDH1E	919	3	7			1	PRI		M					
+117317	Kingsway Infants' School	5T8FR163	919	5	7			1	PRI		M					
+117318	Alban Wood Infant and Nursery School	2X6MYGZD	919	3	7			1	PRI		M					2005-08-31
+117319	Kingshill Infant School	5T8HG06K	919	3	7			1	PRI		M					
+117320	Laurance Haines School	5T8FR3MT	919	3	11			1	PRI		M					
+117321	Woodside Primary School	4D4KHF	919	4	11			1	PRI		M					
+117322	Woolenwick Junior School	5T8FDH83	919	7	11			1	PRI		M					
+117323	Woolenwick Infant and Nursery School	5T8FDH83	919	3	7			1	PRI		M					
+117324	Leavesden JMI School	2X6MYGZE	919	3	11			1	PRI		M					
+117325	Springmead Primary School	5T8JHB1W	919	3	11			1	PRI		M					
+117326	Longlands Primary School and Nursery	4D56ZK	919	3	11			1	PRI		M					
+117327	The Lea Primary School and Nursery	5T8JAMXC	919	3	11			1	PRI		M					
+117328	Wheatcroft Primary School	2X6MXBM8	919	3	11			1	PRI		M					
+117329	Mary Exton Primary School	5T8GM5YW	919	5	11			1	PRI		M					
+117330	Lordship Farm Primary School	9C3H4EB	919	3	11			1	PRI		M					
+117331	Studlands Rise First School	2X6MXNSX	919	3	9			1	PRI		M					
+117332	Roman Way First School	2X6MXNAP	919	3	9			1	PRI		M					
+117333	Lime Walk Primary School	2X6MVAGM	919	3	11			1	PRI		M					
+117334	Fairfields Primary School and Nursery	4D4Q88	919	3	11			1	PRI		M					
+117335	Aycliffe Drive Primary School	2X6MV52E	919	3	11			1	PRI		M					
+117336	Holtsmere End Junior School	2X6MV5B2	919	7	11			1	PRI		M					
+117337	Samuel Lucas Junior Mixed and Infant School	9ADWWZ9	919	4	11			1	PRI		M					
+117338	Roselands Primary School	4D5CE2	919	5	11			1	PRI		M					2016-08-31
+117339	Cherry Tree Primary School	5T8FR0ZN	919	3	11			1	PRI		M					
+117340	Coates Way JMI and Nursery School	9A2MY90	919	3	11			1	PRI		M					
+117341	Grove Road Primary School	2X6MV8D9	919	3	11			1	PRI		M					
+117342	High Beeches Primary School	5T8JAR5S	919	5	11			1	PRI		M					
+117343	Barncroft Primary School	5T8JQH12	919	3	11			1	PRI		M					2008-08-31
+117344	Jupiter Drive Junior Mixed and Infant School	2X6MV4WB	919	5	11			1	PRI		M					2008-08-31
+117345	Stonehill School	2X6MXMC2	919	3	11			1	PRI		M					
+117346	Richard Whittington Primary School	2X6MTKGY	919	3	11			1	PRI		M					
+117347	Mount Pleasant Lane Junior Mixed and Infant School and Nursery	5T8JAMHS	919	3	11			1	PRI		M					
+117348	Watchlytes Junior Mixed Infant and Nursery School	2X6MTGVX	919	3	11			1	PRI		M					
+117349	Brockswood Primary School	9A2N4RC	919	3	11			1	PRI		M					
+117350	Lannock Primary School	9C3H64A	919	3	11			1	PRI		M					2009-08-31
+117351	Ryelands Primary School	4D5GPC	919	5	11			1	PRI		M					2007-08-31
+117352	Ashtree Primary School and Nursery	9C3QPDM	919	3	11			1	PRI		M					
+117353	Sheredes Primary School	4D5BFS	919	3	11			1	PRI		M					
+117354	Radburn Primary School	2X6MXKK5	919	3	11			1	PRI		M					2012-08-31
+117355	Applecroft School	2X6MTHMA	919	3	11			1	PRI		M					2012-02-29
+117356	Ley Park Primary School	4D59VX	919	3	11			1	PRI		M					2008-08-31
+117357	Five Oaks Primary and Nursery School	2X6MTBF0	919	3	11			1	PRI		M					2004-08-31
+117358	Wood End School	2X6MTFBZ	919	4	11			1	PRI		M					
+117359	Eastbrook Primary School	2X6MV5B0	919	5	11			1	PRI		M					2008-08-31
+117360	Meriden Primary School		919	3	11			1	PRI		M					2005-08-31
+117361	Bengeo Primary School		919	3	11			1	PRI		M					
+117362	Stream Woods Junior Mixed Infant and Nursery School	2X6MTBEZ	919	3	11			1	PRI		M					2007-08-31
+117363	Morgans Primary School & Nursery	9B09KZQ	919	3	11			1	PRI		M					
+117364	The Leys Primary and Nursery School	2X6MX9R5	919	3	11			1	PRI		M					
+117365	Belswains Primary School	5T8JQGDJ	919	3	11			1	PRI		M					
+117366	Bonneygrove Primary School	4D4MDG	919	3	11			1	PRI		M					
+117367	Burleigh Primary School	4D4WFP	919	4	11			1	PRI		M					
+117368	Hobbs Hill Wood Primary School	2X6MVA3W	919	3	11			1	PRI		M					
+117369	Cranborne Primary School	9AE03PB	919	3	11			1	PRI		M					
+117370	Ladbrooke Junior Mixed and Infant School	9B1AKBC	919	3	11			1	PRI		M					
+117371	Oakmere Primary School	9B1AJKB	919	3	11			1	PRI		M					
+117372	Sunny Bank Junior School		919	7	11			1	PRI		M					1999-08-31
+117373	Sunny Bank Infants' School		919	3	7			1	PRI		M					1999-08-31
+117374	Nascot Wood Infant and Nursery School	5T8FR0J2	919	3	7			1	PRI		M					
+117375	The Pines Junior Mixed and Infant School		919	4	11			1	PRI		M					2003-08-31
+117376	Hartsfield Junior Mixed and Infant School	9C3H4K7	919	4	11			1	PRI		M					
+117377	Holtsmere End Infant and Nursery School	2X6MV5B2	919	3	7			1	PRI		M					
+117378	Commonswood Primary & Nursery School	2X6MTH6E	919	4	11			1	PRI		M					
+117379	Millbrook School	4D4TB6	919	4	11			1	PRI		M					
+117380	Manor Fields Primary School	2X6MTKPQ	919	3	11			1	PRI		M					
+117381	Bellgate Primary School	5T8JQF4Y	919	4	11			1	PRI		M					2008-08-31
+117382	Aldbury Church of England Primary School	2X6MV8DA	919	4	11	C22	CE32	3	PRI		M					
+117383	St John's Church of England Infant and Nursery School	9B1AHEP	919	3	7	C22	CE32	3	PRI		M					
+117384	St Mary's Infants' School	9APZMWE	919	5	7	C22	CE32	3	PRI		M					
+117385	St Mary's Junior Mixed School	9APZMWE	919	7	11	C22	CE32	3	PRI		M					
+117386	Barley Church of England Voluntary Controlled First School	2X6MXNGE	919	5	9	C22	CE32	3	PRI		M					
+117387	Bayford Church of England Voluntary Controlled Primary School	2X6MXBTA	919	3	11	C22	CE32	3	PRI		M					
+117388	Tonwell St Mary's Church of England Primary School	2X6MXAD5	919	3	11	C22	CE32	3	PRI		M					
+117389	Benington Church of England Primary School	9B09TXM	919	4	11	C22	CE32	3	PRI		M					
+117390	Layston Church of England First School	9B09N7S	919	5	9	C22	CE32	3	PRI		M					
+117391	Ashfield Junior School	9B1AJY4	919	7	11			3	PRI		M					
+117392	Codicote Church of England Primary School	2X6MXHA4	919	3	11	C22	CE32	3	PRI		M					
+117393	Essendon CofE (VC) Primary School	2X6MTHWN	919	3	11	C22	CE32	3	PRI		M					
+117394	Furneux Pelham Church of England School	9B1RA9H	919	4	11	C22	CE32	3	PRI		M					
+117395	Graveley Primary School	2X6MXGZ5	919	4	11	C22	CE32	3	PRI		M					
+117396	Ponsbourne St Mary's Church of England Primary School	2X6MXBT5	919	4	11	C22	CE32	3	PRI		M					
+117397	Hertford St Andrew CofE Primary School	9B09VSP	919	3	11	C22	CE32	3	PRI		M					
+117398	High Wych Church of England Primary School	9B1RA9Z	919	3	11	C22	CE32	3	PRI		M					
+117399	St Paul's Voluntary Controlled Church of England Infants' School	4D5VED	919	5	7	C22	CE32	3	PRI		M					2002-12-31
+117400	Wormley Primary School	4D59VX	919	3	11	C22	CE32	3	PRI		M					
+117401	Ickleford Primary School	9C3H9EJ	919	4	11	C22	CE32	3	PRI		M					
+117402	Little Munden Church of England Voluntary Controlled Primary School	9B1N3BC	919	3	11	C22	CE32	3	PRI		M					
+117403	Preston Primary School	9C3H4EC	919	4	11	C22	CE32	3	PRI		M					
+117404	Sarratt Church of England Primary School	9A1SV6E	919	4	11	C22	CE32	3	PRI		M					
+117405	Spellbrook Primary School	9B09PAV	919	3	11	C22	CE32	3	PRI		M					
+117406	Roger De Clare First CofE School	9B09WFN	919	3	9	C22	CE32	3	PRI		M					
+117407	St Andrew's Church of England Voluntary Controlled Primary School	9B09WH6	919	3	11	C22	CE32	3	PRI		M					
+117408	Thundridge Church of England Primary School	2X6MXADA	919	3	11	C22	CE32	3	PRI		M					
+117409	St Mary's Voluntary Controlled Church of England Junior School	5T8HG06K	919	7	11	C22	CE32	3	PRI		M					
+117410	St Catherine's Church of England Primary School	9B09WT8	919	3	11	C22	CE32	3	PRI		M					
+117411	Musley Infant School	2X6MXADK	919	5	7	C22	CE32	3	PRI		M					2003-08-31
+117412	Wareside Church of England Primary School	9B09XT0	919	4	11	C22	CE32	3	PRI		M					
+117413	Weston Primary School	9C3H8X2	919	3	11	C22	CE32	3	PRI		M					
+117414	Potten End CofE Primary School	5T8JQEX2	919	3	11	C22	CE32	3	PRI		M					
+117415	Dewhurst St Mary CofE Primary School	4D5QVQ	919	5	11	C22	CE32	3	PRI		M					
+117416	Leverstock Green Church of England Primary School	9AQK0QK	919	3	11	C22	CE32	3	PRI		M					
+117417	St Paul's Church of England Primary School, Langleybury	9A1STCM	919	3	11	C22	CE32	2	PRI		M					
+117418	Nash Mills Church of England Primary School	5T8JQ82D	919	3	11	C22	CE32	2	PRI		M					
+117419	Albury Church of England Voluntary Aided Primary School	2X6MXA42	919	2	11	C22	CE32	2	PRI		M					
+117420	Ardeley St Lawrence Church of England Voluntary Aided Primary School		919	3	11	C22	CE32	2	PRI		M					
+117421	Aston St Mary's Church of England Aided Primary School	9B09TW7	919	4	11	C22	CE32	2	PRI		M					
+117422	Barkway VA Church of England First School	2X6MXNK3	919	5	9	C22	CE32	2	PRI		M					
+117423	Victoria Church of England Infant and Nursery School	5T8JQ7K1	919	3	7	C22	CE32	2	PRI		M					
+117424	St Mary's CofE Primary School, Northchurch	5T8JQGB2	919	3	11	C22	CE32	2	PRI		M					
+117425	St Joseph's Catholic Primary School	9B09V4B	919	3	11	C67	RC01	2	PRI		M					
+117426	St Michael's Church of England Primary School	2X6MTKB7	919	3	11	C22	CE32	2	PRI		M					
+117427	St Clement's Church of England Voluntary Aided Junior School	4D609B	919	7	11	C22	CE32	2	PRI		M					2010-08-31
+117428	Holy Trinity Church of England Primary School	4D5QTZ	919	4	11	C22	CE32	2	PRI		M					
+117429	St Joseph's Catholic Primary School	4D51HB	919	3	11	C67	RC01	2	PRI		M					
+117430	All Saints Church of England Voluntary Aided Primary School, Datchworth	9B09VQ6	919	5	11	C22	CE32	2	PRI		M					
+117431	St Nicholas Elstree Church of England VA Primary School	9B1AHZ8	919	3	11	C22	CE32	2	PRI		M					
+117432	St John the Baptist Voluntary Aided Church of England Primary School	9B09VQM	919	4	11	C22	CE32	2	PRI		M					
+117433	Great Gaddesden Church of England Primary School	9A2N3ZG	919	4	11	C22	CE32	2	PRI		M					
+117434	St Nicholas CofE VA Primary School	5T8JAR4F	919	4	11	C22	CE32	2	PRI		M					
+117435	St John's Voluntary Aided Church of England Primary School, Lemsford	5T8JHC7Q	919	4	11	C22	CE32	2	PRI		M					
+117436	St Joseph's Catholic Primary School		919	3	11	C67	RC01	2	PRI		M					
+117437	Broxbourne CofE Primary School	4D5AD2	919	3	11	C22	CE32	2	PRI		M					
+117438	St Augustine Roman Catholic Primary School	4D5FRY	919	3	11	C67	RC01	2	PRI		M					
+117439	Hormead Church of England (VA) First School	9B1N45D	919	3	9	C22	CE32	2	PRI		M					
+117440	St Ippolyts Church of England Aided Primary School	2X6MXGZ6	919	5	11	C22	CE32	2	PRI		M					
+117441	St Paul's Church of England Voluntary Aided Primary School, Chipperfield	2X6MYKF6	919	3	11	C22	CE32	2	PRI		M					
+117442	Norton St Nicholas CofE (VA) Primary School	2X6MXJXW	919	3	11	C22	CE32	2	PRI		M					
+117443	Little Gaddesden Church of England Voluntary Aided Primary School	2X6MVAPK	919	4	11	C22	CE32	2	PRI		M					
+117444	St Andrew's CofE Primary School and Nursery	9B09WAV	919	3	11	C22	CE32	2	PRI		M					
+117445	Offley Endowed Primary School	9C3HAY7	919	4	11	C22	CE32	2	PRI		M					
+117446	Cockernhoe Endowed CofE Primary School	9C3H7Z4	919	3	11	C22	CE32	2	PRI		M					
+117447	St Mary's Church of England Primary School, Rickmansworth	5T8FR94D	919	3	11	C22	CE32	2	PRI		M					
+117448	St Peter's Church of England Voluntary Aided Primary School	2X6MYHQ6	919	4	11	C22	CE32	2	PRI		M					
+117449	The Abbey Church of England Voluntary Aided Primary School, St Albans	5T8JAEJ1	919	4	11	C22	CE32	2	PRI		M					
+117450	St Alban and St Stephen Roman Catholic Infant and Nursery School	5T8JAQVQ	919	3	7	C67	RC01	2	PRI		M					
+117451	St Michael's Church of England Voluntary Aided Primary School, St Albans	5T8JAKVE	919	5	11	C22	CE32	2	PRI		M					
+117452	Park Street Church of England Voluntary Aided Primary School	5T8JAHE1	919	3	11	C22	CE32	2	PRI		M					
+117453	Puller Memorial, Church of England, Voluntary Aided Primary School	9B1RB29	919	3	11	C22	CE32	2	PRI		M					
+117454	St Thomas of Canterbury Roman Catholic Primary School	9B09WFA	919	3	11	C67	RC01	2	PRI		M					
+117455	Stapleford Primary School	9B09WHE	919	2	11	C22	CE32	2	PRI		M					
+117456	St Nicholas CofE (VA) Primary School and Nursery	9C3QNK2	919	3	11	C22	CE32	2	PRI		M					
+117457	Tewin Cowper Church of England Voluntary Aided Primary School	2X6MTFVR	919	4	11	C22	CE32	2	PRI		M					
+117458	Bishop Wood Church of England Junior School, Tring	2X6MV8D8	919	7	11	C22	CE32	2	PRI		M					
+117459	Long Marston VA Church of England Primary School	5T8JQGSM	919	5	11	C22	CE32	2	PRI		M					
+117460	St John's CofE Primary School	5T8JHAGW	919	3	11	C22	CE32	2	PRI		M					
+117461	St Michael's Woolmer Green CofE VA Primary School	5T8JHCKE	919	4	11	C22	CE32	2	PRI		M					
+117462	St Helen's Church of England Primary School	2X6MTEJG	919	4	11	C22	CE32	2	PRI		M					
+117463	St Bartholomew's Church of England Voluntary Aided Primary School, Wigginton	5T8JQEXV	919	4	11	C22	CE32	2	PRI		M					
+117464	Our Lady Roman Catholic Primary School	5T8JHBYW	919	4	11	C67	RC01	2	PRI		M					
+117465	St Joseph Catholic Primary School	5T8FR5R8	919	3	11	C67	RC01	2	PRI		M					
+117466	St Teresa Roman Catholic Primary School	9B1AHH8	919	3	11	C67	RC01	2	PRI		M					
+117467	St Andrew's Church of England Voluntary Aided Primary School, Hitchin	5T8GM5Z1	919	4	11	C22	CE32	2	PRI		M					
+117468	St Cuthbert Mayne Catholic Junior School	5T8JQ7VV	919	7	11	C67	RC01	2	PRI		M					
+117469	St Philip Howard Catholic Primary School	2X6MTBE4	919	4	11	C67	RC01	2	PRI		M					
+117470	St Adrian Roman Catholic Primary School	5T8JAQT5	919	3	11	C67	RC01	2	PRI		M					
+117471	Saint Albert the Great Catholic Primary School	5T8JQE5F	919	3	11	C67	RC01	2	PRI		M					
+117472	All Saints Church of England Primary School and Nursery, Bishop's Stortford	2X6MTM1E	919	3	11	C22	CE32	2	PRI		M					
+117473	Christ Church CofE (VA) Primary School and Nursery, Ware	2X6MXAE3	919	3	11	C22	CE32	2	PRI		M					
+117474	St Margaret Clitherow Roman Catholic Primary School	9C3QNHJ	919	3	11	C67	RC01	2	PRI		M					
+117475	St John Catholic Primary School	5T8FR8CM	919	4	11	C67	RC01	2	PRI		M					
+117476	Our Lady Roman Catholic Primary School	9C3H984	919	5	11	C67	RC01	2	PRI		M					2012-06-30
+117477	St Thomas More Roman Catholic Primary School	2X6MXKNC	919	3	11	C67	RC01	2	PRI		M					2012-06-30
+117478	St Dominic Catholic Primary School	5T8JAR3X	919	3	11	C67	RC01	2	PRI		M					
+117479	St Thomas More Roman Catholic Voluntary Aided Primary School	2X6MVBEF	919	3	11	C67	RC01	2	PRI		M					
+117480	St John Fisher Roman Catholic Primary School	5T8JAK3D	919	4	11	C67	RC01	2	PRI		M					
+117481	The Holy Family Catholic Primary School	5T8HFFSD	919	3	11	C67	RC01	2	PRI		M					
+117482	Countess Anne Voluntary Aided Church of England Primary School, Hatfield	5T8JHCB9	919	5	11	C22	CE32	2	PRI		M					2013-09-30
+117483	St Cross Catholic Primary School	4D5EF8	919	5	11	C67	RC01	2	PRI		M					
+117484	St Rose's Catholic Infants School	2X6MTS96	919	3	7	C67	RC01	2	PRI		M					
+117485	Divine Saviour Roman Catholic Primary School	5T8FRBGB	919	3	11	C67	RC01	2	PRI		M					
+117486	Holy Rood Catholic Junior School		919	7	11	C67	RC01	2	PRI		M					2006-08-31
+117487	St John Roman Catholic Primary School	9C3H55Z	919	3	11	C67	RC01	2	PRI		M					2012-06-30
+117488	Sacred Heart Catholic Primary School and Nursery	9B1AJXK	919	3	11	C67	RC01	2	PRI		M					
+117489	Saint Bernadette Catholic Primary School	5T8GM26F	919	4	11	C67	RC01	2	PRI		M					
+117490	Welwyn St Mary's Church of England Voluntary Aided Primary School	2X6MTG51	919	4	11	C22	CE32	2	PRI		M					
+117491	Saint Alban and St Stephen Catholic Junior School	5T8JAH43	919	7	11	C67	RC01	2	PRI		M					
+117492	St Paul's Catholic Primary School	4D4Q8A	919	3	11	C67	RC01	2	PRI		M					
+117493	Sacred Heart Catholic Primary School	9B09WMT	919	4	11	C67	RC01	2	PRI		M					
+117494	Holy Rood RC Infants' School	9A95YCZ	919	3	7	C67	RC01	2	PRI		M					2006-08-31
+117495	St Anthony's Catholic Primary School	5T8FR0DR	919	3	11	C67	RC01	2	PRI		M					
+117496	Pope Paul Catholic Primary School	9B1AJKK	919	4	11	C67	RC01	2	PRI		M					
+117497	St Mary's Church of England Primary School	2X6MTHYM	919	4	11	C22	CE32	2	PRI		M					
+117498	Saint Vincent de Paul Catholic Primary School	9C3QP13	919	4	11	C67	RC01	2	PRI		M					
+117499	The Priory School	9C3H7F5	919	11	18			5	SEC		M					
+117500	The Hemel Hempstead School	5T8JQ7X5	919	11	18			1	SEC		M					
+117501	Richard Hale School	9B09VXK	919	11	18			5	SEC		B					2013-06-30
+117502	Hitchin Boys' School	2X6MXHSD	919	11	18			1	SEC		B					2012-12-31
+117503	Hitchin Girls' School	2X6MXHBD	919	11	18			1	SEC		G					2011-08-16
+117504	Fearnhill School	9C3H9D6	919	11	18			5	SEC		M					
+117505	Verulam School	5T8FVP7Q	919	11	18			1	SEC		B					2011-07-31
+117506	Presdales School	2X6MXAZE	919	11	18			1	SEC		G					2012-03-31
+117507	Stanborough School	2X6MTHCA	919	11	18			1	SEC		M					2012-01-31
+117508	Langleybury School		919	11	18			1	SEC		M					1996-09-01
+117509	The Knights Templar School	2X6MXN06	919	11	18			1	SEC		M					2011-03-31
+117510	The Hillside School		919	13	18			1	SEC		M					2000-08-31
+117511	Sir John Lawes School	2X6MTFDH	919	11	18			5	SEC		M					2011-07-31
+117512	Adeyfield School	2X6MV4HS	919	11	18			1	SEC		M					
+117513	Norton School		919	11	18			1	SEC		M					2002-08-31
+117514	Beaumont School	2X6MTE5Z	919	11	18			1	SEC		M					2012-06-30
+117515	Barclay School	2X6N0357	919	11	18			1	SEC		M					
+117516	Hawksmoor School	9AE03ZP	919	13	18			1	SEC		M					2000-08-31
+117517	The Heathcote School	2X6MXG43	919	11	18			1	SEC		M					2012-08-31
+117518	Barnwell School	2X6MXG42	919	11	18			1	SEC		M					
+117519	Simon Balle School	2X6MXBT7	919	11	18			5	SEC		M					2013-10-31
+117520	Roundwood Park School	2X6MTFB6	919	11	18			5	SEC		M					2011-07-31
+117521	Lyndhurst Middle School		919	9	13			1	MDS		M					2001-08-31
+117522	Francis Combe School and Community College	9AQ026H	919	11	18			1	SEC		M					2009-08-31
+117523	Longdean School	2X6MV9YH	919	11	18			1	SEC		M					2011-07-31
+117524	St Albans Girls' School	2X6MTDMM	919	11	18			1	SEC		G					2011-08-31
+117525	Sir Frederic Osborn School	2X6MTGFN	919	11	18			1	SEC		M					
+117526	Kings Langley School	5T8JQHE1	919	11	18			1	SEC		M					2012-11-30
+117527	Bishop's Hatfield Girls' School	2X6MTBBS	919	11	18			1	SEC		G					2011-12-31
+117528	The Cavendish School	2X6MTSE5	919	11	18			1	SEC		M					
+117529	The Broxbourne School	4D59W3	919	11	18			5	SEC		M					2010-12-31
+117530	The Nobel School	9C3QPF9	919	11	18			1	SEC		M					
+117531	Turnford School	4D547M	919	11	18			1	SEC		M					2015-08-31
+117532	Westfield Community Technology College	2X6MYE5R	919	11	18			1	SEC		M					2013-08-31
+117533	Collenswood School	9C3QPAP	919	11	18			1	SEC		M					2006-08-31
+117534	Marriotts School		919	11	18			1	SEC		M					
+117535	The Sele School	2X6MXCRP	919	11	18			1	SEC		M					2012-07-31
+117536	Monk's Walk School	5T8JH9XV	919	11	18			5	SEC		M					2012-08-31
+117537	The Highfield School	2X6MXKNB	919	11	18			1	SEC		M					
+117538	Sheredes School	4D5BSY	919	11	18			1	SEC		M					2016-08-31
+117539	Meridian School	2X6MXNC2	919	13	18			1	SEC		M					2011-10-31
+117540	Freman College	2X6MXP1R	919	13	18			5	SEC		M					2011-07-31
+117541	Bridgewater Primary School	5T8JQEGB	919	4	11			1	PRI		M					
+117542	The Greneway School	2X6MXNC1	919	9	13			1	MDS		M					2011-10-31
+117543	Ralph Sadleir Middle School	9B09WFN	919	9	13			1	MDS		M					2013-09-30
+117544	Furzehill Middle School		919	9	13			1	MDS		M					2001-08-31
+117545	Roysia Middle School	2X6MXNAP	919	9	13			1	MDS		M					2011-10-31
+117546	Sir John Newsom School		919	11	18			1	SEC		M					1998-08-31
+117547	Onslow St Audrey's School	2X6MTBBK	919	11	18			1	SEC		M					2011-12-31
+117548	Sandringham School	5T8JAHHX	919	11	18			1	SEC		M					2011-03-31
+117549	Birchwood High School	9B09QS4	919	11	18			5	SEC		M					2011-10-31
+117550	The Thomas Alleyne School	9C3QN4X	919	11	18			1	SEC		M					2013-08-31
+117551	The Chauncy School	2X6MXAD9	919	11	18			5	SEC		M					2011-07-31
+117552	The Astley Cooper School	2X6MV56T	919	11	18			1	SEC		M					
+117553	Tring School	2X6MV863	919	11	18	C22	CE32	3	SEC		M					2012-06-30
+117554	Edwinstree Church of England Middle School	2X6MXNXN	919	9	13	C22	CE32	3	MDS		M					
+117555	Townsend CofE School	5T8JAHPF	919	11	18	C22	CE32	2	SEC		M					
+117556	St George's School	2X6N02Y7	919	11	18	C1		2	SEC		M					2012-06-30
+117557	John F Kennedy Catholic School	2X6MTSAV	919	11	18	C67	RC01	2	SEC		M					
+117558	Loreto College	2X6MTA14	919	11	18	C67	RC01	2	SEC		G					2012-04-30
+117559	The Thomas Coram Church of England School	5T8JQHHF	919	7	11	C22	CE32	2	PRI		M					
+117560	St Mary Roman Catholic Primary School	2X6MXNF8	919	3	11	C67	RC01	2	PRI		M					2012-06-30
+117561	Christ Church Church of England School		919	3	11	C22	CE32	2	PRI		M					2013-03-31
+117562	Parkside Community Primary School	9B1AHGK	919	3	11			5	PRI		M					
+117563	Hertingfordbury Cowper Primary School	9B09W9Z	919	4	11	C22	CE32	2	PRI		M					
+117564	St Giles' CofE Primary School	9B1AJ33	919	4	11	C22	CE32	2	PRI		M					
+117565	Cuffley School	2X6MTNZM	919	3	11			5	PRI		M					
+117566	The Wroxham School	9B1AJKR	919	4	11			5	PRI		M					2012-05-31
+117567	Little Heath Primary School	5T8JHCF1	919	3	11			5	PRI		M					
+117568	Little Reddings Primary School	9B1AJVM	919	3	11			5	PRI		M					2012-01-31
+117569	Northaw Church of England Primary School	5T8JH99K	919	3	11	C22	CE32	2	PRI		M					
+117570	Brookmans Park Primary School	2X6MTJ65	919	4	11			5	PRI		M					
+117571	St Catherine of Siena Catholic Primary School	5T8FR6JX	919	4	11	C67	RC01	2	PRI		M					2012-06-30
+117572	Rickmansworth School	9A1SV4G	919	11	18			5	SEC		M					2011-03-31
+117573	Watford Grammar School for Boys		919	11	18	C22		2	SEC		B					2010-08-31
+117574	Francis Bacon School	9AQQS5E	919	11	18			5	SEC		M					2012-08-31
+117575	Watford Grammar School for Girls	5T8FR333	919	11	18	C22		2	SEC		G					2010-08-31
+117576	Parmiter's School	2X6MYGZH	919	11	18			2	SEC		M					2011-06-30
+117577	The Bishop's Stortford High School	2X6MTK6F	919	11	18			5	SEC		B					
+117578	Ashlyns School	5T8GAB7X	919	11	18			5	SEC		M					
+117579	Dame Alice Owen's School	9B1AJKN	919	11	18			2	SEC		M					2011-03-31
+117580	Bushey Meads School	9B1AK1T	919	11	18			5	SEC		M					2012-01-31
+117581	Bushey Hall School	9B1AJXE	919	11	18			5	SEC		M					2009-08-31
+117582	Queens' School	9AE04NH	919	11	18			5	SEC		M					2011-06-30
+117583	Mount Grace School	9AE051S	919	11	18			5	SEC		M					2011-07-31
+117584	Nicholas Breakspear Catholic School	2X6MTE5Y	919	11	18	C67	RC01	2	SEC		M					2012-02-29
+117585	The John Henry Newman Catholic School	9C3QMQ7	919	11	18	C67	RC01	2	SEC		M					2012-02-29
+117586	Marlborough School	2X6MT9S6	919	11	18			5	SEC		M					2012-03-31
+117587	Goffs School	4D4ME9	919	11	18			5	SEC		M					2011-09-30
+117588	The Leventhorpe School	2X6MTJCP	919	11	18			5	SEC		M					2011-07-31
+117589	Saint Michael's Catholic High School		919	11	18	C67	RC01	2	SEC		M					2012-02-29
+117590	Saint Joan of Arc Catholic School		919	11	18	C67	RC01	2	SEC		M					2012-02-29
+117591	Chancellor's School	2X6MTHZS	919	11	18			5	SEC		M					
+117592	The Hertfordshire & Essex High School and Science College	2X6MZTDB	919	11	18			5	SEC		G					2014-03-31
+117593	St Clement Danes School	2X6MYJWD	919	11	18			2	SEC		M					2011-06-30
+117594	St Mary's Catholic School	2X6MTJQC	919	11	18	C67	RC01	2	SEC		M					
+117595	St Mary's Church of England High School (VA)	4D5Z7N	919	11	18	C22	CE32	2	SEC		M					2012-06-30
+117596	Cheshunt School	4D4TEG	919	11	18			5	SEC		M					
+117597	The John Warner School	4D5J74	919	11	18			5	SEC		M					2011-03-31
+117598	Hockerill Anglo-European College	9B09QK4	919	11	18			5	SEC		M					2011-01-31
+117599	Holmshill School	9B1AJ17	919	9	13			5	MDS		M					2001-08-31
+117600	Abbot's Hill School	2X6MS52Y	919	3	16			11			G				1941-01-01	
+117601	Edge Grove School		919	3	13			11			M				1938-01-01	
+117602	The Aldenham Foundation	9B1AK1W	919	3	19	C22		11			M				1910-01-01	
+117603	Berkhamsted School for Girls	2X6MVB5T	919	3	19			11			G					1996-12-06
+117604	Berkhamsted School		919	3	19	C4;C1		11			M				1902-01-01	
+117605	Bishop's Stortford College	2X6MZT6T	919	4	18			11			M				1907-01-01	
+117606	St Margaret's School	9B1AJXQ	919	4	18			11			G				1918-01-01	
+117607	Haileybury and Imperial Service College	9B0A2RT	919	11	18	C22		11			M				1920-01-01	
+117608	Aldwickbury School	2X6MTEZM	919	4	13			11			B				1950-01-01	
+117609	Queenswood School	2X6MTHW3	919	11	18	C49		11			G				1919-01-01	
+117610	Westbrook Hay Prep School		919	3	14			11			M				1920-01-01	
+117611	Lockers Park School	9A2N72Q	919	5	14	C22		11			B				1919-01-01	
+117612	St Christopher School		919	3	19			11			M				1929-01-01	
+117613	St Francis College		919	3	18	C1		11			G				1947-01-01	
+117614	Princess Helena College	9C3HAE9	919	11	18	C22		11			G				1919-01-01	
+117615	Radlett Preparatory School	9AD5AX0	919	4	11			11			M				1950-01-01	
+117616	Merchant Taylors' School		919	11	18			11			B				1927-01-01	
+117617	St Albans High School for Girls	2X6MTA18	919	4	18	C4		11			G				1908-01-01	
+117618	Tring Park School for the Performing Arts		919	8	18			11			M				1949-01-01	
+117619	Northfield School		919	2	19			11			G					1997-08-19
+117620	Beechwood Park School	5T8JQ7WB	919	3	13			11			M				1930-01-01	
+117621	Heath Mount School	9B09XVA	919	3	13			11			M				1921-01-01	
+117622	Sherrardswood School	5T8JHE7M	919	3	19			11			M				1950-01-01	
+117623	Egerton-Rothesay School	2X6MVBCY	919	6	19	C1		11			M				1956-01-01	
+117624	St Hilda's School		919	2	11			11			M				1957-10-18	
+117625	Westwood School		919	5	6			11			M				1957-10-21	2009-07-09
+117626	Harpenden Preparatory School	2X6MTF8X	919	5	10			11			M				1958-03-05	2005-07-15
+117627	St Hilda's School	2X6MTF1V	919	3	11			11			G				1957-10-15	
+117628	Duncombe School	9B09W8M	919	2	11			11			M				1957-11-13	
+117629	St Joseph's in the Park	9B1N3RZ	919	3	11			11			M				1957-10-15	
+117630	Kingshott School	9C3H9WD	919	3	13			11			M				1951-10-30	
+117631	Rudolf Steiner School	9AQJZR8	919	3	18			11			M				1957-10-18	
+117632	The Barn School	9B09WAV	919	2	8			11			M					1998-08-18
+117633	St Edmund's College	9B09SPZ	919	3	19	C67		11			M				1952-01-01	
+117634	Hart House School		919	2	7			11			M					1999-03-22
+117635	Charlotte House Preparatory School		919	3	11			11			G				1957-01-01	
+117636	York House School		919	3	13			11			M				1956-01-01	
+117637	Homewood Independent School	5T8JAQSS	919	5	6			11			M				1957-10-22	2006-07-07
+117638	St Columba's College	2X6MTCZY	919	4	18	C67		11			B				1957-12-06	
+117639	Francis House Preparatory School	2X6MZ9W3	919	3	11			11			M				1957-10-17	2014-12-12
+117640	Stanborough Secondary School		919	11	18	C73		11			M				1957-12-03	
+117641	Royal Masonic School for Girls		919	4	18			11			G				1935-01-01	
+117642	St Francis College		919	3	12			11			M				1947-01-01	2012-04-30
+117643	Lochinver House School	9B1AJKE	919	4	13			11			B				1952-01-01	
+117644	Stormont School	9B1AJMG	919	4	11			11			G				1944-01-01	
+117645	St Columba's Preparatory School	2X6MTCZY	919	5	10			11			B				1966-10-28	2005-02-02
+117646	Radlett Lodge School	2X6MYN7R	919	4	19			10			M				1974-09-30	
+117647	St Albans School	5T8JAGTK	919	11	19	C1;C1c		11			B				1980-09-30	
+117648	Haberdashers' Aske's Boys' School	9B1AHHC	919	5	18			11			B				1980-09-30	
+117649	Haberdashers' Aske's School for Girls	9B1AGR6	919	4	18			11			G				1980-09-30	
+117650	The King's School	9A1REM8	919	4	16	C1		11			M				1982-09-14	
+117651	Merchant Taylors' Prep School	5T8FRDD9	919	3	13	C1		11			B				1922-01-01	
+117652	Radlett Nursery and Infant School		919	5	6			11			M				1983-06-21	2005-09-01
+117653	Berkhamsted Pre-Prep School	5T8JQ7FV	919	3	7			11			M				1985-04-29	
+117654	Bhaktivedanta Manor School		919	4	11	D1		11			M				1985-05-16	
+117656	Haresfoot Senior School		919	11	17			11			M					2000-10-17
+117657	Immanuel College	9AD52PD	919	4	19	F1		11			M				1990-10-31	
+117658	Manor Lodge School	9B1AKKG	919	3	11			11			M				1992-02-04	
+117659	Warrax House School		919	11	16			10			M				1992-02-03	2006-03-31
+117660	High Elms Manor School	5T8FRBHC	919	1	11			11			M				1992-05-07	
+117661	South Lodge School		919	12	17			11			G					1999-12-22
+117662	Longwood School	9B1AJXV	919	3	11			11			M				1994-07-26	
+117663	Epping House School		919	7	12			7			M					1997-07-25
+117664	Pinewood School	2X6MZT45	919	11	16			12			M					2014-08-31
+117665	St Elizabeth's School		919	5	19			8			M					
+117666	Knightsfield School	5T8JHA3Z	919	10	18			7			M					2012-07-31
+117667	Garston Manor School	5T8FR09X	919	11	16			7			M					
+117668	Boxmoor House School	9A2N551	919	11	16			7			B					2006-03-31
+117669	The Valley School	5T8FDH0D	919	11	16			7			M					
+117670	Colnbrook School	2X6MYD37	919	4	11			7			M					
+117671	St Luke's School	2X6MTDT8	919	9	16			12			M					
+117672	The Collett School	2X6MTS3N	919	4	16			7			M					
+117673	Hailey Hall School	4D5CKW	919	11	16			12			B					2015-08-31
+117674	Batchwood School	2X6MTDG1	919	11	16			7			M					
+117675	The Hyde School		919	4	12			7			M					1995-09-01
+117676	Middleton School	2X6MXBAD	919	4	11			7			M					
+117677	Great Brookmead School		919	5	11			7			M					1995-08-31
+117678	Hilltop School	2X6N035B	919	5	11			7			B					1996-08-31
+117679	Lonsdale School		919	3	18			7			M					
+117680	Lakeside School	2X6MTHMB	919	2	19			7			M					
+117681	Breakspeare School	2X6MYKRW	919	2	19			7			M					
+117682	Woodfield School	2X6MV9YK	919	3	19			7			M					
+117683	Watling View School	2X6MT9W3	919	2	19			7			M					
+117684	Amwell View School	9B1N31S	919	2	19			7			M					
+117685	Heathlands School	2X6MTDHE	919	3	16			7			M					
+117686	Falconer School	9B1AJXG	919	11	16			7			B					
+117687	High Wick School	2X6N035B	919	6	11			7			M					1996-08-31
+117688	The Edward Jenner Hospital School	9AQQR2W	919	12	16			7			M					1999-10-18
+117689	Woolgrove School	2X6MXKK6	919	4	12			7			M					2012-03-31
+117690	Greenside School	9C3QNZ4	919	2	19			7			M					
+117691	Meadow Wood School	9AE04RC	919	3	11			7			M					
+127416	Holy Rood Catholic Primary School	9A95YCZ	919	3	11	C67	RC01	2	PRI		M				2006-09-01	
+127633	The Chrysalis School for Autism	9C3H48G	919	5	16			10			M				2005-07-14	2011-03-26
+129109	Highfield Nursery School		919					15	NUR							1988-08-31
+129110	Burleigh Junior School	4D4WFP	919	7	11			1	PRI		M					1994-12-31
+129111	Belswains Junior School	5T8JQGDJ	919	7	11			1	PRI		M					1993-12-31
+129112	Morgans Walk Junior Mixed School	9B09KZQ	919	7	11			1	PRI		M					1992-12-31
+129113	Mount Pleasant Lane Junior School	5T8JAMHS	919	7	11			1	PRI		M					1989-08-31
+129114	Leavesden Green Junior Mixed School		919	7	11			1	PRI		M					1992-08-31
+129115	Hobbs Hill Wood Junior School	2X6MVA3W	919	7	11			1	PRI		M					1995-08-31
+129116	Belswains Infants' School		919	4	7			1	PRI		M					1993-12-31
+129117	Hobbs Hill Wood Infants' School	2X6MVA3W	919	3	7			1	PRI		M					1995-08-31
+129118	Bengeo Junior School	9B09W62	919	7	11			1	PRI		M					1992-08-31
+129119	Bonneygrove Junior School	4D4MDG	919	7	11			1	PRI		M					1993-12-31
+129120	Broad Oaks Junior Mixed School		919					1	PRI							1991-08-31
+129121	Bishops Wood Infant School		919					1	PRI							1991-08-31
+129122	Bellgate Junior Mixed School	5T8JQF4Y	919	7	11			1	PRI		M					1987-12-31
+129123	Meriden Junior School		919	7	11			1	PRI		M					1992-08-31
+129124	St Stephen's Infant School		919					1	PRI							1989-08-31
+129125	Millwards Junior Mixed School	2X6MTBEZ	919	7	11			1	PRI		M					1992-08-31
+129126	The Downs Infant School	2X6MTBEZ	919	5	7			1	PRI		M					1992-08-31
+129127	Bellgate Infant School	5T8JQF4Y	919	5	7			1	PRI		M					1987-12-31
+129128	Meriden Infant School		919	5	7			1	PRI		M					1992-08-31
+129129	Bonneygrove Infants' School	4D4MDG	919	4	7			1	PRI		M					1993-12-31
+129130	Wood End Junior Mixed School	2X6MTFBZ	919	7	11			1	PRI		M					1991-08-31
+129131	Chalk Dell Infant School		919	5	7			1	PRI		M					1992-12-31
+129132	Bengeo Infant School		919	5	7			1	PRI		M					1992-08-31
+129133	Grangewood Infants' School	4D4WFP	919	4	7			1	PRI		M					1994-12-31
+129134	Cranbourne Junior School	4D5MF5	919	7	11			1	PRI		M					1990-08-31
+129135	Dundale Infant School		919					1	PRI							1988-08-31
+129136	Cranbourne Infant School	4D5MF5	919	5	7			1	PRI		M					1990-08-31
+129137	Leavesden Green Infant School		919	5	7			1	PRI		M					1992-08-31
+129138	Wood End Infant School	2X6MTFBZ	919	5	7			1	PRI		M					1991-08-31
+129139	Laurance Haines Infant School		919					1	PRI							1988-08-31
+129140	Eastbrook Junior School	2X6MV5B0	919	7	11			1	PRI		M					1991-08-31
+129141	Ley Park Junior School	4D59VX	919	7	11			1	PRI		M					1991-08-31
+129142	Eastbrook Infant and Nursery School	2X6MV5B0	919	5	7			1	PRI		M					1991-08-31
+129143	Wellfield Wood Junior School	2X6MX9R5	919	7	11			1	PRI		M					1993-03-31
+129144	Grove Road Junior School	2X6MV8D9	919	7	11			1	PRI		M					1992-12-31
+129145	Wellfield Wood Infant School	2X6MX9R5	919	5	7			1	PRI		M					1993-03-31
+129146	Ley Park Infant School	4D59VX	919	5	7			1	PRI		M					1991-08-31
+129147	Cottered VC Primary School		919	5	9			3	PRI		M					1992-12-31
+129148	Westmill First School		919					3	PRI							1989-08-31
+129149	Sir John Southworth RC Junior Mixed and Infant School		919					2	PRI							1990-08-31
+129150	Pope Pius XII RC Primary School		919					2	PRI							1990-08-31
+129151	Maragaret Dane School		919					1	SEC							1990-08-31
+129152	Hadham Hall School		919					1	SEC							1990-08-31
+129153	Hitchin School		919					1	SEC							1988-08-31
+129154	Durrants School		919	11	18			1	SEC		M					1991-08-31
+129155	Sir James Altham School		919					1	SEC							1989-08-31
+129156	Hatfield School		919					1	SEC							1990-08-31
+129157	Thomas Alleynes School		919					1	SEC							1989-08-31
+129158	Bowes Lyon High School		919					1	SEC							1988-08-31
+129159	The Marshalwick School	5T8JAHHX	919	11	18			1	SEC		M					1988-08-31
+129160	The Willian School		919	11	18			1	SEC		M					1991-08-31
+129161	Francis Bacon School		919					1	SEC							1990-08-31
+129162	Halsey School		919					1	SEC							1988-08-31
+129163	The Mountbatten School		919	11	18			1	SEC		M					1991-08-31
+129164	Wheathampstead School		919	11	18			1	SEC		M					1988-08-31
+129165	Stevenage Girls' School		919					1	SEC							1989-08-31
+129166	The Augustus Smith School		919					1	SEC							1988-08-31
+129167	Bishopslea School		919					1	SEC							1988-08-31
+129168	Cardinal Bourne School		919					2	SEC							1988-08-31
+129169	Thomas Bourne CofE Middle School		919					2	MDS							1988-08-31
+129170	Roasry Priory High School		919					11								1988-07-08
+129171	Lyndale School		919	3	17			11			M					1994-01-06
+129172	Sherrardswood Junior School		919					11							1950-01-01	2006-08-31
+129173	Rosary Priory Preparatory School		919					11								1988-07-08
+129174	Pamela Gardens School		919					11								1991-01-09
+129176	Marlin Montessori School		919					11								1991-10-20
+129177	Stanborough Secondary School		919					11							1950-01-01	2006-08-31
+129178	Broxbournebury School		919					7								1990-08-31
+129179	Chorleywood College		919	11	19			7			G					1987-07-31
+129180	Elmfield School		919	10	16			7			M					1987-07-31
+129181	Hangers Wood School		919	3	12			7			M					1994-09-01
+129182	Brandles School	2X6MXMZX	919	11	13			7			B					1990-09-30
+129183	Greenside School	9C3QNZ4	919					7								1989-03-31
+129184	Harperbury Hospital School	9AQQR2W	919					7								1993-12-31
+129185	Springfield School		919	3	19			7			M					1993-12-31
+129186	Home Field School	9C3QNZ4	919	3	18			7			M					1989-03-31
+130160	Summercroft Primary School	9B09V9Y	919	3	11			1	PRI		M				2006-01-01	2011-08-31
+130338	Norfolk Lodge School Ltd	9AD5DF0	919	5	10			11			M				1996-03-13	2009-08-31
+130344	North Area Pupil Referral Unit		919	5	16			14			M				1995-09-01	
+130347	Hertford, Ware and Bishop's Stortford Area Pupil Referral Unit	9B09VV9	919	5	16			14			M				1995-09-01	2009-08-31
+130348	The Park Education Support Centre	9B1AJCK	919	5	16			14			M				1995-09-01	
+130349	South West Area Pupil Referral Unit		919	5	16			14			M				1995-09-01	
+130355	Buntingford Area Pupil Referral Unit	2X6MXNXN	919	5	18			14			M				1996-04-01	1998-01-01
+130356	The Links Education Support Centre	5T8JAGKZ	919	5	16			14			M				1995-09-01	2013-01-31
+130359	Stevenage Education Support Centre	9C3QPE3	919	11	14			14			M				1995-09-01	
+130362	Southfield School	2X6MTBE4	919	4	11			7			M				1995-09-01	
+130363	Shepherd Montessori School		919	5	5			11			M				1996-05-02	1996-09-18
+130720	West Herts College	5T8FR0G2	919	16	99			18	16P		M					
+130721	North Hertfordshire College	2X6MXKN8	919	16	99			18	16P		M					
+130722	Hertford Regional College	9B09WV0	919	16	99			18	16P		M					
+130723	Oaklands College	9A1R8X0	919	16	99			18	16P		M					
+131060	Brandles School	2X6MXMZX	919	11	16			7			B				1993-10-25	
+131100	Dacorum Education Support Centre		919	5	16			14			M				1995-09-01	
+131188	Bovingdon Primary School	2X6MV9XY	919	3	11			1	PRI		M				1998-09-01	2011-06-30
+131319	Haywood Grove School	2X6MV5B0	919	5	11			7			M				1996-02-20	
+131456	Clore Shalom School	9B1AK53	919	3	11	F1		2	PRI		M				1999-09-01	
+131503	Larwood School	2X6N035B	919	5	11			12			M					
+131505	Featherstone Wood Primary School	9ADG70Y	919	3	11			1	PRI		M				1998-09-01	
+131651	Hertsmere Jewish Primary School		919	1	5			11			M					1999-09-22
+131955	Hertsmere Jewish Primary School	9B1AHEF	919	3	11	F1		2	PRI		M				1999-09-01	
+131971	Hertswood School	9AE03ZP	919	11	18			1	SEC		M				2000-09-01	2012-08-31
+132015	St Elizabeth's College (The Congregation of the Daughters of the Cross of the Liege)		919	19	25	C67		32	16P		M				2006-06-20	
+132091	Lodge Farm Primary School	9C3QPF8	919	3	11			1	PRI		M				2000-09-01	
+132105	Birchwood Avenue Primary School	9AE9CV7	919	5	11			1	PRI		M				2000-04-13	
+132118	Sunny Bank Primary School		919	3	11			5	PRI		M				1999-09-01	2008-08-31
+133065	Grove Road Infant School	2X6MV8D9	919	5	7			1	PRI		M					2001-03-29
+133134	South Lodge School		919	11	17			11			G					1993-06-21
+133263	Roebuck Primary School and Nursery		919	3	11			1	PRI		M				2001-04-18	
+133295	Integrated Services Programme		919	1	16			11			M				2001-03-26	2001-07-26
+133323	Oughton Primary and Nursery School	5T8GM5Z3	919	3	11			1	PRI		M				2001-09-01	
+133488	Swallow Dell Primary and Nursery School	9AE9CV8	919	2	11			1	PRI		M				2002-01-01	
+133738	Redemption Academy		919	3	18	C1		11			M				2002-07-26	2015-07-16
+133773	St Catherine's Hoddesdon CofE Primary School	4D5VED	919	4	11		CE32	3	PRI		M				2003-01-01	
+133783	University of Hertfordshire	2X6MTBJ3	919					29			M					
+133917	Littlebury Resource Centre	4D5QVY	919	11	16			27			M				2000-09-01	2004-05-17
+133975	Muriel Green Nursery School	5T8JARDV	919	3	5			15	NUR		M				2001-01-01	
+134087	St Albans Independent College		919	14	19			11			M				2003-01-20	
+134197	Flamstead End Primary and Nursery School	4D4PHZ	919	3	11			1	PRI		M				2003-09-01	2013-03-31
+134488	Littlebury Resource Centre	4D5QVY	919	11	16			11			M				2003-08-29	2004-09-29
+134682	Windhill School	2X6MTKCB	919	3	11			1	PRI		M				2006-01-01	2015-02-28
+134684	Berrygrove Primary and Nursery School	9A95Y4M	919	3	11			1	PRI		M				2005-09-02	2012-08-31
+134685	Alban Wood Primary School and Nursery	2X6MYGZD	919	3	11			1	PRI		M				2005-09-02	
+134716	De Havilland Primary School	2X6MTBF0	919	3	11			1	PRI		M				2004-09-01	
+134786	Village Montessori	9A2N6TH	919	4	11	C1		11			M				2004-09-01	2007-03-30
+134933	International Stanborough School		919	11	18			11			M				2005-02-10	
+134985	Yavneh College	9AE03VX	919	11	18	F1		2	SEC		M				2006-09-01	2011-06-30
+135083	Longmeadow Primary School	5T8FDGYV	919	3	11			1	PRI		M				2005-09-01	
+135084	Shephalbury Park Primary School	9C3QNZ0	919	3	11			1	PRI		M				2005-09-01	
+135221	Maple Grove Primary School	2X6MV5B0	919	3	11			1	PRI		M				2008-09-01	
+135222	Yewtree Primary School	5T8JQF4Y	919	3	11			1	PRI		M				2008-09-01	
+135223	Oak View Primary and Nursery School	2X6MTBEZ	919	3	11			1	PRI		M				2007-09-01	
+135224	Galley Hill Primary School and Nursery	2X6MTSE6	919	3	11			1	PRI		M				2008-09-01	
+135339	Broadfield Primary School	5T8JQEN7	919	3	11			1	PRI		M				2008-01-01	
+135402	Education and Youth Services (Herts)	5T8FDDY5	919	14	18			10			M				2007-09-05	2016-02-29
+135528	Killigrew Primary and Nursery School	5T8JAQST	919	3	11			1	PRI		M				2008-09-01	
+135553	Focus School - Cheshunt Primary Campus	4D5QVY	919	7	11	C61		11			M				2008-04-22	2014-10-22
+135560	Worldshapers Academy		919	13	16	C1		10			M				2008-04-24	2014-07-24
+135596	Stanborough Primary School	5T8FR15Q	919	3	11			11			M				1957-12-03	
+135876	Francis Combe Academy	9AQ026H	919	11	18			46	SEC		M		355		2009-09-01	
+135890	Rivers Education Support Centre	4D5GPC	919	11	16			14			M				2009-09-01	
+135938	The Bushey Academy	9B1AJXE	919	11	18			46	SEC		M		355		2009-09-01	
+136024	Churchfield CofE VA Primary	4D609B	919	3	11	C22	CE32	2	PRI		M				2010-09-01	
+136247	Roman Fields	9A2N551	919	11	18			14			M				2010-11-01	
+136276	Watford Grammar School for Boys		919	11	18	C22		45	SEC		B		440		2010-09-01	
+136289	Watford Grammar School for Girls	5T8FR333	919	11	18	C22		45	SEC		G		450		2010-09-01	
+136396	The Broxbourne School	4D59W3	919	11	18			45	SEC		M		539		2011-01-01	
+136482	Hockerill Anglo-European College	9B09QK4	919	11	18			45	SEC		M		587		2011-02-01	
+136554	Dame Alice Owen's School	9B1AJKN	919	11	18			45	SEC		M		644		2011-04-01	
+136606	Rickmansworth School	9A1SV4G	919	11	18			45	SEC		M		684		2011-04-01	
+136607	The John Warner School	4D5J74	919	11	18			45	SEC		M		685		2011-04-01	
+136608	The Knights Templar School	2X6MXN06	919	11	18			45	SEC		M		686		2011-04-01	
+136609	Sandringham School	5T8JAHHX	919	11	18			45	SEC		M		687		2011-04-01	
+136857	Bovingdon Primary Academy	2X6MV9XY	919	3	11			45	PRI		M		852		2011-07-01	
+136877	Queens' School	9AE04NH	919	11	18			45	SEC		M		868		2011-07-01	
+136899	Parmiter's School	2X6MYGZH	919	11	18			45	SEC		M		890		2011-07-01	
+136901	St Clement Danes School	2X6MYJWD	919	11	18			45	SEC		M		892		2011-07-01	
+136922	Yavneh College	9AE03VX	919	11	18	F1		45	SEC		M		911		2011-07-01	
+136973	Roundwood Park School	2X6MTFB6	919	11	18			45	SEC		M		939		2011-08-01	
+137002	Freman College	2X6MXP1R	919	13	18			45	SEC		M		965		2011-08-01	
+137038	Verulam School	5T8FVP7Q	919	11	18			45	SEC		B		992		2011-08-01	
+137090	The Chauncy School	2X6MXAD9	919	11	18			45	SEC		M		1030		2011-08-01	
+137110	Longdean School	2X6MV9YH	919	11	18			45	SEC		M		1043		2011-08-01	
+137156	Leventhorpe	2X6MTJCP	919	11	18			45	SEC		M		1072		2011-08-01	
+137224	Mount Grace School	9AE051S	919	11	18			45	SEC		M		1126		2011-08-01	
+137238	Hammond Academy	5T8JQEQG	919	3	11			45	PRI		M		852		2011-08-01	
+137270	Sir John Lawes School	2X6MTFDH	919	11	18			45	SEC		M		1168		2011-08-01	
+137288	Hitchin Girls' School	2X6MXHBD	919	11	18			45	SEC		G		1176		2011-08-17	
+137339	St Albans Girls' School	2X6MTDMM	919	11	18			45	SEC		G		1206		2011-09-01	
+137351	Summercroft Primary School	9B09V9Y	919	3	11			45	PRI		M		1218		2011-09-01	
+137532	Goffs School	4D4ME9	919	11	18			45	SEC		M		1340		2011-10-01	
+137637	Birchwood High School	9B09QS4	919	11	18			45	SEC		M		1400		2011-11-01	
+137656	Meridian School	2X6MXNC2	919	13	18			45	SEC		M		1411		2011-11-01	
+137657	Roysia Middle School	2X6MXNAP	919	9	13			45	MDS		M		1411		2011-11-01	
+137658	The Greneway School	2X6MXNC1	919	9	13			45	MDS		M		1411		2011-11-01	
+137757	Bishop's Hatfield Girls' School	2X6MTBBS	919	11	18			45	SEC		G		1464		2012-01-01	
+137792	Onslow St Audrey's School	2X6MTBBK	919	11	18			45	SEC		M		1488		2012-01-01	
+137847	Stanborough School	2X6MTHCA	919	11	18			45	SEC		M		1520		2012-02-01	
+137861	Little Reddings Primary School	9B1AJVM	919	3	11			45	PRI		M		1533		2012-02-01	
+137872	Bushey Meads School	9B1AK1T	919	11	18			45	SEC		M		1533		2012-02-01	
+137895	The John Henry Newman Catholic School	9C3QMQ7	919	11	18	C67	RC01	45	SEC		M		1546		2012-03-01	
+137914	Saint Joan of Arc Catholic School		919	11	18	C67	RC01	45	SEC		M		1563		2012-03-01	
+137922	Saint Michael's Catholic High School		919	11	18	C67	RC01	45	SEC		M		1546		2012-03-01	
+137938	Nicholas Breakspear Catholic School	2X6MTE5Y	919	11	18	C67	RC01	45	SEC		M		1546		2012-03-01	
+137943	Applecroft School	2X6MTHMA	919	3	11			45	PRI		M		1588		2012-03-01	
+137985	Presdales School	2X6MXAZE	919	11	18			45	SEC		G		1617		2012-04-01	
+137997	Woolgrove School, Special Needs Academy	2X6MXKK6	919	4	12			44			M		1625		2012-04-01	
+138042	The Marlborough Science Academy	2X6MT9S6	919	11	18			45	SEC		M		1656		2012-04-01	
+138106	Loreto College	2X6MTA14	919	11	18	C67	RC01	45	SEC		G		1684		2012-05-01	
+138201	Hatfield Community Free School	9CQJSQ7	919	4	11			39	PRI		M		1739		2012-09-01	
+138205	Fleetville Junior School	5T8JAG03	919	7	11			45	PRI		M		1742		2012-06-01	
+138206	Fleetville Infant and Nursery School	2X6MTAHR	919	3	7			45	PRI		M		1742		2012-06-01	
+138215	The Wroxham School	9B1AJKR	919	4	11			45	PRI		M		1750		2012-06-01	
+138225	The Da Vinci Studio School of Science and Engineering	2X6MX8Y4	919	14	19			41	SEC		M		1757		2012-09-03	
+138231	Alban City School	5T8GN26J	919	5	11			39	PRI		M		1760		2012-09-01	
+138286	Beaumont School	2X6MTE5Z	919	11	18			45	SEC		M		1783		2012-07-01	
+138288	St Catherine of Siena Catholic Primary School	5T8FR6JX	919	4	11	C67	RC01	45	PRI		M		1546		2012-07-01	
+138292	St Mary Roman Catholic Primary School	2X6MXNF8	919	3	11	C67	RC01	45	PRI		M		1546		2012-07-01	
+138316	St John Roman Catholic Primary School	9C3H55Z	919	3	11	C67	RC01	45	PRI		M		1546		2012-07-01	
+138322	Our Lady Catholic Primary School	9C3H984	919	5	11	C67	RC01	45	PRI		M		1546		2012-07-01	
+138352	Tring School	2X6MV863	919	11	18	C22	CE32	45	SEC		M		1825		2012-07-01	
+138354	St Thomas More Roman Catholic Primary School	2X6MXKNC	919	3	11	C67	RC01	45	PRI		M		1546		2012-07-01	
+138356	St George's School	2X6N02Y7	919	11	18	C1		45	SEC		M		1828		2012-07-01	
+138360	St Mary's Church of England High School (VA)	4D5Z7N	919	11	18	C22	CE32	45	SEC		M		1830		2012-07-01	
+138389	Garden City Academy	2X6MXKK5	919	3	11			46	PRI		M		1284		2012-09-01	
+138484	The Sele School	2X6MXCRP	919	11	18			45	SEC		M		1876		2012-08-01	
+138485	Knightsfield School	5T8JHA3Z	919	10	18			44			M		1877		2012-08-01	
+138507	The Grove Academy	9A95Y4M	919	3	11			46	PRI		M		852		2012-09-01	
+138539	Northgate Primary School	2X6MTK10	919	3	11			45	PRI		M		1906		2012-08-01	
+138561	Harpenden Free School		919	4	11			39	PRI		M		1168		2012-09-01	
+138582	Samuel Ryder Academy	9AQQS5E	919	4	19			46	ALL		M		1168		2012-09-01	
+138632	Monk's Walk School	5T8JH9XV	919	11	18			45	SEC		M		1947		2012-09-01	
+138747	Hertswood Academy	9AE03ZP	919	11	18			45	SEC		M		2014		2012-09-01	
+139036	Kings Langley School	5T8JQHE1	919	11	18			45	SEC		M		2129		2012-12-01	
+139154	Hitchin Boys' School	2X6MXHSD	919	11	18			45	SEC		B		2176		2013-01-01	
+139159	Mandeville Primary School	9A1RF1A	919	3	11			45	PRI		M		2179		2013-01-01	
+139197	Links Academy	5T8JAGKZ	919	5	16			42			M		2206		2013-02-01	
+139416	The Elstree UTC		919	14	19			40	SEC		M		2279		2013-09-01	
+139507	Christ Church Chorleywood CofE School		919	3	11	C22	CE32	45	PRI		M		2331		2013-04-01	
+139545	Flamstead End School	4D4PHZ	919	2	11			45	PRI		M		2353		2013-04-01	
+139550	Chaulden Junior School	2X6MTSD8	919	7	11			46	PRI		M		2179		2013-05-01	
+139662	The Reach Free School		919	11	18			39	SEC		M		2392		2013-09-02	
+139835	Rhodes Farm School		919	8	18			11			M				2013-06-27	
+139873	Richard Hale School	9B09VXK	919	11	18			45	SEC		B		2480		2013-07-01	
+139902	The Da Vinci Studio School of Creative Enterprise		919	14	19			41	SEC		M		1757		2013-09-02	
+140037	The Thomas Alleyne School	9C3QN4X	919	11	18			46	SEC		M		1757		2013-09-01	
+140049	Westfield Academy	2X6MYE5R	919	11	18			45	SEC		M		2529		2013-09-01	
+140238	Countess Anne Church of England School	5T8JHCB9	919	5	11	C22	CE32	45	PRI		M		2593		2013-10-01	
+140249	Ralph Sadleir School	9B09WFN	919	9	13			45	MDS		M		2601		2013-10-01	
+140294	Simon Balle All-Through School	2X6MXBT7	919	4	18			45	ALL		M		2626		2013-11-01	
+140611	Wilshere-Dacre Junior Academy	9C3H8GG	919	7	11			46	PRI		M		1284		2014-03-01	
+140707	Crabtree Infants' School	2X6MTFQN	919	5	7			45	PRI		M		2742		2014-04-01	
+140708	Crabtree Junior School	2X6MTFQN	919	7	11			45	PRI		M		2742		2014-04-01	
+140786	The Hertfordshire & Essex High School and Science College	2X6MZTDB	919	11	18			45	SEC		G		2765		2014-04-01	
+140954	Lanchester Community Free School		919	4	11			39	PRI		M		2821		2014-09-01	
+140955	Jupiter Community Free School	2X6MV4WB	919	4	11			39	PRI		M		2821		2014-09-01	
+140956	Ascot Road Community Free School		919	4	11			39	PRI		M		2821		2014-09-01	
+141004	The Watford UTC		919	14	19			40	SEC		M		2836		2014-09-01	
+141251	Pinewood School	2X6MZT45	919	11	16			44			M		2901		2014-09-01	
+141851	Windhill21	2X6MTKCB	919	3	11			45	PRI		M		3016		2015-03-01	
+141898	Fair Field Junior School	9B1AHFC	919	7	11			45	PRI		M		3026		2015-04-01	
+142051	Haileybury Turnford	4D547M	919	11	18			46	SEC		M		3058		2015-09-01	
+142221	Watford St John's Church of England Primary School		919	4	11	C22;C1		39	PRI		M				2016-09-07	
+142257	Hailey Hall School	4D5CKW	919	11	16			44			B		3102		2015-09-01	
+142413	Garden City Montessori School		919	2	12			11			M				2015-09-22	
+142862	Yavneh Primary School		919	4	11	F7		39	PRI		M				2016-09-01	
+143131	Sheredes School		919	11	18			46	SEC		M				2016-09-01	
+143409	Roselands Primary School		919	5	11			45	PRI		M				2016-09-01	
+143410	The Cranbourne Primary School		919	4	11			45	PRI		M				2016-09-01	
