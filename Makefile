@@ -28,6 +28,8 @@ MAPS=\
 	maps/school-phase.tsv\
 	lists/edubase-school-trust-name/trusts.tsv\
 	lists/edubase-school-trust/trusts.tsv\
+	lists/edubase-school-sponsor-name/sponsors.tsv\
+	lists/edubase-school-sponsor-group/sponsors.tsv\
 	maps/school-trust.tsv\
 	maps/school-umbrella-trust.tsv\
 	maps/school-type.tsv
@@ -99,6 +101,31 @@ lists/edubase-multi-academy-trust/trusts.tsv: cache/links mix.deps
 
 	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_data_tsv' < maps/tmp.tsv > $@
 	rm -f maps/tmp.tsv
+
+lists/edubase-school-sponsor-group/sponsors.tsv: cache/links mix.deps
+	@mkdir -p lists/edubase-school-sponsor-group
+	[[ -e $@ ]] || mix run -e 'SchoolsExtract.sponsor_tsv' > $@
+
+lists/edubase-school-sponsor-name/sponsors.tsv:
+	@mkdir -p lists/edubase-school-sponsor-name
+	csvcut -c URN,"SchoolSponsors (name)","SchoolSponsorFlag (name)" cache/edubase.csv \
+	| sed 's/^URN,SchoolSponsors .*/urn,name,type/' \
+	| grep -v 'This is a co-sponsored academy' \
+	| csvgrep -c name -r "." \
+	| csvcut -c urn,name \
+	| tr ' ' '_' \
+	| csvsort -c name,urn \
+	| csvformat -T    \
+	| uniq -f1        \
+	| tr '_' ' ' \
+	| csvsort -tc urn \
+	| csvcut -c name \
+	| csvgrep -c name -r "." \
+	| csvcut -lc name \
+	| sed 's/^line_number/school-sponsor/' \
+	| csvformat -T    \
+	> $@
+
 
 lists/edubase-school-trust-name/trusts.tsv: lists/edubase-multi-academy-trust/trusts.tsv
 	# split two trusts separated by ~ onto separate lines
