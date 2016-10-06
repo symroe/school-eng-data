@@ -165,7 +165,7 @@ cache/links:
 	  ( \
 		  cd cache && sed 1d edubase.csv | \
 		  awk -F "\"*,\"*" '{ print "http://www.education.gov.uk/edubase/establishment/links.xhtml?printable=1&urn="$$1}' | \
-			xargs -P4 -n 1 curl -S -O \
+			xargs -P4 -n 1 curl -s -S -O \
 		)
 
 init::
