@@ -11,6 +11,7 @@ DATA=\
 SCHOOL_DATA=\
 	data/discovery/religious-character/religious-characters.tsv\
 	data/discovery/diocese/dioceses.tsv\
+	data/alpha/school-authority-eng/school-authority-eng.tsv\
 	data/discovery/school-federation/school-federations.tsv\
 	data/discovery/school-phase/school-phases.tsv\
 	data/alpha/school-trust/school-trusts.tsv\
@@ -55,6 +56,12 @@ data/discovery/school-wls/schools.tsv:
 	csvgrep -c 'GOR (name)' -m 'Wales' < cache/edubase.csv \
 	| bin/schools.py \
 	| sed 's/^school\([[:blank:]]\)/school-wls\1/' \
+	> $@
+
+data/alpha/school-authority-eng/school-authority-eng.tsv:
+	@mkdir -p data/alpha/school-authority-eng
+	[[ -e $@ ]] || \
+	bin/school-authority.sh \
 	> $@
 
 data/alpha/school-trust/school-trusts.tsv: mix.deps
