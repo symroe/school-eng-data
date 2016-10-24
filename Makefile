@@ -39,6 +39,7 @@ data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.ts
 	@mkdir -p data/alpha/school-eng
 	[[ -e $@ ]] || \
 	csvgrep -tc school-authority -m "919" < data/discovery/school-eng/schools.tsv \
+	| sed 's/school-authority,/school-authority-eng,/' \
 	| csvformat -T \
 	> $@
 
