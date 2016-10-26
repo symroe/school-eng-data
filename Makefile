@@ -98,11 +98,11 @@ lists/edubase-multi-academy-trust/trusts.tsv: cache/links mix.deps
 	@mkdir -p lists/edubase-multi-academy-trust
 	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_tsv' > maps/tmp.tsv
 
-	[[ -e $@ ]] || csvcut -tc urn,school-trust maps/tmp.tsv \
+	[[ -e $@ ]] || csvcut -tc urn,school-trust,school-trust-join-date maps/tmp.tsv \
 	| csvsort -c urn \
 	| csvformat -T \
 	| sed 's/urn\([[:blank:]]\)/school\1/' \
-	| sed 's/\([[:blank:]]\)school-trust/\1edubase-school-trust/' \
+	| sed 's/\([[:blank:]]\)school-trust\([[:blank:]]\)/\1edubase-school-trust\2/' \
 	> maps/school-to-edubase-school-trust.tsv
 
 	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_data_tsv' < maps/tmp.tsv > $@
