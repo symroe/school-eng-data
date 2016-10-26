@@ -22,16 +22,16 @@ trusts_with_company = Morph.
 
 edubase_trust_to_company = Morph.
   from_tsv(IO.read('./lists/edubase-multi-academy-trust/trusts.tsv'), :edubase_trust).
-  group_by(&:edubase_school_trust) if umbrella ; nil
+  group_by(&:edubase_school_trust) ; nil
 # @edubase_school_trust="15710", @name="Activate Learning Education Trust", @organisation="company:08707909"
 
-urn_to_edubase_trust = Morph.
+urn_to_edubase_trust_and_join_date = Morph.
   from_tsv(IO.read('./maps/school-to-edubase-school-trust.tsv'), :school_edubase_trust).
-  group_by(&:school) if umbrella ; nil
-# @school="101857", @edubase_school_trust="15885"
+  group_by(&:school) ; nil
+# @school="101857", @edubase_school_trust="15885, @school_trust_join_date="2016-01-03"
 
-def edubase_trust_match urn, urn_to_edubase_trust, edubase_trust_to_company, trusts_with_company
-  if edubase_trust_id = urn_to_edubase_trust[urn].try(:first).try(:edubase_school_trust)
+def edubase_trust_match urn, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
+  if edubase_trust_id = urn_to_edubase_trust_and_join_date[urn].try(:first).try(:edubase_school_trust)
     if company_no = edubase_trust_to_company[edubase_trust_id].try(:first).try(:organisation)
       if trusts = trusts_with_company.select{|x| x.organisation == company_no}
         if trusts.size == 1
@@ -77,21 +77,23 @@ def trust_name_match name, trusts_with_company
   end
 end
 
-def school_trust_id school, urn_to_edubase_trust, edubase_trust_to_company, trusts_with_company
-  if trust_id = edubase_trust_match(school.urn, urn_to_edubase_trust, edubase_trust_to_company, trusts_with_company)
+def school_trust_id school, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
+  if trust_id = edubase_trust_match(school.urn, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company)
     trust_id
   else
     trust_name_match(school.trusts_name, trusts_with_company).try(:school_trust)
   end
 end
 
-def add_school_trust! urn_to_trust_name, urn_to_edubase_trust, edubase_trust_to_company, trusts_with_company
+def add_school_trust! urn_to_trust_name, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
   urn_to_trust_name.each do |school|
     begin
       school.school_trust = school_trust_id(school,
-        urn_to_edubase_trust, edubase_trust_to_company, trusts_with_company)
+        urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company)
+      school.school_trust_join_date = urn_to_edubase_trust_and_join_date[school.urn].try(:first).try(:school_trust_join_date)
     rescue Exception => e
       puts e.to_s
+      puts e.backtrace
       raise " school: #{school.try(:urn).to_s}"
     end
   end ; nil
@@ -110,11 +112,11 @@ def add_school_umbrella_trust! urn_to_trust_name, trusts_with_company
 end
 
 if !umbrella
-  add_school_trust! urn_to_trust_name, urn_to_edubase_trust, edubase_trust_to_company, trusts_with_company
+  add_school_trust! urn_to_trust_name, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
 
-  puts ["school", "school-trust"].join("\t") ; nil
+  puts ["school", "school-trust", "school-trust-join-date"].join("\t") ; nil
   urn_to_trust_name.each do |school|
-    puts [school.urn, school.school_trust].join("\t")
+    puts [school.urn, school.school_trust, school.try(:school_trust_join_date)].join("\t")
   end ; nil
 else
   urn_to_trust_name = urn_to_trust_name.select{|x| x.trusts_name.include?('~') }
