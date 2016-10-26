@@ -19,7 +19,7 @@ if __name__ == '__main__':
     print("\t".join(fields))
 
     # collect primary and parent addresses ..
-    for path in glob('../address-data/data/address/*.tsv'):
+    for path in glob('../addressbase-data/data/address/*.tsv'):
         for row in csv.DictReader(open(path), delimiter='\t'):
             if (row['address'] in addresses):
                 if 'parent-address' in row:
@@ -28,7 +28,7 @@ if __name__ == '__main__':
                 if 'primary-address' in row:
                     addresses[row['primary-address']] = {}
 
-    for path in glob('../address-data/data/address/*.tsv'):
+    for path in glob('../addressbase-data/data/address/*.tsv'):
         for row in csv.DictReader(open(path), delimiter='\t'):
             if (row['address'] in addresses):
                 addresses[row['address']] = row

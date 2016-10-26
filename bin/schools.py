@@ -103,7 +103,7 @@ def fix_http_url(url):
 if __name__ == '__main__':
 
     # load map of addresses
-    reader = csv.DictReader(open('maps/addresses.tsv'), delimiter='\t')
+    reader = csv.DictReader(open('maps/school-address.tsv'), delimiter='\t')
     for row in reader:
         address[row['school']] = row['address']
 

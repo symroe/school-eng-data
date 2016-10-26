@@ -4,14 +4,14 @@ import sys
 import csv
 from glob import glob
 
-fields = ['street', 'name', 'name-cy', 'place', 'local-authority', 'point', 'end-date']
+fields = ['street', 'name', 'name-cy', 'place', 'street-custodian', 'point', 'end-date']
 
 streets = {}
 places = {}
 
 
 def place_key(row):
-    return ":".join([row['local-authority'], row['town'], row['locality']])
+    return ":".join([row.get('local-authority', ''), row['town'], row['locality']])
 
 
 if __name__ == '__main__':
@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
     print("\t".join(fields))
 
-    for path in glob('../address-data/data/street/*.tsv'):
+    for path in glob('../addressbase-data/data/street/*.tsv'):
         for row in csv.DictReader(open(path), delimiter='\t'):
             if (row['street'] in streets):
                 streets[row['street']] = row

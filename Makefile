@@ -21,7 +21,7 @@ ADDRESS_DATA=\
 	data/discovery/street/streets.tsv
 
 MAPS=\
-	maps/addresses.tsv\
+	maps/school-address.tsv\
 	maps/religious-character.tsv\
 	maps/diocese.tsv\
 	maps/school-gender.tsv\
@@ -31,6 +31,16 @@ MAPS=\
 	maps/school-trust.tsv\
 	maps/school-umbrella-trust.tsv\
 	maps/school-type.tsv
+
+
+# generated datasets which can be safely clobbered
+TARGETS=\
+	data/discovery/address/addresses.tsv\
+	data/discovery/street/streets.tsv\
+	data/discovery/school-eng/schools.tsv\
+	data/alpha/address/addresses.tsv\
+	data/alpha/street/streets.tsv\
+	data/alpha/school-eng/schools.tsv
 
 all:: flake8 $(DATA)
 
@@ -165,7 +175,7 @@ cache/links:
 	  ( \
 		  cd cache && sed 1d edubase.csv | \
 		  awk -F "\"*,\"*" '{ print "http://www.education.gov.uk/edubase/establishment/links.xhtml?printable=1&urn="$$1}' | \
-			xargs -P4 -n 1 curl -S -O \
+			xargs -P4 -n 1 curl -s -S -O \
 		)
 
 init::
@@ -177,6 +187,9 @@ flake8:
 prune::
 	rm -rf cache
 	rm -rf data/discovery/school
+
+clobber:
+	rm -f $(TARGETS)
 
 clean::
 	-find . -name "*.pyc" | xargs rm -f
