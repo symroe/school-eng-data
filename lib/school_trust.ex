@@ -23,7 +23,14 @@ defmodule SchoolTrust do
     urn = html
       |> Floki.find("h1.edUrnLeft")
       |> Enum.map(& &1 |> Floki.text |> String.replace_leading("URN ", ""))
-    trust ++ urn
+    trust_join_date = html
+      |> Floki.find("tr")
+      |> Enum.filter(& &1 |> Floki.find("td.brdrL") |> Floki.text == (urn |> List.first))
+      |> List.first
+      |> Floki.find("td")
+      |> List.last
+      |> Floki.text
+    trust ++ urn ++ [trust_join_date]
   end
 
   def trust_rows do
@@ -33,8 +40,11 @@ defmodule SchoolTrust do
   end
 
   def trust_tsv do
-    headers = ~w[school-trust name company type urn]
-    trust_rows |> Stream.uniq |> Enum.sort_by(& &1 |> List.first) |> DataMorph.puts_tsv(headers)
+    headers = ~w[school-trust name company type urn school-trust-join-date]
+    trust_rows
+    |> Stream.uniq
+    |> Enum.sort_by(& &1 |> List.first)
+    |> DataMorph.puts_tsv(headers)
   end
 
   def trust_data_tsv do
