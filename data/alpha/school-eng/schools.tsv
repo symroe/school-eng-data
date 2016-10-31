@@ -347,7 +347,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	religious-c
 117409	St Mary's Voluntary Controlled Church of England Junior School	2X6MXA4K	919	7	11	C22	CE32	3	PRI		M						
 117410	St Catherine's Church of England Primary School	9B09WT8	919	3	11	C22	CE32	3	PRI		M						
 117411	Musley Infant School	2X6MXADK	919	5	7	C22	CE32	3	PRI		M						2003-08-31
-117412	Wareside Church of England Primary School	9B09XT0	919	4	11	C22	CE32	3	PRI		M						
+117412	Wareside Church of England Primary School	9B09XT0	919	2	11	C22	CE32	3	PRI		M						
 117413	Weston Primary School	9C3H8X2	919	3	11	C22	CE32	3	PRI		M						
 117414	Potten End CofE Primary School	5T8JQEX2	919	3	11	C22	CE32	3	PRI		M						
 117415	Dewhurst St Mary CofE Primary School	4D5QVQ	919	5	11	C22	CE32	3	PRI		M						
@@ -453,7 +453,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	religious-c
 117515	Barclay School	2X6N0357	919	11	18			1	SEC		M						
 117516	Hawksmoor School	9AE03ZN	919	13	18			1	SEC		M						2000-08-31
 117517	The Heathcote School	2X6MXG43	919	11	18			1	SEC		M						2012-08-31
-117518	Barnwell School	2X6MXG42	919	11	18			1	SEC		M						
+117518	Barnwell School	2X6MXG42	919	11	18			5	SEC		M						
 117519	Simon Balle School	2X6MXBT7	919	11	18			5	SEC		M						2013-10-31
 117520	Roundwood Park School	2X6MTFB6	919	11	18			5	SEC		M						2011-07-31
 117521	Lyndhurst Middle School	9B1AKC2	919	9	13			1	MDS		M						2001-08-31
@@ -837,7 +837,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	religious-c
 138485	Knightsfield School	5T8JHA3Z	919	10	18			44			M		1877			2012-08-01	
 138507	The Grove Academy	9A95Y4M	919	3	11			46	PRI		M		852	2012-01-09		2012-09-01	
 138539	Northgate Primary School	2X6MTK10	919	3	11			45	PRI		M		1906			2012-08-01	
-138561	Harpenden Free School	9CSKJEK	919	4	11			39	PRI		M		1168	2016-01-09		2012-09-01	
+138561	Harpenden Free School	9CSKJEK	919	4	11			39	PRI		M		1168	2016-01-09		2012-09-01	2016-08-31
 138582	Samuel Ryder Academy	2X6MTAPX	919	4	19			46	ALL		M		1168	2012-01-09		2012-09-01	
 138632	Monk's Walk School	5T8JH9XV	919	11	18			45	SEC		M		1947			2012-09-01	
 138747	Hertswood Academy	9AE03ZP	919	11	18			45	SEC		M		2014			2012-09-01	
@@ -874,6 +874,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	religious-c
 142257	Hailey Hall School	4D5CKW	919	11	16			44			B		3102			2015-09-01	
 142413	Garden City Montessori School	2X6MXM92	919	2	12			11			M					2015-09-22	
 142862	Yavneh Primary School	9B1AHNG	919	4	11	F7		39	PRI		M					2016-09-01	
-143131	Sheredes School	4D5BSY	919	11	18			46	SEC		M					2016-09-01	
+143131	Robert Barclay Academy	4D5BSY	919	11	18			46	SEC		M					2016-09-01	
 143409	Roselands Primary School	4D5CE2	919	5	11			45	PRI		M					2016-09-01	
 143410	The Cranbourne Primary School	4D5MF5	919	4	11			45	PRI		M					2016-09-01	
+143648	Harpenden Free School		919	4	11			39	PRI							2016-09-01	
