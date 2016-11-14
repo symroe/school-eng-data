@@ -12,7 +12,7 @@ fields = [
     "school-authority",
     "minimum-age",
     "maximum-age",
-    # "headteacher",
+    "headteacher",
     # "website",
     "religious-characters",
     "dioceses",
@@ -176,8 +176,8 @@ if __name__ == '__main__':
         item['minimum-age'] = fix_age(row['StatutoryLowAge'])
         item['maximum-age'] = fix_age(row['StatutoryHighAge'])
 
-        # item['headteacher'] = "%s %s %s" % (
-        #     row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
+        item['headteacher'] = "%s %s %s" % (
+            row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
 
         # if row["SchoolWebsite"]:
         #     item['website'] = fix_http_url(row["SchoolWebsite"])
