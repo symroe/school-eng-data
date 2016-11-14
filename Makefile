@@ -30,15 +30,20 @@ MAPS=\
 	lists/edubase-school-trust-name/trusts.tsv\
 	lists/edubase-school-trust/trusts.tsv\
 	lists/establishment-group-type/types.tsv\
+	lists/religious-ethos/ethos.tsv\
 	maps/school-trust.tsv\
 	maps/school-umbrella-trust.tsv\
 	maps/school-type.tsv
 
 all:: flake8 $(DATA)
 
-lists/establishment-group-type/types.tsv: cache/establishmentdetails mix.deps
+lists/establishment-group-type/types.tsv: cache/establishmentdetails
 	@mkdir -p lists/establishment-group-type
 	./bin/establishment-group-type.sh > $@
+
+lists/religious-ethos/ethos.tsv:  cache/establishmentdetails
+	@mkdir -p lists/religious-ethos
+	./bin/religious-ethos.sh > $@
 
 data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.tsv
 	@mkdir -p data/alpha/school-eng
