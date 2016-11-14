@@ -17,7 +17,7 @@ fields = [
     "religious-characters",
     "dioceses",
     "school-type",
-    "school-phase",
+    "school-phases",
     "school-admissions-policy",
     "school-gender",
     "school-tags",
@@ -162,7 +162,7 @@ if __name__ == '__main__':
         item['dioceses'] = map_name('diocese', row['Diocese (name)'])
         # item['school-federation'] = map_name('school-federation', row['Federations (name)'])
         item['school-gender'] = map_name('school-gender', row['Gender (name)'])
-        item['school-phase'] = map_name('school-phase', row['PhaseOfEducation (name)'])
+        item['school-phases'] = map_name('school-phase', row['PhaseOfEducation (name)'])
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
 
         # item['school-trust'] = map_name('school-trust', row['URN'])
