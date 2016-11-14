@@ -84,7 +84,7 @@ def map_list(field, names):
     return ";".join([map_name(field, name) for name in names.split("/")])
 
 
-def fix_age(n):
+def fix_integer(n):
     if not n or n == '0':
         return ''
     if str(int(n)) != n:
@@ -173,8 +173,9 @@ if __name__ == '__main__':
         item['school-authority'] = row['LA (code)']
         item['school-tags'] = ''
 
-        item['minimum-age'] = fix_age(row['StatutoryLowAge'])
-        item['maximum-age'] = fix_age(row['StatutoryHighAge'])
+        item['minimum-age'] = fix_integer(row['StatutoryLowAge'])
+        item['maximum-age'] = fix_integer(row['StatutoryHighAge'])
+        item['school-capacity'] = fix_integer(row['SchoolCapacity'])
 
         item['headteacher'] = "%s %s %s" % (
             row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
