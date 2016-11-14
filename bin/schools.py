@@ -22,9 +22,9 @@ fields = [
     "school-gender",
     "school-tags",
     # "school-federation",
-    "school-trust",
-    "school-trust-join-date",
-    "school-umbrella-trust",
+    # "school-trust",
+    # "school-trust-join-date",
+    # "school-umbrella-trust",
     "start-date",
     "end-date",
 ]
@@ -165,9 +165,9 @@ if __name__ == '__main__':
         item['school-phase'] = map_name('school-phase', row['PhaseOfEducation (name)'])
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
 
-        item['school-trust'] = map_name('school-trust', row['URN'])
-        item['school-trust-join-date'] = map_name('school-trust-join-date', row['URN'])
-        item['school-umbrella-trust'] = map_name('school-umbrella-trust', row['URN'])
+        # item['school-trust'] = map_name('school-trust', row['URN'])
+        # item['school-trust-join-date'] = map_name('school-trust-join-date', row['URN'])
+        # item['school-umbrella-trust'] = map_name('school-umbrella-trust', row['URN'])
 
         item['school-admissions-policy'] = ''
         item['school-authority'] = row['LA (code)']
