@@ -2,10 +2,9 @@
 defmodule SchoolTrust do
 
   def cache_files do
-    {_, files} = File.ls('./cache/')
+    {_, files} = File.ls('./cache/links/')
     files
-    |> Stream.reject(& &1 |> String.contains?("edubase"))
-    |> Stream.map(& "./cache/" <> &1)
+    |> Stream.map(& "./cache/links/" <> &1)
   end
 
   def trust_htmls do

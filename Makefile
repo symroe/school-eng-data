@@ -29,11 +29,16 @@ MAPS=\
 	maps/school-phase.tsv\
 	lists/edubase-school-trust-name/trusts.tsv\
 	lists/edubase-school-trust/trusts.tsv\
+	lists/establishment-group-type/types.tsv\
 	maps/school-trust.tsv\
 	maps/school-umbrella-trust.tsv\
 	maps/school-type.tsv
 
 all:: flake8 $(DATA)
+
+lists/establishment-group-type/types.tsv: cache/establishmentdetails mix.deps
+	@mkdir -p lists/establishment-group-type
+	./bin/establishment-group-type.sh > $@
 
 data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.tsv
 	@mkdir -p data/alpha/school-eng
@@ -168,13 +173,13 @@ cache/edubase.csv:
 	@mkdir -p cache
 	curl -s $(EDUBASE_URL) | iconv -f ISO-8859-1 -t UTF-8 > $@
 
+cache/establishmentdetails:
+	[[ -e "./cache/establishmentdetails/establishmentdetails.xhtml?printable=1&urn=402390" ]] || \
+	./bin/edubase-tab-download.sh establishmentdetails
+
 cache/links:
-	[[ -e "./cache/links.xhtml?printable=1&urn=402378" ]] || \
-	  ( \
-		  cd cache && sed 1d edubase.csv | \
-		  awk -F "\"*,\"*" '{ print "http://www.education.gov.uk/edubase/establishment/links.xhtml?printable=1&urn="$$1}' | \
-			xargs -P4 -n 1 curl -s -S -O \
-		)
+	[[ -e "./cache/links/links.xhtml?printable=1&urn=402390" ]] || \
+	./bin/edubase-tab-download.sh links
 
 init::
 	pip3 install -r requirements.txt
