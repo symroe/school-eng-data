@@ -15,6 +15,7 @@ fields = [
     "headteacher",
     # "website",
     "religious-characters",
+    "religious-ethos",
     "dioceses",
     "school-type",
     "school-phases",
@@ -159,6 +160,8 @@ if __name__ == '__main__':
             item['end-date'] = date.isoformat()
 
         item['religious-characters'] = map_list('religious-character', row['ReligiousCharacter (name)'])
+        item['religious-ethos'] = map_list('religious-character', row['religious-ethos'])
+
         item['dioceses'] = map_name('diocese', row['Diocese (name)'])
         # item['school-federation'] = map_name('school-federation', row['Federations (name)'])
         item['school-gender'] = map_name('school-gender', row['Gender (name)'])
