@@ -55,11 +55,14 @@ data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.ts
 
 data/discovery/school-eng/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
 	@mkdir -p data/discovery/school-eng
-	[[ -e $@ ]] || \
-	csvgrep -c 'GOR (name)' -im 'Wales' < cache/edubase.csv \
+	[[ -e $@ ]] || ( \
+	csvcut -tc urn,religious-ethos lists/religious-ethos/ethos.tsv > lists/religious-ethos/ethos.csv && \
+	csvjoin --left -c URN,urn cache/edubase.csv lists/religious-ethos/ethos.csv \
+	| csvgrep -c 'GOR (name)' -im 'Wales' \
 	| bin/schools.py \
 	| sed 's/^school\([[:blank:]]\)/school-eng\1/' \
-	> $@
+	> $@ \
+	)
 
 data/discovery/school-wls/schools.tsv:
 	@mkdir -p data/discovery/school-wls
