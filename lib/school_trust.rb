@@ -1,6 +1,7 @@
 require 'morph'
 
 umbrella = (ENV["UMBRELLA"] == "true")
+academy = (ENV["ACADEMY"] == "true")
 
 csv = `csvcut -c 'URN,Trusts (name)' ./cache/edubase.csv | awk NF \
 | sed 's/St Hildas Catholic Academy Trust/St Hilda’s Catholic Academy Trust/' \
@@ -10,6 +11,23 @@ csv = `csvcut -c 'URN,Trusts (name)' ./cache/edubase.csv | awk NF \
 | sed 's/South Cheshire Catholic Multi-academy Trust, The~South Cheshire Catholic Multi-Academy Trust/South Cheshire Catholic Multi-academy Trust, The/' \
 | sed 's/created in error-//' \
 | sed 's/Co_Operative/Co Operative/'` ; nil
+
+academy_types = [
+  'Academy Sponsor Led',
+  'Academy Special Sponsor Led',
+  'Academy Converter',
+  'Free School',
+  'Special Free School',
+  'Free School - Alternative Provision',
+  'Free School - 16-19',
+  'University Technical College',
+  'Studio School',
+  'Academy Alternative Provision Converter',
+  'Academy Alternative Provision Sponsor Led',
+  'Academy Special Converter',
+  'Academy 16-19 Converter',
+  'Academy 16-19 Sponsor Led'
+]
 
 urn_to_trust_name = Morph.
   from_csv(csv, :urn_trust_name).
@@ -30,12 +48,17 @@ urn_to_edubase_trust_and_join_date = Morph.
   group_by(&:school) ; nil
 # @school="101857", @edubase_school_trust="15885, @school_trust_join_date="2016-01-03"
 
+urn_to_school_type_and_authority = Morph.
+  from_tsv(IO.read('./maps/types.tsv'), :school_type).
+  group_by(&:school_eng) ; nil
+  
 def edubase_trust_match urn, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
   if edubase_trust_id = urn_to_edubase_trust_and_join_date[urn].try(:first).try(:edubase_school_trust)
     if company_no = edubase_trust_to_company[edubase_trust_id].try(:first).try(:organisation)
       if trusts = trusts_with_company.select{|x| x.organisation == company_no}
         if trusts.size == 1
-          trusts.first.school_trust
+          # trusts.first.school_trust
+          trusts.first.company
         else
           raise "multiple trusts found for company: #{company_no} | urn: #{urn}"
         end
@@ -66,7 +89,7 @@ def trust_name_match name, trusts_with_company
   if name.include?('~')
     trust_names_match name, trusts_with_company
   else
-    matches = trusts_with_company.select{|x| x.name == name}
+    matches = trusts_with_company.select{|x| x.name.sub(/^The /,'').sub(/, The$/,'') == name.sub(/^The /,'').sub(/, The$/,'')}
     if matches.size > 1
       raise "multiple matches for trust: #{name}"
     elsif matches.size == 1
@@ -77,23 +100,24 @@ def trust_name_match name, trusts_with_company
   end
 end
 
-def school_trust_id school, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
-  if trust_id = edubase_trust_match(school.urn, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company)
-    trust_id
+def school_trust_company school, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
+  if trust_company = edubase_trust_match(school.urn, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company)
+    trust_company
   else
-    trust_name_match(school.trusts_name, trusts_with_company).try(:school_trust)
+    # trust_name_match(school.trusts_name, trusts_with_company).try(:school_trust)
+    trust_name_match(school.trusts_name, trusts_with_company).try(:company)
   end
 end
 
 def add_school_trust! urn_to_trust_name, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
   urn_to_trust_name.each do |school|
     begin
-      school.school_trust = school_trust_id(school,
+      school.academy_trust = school_trust_company(school,
         urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company)
       school.school_trust_join_date = urn_to_edubase_trust_and_join_date[school.urn].try(:first).try(:school_trust_join_date)
     rescue Exception => e
-      puts e.to_s
-      puts e.backtrace
+      $stderr.puts e.to_s
+      $stderr.puts e.backtrace
       raise " school: #{school.try(:urn).to_s}"
     end
   end ; nil
@@ -105,18 +129,38 @@ def add_school_umbrella_trust! urn_to_trust_name, trusts_with_company
       school.school_umbrella_trust = trust_names_match(school.trusts_name,
           trusts_with_company, use_umbrella='yes').school_trust
     rescue Exception => e
-      puts e.to_s
+      $stderr.puts e.to_s
       raise " school: #{school.try(:urn).to_s}"
     end
   end ; nil
 end
 
+def academy_urns urn_to_trust_name, urn_to_school_type_and_authority, academy_types
+  academy_urns = urn_to_trust_name.select do |school|
+    urn = school.urn
+    type = urn_to_school_type_and_authority[urn].try(:first)
+    is_academy = type && academy_types.include?(type.name)
+    if is_academy
+      # $stderr.puts "academy: #{urn} #{type.name}"
+      true
+    else
+      # $stderr.puts "not academy: #{urn} #{type.try(:name)}"
+      false
+    end
+  end.map(&:urn)
+end
+ 
 if !umbrella
-  add_school_trust! urn_to_trust_name, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
-
-  puts ["school", "school-trust", "school-trust-join-date"].join("\t") ; nil
+  if academy
+    academy_urns = academy_urns urn_to_trust_name, urn_to_school_type_and_authority, academy_types 
+    urn_to_trust_name.delete_if{|x| !academy_urns.include?(x.urn)}
+    add_school_trust! urn_to_trust_name, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
+  else
+    add_school_trust! urn_to_trust_name, urn_to_edubase_trust_and_join_date, edubase_trust_to_company, trusts_with_company
+  end
+  puts ["school", "academy-trust", "school-trust-join-date"].join("\t") ; nil
   urn_to_trust_name.each do |school|
-    puts [school.urn, school.school_trust, school.try(:school_trust_join_date)].join("\t")
+    puts [school.urn, school.academy_trust.sub('company:',''), school.try(:school_trust_join_date)].join("\t")
   end ; nil
 else
   urn_to_trust_name = urn_to_trust_name.select{|x| x.trusts_name.include?('~') }
