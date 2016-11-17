@@ -93,9 +93,10 @@ data/alpha/school-trust/school-trusts.tsv: mix.deps
 	| mix run -e 'SchoolTrust.final_trust_tsv' \
 	> $@
 
-data/alpha/academy-school-eng/academy-schools.tsv: bundle.install
+data/alpha/academy-school-eng/academy-schools.tsv:
 	@mkdir -p data/alpha/academy-school-eng
 	./bin/academy-school.sh > $@
+	rm -f tmp*.tsv tmp*.csv
 
 maps/school-trust.tsv: bundle.install
 	[[ -e $@ ]] || \
