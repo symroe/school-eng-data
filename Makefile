@@ -47,13 +47,18 @@ lists/religious-ethos/ethos.tsv:  cache/establishmentdetails
 	@mkdir -p lists/religious-ethos
 	./bin/religious-ethos.sh > $@
 
-data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.tsv
+data/alpha/school-eng/schools.tsv: data/discovery/school-eng/schools.tsv
 	@mkdir -p data/alpha/school-eng
 	[[ -e $@ ]] || \
 	csvgrep -tc school-authority -m "919" < data/discovery/school-eng/schools.tsv \
 	| sed 's/school-authority,/school-authority-eng,/' \
+	| csvformat -T > schools.tsv \
+	&& ruby ./bin/school-organisation.rb > school-organisations.tsv \
+	&& csvjoin --left -tc school-eng,school-eng2 schools.tsv school-organisations.tsv \
+	| csvcut -c school-eng,name,address,school-authority-eng,minimum-age,maximum-age,headteacher,religious-characters,religious-ethos,dioceses,organisation,school-phases,school-admissions-policy,school-gender,school-tags,start-date,end-date \
 	| csvformat -T \
 	> $@
+	rm -f schools.tsv school-organisations.tsv
 
 data/alpha/la-maintained-school-eng/la-maintained-schools.tsv: data/alpha/school-eng/schools.tsv
 	@mkdir -p data/alpha/la-maintained-school-eng
