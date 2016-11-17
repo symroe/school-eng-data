@@ -5,6 +5,7 @@ DATA=\
 	data/discovery/school-eng/schools.tsv\
 	data/discovery/school-wls/schools.tsv\
 	data/alpha/school-eng/schools.tsv\
+	data/alpha/la-maintained-school-eng/la-maintained-schools.tsv\
 	$(SCHOOL_DATA)\
 	$(ADDRESS_DATA)
 
@@ -52,6 +53,11 @@ data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.ts
 	| sed 's/school-authority,/school-authority-eng,/' \
 	| csvformat -T \
 	> $@
+
+data/alpha/la-maintained-school-eng/la-maintained-schools.tsv: data/alpha/school-eng/schools.tsv
+	@mkdir -p data/alpha/la-maintained-school-eng
+	./bin/la-maintained-school.sh > $@
+	rm -f tmp.tsv
 
 data/discovery/school-eng/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
 	@mkdir -p data/discovery/school-eng
