@@ -16,6 +16,7 @@ SCHOOL_DATA=\
 	data/discovery/school-federation/school-federations.tsv\
 	data/discovery/school-phase/school-phases.tsv\
 	data/alpha/school-trust/school-trusts.tsv\
+	data/alpha/academy-school-eng/academy-schools.tsv\
 	data/discovery/school-type/school-types.tsv
 
 ADDRESS_DATA=\
@@ -91,6 +92,11 @@ data/alpha/school-trust/school-trusts.tsv: mix.deps
 	| sed 's/school-trust,name,company/school-trust,name,organisation/' \
 	| mix run -e 'SchoolTrust.final_trust_tsv' \
 	> $@
+
+data/alpha/academy-school-eng/academy-schools.tsv:
+	@mkdir -p data/alpha/academy-school-eng
+	./bin/academy-school.sh > $@
+	rm -f tmp*.tsv tmp*.csv
 
 maps/school-trust.tsv: bundle.install
 	[[ -e $@ ]] || \
