@@ -12,18 +12,20 @@ fields = [
     "school-authority",
     "minimum-age",
     "maximum-age",
-    # "headteacher",
+    "headteacher",
     # "website",
     "religious-characters",
+    "religious-ethos",
     "dioceses",
     "school-type",
-    "school-phase",
+    "school-phases",
     "school-admissions-policy",
     "school-gender",
     "school-tags",
     # "school-federation",
-    "school-trust",
-    "school-umbrella-trust",
+    # "school-trust",
+    # "school-trust-join-date",
+    # "school-umbrella-trust",
     "start-date",
     "end-date",
 ]
@@ -73,8 +75,9 @@ def map_name(field, name):
     if _name in names[field]:
         return names[field][_name]
     if field != 'school-trust':
-        if field != 'school-umbrella-trust':
-            log("unknown %s value [%s]" % (field, name))
+        if field != 'school-trust-join-date':
+            if field != 'school-umbrella-trust':
+                log("unknown %s value [%s]" % (field, name))
     return ''
 
 
@@ -82,7 +85,7 @@ def map_list(field, names):
     return ";".join([map_name(field, name) for name in names.split("/")])
 
 
-def fix_age(n):
+def fix_integer(n):
     if not n or n == '0':
         return ''
     if str(int(n)) != n:
@@ -126,6 +129,7 @@ if __name__ == '__main__':
     load_names('school-phase', 'maps/school-phase.tsv')
 
     load_names('school-trust', 'maps/school-trust.tsv', 'school')
+    load_names('school-trust-join-date', 'maps/school-trust.tsv', 'school')
     load_names('school-umbrella-trust', 'maps/school-umbrella-trust.tsv', 'school')
 
     load_names('school-type', 'data/discovery/school-type/school-types.tsv')
@@ -156,24 +160,28 @@ if __name__ == '__main__':
             item['end-date'] = date.isoformat()
 
         item['religious-characters'] = map_list('religious-character', row['ReligiousCharacter (name)'])
+        item['religious-ethos'] = map_list('religious-character', row['religious-ethos'])
+
         item['dioceses'] = map_name('diocese', row['Diocese (name)'])
         # item['school-federation'] = map_name('school-federation', row['Federations (name)'])
         item['school-gender'] = map_name('school-gender', row['Gender (name)'])
-        item['school-phase'] = map_name('school-phase', row['PhaseOfEducation (name)'])
+        item['school-phases'] = map_name('school-phase', row['PhaseOfEducation (name)'])
         item['school-type'] = map_name('school-type', row['TypeOfEstablishment (name)'])
 
-        item['school-trust'] = map_name('school-trust', row['URN'])
-        item['school-umbrella-trust'] = map_name('school-umbrella-trust', row['URN'])
+        # item['school-trust'] = map_name('school-trust', row['URN'])
+        # item['school-trust-join-date'] = map_name('school-trust-join-date', row['URN'])
+        # item['school-umbrella-trust'] = map_name('school-umbrella-trust', row['URN'])
 
         item['school-admissions-policy'] = ''
         item['school-authority'] = row['LA (code)']
         item['school-tags'] = ''
 
-        item['minimum-age'] = fix_age(row['StatutoryLowAge'])
-        item['maximum-age'] = fix_age(row['StatutoryHighAge'])
+        item['minimum-age'] = fix_integer(row['StatutoryLowAge'])
+        item['maximum-age'] = fix_integer(row['StatutoryHighAge'])
+        item['school-capacity'] = fix_integer(row['SchoolCapacity'])
 
-        # item['headteacher'] = "%s %s %s" % (
-        #     row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
+        item['headteacher'] = "%s %s %s" % (
+            row['HeadTitle (name)'], row['HeadFirstName'], row['HeadLastName'])
 
         # if row["SchoolWebsite"]:
         #     item['website'] = fix_http_url(row["SchoolWebsite"])

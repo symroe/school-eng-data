@@ -11,6 +11,7 @@ DATA=\
 SCHOOL_DATA=\
 	data/discovery/religious-character/religious-characters.tsv\
 	data/discovery/diocese/dioceses.tsv\
+	data/alpha/school-authority-eng/school-authority-eng.tsv\
 	data/discovery/school-federation/school-federations.tsv\
 	data/discovery/school-phase/school-phases.tsv\
 	data/alpha/school-trust/school-trusts.tsv\
@@ -28,6 +29,8 @@ MAPS=\
 	maps/school-phase.tsv\
 	lists/edubase-school-trust-name/trusts.tsv\
 	lists/edubase-school-trust/trusts.tsv\
+	lists/establishment-group-type/types.tsv\
+	lists/religious-ethos/ethos.tsv\
 	maps/school-trust.tsv\
 	maps/school-umbrella-trust.tsv\
 	maps/school-type.tsv
@@ -44,20 +47,32 @@ TARGETS=\
 
 all:: flake8 $(DATA)
 
+lists/establishment-group-type/types.tsv: cache/establishmentdetails
+	@mkdir -p lists/establishment-group-type
+	./bin/establishment-group-type.sh > $@
+
+lists/religious-ethos/ethos.tsv:  cache/establishmentdetails
+	@mkdir -p lists/religious-ethos
+	./bin/religious-ethos.sh > $@
+
 data/alpha/school-eng/schools.tsv: mix.deps data/discovery/school-eng/schools.tsv
 	@mkdir -p data/alpha/school-eng
 	[[ -e $@ ]] || \
 	csvgrep -tc school-authority -m "919" < data/discovery/school-eng/schools.tsv \
+	| sed 's/school-authority,/school-authority-eng,/' \
 	| csvformat -T \
 	> $@
 
 data/discovery/school-eng/schools.tsv: bin/schools.py cache/edubase.csv $(MAPS) $(SCHOOL_DATA)
 	@mkdir -p data/discovery/school-eng
-	[[ -e $@ ]] || \
-	csvgrep -c 'GOR (name)' -im 'Wales' < cache/edubase.csv \
+	[[ -e $@ ]] || ( \
+	csvcut -tc urn,religious-ethos lists/religious-ethos/ethos.tsv > lists/religious-ethos/ethos.csv && \
+	csvjoin --left -c URN,urn cache/edubase.csv lists/religious-ethos/ethos.csv \
+	| csvgrep -c 'GOR (name)' -im 'Wales' \
 	| bin/schools.py \
 	| sed 's/^school\([[:blank:]]\)/school-eng\1/' \
-	> $@
+	> $@ \
+	)
 
 data/discovery/school-wls/schools.tsv:
 	@mkdir -p data/discovery/school-wls
@@ -65,6 +80,12 @@ data/discovery/school-wls/schools.tsv:
 	csvgrep -c 'GOR (name)' -m 'Wales' < cache/edubase.csv \
 	| bin/schools.py \
 	| sed 's/^school\([[:blank:]]\)/school-wls\1/' \
+	> $@
+
+data/alpha/school-authority-eng/school-authority-eng.tsv:
+	@mkdir -p data/alpha/school-authority-eng
+	[[ -e $@ ]] || \
+	bin/school-authority.sh \
 	> $@
 
 data/alpha/school-trust/school-trusts.tsv: mix.deps
@@ -100,11 +121,11 @@ lists/edubase-multi-academy-trust/trusts.tsv: cache/links mix.deps
 	@mkdir -p lists/edubase-multi-academy-trust
 	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_tsv' > maps/tmp.tsv
 
-	[[ -e $@ ]] || csvcut -tc urn,school-trust maps/tmp.tsv \
+	[[ -e $@ ]] || csvcut -tc urn,school-trust,school-trust-join-date maps/tmp.tsv \
 	| csvsort -c urn \
 	| csvformat -T \
 	| sed 's/urn\([[:blank:]]\)/school\1/' \
-	| sed 's/\([[:blank:]]\)school-trust/\1edubase-school-trust/' \
+	| sed 's/\([[:blank:]]\)school-trust\([[:blank:]]\)/\1edubase-school-trust\2/' \
 	> maps/school-to-edubase-school-trust.tsv
 
 	[[ -e $@ ]] || mix run -e 'SchoolTrust.trust_data_tsv' < maps/tmp.tsv > $@
@@ -170,13 +191,13 @@ cache/edubase.csv:
 	@mkdir -p cache
 	curl -s $(EDUBASE_URL) | iconv -f ISO-8859-1 -t UTF-8 > $@
 
+cache/establishmentdetails:
+	[[ -e "./cache/establishmentdetails/establishmentdetails.xhtml?printable=1&urn=402390" ]] || \
+	./bin/edubase-tab-download.sh establishmentdetails
+
 cache/links:
-	[[ -e "./cache/links.xhtml?printable=1&urn=402378" ]] || \
-	  ( \
-		  cd cache && sed 1d edubase.csv | \
-		  awk -F "\"*,\"*" '{ print "http://www.education.gov.uk/edubase/establishment/links.xhtml?printable=1&urn="$$1}' | \
-			xargs -P4 -n 1 curl -s -S -O \
-		)
+	[[ -e "./cache/links/links.xhtml?printable=1&urn=402390" ]] || \
+	./bin/edubase-tab-download.sh links
 
 init::
 	pip3 install -r requirements.txt
