@@ -12,6 +12,7 @@ fields = [
     "school-authority",
     "minimum-age",
     "maximum-age",
+    "school-capacity",
     "headteacher",
     # "website",
     "religious-characters",
