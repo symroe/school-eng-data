@@ -53,11 +53,12 @@ data/alpha/school-eng/schools.tsv: data/discovery/school-eng/schools.tsv
 	| sed 's/school-authority,/school-authority-eng,/' \
 	| csvformat -T > schools.tsv \
 	&& ruby ./bin/school-organisation.rb > school-organisations.tsv \
-	&& csvjoin --left -tc school-eng,school-eng2 schools.tsv school-organisations.tsv \
-	| csvcut -c school-eng,name,address,school-authority-eng,minimum-age,maximum-age,headteacher,religious-characters,religious-ethos,dioceses,organisation,school-phases,school-admissions-policy,school-gender,school-tags,start-date,end-date \
+	&& csvjoin --left -tc school-eng,school-eng2 schools.tsv school-organisations.tsv | csvformat -T > schools2.tsv \
+	&& csvjoin --left -tc school-eng,school schools2.tsv maps/addresses.tsv \
+	| csvcut -c school-eng,name,address,school-authority-eng,minimum-age,maximum-age,school-capacity,headteacher,religious-characters,religious-ethos,dioceses,organisation,school-phases,school-admissions-policy,school-gender,school-tags,start-date,end-date \
 	| csvformat -T \
 	> $@
-	rm -f schools.tsv school-organisations.tsv
+	rm -f schools.tsv schools2.tsv school-organisations.tsv
 
 data/alpha/la-maintained-school-eng/la-maintained-schools.tsv: data/alpha/school-eng/schools.tsv
 	@mkdir -p data/alpha/la-maintained-school-eng
