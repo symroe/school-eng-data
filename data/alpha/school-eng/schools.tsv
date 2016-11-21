@@ -38,7 +38,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 117100	Flamstead Village School	100081154151	919	3	11	120	Ms Sarah Jones				la-maintained-school-eng:117100	PRI		M			
 117101	Gaddesden Row JMI School	10002013009	919	4	11	56	Mr Nick Read				la-maintained-school-eng:117101	PRI		M			
 117102	Sauncey Wood Primary School	200001850464	919	4	11	210	Mr Steven Lloyd				la-maintained-school-eng:117102	PRI		M			
-117103	Manland Primary School	100081155506	919	4	11	240	Miss Melanie Smith				la-maintained-school-eng:117103	PRI		M			
+117103	Manland Primary School	100081155506	919	4	11	240	Miss Melanie Smith				la-maintained-school-eng:117103	PRI	N	M			
 117104	Gascoyne Cecil Junior School	100081151132	919	7	11		Mr D Petherick				la-maintained-school-eng:117104	PRI		M			1999-09-01
 117105	Green Lanes Primary School	100081151541	919	5	11	420	 Michele Johnson				la-maintained-school-eng:117105	PRI		M			
 117106	George Street Primary School	200004058346	919	3	11	210	Mrs Heather Freeman				la-maintained-school-eng:117106	PRI		M			
@@ -201,7 +201,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 117263	Hollybush Primary School	10033098623	919	3	11	240	Mr Alan Brown				la-maintained-school-eng:117263	PRI		M			
 117264	Oughtonhead Junior School	200001853411	919	7	11		Mrs A Kibby				la-maintained-school-eng:117264	PRI		M			2001-09-01
 117265	Oughtonhead Infants' School	200001853411	919	3	7		Mrs D Hallett				la-maintained-school-eng:117265	PRI		M			2001-09-01
-117266	Maple Cross Junior Mixed Infant and Nursery School	200000938744	919	4	11	240	Mr Duncan Roberts				la-maintained-school-eng:117266	PRI		M			
+117266	Maple Cross Junior Mixed Infant and Nursery School	200000938744	919	4	11	240	Mr Duncan Roberts				la-maintained-school-eng:117266	PRI	N	M			
 117267	Killigrew Infant and Nursery School	200003641146	919	3	7	180	Miss Tracy Mylotte				la-maintained-school-eng:117267	PRI		M			2008-08-31
 117268	Wheatfields Infants' and Nursery School	10024115424	919	3	7	270	Mrs Jane Whitehurst				la-maintained-school-eng:117268	PRI		M			
 117269	Moss Bury Primary School and Nursery	10070251580	919	3	11	374	Mr Gareth Linwood				la-maintained-school-eng:117269	PRI		M			
@@ -403,7 +403,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 117465	St Joseph Catholic Primary School	200000935688	919	3	11	240	Mrs Linda Payne	C67		RC01	la-maintained-school-eng:117465	PRI		M			
 117466	St Teresa Roman Catholic Primary School	10034169384	919	3	11	210	Ms Teresa McBride	C67		RC01	la-maintained-school-eng:117466	PRI		M			
 117467	St Andrew's Church of England Voluntary Aided Primary School, Hitchin	200001853409	919	4	11	210	Ms Deborah Fenn	C22		CE32	la-maintained-school-eng:117467	PRI		M			
-117468	St Cuthbert Mayne Catholic Junior School	200004050811	919	7	11	240	Mrs Bernadette Quinn	C67		RC01	la-maintained-school-eng:117468	PRI		M			
+117468	St Cuthbert Mayne Catholic Junior School	200004050811	919	7	11	240	Mrs Bernadette Quinn	C67		RC01	la-maintained-school-eng:117468	PRI	N	M			
 117469	St Philip Howard Catholic Primary School	100081151428	919	4	11	385	Mrs Mairead Waugh	C67		RC01	la-maintained-school-eng:117469	PRI		M			
 117470	St Adrian Roman Catholic Primary School	200003641157	919	3	11	210	Mrs Yvonne Hawkes	C67		RC01	la-maintained-school-eng:117470	PRI		M			
 117471	Saint Albert the Great Catholic Primary School	200004057263	919	3	11	210	Mrs Kathryn Little	C67		RC01	la-maintained-school-eng:117471	PRI		M			
@@ -434,66 +434,66 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 117496	Pope Paul Catholic Primary School	10034170483	919	4	11	210	Mrs Liz Heymoz	C67		RC01	la-maintained-school-eng:117496	PRI		M			
 117497	St Mary's Church of England Primary School	100081158100	919	4	11	210	Mrs Vicky Humbles	C22		CE32	la-maintained-school-eng:117497	PRI		M			
 117498	Saint Vincent de Paul Catholic Primary School	10033235796	919	4	11	420	 Peter Keane	C67		RC01	la-maintained-school-eng:117498	PRI		M			
-117499	The Priory School	10070040037	919	11	18	1060	Mr Geraint Edwards				la-maintained-school-eng:117499	SEC		M			
-117500	The Hemel Hempstead School	200004050853	919	11	18	1207	Mr Patrick Harty				la-maintained-school-eng:117500	SEC		M			
-117501	Richard Hale School	10033098675	919	11	18	1107	Mr Stephen Neate				la-maintained-school-eng:117501	SEC		B			2013-06-30
-117502	Hitchin Boys' School	100081256237	919	11	18	1015	Mr Martin Brown				la-maintained-school-eng:117502	SEC		B			2012-12-31
-117503	Hitchin Girls' School	100081255789	919	11	18	1029	Mrs Frances Manning				la-maintained-school-eng:117503	SEC		G			2011-08-16
-117504	Fearnhill School	10070042022	919	11	18	1055	Ms Elizabeth Ellis				la-maintained-school-eng:117504	SEC		M			
-117505	Verulam School	200001050871	919	11	18	1145	Mr David Kellaway				la-maintained-school-eng:117505	SEC		B			2011-07-31
-117506	Presdales School	100081249262	919	11	18	1043	Mrs Janine Robinson				la-maintained-school-eng:117506	SEC		G			2012-03-31
-117507	Stanborough School	100081157514	919	11	18	1124	Mr Peter J Brown				la-maintained-school-eng:117507	SEC		M			2012-01-31
-117508	Langleybury School	10001115668	919	11	18		  				la-maintained-school-eng:117508	SEC		M			1996-09-01
-117509	The Knights Templar School	100081259526	919	11	18	1336	Mr Andrew Pickering				la-maintained-school-eng:117509	SEC		M			2011-03-31
-117510	The Hillside School	10034169520	919	13	18		Mr T E Westrip				la-maintained-school-eng:117510	SEC		M			2000-08-31
-117511	Sir John Lawes School	100081155505	919	11	18	1231	Ms Claire Robins				la-maintained-school-eng:117511	SEC		M			2011-07-31
-117512	Adeyfield School	100081177145	919	11	18	870	Mr Scott Martin				la-maintained-school-eng:117512	SEC		M			
-117513	Norton School	10023318938	919	11	18		Ms  Roberts				la-maintained-school-eng:117513	SEC		M			2002-08-31
-117514	Beaumont School	100081154239	919	11	18	1277	Mrs Elizabeth Hitch				la-maintained-school-eng:117514	SEC		M			2012-06-30
-117515	Barclay School	100081339559	919	11	18	1181	Ms Jacqui O'Connor				la-maintained-school-eng:117515	SEC		M			
-117516	Hawksmoor School	10013904885	919	13	18		Mr P G Tompkins				la-maintained-school-eng:117516	SEC		M			2000-08-31
-117517	The Heathcote School	100081254531	919	11	18	925	Mr Edward Joseph Gaynor				la-maintained-school-eng:117517	SEC		M			2012-08-31
-117518	Barnwell School	100081254530	919	11	18	1987	Mr A Fitzpatrick				la-maintained-school-eng:117518	SEC		M			
-117519	Simon Balle School	100081250119	919	11	18	1053	Mrs Alison Saunders				la-maintained-school-eng:117519	SEC		M			2013-10-31
-117520	Roundwood Park School	100081155430	919	11	18	1179	Mr Alan Henshall				la-maintained-school-eng:117520	SEC		M			2011-07-31
+117499	The Priory School	10070040037	919	11	18	1060	Mr Geraint Edwards				la-maintained-school-eng:117499	SEC	C	M			
+117500	The Hemel Hempstead School	200004050853	919	11	18	1207	Mr Patrick Harty				la-maintained-school-eng:117500	SEC	C	M			
+117501	Richard Hale School	10033098675	919	11	18	1107	Mr Stephen Neate				la-maintained-school-eng:117501	SEC	C	B			2013-06-30
+117502	Hitchin Boys' School	100081256237	919	11	18	1015	Mr Martin Brown				la-maintained-school-eng:117502	SEC	C	B			2012-12-31
+117503	Hitchin Girls' School	100081255789	919	11	18	1029	Mrs Frances Manning				la-maintained-school-eng:117503	SEC	C	G			2011-08-16
+117504	Fearnhill School	10070042022	919	11	18	1055	Ms Elizabeth Ellis				la-maintained-school-eng:117504	SEC	C	M			
+117505	Verulam School	200001050871	919	11	18	1145	Mr David Kellaway				la-maintained-school-eng:117505	SEC	C	B			2011-07-31
+117506	Presdales School	100081249262	919	11	18	1043	Mrs Janine Robinson				la-maintained-school-eng:117506	SEC	C	G			2012-03-31
+117507	Stanborough School	100081157514	919	11	18	1124	Mr Peter J Brown				la-maintained-school-eng:117507	SEC	C	M			2012-01-31
+117508	Langleybury School	10001115668	919	11	18		  				la-maintained-school-eng:117508	SEC	C	M			1996-09-01
+117509	The Knights Templar School	100081259526	919	11	18	1336	Mr Andrew Pickering				la-maintained-school-eng:117509	SEC	C	M			2011-03-31
+117510	The Hillside School	10034169520	919	13	18		Mr T E Westrip				la-maintained-school-eng:117510	SEC	C	M			2000-08-31
+117511	Sir John Lawes School	100081155505	919	11	18	1231	Ms Claire Robins				la-maintained-school-eng:117511	SEC	C	M			2011-07-31
+117512	Adeyfield School	100081177145	919	11	18	870	Mr Scott Martin				la-maintained-school-eng:117512	SEC	C	M			
+117513	Norton School	10023318938	919	11	18		Ms  Roberts				la-maintained-school-eng:117513	SEC	C	M			2002-08-31
+117514	Beaumont School	100081154239	919	11	18	1277	Mrs Elizabeth Hitch				la-maintained-school-eng:117514	SEC	C	M			2012-06-30
+117515	Barclay School	100081339559	919	11	18	1181	Ms Jacqui O'Connor				la-maintained-school-eng:117515	SEC	C	M			
+117516	Hawksmoor School	10013904885	919	13	18		Mr P G Tompkins				la-maintained-school-eng:117516	SEC	C	M			2000-08-31
+117517	The Heathcote School	100081254531	919	11	18	925	Mr Edward Joseph Gaynor				la-maintained-school-eng:117517	SEC	C	M			2012-08-31
+117518	Barnwell School	100081254530	919	11	18	1987	Mr A Fitzpatrick				la-maintained-school-eng:117518	SEC	C	M			
+117519	Simon Balle School	100081250119	919	11	18	1053	Mrs Alison Saunders				la-maintained-school-eng:117519	SEC	C	M			2013-10-31
+117520	Roundwood Park School	100081155430	919	11	18	1179	Mr Alan Henshall				la-maintained-school-eng:117520	SEC	C	M			2011-07-31
 117521	Lyndhurst Middle School	10034171266	919	9	13		Mr M Howell				la-maintained-school-eng:117521	MDS		M			2001-08-31
-117522	Francis Combe School and Community College	10023340241	919	11	18	1330	Miss Nicky Williams				la-maintained-school-eng:117522	SEC		M			2009-08-31
-117523	Longdean School	100081182673	919	11	18	1405	Mr Rhodri Bryant				la-maintained-school-eng:117523	SEC		M			2011-07-31
-117524	St Albans Girls' School	100081153684	919	11	18	1254	Mrs Margaret Chapman				la-maintained-school-eng:117524	SEC		G			2011-08-31
-117525	Sir Frederic Osborn School	100081156597	919	11	18	1226	Mr Jed Whelan				la-maintained-school-eng:117525	SEC		M			
-117526	Kings Langley School	200004060609	919	11	18	1143	Mr Gary Lewis				la-maintained-school-eng:117526	SEC		M			2012-11-30
-117527	Bishop's Hatfield Girls' School	100081151353	919	11	18	759	Ms Theodora Nickson				la-maintained-school-eng:117527	SEC		G			2011-12-31
-117528	The Cavendish School	100081165765	919	11	18	1235	Mrs Sarah Lansley				la-maintained-school-eng:117528	SEC		M			
-117529	The Broxbourne School	148023635	919	11	18	1270	Mr M F Titchmarsh				la-maintained-school-eng:117529	SEC		M			2010-12-31
-117530	The Nobel School	10070252009	919	11	18	1247	Mr Martyn Henson				la-maintained-school-eng:117530	SEC		M			
-117531	Turnford School	148017396	919	11	18	1088	Mrs Joanne Gant				la-maintained-school-eng:117531	SEC		M			2015-08-31
-117532	Westfield Community Technology College	100081285304	919	11	18	1217	Ms Emma Aylesbury				la-maintained-school-eng:117532	SEC		M			2013-08-31
-117533	Collenswood School	10070251862	919	11	18	985	Dr Jenny Francis				la-maintained-school-eng:117533	SEC		M			2006-08-31
-117534	Marriotts School	10070254516	919	11	18	1013	Ms Bethany Honnor				la-maintained-school-eng:117534	SEC		M			
-117535	The Sele School	100081251094	919	11	18	699	Mr Nick Binder				la-maintained-school-eng:117535	SEC		M			2012-07-31
-117536	Monk's Walk School	200003856315	919	11	18	1341	Mrs Kate Smith				la-maintained-school-eng:117536	SEC		M			2012-08-31
-117537	The Highfield School	100081258155	919	11	18	1068	Mr Ian Morris				la-maintained-school-eng:117537	SEC		M			
-117538	Sheredes School	148025150	919	11	18	940	Mr Ced De La Croix				la-maintained-school-eng:117538	SEC		M			2016-08-31
-117539	Meridian School	100081259906	919	13	18	841	Dr M Firth				la-maintained-school-eng:117539	SEC		M			2011-10-31
-117540	Freman College	100081260600	919	13	18	903	Ms Helen Loughran				la-maintained-school-eng:117540	SEC		M			2011-07-31
+117522	Francis Combe School and Community College	10023340241	919	11	18	1330	Miss Nicky Williams				la-maintained-school-eng:117522	SEC	C	M			2009-08-31
+117523	Longdean School	100081182673	919	11	18	1405	Mr Rhodri Bryant				la-maintained-school-eng:117523	SEC	C	M			2011-07-31
+117524	St Albans Girls' School	100081153684	919	11	18	1254	Mrs Margaret Chapman				la-maintained-school-eng:117524	SEC	C	G			2011-08-31
+117525	Sir Frederic Osborn School	100081156597	919	11	18	1226	Mr Jed Whelan				la-maintained-school-eng:117525	SEC	C	M			
+117526	Kings Langley School	200004060609	919	11	18	1143	Mr Gary Lewis				la-maintained-school-eng:117526	SEC	C	M			2012-11-30
+117527	Bishop's Hatfield Girls' School	100081151353	919	11	18	759	Ms Theodora Nickson				la-maintained-school-eng:117527	SEC	C	G			2011-12-31
+117528	The Cavendish School	100081165765	919	11	18	1235	Mrs Sarah Lansley				la-maintained-school-eng:117528	SEC	C	M			
+117529	The Broxbourne School	148023635	919	11	18	1270	Mr M F Titchmarsh				la-maintained-school-eng:117529	SEC	C	M			2010-12-31
+117530	The Nobel School	10070252009	919	11	18	1247	Mr Martyn Henson				la-maintained-school-eng:117530	SEC	C	M			
+117531	Turnford School	148017396	919	11	18	1088	Mrs Joanne Gant				la-maintained-school-eng:117531	SEC	C	M			2015-08-31
+117532	Westfield Community Technology College	100081285304	919	11	18	1217	Ms Emma Aylesbury				la-maintained-school-eng:117532	SEC	C	M			2013-08-31
+117533	Collenswood School	10070251862	919	11	18	985	Dr Jenny Francis				la-maintained-school-eng:117533	SEC	C	M			2006-08-31
+117534	Marriotts School	10070254516	919	11	18	1013	Ms Bethany Honnor				la-maintained-school-eng:117534	SEC	C	M			
+117535	The Sele School	100081251094	919	11	18	699	Mr Nick Binder				la-maintained-school-eng:117535	SEC	C	M			2012-07-31
+117536	Monk's Walk School	200003856315	919	11	18	1341	Mrs Kate Smith				la-maintained-school-eng:117536	SEC	C	M			2012-08-31
+117537	The Highfield School	100081258155	919	11	18	1068	Mr Ian Morris				la-maintained-school-eng:117537	SEC	C	M			
+117538	Sheredes School	148025150	919	11	18	940	Mr Ced De La Croix				la-maintained-school-eng:117538	SEC	C	M			2016-08-31
+117539	Meridian School	100081259906	919	13	18	841	Dr M Firth				la-maintained-school-eng:117539	SEC	C	M			2011-10-31
+117540	Freman College	100081260600	919	13	18	903	Ms Helen Loughran				la-maintained-school-eng:117540	SEC	C	M			2011-07-31
 117541	Bridgewater Primary School	200004057611	919	4	11	420	Mrs Caren Doodson				la-maintained-school-eng:117541	PRI		M			
 117542	The Greneway School	100081259905	919	9	13	614	Mrs Sai Kennedy				la-maintained-school-eng:117542	MDS		M			2011-10-31
 117543	Ralph Sadleir Middle School	10033099252	919	9	13	360	Mrs E Hinton				la-maintained-school-eng:117543	MDS		M			2013-09-30
 117544	Furzehill Middle School	10034169477	919	9	13	1534	Mr J P Fryer				la-maintained-school-eng:117544	MDS		M			2001-08-31
 117545	Roysia Middle School	100081259862	919	9	13	360	Mr Peter Fielden				la-maintained-school-eng:117545	MDS		M			2011-10-31
-117546	Sir John Newsom School	100081157316	919	11	18		  				la-maintained-school-eng:117546	SEC		M			1998-08-31
-117547	Onslow St Audrey's School	100081151347	919	11	18	815	Mr Paul Meredith				la-maintained-school-eng:117547	SEC		M			2011-12-31
-117548	Sandringham School	200003634749	919	11	18	1278	Mr Alan Gray				la-maintained-school-eng:117548	SEC		M			2011-03-31
-117549	Birchwood High School	10033094436	919	11	18	1395	Mr Chris Ingate				la-maintained-school-eng:117549	SEC		M			2011-10-31
-117550	The Thomas Alleyne School	10070250653	919	11	18	1008	Mr Mark Lewis				la-maintained-school-eng:117550	SEC		M			2013-08-31
-117551	The Chauncy School	100081248681	919	11	18	933	Mr Dennis O'sullivan				la-maintained-school-eng:117551	SEC		M			2011-07-31
-117552	The Astley Cooper School	100081177818	919	11	18	1055	Mr Edward Gaynor				la-maintained-school-eng:117552	SEC		M			
-117553	Tring School	100081180867	919	11	18	1490	Mrs Julia Wynd	C22		CE32	la-maintained-school-eng:117553	SEC		M			2012-06-30
+117546	Sir John Newsom School	100081157316	919	11	18		  				la-maintained-school-eng:117546	SEC	C	M			1998-08-31
+117547	Onslow St Audrey's School	100081151347	919	11	18	815	Mr Paul Meredith				la-maintained-school-eng:117547	SEC	C	M			2011-12-31
+117548	Sandringham School	200003634749	919	11	18	1278	Mr Alan Gray				la-maintained-school-eng:117548	SEC	C	M			2011-03-31
+117549	Birchwood High School	10033094436	919	11	18	1395	Mr Chris Ingate				la-maintained-school-eng:117549	SEC	C	M			2011-10-31
+117550	The Thomas Alleyne School	10070250653	919	11	18	1008	Mr Mark Lewis				la-maintained-school-eng:117550	SEC	C	M			2013-08-31
+117551	The Chauncy School	100081248681	919	11	18	933	Mr Dennis O'sullivan				la-maintained-school-eng:117551	SEC	C	M			2011-07-31
+117552	The Astley Cooper School	100081177818	919	11	18	1055	Mr Edward Gaynor				la-maintained-school-eng:117552	SEC	C	M			
+117553	Tring School	100081180867	919	11	18	1490	Mrs Julia Wynd	C22		CE32	la-maintained-school-eng:117553	SEC	C	M			2012-06-30
 117554	Edwinstree Church of England Middle School	100081260469	919	9	13	448	Mrs J Gant	C22		CE32	la-maintained-school-eng:117554	MDS		M			
-117555	Townsend CofE School	200003634895	919	11	18	881	Mr A Wellbeloved	C22		CE32	la-maintained-school-eng:117555	SEC		M			
-117556	St George's School	100081339335	919	11	18	1462	Mr Norman Hoare	C1			la-maintained-school-eng:117556	SEC		M			2012-06-30
-117557	John F Kennedy Catholic School	100081165659	919	11	18	1243	Mr Paul Neves	C67		RC01	la-maintained-school-eng:117557	SEC		M			
-117558	Loreto College	100081149988	919	11	18	927	Mrs Maire Lynch	C67		RC01	la-maintained-school-eng:117558	SEC		G			2012-04-30
+117555	Townsend CofE School	200003634895	919	11	18	881	Mr A Wellbeloved	C22		CE32	la-maintained-school-eng:117555	SEC	C	M			
+117556	St George's School	100081339335	919	11	18	1462	Mr Norman Hoare	C1			la-maintained-school-eng:117556	SEC	C	M			2012-06-30
+117557	John F Kennedy Catholic School	100081165659	919	11	18	1243	Mr Paul Neves	C67		RC01	la-maintained-school-eng:117557	SEC	C	M			
+117558	Loreto College	100081149988	919	11	18	927	Mrs Maire Lynch	C67		RC01	la-maintained-school-eng:117558	SEC	C	G			2012-04-30
 117559	The Thomas Coram Church of England School	200004060719	919	7	11	420	Mr Rob Halls	C22		CE32	la-maintained-school-eng:117559	PRI		M			
 117560	St Mary Roman Catholic Primary School	100081260008	919	3	11	210	Mr Robert Dunbar	C67		RC01	la-maintained-school-eng:117560	PRI		M			2012-06-30
 117561	Christ Church Church of England School	200000939626	919	3	11	210	Mr Duncan Gauld	C22		CE32	la-maintained-school-eng:117561	PRI		M			2013-03-31
@@ -507,38 +507,38 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 117569	Northaw Church of England Primary School	200003855667	919	3	11	120	Mrs Shirley Whales	C22		CE32	la-maintained-school-eng:117569	PRI		M			
 117570	Brookmans Park Primary School	100081158341	919	4	11	345	Mrs Aileen Davies				la-maintained-school-eng:117570	PRI		M			
 117571	St Catherine of Siena Catholic Primary School	200000936541	919	4	11	210	Ms P Curran	C67		RC01	la-maintained-school-eng:117571	PRI		M			2012-06-30
-117572	Rickmansworth School	100081289012	919	11	18	1215	Dr Stephen Burton				la-maintained-school-eng:117572	SEC		M			2011-03-31
-117573	Watford Grammar School for Boys	200000931015	919	11	18	1265	Mr M Post	C22			la-maintained-school-eng:117573	SEC		B			2010-08-31
-117574	Francis Bacon School	100081150685	919	11	18	1010	Mr Matthew Gauthier				la-maintained-school-eng:117574	SEC		M			2012-08-31
-117575	Watford Grammar School for Girls	200000932963	919	11	18	1315	Mrs H Hyde	C22			la-maintained-school-eng:117575	SEC		G			2010-08-31
-117576	Parmiter's School	100081288177	919	11	18	1392	Mr Nick Daymond				la-maintained-school-eng:117576	SEC		M			2011-06-30
-117577	The Bishop's Stortford High School	100081159375	919	11	18	1211	Mr Dale Reeve				la-maintained-school-eng:117577	SEC		B			
-117578	Ashlyns School	200001531133	919	11	18	1300	Mr James Shapland				la-maintained-school-eng:117578	SEC		M			
-117579	Dame Alice Owen's School	10034170485	919	11	18	1416	Doctor A J Davison				la-maintained-school-eng:117579	SEC		M			2011-03-31
-117580	Bushey Meads School	10034170938	919	11	18	1071	Mr Keith Douglas				la-maintained-school-eng:117580	SEC		M			2012-01-31
-117581	Bushey Hall School	10034170798	919	11	18	1267	Mr Graham Yapp				la-maintained-school-eng:117581	SEC		M			2009-08-31
-117582	Queens' School	10013905585	919	11	18	1788	Mr Terence James				la-maintained-school-eng:117582	SEC		M			2011-06-30
-117583	Mount Grace School	10013905977	919	11	18	1082	Mr Peter Baker				la-maintained-school-eng:117583	SEC		M			2011-07-31
-117584	Nicholas Breakspear Catholic School	100081154238	919	11	18	1073	Mr Phil Jakszta	C67		RC01	la-maintained-school-eng:117584	SEC		M			2012-02-29
-117585	The John Henry Newman Catholic School	10070250215	919	11	18	1405	Mr Michael Kelly	C67		RC01	la-maintained-school-eng:117585	SEC		M			2012-02-29
-117586	Marlborough School	100081149734	919	11	18	1161	Ms Annie Thomson				la-maintained-school-eng:117586	SEC		M			2012-03-31
-117587	Goffs School	148001225	919	11	18	1518	Mrs Alison Garner				la-maintained-school-eng:117587	SEC		M			2011-09-30
-117588	The Leventhorpe School	100081158550	919	11	18	1155	Mr Jonathan Locke				la-maintained-school-eng:117588	SEC		M			2011-07-31
-117589	Saint Michael's Catholic High School	200000936463	919	11	18	1072	Mr John Murphy	C67		RC01	la-maintained-school-eng:117589	SEC		M			2012-02-29
-117590	Saint Joan of Arc Catholic School	100081139519	919	11	18	1243	Mr Peter Sweeney	C67		RC01	la-maintained-school-eng:117590	SEC		M			2012-02-29
-117591	Chancellor's School	100081158137	919	11	18	1065	Mr David Croston				la-maintained-school-eng:117591	SEC		M			
-117592	The Hertfordshire & Essex High School and Science College	100081330603	919	11	18	1042	Mrs Cathy Tooze				la-maintained-school-eng:117592	SEC		G			2014-03-31
-117593	St Clement Danes School	100081290125	919	11	18	1348	Dr Josephine Valentine				la-maintained-school-eng:117593	SEC		M			2011-06-30
-117594	St Mary's Catholic School	100081158892	919	11	18	1029	Mr A Celano	C67		RC01	la-maintained-school-eng:117594	SEC		M			
-117595	St Mary's Church of England High School (VA)	148045045	919	11	18	877	Ms Stephanie Benbow	C22		CE32	la-maintained-school-eng:117595	SEC		M			2012-06-30
-117596	Cheshunt School	148007376	919	11	18	1026	Mr Andy Stainton				la-maintained-school-eng:117596	SEC		M			
-117597	The John Warner School	148031716	919	11	18	1192	Mr D J Kennedy				la-maintained-school-eng:117597	SEC		M			2011-03-31
-117598	Hockerill Anglo-European College	10033094244	919	11	18	728	Mr Simon Dennis				la-maintained-school-eng:117598	SEC		M			2011-01-31
+117572	Rickmansworth School	100081289012	919	11	18	1215	Dr Stephen Burton				la-maintained-school-eng:117572	SEC	C	M			2011-03-31
+117573	Watford Grammar School for Boys	200000931015	919	11	18	1265	Mr M Post	C22			la-maintained-school-eng:117573	SEC	C	B			2010-08-31
+117574	Francis Bacon School	100081150685	919	11	18	1010	Mr Matthew Gauthier				la-maintained-school-eng:117574	SEC	C	M			2012-08-31
+117575	Watford Grammar School for Girls	200000932963	919	11	18	1315	Mrs H Hyde	C22			la-maintained-school-eng:117575	SEC	C	G			2010-08-31
+117576	Parmiter's School	100081288177	919	11	18	1392	Mr Nick Daymond				la-maintained-school-eng:117576	SEC	C	M			2011-06-30
+117577	The Bishop's Stortford High School	100081159375	919	11	18	1211	Mr Dale Reeve				la-maintained-school-eng:117577	SEC	C	B			
+117578	Ashlyns School	200001531133	919	11	18	1300	Mr James Shapland				la-maintained-school-eng:117578	SEC	C	M			
+117579	Dame Alice Owen's School	10034170485	919	11	18	1416	Doctor A J Davison				la-maintained-school-eng:117579	SEC	C	M			2011-03-31
+117580	Bushey Meads School	10034170938	919	11	18	1071	Mr Keith Douglas				la-maintained-school-eng:117580	SEC	C	M			2012-01-31
+117581	Bushey Hall School	10034170798	919	11	18	1267	Mr Graham Yapp				la-maintained-school-eng:117581	SEC	C	M			2009-08-31
+117582	Queens' School	10013905585	919	11	18	1788	Mr Terence James				la-maintained-school-eng:117582	SEC	C	M			2011-06-30
+117583	Mount Grace School	10013905977	919	11	18	1082	Mr Peter Baker				la-maintained-school-eng:117583	SEC	C	M			2011-07-31
+117584	Nicholas Breakspear Catholic School	100081154238	919	11	18	1073	Mr Phil Jakszta	C67		RC01	la-maintained-school-eng:117584	SEC	C	M			2012-02-29
+117585	The John Henry Newman Catholic School	10070250215	919	11	18	1405	Mr Michael Kelly	C67		RC01	la-maintained-school-eng:117585	SEC	C	M			2012-02-29
+117586	Marlborough School	100081149734	919	11	18	1161	Ms Annie Thomson				la-maintained-school-eng:117586	SEC	C	M			2012-03-31
+117587	Goffs School	148001225	919	11	18	1518	Mrs Alison Garner				la-maintained-school-eng:117587	SEC	C	M			2011-09-30
+117588	The Leventhorpe School	100081158550	919	11	18	1155	Mr Jonathan Locke				la-maintained-school-eng:117588	SEC	C	M			2011-07-31
+117589	Saint Michael's Catholic High School	200000936463	919	11	18	1072	Mr John Murphy	C67		RC01	la-maintained-school-eng:117589	SEC	C	M			2012-02-29
+117590	Saint Joan of Arc Catholic School	100081139519	919	11	18	1243	Mr Peter Sweeney	C67		RC01	la-maintained-school-eng:117590	SEC	C	M			2012-02-29
+117591	Chancellor's School	100081158137	919	11	18	1065	Mr David Croston				la-maintained-school-eng:117591	SEC	C	M			
+117592	The Hertfordshire & Essex High School and Science College	100081330603	919	11	18	1042	Mrs Cathy Tooze				la-maintained-school-eng:117592	SEC	C	G			2014-03-31
+117593	St Clement Danes School	100081290125	919	11	18	1348	Dr Josephine Valentine				la-maintained-school-eng:117593	SEC	C	M			2011-06-30
+117594	St Mary's Catholic School	100081158892	919	11	18	1029	Mr A Celano	C67		RC01	la-maintained-school-eng:117594	SEC	C	M			
+117595	St Mary's Church of England High School (VA)	148045045	919	11	18	877	Ms Stephanie Benbow	C22		CE32	la-maintained-school-eng:117595	SEC	C	M			2012-06-30
+117596	Cheshunt School	148007376	919	11	18	1026	Mr Andy Stainton				la-maintained-school-eng:117596	SEC	C	M			
+117597	The John Warner School	148031716	919	11	18	1192	Mr D J Kennedy				la-maintained-school-eng:117597	SEC	C	M			2011-03-31
+117598	Hockerill Anglo-European College	10033094244	919	11	18	728	Mr Simon Dennis				la-maintained-school-eng:117598	SEC	C	M			2011-01-31
 117599	Holmshill School	10013904884	919	9	13		Mr C Wright				la-maintained-school-eng:117599	MDS		M			2001-08-31
 117600	Abbot's Hill School	100081329516	919	3	16	510	Mrs E Thomas		C22		school-type:11			G		1941-01-01	
-117601	Edge Grove School	10013029547	919	3	13	450	Mr Ben Evans		C1		school-type:11			M		1938-01-01	
+117601	Edge Grove School	10013029547	919	3	13	450	Mr Ben Evans		C1		school-type:11		S	M		1938-01-01	
 117602	The Aldenham Foundation	10034170940	919	3	19	735	Mr J C Fowler	C22	C22		school-type:11			M		1910-01-01	
-117603	Berkhamsted School for Girls	100081183930	919	3	19		  		C22		school-type:11			G			1996-12-06
+117603	Berkhamsted School for Girls	100081183930	919	3	19		  		C22		school-type:11		S	G			1996-12-06
 117604	Berkhamsted School	10002011683	919	3	19	1550	Mr M S Steed	C4;C1	C1		school-type:11			M		1902-01-01	
 117605	Bishop's Stortford College	100081330394	919	4	18	1200	Mr Jeremy Gladwin		C1		school-type:11			M		1907-01-01	
 117606	St Margaret's School	10034170807	919	4	18	434	Mrs Rose Hardy		C22		school-type:11			G		1918-01-01	
@@ -547,56 +547,56 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 117609	Queenswood School	100081158019	919	11	18	450	Mrs Joanna Cameron	C49	C49		school-type:11			G		1919-01-01	
 117610	Westbrook Hay Prep School	200001051796	919	3	14	340	Mr K D Young		C22		school-type:11			M		1920-01-01	
 117611	Lockers Park School	100081165308	919	5	14	154	Mr Christopher Wilson	C22	C22		school-type:11			B		1919-01-01	
-117612	St Christopher School	100081128564	919	3	19	680	Mr Richard Palmer		K20a;C1c		school-type:11			M		1929-01-01	
+117612	St Christopher School	100081128564	919	3	19	680	Mr Richard Palmer		K20a;C1c		school-type:11		N	M		1929-01-01	
 117613	St Francis College	100081258153	919	3	18	672	Mrs Bronwen Goulding	C1	C1		school-type:11			G		1947-01-01	
 117614	Princess Helena College	10070043081	919	11	18	200	Mrs Sue Wallace-Woodroffe	C22	C1		school-type:11			G		1919-01-01	
 117615	Radlett Preparatory School	10013027232	919	4	11	480	Mr G White				school-type:11			M		1950-01-01	
-117616	Merchant Taylors' School	200000940258	919	11	18	884	Mr S Everson		C22		school-type:11			B		1927-01-01	
-117617	St Albans High School for Girls	100081149992	919	4	18	1048	Mrs Jenny Brown	C4	C1		school-type:11			G		1908-01-01	
+117616	Merchant Taylors' School	200000940258	919	11	18	884	Mr S Everson		C22		school-type:11		S	B		1927-01-01	
+117617	St Albans High School for Girls	100081149992	919	4	18	1048	Mrs Jenny Brown	C4	C1		school-type:11		S	G		1908-01-01	
 117618	Tring Park School for the Performing Arts	200004057127	919	8	18	340	Mr Stefan Anderson				school-type:11			M		1949-01-01	
-117619	Northfield School	200000930348	919	2	19		  		C22		school-type:11			G			1997-08-19
+117619	Northfield School	200000930348	919	2	19		  		C22		school-type:11		S	G			1997-08-19
 117620	Beechwood Park School	200004050827	919	3	13	506	Mr Edward Balfour		C22;C1		school-type:11			M		1930-01-01	
-117621	Heath Mount School	10033100650	919	3	13	500	Mr Chris Gillam		C1		school-type:11			M		1921-01-01	
+117621	Heath Mount School	10033100650	919	3	13	500	Mr Chris Gillam		C1		school-type:11		N	M		1921-01-01	
 117622	Sherrardswood School	200003860724	919	3	19	400	Dr Markus Bernhardt				school-type:11			M		1950-01-01	
-117623	Egerton-Rothesay School	100081184158	919	6	19	451	Mr Colin Parker	C1	C1		school-type:11			M		1956-01-01	
-117624	St Hilda's School	10034170724	919	2	11	190	Mrs T Handford		K20a;C1c		school-type:11			M		1957-10-18	
+117623	Egerton-Rothesay School	100081184158	919	6	19	451	Mr Colin Parker	C1	C1		school-type:11		N	M		1956-01-01	
+117624	St Hilda's School	10034170724	919	2	11	190	Mrs T Handford		K20a;C1c		school-type:11		S	M		1957-10-18	
 117625	Westwood School	10034170886	919	5	6	72	Mrs J I Hill				school-type:11			M		1957-10-21	2009-07-09
-117626	Harpenden Preparatory School	100081155357	919	5	10	79	Mrs E Broughton				school-type:11			M		1958-03-05	2005-07-15
-117627	St Hilda's School	10034170724	919	3	11	182	Mr Daniel Sayers		C22		school-type:11			G		1957-10-15	
+117626	Harpenden Preparatory School	100081155357	919	5	10	79	Mrs E Broughton				school-type:11		N	M		1958-03-05	2005-07-15
+117627	St Hilda's School	10034170724	919	3	11	182	Mr Daniel Sayers		C22		school-type:11		N	G		1957-10-15	
 117628	Duncombe School	10033099028	919	2	11	296	Mr J Phelan		C22		school-type:11			M		1957-11-13	
-117629	St Joseph's in the Park	10034515743	919	3	11	205	Mr Douglas Brown		K20a;C1c		school-type:11			M		1957-10-15	
-117630	Kingshott School	10070042509	919	3	13	410	Mr Mark Seymour				school-type:11			M		1951-10-30	
-117631	Rudolf Steiner School	100081290618	919	3	18	419	 Tina Hobday				school-type:11			M		1957-10-18	
-117632	The Barn School	100081248189	919	2	8		Mrs M M Renny		C67		school-type:11			M			1998-08-18
-117633	St Edmund's College	10033096415	919	3	19	925	Mr Paulo Duran	C67	C67		school-type:11			M		1952-01-01	
-117634	Hart House School	10013029547	919	2	7		  		C67		school-type:11			M			1999-03-22
-117635	Charlotte House Preparatory School	100081289378	919	3	11	149	Miss P Woodcock		C1		school-type:11			G		1957-01-01	
+117629	St Joseph's in the Park	10034515743	919	3	11	205	Mr Douglas Brown		K20a;C1c		school-type:11		N	M		1957-10-15	
+117630	Kingshott School	10070042509	919	3	13	410	Mr Mark Seymour				school-type:11		S	M		1951-10-30	
+117631	Rudolf Steiner School	100081290618	919	3	18	419	 Tina Hobday				school-type:11		N	M		1957-10-18	
+117632	The Barn School	100081248189	919	2	8		Mrs M M Renny		C67		school-type:11		N	M			1998-08-18
+117633	St Edmund's College	10033096415	919	3	19	925	Mr Paulo Duran	C67	C67		school-type:11		S	M		1952-01-01	
+117634	Hart House School	10013029547	919	2	7		  		C67		school-type:11		N	M			1999-03-22
+117635	Charlotte House Preparatory School	100081289378	919	3	11	149	Miss P Woodcock		C1		school-type:11		N	G		1957-01-01	
 117636	York House School	100081289471	919	3	13	360	Mr J Gray		C1		school-type:11			M		1956-01-01	
-117637	Homewood Independent School	200003641145	919	5	6	78	Mrs A Zeina				school-type:11			M		1957-10-22	2006-07-07
+117637	Homewood Independent School	200003641145	919	5	6	78	Mrs A Zeina				school-type:11		N	M		1957-10-22	2006-07-07
 117638	St Columba's College	100081153022	919	4	18	865	Mr David Buxton	C67	C67		school-type:11			B		1957-12-06	
-117639	Francis House Preparatory School	100081313667	919	3	11	139	Mrs H Stanton-Tonner				school-type:11			M		1957-10-17	2014-12-12
-117640	Stanborough Secondary School	100081340430	919	11	18	170	Mrs Loraine Dixon	C73	C73		school-type:11			M		1957-12-03	
+117639	Francis House Preparatory School	100081313667	919	3	11	139	Mrs H Stanton-Tonner				school-type:11		N	M		1957-10-17	2014-12-12
+117640	Stanborough Secondary School	100081340430	919	11	18	170	Mrs Loraine Dixon	C73	C73		school-type:11		N	M		1957-12-03	
 117641	Royal Masonic School for Girls	200000939110	919	4	18	900	Ms D Rose				school-type:11			G		1935-01-01	
 117642	St Francis College	10070035446	919	3	12	292	Mrs  Dorothy Macginty		C1		school-type:11			M		1947-01-01	2012-04-30
-117643	Lochinver House School	10034170478	919	4	13	349	Mr Ben Walker		C22		school-type:11			B		1952-01-01	
+117643	Lochinver House School	10034170478	919	4	13	349	Mr Ben Walker		C22		school-type:11		S	B		1952-01-01	
 117644	Stormont School	10034170512	919	4	11	172	Mrs Sharon Martin				school-type:11			G		1944-01-01	
-117645	St Columba's Preparatory School	200003640571	919	5	10	251	Mr E F Brown		C67		school-type:11			B		1966-10-28	2005-02-02
+117645	St Columba's Preparatory School	200003640571	919	5	10	251	Mr E F Brown		C67		school-type:11		S	B		1966-10-28	2005-02-02
 117646	Radlett Lodge School	100081292536	919	4	19	60	Miss Jo Galloway				school-type:10			M		1974-09-30	
 117647	St Albans School	200003634003	919	11	19	930	Mr Jonathan Gillespie	C1;C1c	C1		school-type:11			B		1980-09-30	
 117648	Haberdashers' Aske's Boys' School	10034169388	919	5	18	1427	Mr P B Hamilton				school-type:11			B		1980-09-30	
-117649	Haberdashers' Aske's School for Girls	10034168582	919	4	18	1190	Miss B A O'Connor		C1		school-type:11			G		1980-09-30	
-117650	The King's School	200003641811	919	4	16	225	Mr C Case	C1	C1		school-type:11			M		1982-09-14	
-117651	Merchant Taylors' Prep School	200000939114	919	3	13	351	Dr Karen McNerney	C1	C1		school-type:11			B		1922-01-01	
-117652	Radlett Nursery and Infant School	10034169084	919	5	6	85	Mrs J Briggs				school-type:11			M		1983-06-21	2005-09-01
-117653	Berkhamsted Pre-Prep School	100081183946	919	3	7	224	 Karen O'connor				school-type:11			M		1985-04-29	
-117654	Bhaktivedanta Manor School	10034170943	919	4	11	30	Mrs Wendy Harrison	D1	D1		school-type:11			M		1985-05-16	
-117656	Haresfoot Senior School	100081183682	919	11	17		Ms L Stuart				school-type:11			M			2000-10-17
+117649	Haberdashers' Aske's School for Girls	10034168582	919	4	18	1190	Miss B A O'Connor		C1		school-type:11		S	G		1980-09-30	
+117650	The King's School	200003641811	919	4	16	225	Mr C Case	C1	C1		school-type:11		N	M		1982-09-14	
+117651	Merchant Taylors' Prep School	200000939114	919	3	13	351	Dr Karen McNerney	C1	C1		school-type:11		S	B		1922-01-01	
+117652	Radlett Nursery and Infant School	10034169084	919	5	6	85	Mrs J Briggs				school-type:11		N	M		1983-06-21	2005-09-01
+117653	Berkhamsted Pre-Prep School	100081183946	919	3	7	224	 Karen O'connor				school-type:11		N	M		1985-04-29	
+117654	Bhaktivedanta Manor School	10034170943	919	4	11	30	Mrs Wendy Harrison	D1	D1		school-type:11		N	M		1985-05-16	
+117656	Haresfoot Senior School	100081183682	919	11	17		Ms L Stuart				school-type:11		N	M			2000-10-17
 117657	Immanuel College	10013018829	919	4	19	568	Mr Charles Dormer	F1	F1		school-type:11			M		1990-10-31	
 117658	Manor Lodge School	10034169291	919	3	11	437	Mr Gil Dunn				school-type:11			M		1992-02-04	
-117659	Warrax House School	100080748026	919	11	16	7	Ms Sally Glossap				school-type:10			M		1992-02-03	2006-03-31
-117660	High Elms Manor School	200000941612	919	1	11	100	Mrs Sheila O'Neill				school-type:11			M		1992-05-07	
-117661	South Lodge School	200000848037	919	12	17		Miss M Sales		C22		school-type:11			G			1999-12-22
-117662	Longwood School	10034170811	919	3	11	213	Mrs Claire May		K20a;C1c		school-type:11			M		1994-07-26	
+117659	Warrax House School	100080748026	919	11	16	7	Ms Sally Glossap				school-type:10		N	M		1992-02-03	2006-03-31
+117660	High Elms Manor School	200000941612	919	1	11	100	Mrs Sheila O'Neill				school-type:11		N	M		1992-05-07	
+117661	South Lodge School	200000848037	919	12	17		Miss M Sales		C22		school-type:11		N	G			1999-12-22
+117662	Longwood School	10034170811	919	3	11	213	Mrs Claire May		K20a;C1c		school-type:11		N	M		1994-07-26	
 117663	Epping House School	10033094509	919	7	12		  				la-maintained-school-eng:117663			M			1997-07-25
 117664	Pinewood School	100081330309	919	11	16		Mr Adrian Lloyd				la-maintained-school-eng:117664			M			2014-08-31
 117665	St Elizabeth's School	10033092120	919	5	19	80	Mrs Samantha Steinke-Sanderson				school-type:8			M			
@@ -673,24 +673,24 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 129151	Maragaret Dane School		919				  				la-maintained-school-eng:129151	SEC					1990-08-31
 129152	Hadham Hall School	10034622707	919				  				la-maintained-school-eng:129152	SEC					1990-08-31
 129153	Hitchin School		919				  				la-maintained-school-eng:129153	SEC					1988-08-31
-129154	Durrants School		919	11	18		  				la-maintained-school-eng:129154	SEC		M			1991-08-31
+129154	Durrants School		919	11	18		  				la-maintained-school-eng:129154	SEC	C	M			1991-08-31
 129155	Sir James Altham School		919				  				la-maintained-school-eng:129155	SEC					1989-08-31
 129156	Hatfield School	200003858944	919				  				la-maintained-school-eng:129156	SEC					1990-08-31
 129157	Thomas Alleynes School		919				  				la-maintained-school-eng:129157	SEC					1989-08-31
 129158	Bowes Lyon High School		919				  				la-maintained-school-eng:129158	SEC					1988-08-31
-129159	The Marshalwick School	200003634749	919	11	18		  				la-maintained-school-eng:129159	SEC		M			1988-08-31
-129160	The Willian School	100081258085	919	11	18		  				la-maintained-school-eng:129160	SEC		M			1991-08-31
+129159	The Marshalwick School	200003634749	919	11	18		  				la-maintained-school-eng:129159	SEC	C	M			1988-08-31
+129160	The Willian School	100081258085	919	11	18		  				la-maintained-school-eng:129160	SEC	C	M			1991-08-31
 129161	Francis Bacon School	100081150685	919				  				la-maintained-school-eng:129161	SEC					1990-08-31
 129162	Halsey School	10002013449	919				  				la-maintained-school-eng:129162	SEC					1988-08-31
-129163	The Mountbatten School	100081113627	919	11	18		  				la-maintained-school-eng:129163	SEC		M			1991-08-31
-129164	Wheathampstead School	100081154579	919	11	18		  				la-maintained-school-eng:129164	SEC		M			1988-08-31
+129163	The Mountbatten School	100081113627	919	11	18		  				la-maintained-school-eng:129163	SEC	C	M			1991-08-31
+129164	Wheathampstead School	100081154579	919	11	18		  				la-maintained-school-eng:129164	SEC	C	M			1988-08-31
 129165	Stevenage Girls' School		919				  				la-maintained-school-eng:129165	SEC					1989-08-31
 129166	The Augustus Smith School		919				  				la-maintained-school-eng:129166	SEC					1988-08-31
 129167	Bishopslea School		919				  				la-maintained-school-eng:129167	SEC					1988-08-31
 129168	Cardinal Bourne School		919				  				la-maintained-school-eng:129168	SEC					1988-08-31
 129169	Thomas Bourne CofE Middle School	100081184158	919				  				la-maintained-school-eng:129169	MDS					1988-08-31
 129170	Roasry Priory High School	10034170754	919				  				school-type:11						1988-07-08
-129171	Lyndale School	100081339013	919	3	17		  				school-type:11			M			1994-01-06
+129171	Lyndale School	100081339013	919	3	17		  				school-type:11		N	M			1994-01-06
 129172	Sherrardswood Junior School	200003860724	919				  				school-type:11					1950-01-01	2006-08-31
 129173	Rosary Priory Preparatory School	10034170754	919				  				school-type:11						1988-07-08
 129174	Pamela Gardens School	100080725605	919				  				school-type:11						1991-01-09
@@ -706,7 +706,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 129185	Springfield School	100081339648	919	3	19		  				la-maintained-school-eng:129185			M			1993-12-31
 129186	Home Field School	10070251492	919	3	18		  				la-maintained-school-eng:129186			M			1989-03-31
 130160	Summercroft Primary School	10033098046	919	3	11	420	Mr Michael Smith				la-maintained-school-eng:130160	PRI		M		2006-01-01	2011-08-31
-130338	Norfolk Lodge School Ltd	10034170504	919	5	10	185	Mrs Mary Wales				school-type:11			M		1996-03-13	2009-08-31
+130338	Norfolk Lodge School Ltd	10034170504	919	5	10	185	Mrs Mary Wales				school-type:11		N	M		1996-03-13	2009-08-31
 130344	North Area Pupil Referral Unit	10023328780	919	5	16		Mrs Julie Vernon-Hamilton				la-maintained-school-eng:130344			M		1995-09-01	
 130347	Hertford, Ware and Bishop's Stortford Area Pupil Referral Unit	10023084917	919	5	16		Mr Christopher Millard				la-maintained-school-eng:130347			M		1995-09-01	2009-08-31
 130348	The Park Education Support Centre	10034171060	919	5	16		Mrs J Porter				la-maintained-school-eng:130348			M		1995-09-01	
@@ -715,7 +715,7 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 130356	The Links Education Support Centre	200003633791	919	5	16		Miss Tracey Healy				la-maintained-school-eng:130356			M		1995-09-01	2013-01-31
 130359	Stevenage Education Support Centre	10070251974	919	11	14	12	Ms Anne-Marie O'sullivan				la-maintained-school-eng:130359			M		1995-09-01	
 130362	Southfield School	10091063479	919	4	11	74	Ms Libby Duggan				la-maintained-school-eng:130362			M		1995-09-01	
-130363	Shepherd Montessori School	200000939120	919	5	5		  				school-type:11			M		1996-05-02	1996-09-18
+130363	Shepherd Montessori School	200000939120	919	5	5		  				school-type:11		N	M		1996-05-02	1996-09-18
 130720	West Herts College	200000930306	919	16	99		Ms Gill Worgan				school-type:18	16P		M			
 130721	North Hertfordshire College	100081258152	919	16	99		Mr Matt Hamnett				school-type:18	16P		M			
 130722	Hertford Regional College	10033099616	919	16	99		Mr Andy Forbes				school-type:18	16P		M			
@@ -725,22 +725,22 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 131188	Bovingdon Primary School	100081182654	919	3	11	420	Mr Martin Mangan				la-maintained-school-eng:131188	PRI		M		1998-09-01	2011-06-30
 131319	Haywood Grove School	100081177952	919	5	11		Mrs Catherine Smith				la-maintained-school-eng:131319			M		1996-02-20	
 131456	Clore Shalom School	10034171043	919	3	11	210	Mr Ian Pattrick	F1			la-maintained-school-eng:131456	PRI		M		1999-09-01	
-131503	Larwood School	100081248015	919	5	11	64	Mr S Trimble				la-maintained-school-eng:131503			M			2016-10-31
+131503	Larwood School	100081248015	919	5	11	64	Mr S Trimble				la-maintained-school-eng:131503		N	M			2016-10-31
 131505	Featherstone Wood Primary School	10070251951	919	3	11	240	Miss Louise Shuttleworth				la-maintained-school-eng:131505	PRI		M		1998-09-01	
 131651	Hertsmere Jewish Primary School	10034169295	919	1	5		Mrs M Bazak		F1		school-type:11			M			1999-09-22
 131955	Hertsmere Jewish Primary School	10034169295	919	3	11	459	Mr Steven Isaacs	F1			la-maintained-school-eng:131955	PRI		M		1999-09-01	
-131971	Hertswood School	10013904886	919	11	18	1861	Mrs Jan Palmer Sayer				la-maintained-school-eng:131971	SEC		M		2000-09-01	2012-08-31
+131971	Hertswood School	10013904886	919	11	18	1861	Mrs Jan Palmer Sayer				la-maintained-school-eng:131971	SEC	C	M		2000-09-01	2012-08-31
 132015	St Elizabeth's College (The Congregation of the Daughters of the Cross of the Liege)	10033092120	919	19	25	37	Ms Kathy Cox	C67			school-type:32	16P		M		2006-06-20	
 132091	Lodge Farm Primary School	10070252008	919	3	11	420	Miss Helen Turner				la-maintained-school-eng:132091	PRI		M		2000-09-01	
 132105	Birchwood Avenue Primary School	10014208871	919	5	11	210	Mrs Joanna DI-Bella				la-maintained-school-eng:132105	PRI		M		2000-04-13	
 132118	Sunny Bank Primary School	10013904568	919	3	11	258	Mr K M Hooper				la-maintained-school-eng:132118	PRI		M		1999-09-01	2008-08-31
 133065	Grove Road Infant School	100081181097	919	5	7		  				la-maintained-school-eng:133065	PRI		M			2001-03-29
-133134	South Lodge School	200000848037	919	11	17		  				school-type:11			G			1993-06-21
+133134	South Lodge School	200000848037	919	11	17		  				school-type:11		N	G			1993-06-21
 133263	Roebuck Primary School and Nursery	10070251057	919	3	11	300	Mr R Fordham				la-maintained-school-eng:133263	PRI		M		2001-04-18	
 133295	Integrated Services Programme	100080952992	919	1	16		  				school-type:11			M		2001-03-26	2001-07-26
 133323	Oughton Primary and Nursery School	200001853411	919	3	11	300	Mrs Lisa Clayton				la-maintained-school-eng:133323	PRI		M		2001-09-01	
 133488	Swallow Dell Primary and Nursery School	10014208872	919	2	11	450	Mrs Clare Hollingsworth				la-maintained-school-eng:133488	PRI		M		2002-01-01	
-133738	Redemption Academy	10070252209	919	3	18	60	Mrs S J Neale	C1	C1		school-type:11			M		2002-07-26	2015-07-16
+133738	Redemption Academy	10070252209	919	3	18	60	Mrs S J Neale	C1	C1		school-type:11		N	M		2002-07-26	2015-07-16
 133773	St Catherine's Hoddesdon CofE Primary School	148029242	919	4	11	337	Mrs Amanda Staiano			CE32	la-maintained-school-eng:133773	PRI		M		2003-01-01	
 133783	University of Hertfordshire	100081151555	919				Professor Quintin McKellar				school-type:29			M			
 133917	Littlebury Resource Centre	148037502	919	11	16		Mr D J Stacey				school-type:27			M		2000-09-01	2004-05-17
@@ -752,9 +752,9 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 134684	Berrygrove Primary and Nursery School	10008852628	919	3	11	630	Mr Christopher Kronda				la-maintained-school-eng:134684	PRI		M		2005-09-02	2012-08-31
 134685	Alban Wood Primary School and Nursery	100081288173	919	3	11	262	Mrs Rachel Kirk				la-maintained-school-eng:134685	PRI		M		2005-09-02	
 134716	De Havilland Primary School	100081151456	919	3	11	420	 Andrew Peck				la-maintained-school-eng:134716	PRI		M		2004-09-01	
-134786	Village Montessori	10002013009	919	4	11	48	Mrs Amanda Kemp	C1			school-type:11			M		2004-09-01	2007-03-30
+134786	Village Montessori	10002013009	919	4	11	48	Mrs Amanda Kemp	C1			school-type:11		S	M		2004-09-01	2007-03-30
 134933	International Stanborough School	100081340430	919	11	18	100	Mrs Lorraine Dixon				school-type:11			M		2005-02-10	
-134985	Yavneh College	10013904765	919	11	18	482	Dr Dena Coleman	F1			la-maintained-school-eng:134985	SEC		M		2006-09-01	2011-06-30
+134985	Yavneh College	10013904765	919	11	18	482	Dr Dena Coleman	F1			la-maintained-school-eng:134985	SEC	C	M		2006-09-01	2011-06-30
 135083	Longmeadow Primary School	200000586715	919	3	11	480	Miss Anne Heywood				la-maintained-school-eng:135083	PRI		M		2005-09-01	
 135084	Shephalbury Park Primary School	10070251488	919	3	11	210	Ms Chelsea Atkins				la-maintained-school-eng:135084	PRI		M		2005-09-01	
 135221	Maple Grove Primary School	100081177882	919	3	11	210	Mr Geoffrey Allen				la-maintained-school-eng:135221	PRI		M		2008-09-01	
@@ -766,110 +766,110 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 135528	Killigrew Primary and Nursery School	200003641146	919	3	11	420	Miss Tracy Mylotte				la-maintained-school-eng:135528	PRI		M		2008-09-01	
 135553	Focus School - Cheshunt Primary Campus		919	7	11	45	Mrs Janice Tew-Cragg	C61	C1		school-type:11			M		2008-04-22	2014-10-22
 135560	Worldshapers Academy	10023961145	919	13	16	20	Dr Arno Steen Andreasen	C1	C1		school-type:10			M		2008-04-24	2014-07-24
-135596	Stanborough Primary School	200000930999	919	3	11	120	Mrs K Hanson		C73		school-type:11			M		1957-12-03	
-135876	Francis Combe Academy	10023340241	919	11	18	1350	Ms Debbie Warwick				academy-school-eng:135876	SEC		M		2009-09-01	
+135596	Stanborough Primary School	200000930999	919	3	11	120	Mrs K Hanson		C73		school-type:11		N	M		1957-12-03	
+135876	Francis Combe Academy	10023340241	919	11	18	1350	Ms Debbie Warwick				academy-school-eng:135876	SEC	C	M		2009-09-01	
 135890	Rivers Education Support Centre	148030156	919	11	16	56	Mrs Janet Bourne				la-maintained-school-eng:135890			M		2009-09-01	
-135938	The Bushey Academy	10034170798	919	11	18	1350	Mr Andrew Hemmings				academy-school-eng:135938	SEC		M		2009-09-01	
+135938	The Bushey Academy	10034170798	919	11	18	1350	Mr Andrew Hemmings				academy-school-eng:135938	SEC	C	M		2009-09-01	
 136024	Churchfield CofE VA Primary	148046123	919	3	11	315	 Katharine Hardwick	C22		CE32	la-maintained-school-eng:136024	PRI		M		2010-09-01	
 136247	Roman Fields	10002011297	919	11	18	40	Mr Trevor Orchard				la-maintained-school-eng:136247			M		2010-11-01	
-136276	Watford Grammar School for Boys	200000931015	919	11	18	1300	 Ian Cooksey	C22			academy-school-eng:136276	SEC		B		2010-09-01	
-136289	Watford Grammar School for Girls	200000932963	919	11	18	1250	Mrs Clare Wagner	C22			academy-school-eng:136289	SEC		G		2010-09-01	
-136396	The Broxbourne School	148023171	919	11	18	1260	Ms Paula Humphreys				academy-school-eng:136396	SEC		M		2011-01-01	
-136482	Hockerill Anglo-European College	10033094244	919	11	18	728	Mr Richard Markham				academy-school-eng:136482	SEC		M		2011-02-01	
-136554	Dame Alice Owen's School	10034170485	919	11	18	1416	 Hannah Nemko				academy-school-eng:136554	SEC		M		2011-04-01	
-136606	Rickmansworth School	100081289012	919	11	18	1246	Mr Keith Douglas				academy-school-eng:136606	SEC		M		2011-04-01	
-136607	The John Warner School	148031716	919	11	18	1192	Mr David Kennedy				academy-school-eng:136607	SEC		M		2011-04-01	
-136608	The Knights Templar School	100081259526	919	11	18	1336	Mr Tim Litchfield				academy-school-eng:136608	SEC		M		2011-04-01	
-136609	Sandringham School	200003634749	919	11	18	1278	Mr Alan Gray				academy-school-eng:136609	SEC		M		2011-04-01	
+136276	Watford Grammar School for Boys	200000931015	919	11	18	1300	 Ian Cooksey	C22			academy-school-eng:136276	SEC	C	B		2010-09-01	
+136289	Watford Grammar School for Girls	200000932963	919	11	18	1250	Mrs Clare Wagner	C22			academy-school-eng:136289	SEC	C	G		2010-09-01	
+136396	The Broxbourne School	148023171	919	11	18	1260	Ms Paula Humphreys				academy-school-eng:136396	SEC	C	M		2011-01-01	
+136482	Hockerill Anglo-European College	10033094244	919	11	18	728	Mr Richard Markham				academy-school-eng:136482	SEC	C	M		2011-02-01	
+136554	Dame Alice Owen's School	10034170485	919	11	18	1416	 Hannah Nemko				academy-school-eng:136554	SEC	C	M		2011-04-01	
+136606	Rickmansworth School	100081289012	919	11	18	1246	Mr Keith Douglas				academy-school-eng:136606	SEC	C	M		2011-04-01	
+136607	The John Warner School	148031716	919	11	18	1192	Mr David Kennedy				academy-school-eng:136607	SEC	C	M		2011-04-01	
+136608	The Knights Templar School	100081259526	919	11	18	1336	Mr Tim Litchfield				academy-school-eng:136608	SEC	C	M		2011-04-01	
+136609	Sandringham School	200003634749	919	11	18	1278	Mr Alan Gray				academy-school-eng:136609	SEC	C	M		2011-04-01	
 136857	Bovingdon Primary Academy	100081182654	919	3	11	478	Mrs Shereen Breslin				academy-school-eng:136857	PRI		M		2011-07-01	
-136877	Queens' School	10013905585	919	11	18	1692	Mr Jonathan Morrell				academy-school-eng:136877	SEC		M		2011-07-01	
-136899	Parmiter's School	100081288177	919	11	18	1392	Mr Nick Daymond				academy-school-eng:136899	SEC		M		2011-07-01	
-136901	St Clement Danes School	100081290125	919	11	18	1394	Dr Josephine Valentine				academy-school-eng:136901	SEC		M		2011-07-01	
-136922	Yavneh College	10013904765	919	11	18	1035	Mr Spencer Lewis	F1			academy-school-eng:136922	SEC		M		2011-07-01	
-136973	Roundwood Park School	100081155430	919	11	18	1179	Mr Alan Henshall				academy-school-eng:136973	SEC		M		2011-08-01	
-137002	Freman College	100081260600	919	13	18	903	Ms Helen Loughran				academy-school-eng:137002	SEC		M		2011-08-01	
-137038	Verulam School	200001050871	919	11	18	1135	Mr Paul Ramsey				academy-school-eng:137038	SEC		B		2011-08-01	
-137090	The Chauncy School	100081248681	919	11	18	1014	Mr Dennis O'Sullivan				academy-school-eng:137090	SEC		M		2011-08-01	
-137110	Longdean School	100081182673	919	11	18	1260	 Graham Cunningham				academy-school-eng:137110	SEC		M		2011-08-01	
-137156	Leventhorpe	100081158550	919	11	18	1202	Mr Jonathan Locke				academy-school-eng:137156	SEC		M		2011-08-01	
-137224	Mount Grace School	10013905977	919	11	18	1082	Mr Peter Baker				academy-school-eng:137224	SEC		M		2011-08-01	
+136877	Queens' School	10013905585	919	11	18	1692	Mr Jonathan Morrell				academy-school-eng:136877	SEC	C	M		2011-07-01	
+136899	Parmiter's School	100081288177	919	11	18	1392	Mr Nick Daymond				academy-school-eng:136899	SEC	C	M		2011-07-01	
+136901	St Clement Danes School	100081290125	919	11	18	1394	Dr Josephine Valentine				academy-school-eng:136901	SEC	C	M		2011-07-01	
+136922	Yavneh College	10013904765	919	11	18	1035	Mr Spencer Lewis	F1			academy-school-eng:136922	SEC	C	M		2011-07-01	
+136973	Roundwood Park School	100081155430	919	11	18	1179	Mr Alan Henshall				academy-school-eng:136973	SEC	C	M		2011-08-01	
+137002	Freman College	100081260600	919	13	18	903	Ms Helen Loughran				academy-school-eng:137002	SEC	C	M		2011-08-01	
+137038	Verulam School	200001050871	919	11	18	1135	Mr Paul Ramsey				academy-school-eng:137038	SEC	C	B		2011-08-01	
+137090	The Chauncy School	100081248681	919	11	18	1014	Mr Dennis O'Sullivan				academy-school-eng:137090	SEC	C	M		2011-08-01	
+137110	Longdean School	100081182673	919	11	18	1260	 Graham Cunningham				academy-school-eng:137110	SEC	C	M		2011-08-01	
+137156	Leventhorpe	100081158550	919	11	18	1202	Mr Jonathan Locke				academy-school-eng:137156	SEC	C	M		2011-08-01	
+137224	Mount Grace School	10013905977	919	11	18	1082	Mr Peter Baker				academy-school-eng:137224	SEC	C	M		2011-08-01	
 137238	Hammond Academy	200004057839	919	3	11	720	Mrs Laura Gregory				academy-school-eng:137238	PRI		M		2011-08-01	
-137270	Sir John Lawes School	100081155505	919	11	18	1200	 Claire Robins				academy-school-eng:137270	SEC		M		2011-08-01	
-137288	Hitchin Girls' School	100081255789	919	11	18	1070	Mrs F Manning				academy-school-eng:137288	SEC		G		2011-08-17	
-137339	St Albans Girls' School	100081153684	919	11	18	1255	Mrs Margaret Chapman				academy-school-eng:137339	SEC		G		2011-09-01	
+137270	Sir John Lawes School	100081155505	919	11	18	1200	 Claire Robins				academy-school-eng:137270	SEC	C	M		2011-08-01	
+137288	Hitchin Girls' School	100081255789	919	11	18	1070	Mrs F Manning				academy-school-eng:137288	SEC	C	G		2011-08-17	
+137339	St Albans Girls' School	100081153684	919	11	18	1255	Mrs Margaret Chapman				academy-school-eng:137339	SEC	C	G		2011-09-01	
 137351	Summercroft Primary School	10033098046	919	3	11	480	Mrs Carole Hinstridge				academy-school-eng:137351	PRI		M		2011-09-01	
-137532	Goffs School	148001225	919	11	18	1518	Ms Alison Garner				academy-school-eng:137532	SEC		M		2011-10-01	
-137637	Birchwood High School	10033094436	919	11	18	1500	Mr Chris Ingate				academy-school-eng:137637	SEC		M		2011-11-01	
-137656	Meridian School	100081259906	919	13	18	841	Miss Kim Horner				academy-school-eng:137656	SEC		M		2011-11-01	
+137532	Goffs School	148001225	919	11	18	1518	Ms Alison Garner				academy-school-eng:137532	SEC	C	M		2011-10-01	
+137637	Birchwood High School	10033094436	919	11	18	1500	Mr Chris Ingate				academy-school-eng:137637	SEC	C	M		2011-11-01	
+137656	Meridian School	100081259906	919	13	18	841	Miss Kim Horner				academy-school-eng:137656	SEC	C	M		2011-11-01	
 137657	Roysia Middle School	100081259862	919	9	13	360	Miss Zoe Linington				academy-school-eng:137657	MDS		M		2011-11-01	
 137658	The Greneway School	100081259905	919	9	13	480	Mrs Laura Rawlings				academy-school-eng:137658	MDS		M		2011-11-01	
-137757	Bishop's Hatfield Girls' School	100081151353	919	11	18	759	 Theodora Nickson				academy-school-eng:137757	SEC		G		2012-01-01	
-137792	Onslow St Audrey's School	100081151347	919	11	18	750	 Michael Harpham				academy-school-eng:137792	SEC		M		2012-01-01	
-137847	Stanborough School	100081157514	919	11	18	1124	Mr Peter Brown				academy-school-eng:137847	SEC		M		2012-02-01	
+137757	Bishop's Hatfield Girls' School	100081151353	919	11	18	759	 Theodora Nickson				academy-school-eng:137757	SEC	C	G		2012-01-01	
+137792	Onslow St Audrey's School	100081151347	919	11	18	750	 Michael Harpham				academy-school-eng:137792	SEC	C	M		2012-01-01	
+137847	Stanborough School	100081157514	919	11	18	1124	Mr Peter Brown				academy-school-eng:137847	SEC	C	M		2012-02-01	
 137861	Little Reddings Primary School	10034170740	919	3	11	480	Miss C Simmonds				academy-school-eng:137861	PRI		M		2012-02-01	
-137872	Bushey Meads School	10034170938	919	11	18	1100	 Jeremy Turner				academy-school-eng:137872	SEC		M		2012-02-01	
-137895	The John Henry Newman Catholic School	10070250215	919	11	18	1405	Mr C Mathew	C67		RC01	academy-school-eng:137895	SEC		M		2012-03-01	
-137914	Saint Joan of Arc Catholic School	100081139519	919	11	18	1243	Mr Peter Sweeney	C67		RC01	academy-school-eng:137914	SEC		M		2012-03-01	
-137922	Saint Michael's Catholic High School	200000936463	919	11	18	1243	 Edward Conway	C67		RC01	academy-school-eng:137922	SEC		M		2012-03-01	
-137938	Nicholas Breakspear Catholic School	100081154238	919	11	18	1060	Mr Declan Linnane	C67		RC01	academy-school-eng:137938	SEC		M		2012-03-01	
+137872	Bushey Meads School	10034170938	919	11	18	1100	 Jeremy Turner				academy-school-eng:137872	SEC	C	M		2012-02-01	
+137895	The John Henry Newman Catholic School	10070250215	919	11	18	1405	Mr C Mathew	C67		RC01	academy-school-eng:137895	SEC	C	M		2012-03-01	
+137914	Saint Joan of Arc Catholic School	100081139519	919	11	18	1243	Mr Peter Sweeney	C67		RC01	academy-school-eng:137914	SEC	C	M		2012-03-01	
+137922	Saint Michael's Catholic High School	200000936463	919	11	18	1243	 Edward Conway	C67		RC01	academy-school-eng:137922	SEC	C	M		2012-03-01	
+137938	Nicholas Breakspear Catholic School	100081154238	919	11	18	1060	Mr Declan Linnane	C67		RC01	academy-school-eng:137938	SEC	C	M		2012-03-01	
 137943	Applecroft School	100081157770	919	3	11	450	Ms Lisa Withe				academy-school-eng:137943	PRI		M		2012-03-01	
-137985	Presdales School	100081249262	919	11	18	1061	Mr Matthew Warren				academy-school-eng:137985	SEC		G		2012-04-01	
+137985	Presdales School	100081249262	919	11	18	1061	Mr Matthew Warren				academy-school-eng:137985	SEC	C	G		2012-04-01	
 137997	Woolgrove School, Special Needs Academy	100081258086	919	4	12	110	Mrs Lisa Hall				academy-school-eng:137997			M		2012-04-01	
-138042	The Marlborough Science Academy	100081149734	919	11	18	1250	Ms Annie Thomson				academy-school-eng:138042	SEC		M		2012-04-01	
-138106	Loreto College	100081149988	919	11	18	927	Mrs Marie Lynch	C67		RC01	academy-school-eng:138106	SEC		G		2012-05-01	
+138042	The Marlborough Science Academy	100081149734	919	11	18	1250	Ms Annie Thomson				academy-school-eng:138042	SEC	C	M		2012-04-01	
+138106	Loreto College	100081149988	919	11	18	927	Mrs Marie Lynch	C67		RC01	academy-school-eng:138106	SEC	C	G		2012-05-01	
 138201	Hatfield Community Free School	200003858432	919	4	11	420	 Sue Attard				academy-school-eng:138201	PRI		M		2012-09-01	
 138205	Fleetville Junior School	200003633155	919	7	11	403	Mrs Androulla Peek				academy-school-eng:138205	PRI		M		2012-06-01	
 138206	Fleetville Infant and Nursery School	100081150520	919	3	7	255	Mrs Alex Lindley				academy-school-eng:138206	PRI		M		2012-06-01	
 138215	The Wroxham School	10034170488	919	4	11	242	Mrs Alison Peacock				academy-school-eng:138215	PRI		M		2012-06-01	
-138225	The Da Vinci Studio School of Science and Engineering	10070255016	919	14	19	400	 Mark Lewis				academy-school-eng:138225	SEC		M		2012-09-03	
+138225	The Da Vinci Studio School of Science and Engineering	10070255016	919	14	19	400	 Mark Lewis				academy-school-eng:138225	SEC	C	M		2012-09-03	
 138231	Alban City School	200001882322	919	5	11	420	 Janet Goddard				academy-school-eng:138231	PRI		M		2012-09-01	
-138286	Beaumont School	100081154239	919	11	18	1277	Mrs Elizabeth Hitch				academy-school-eng:138286	SEC		M		2012-07-01	
+138286	Beaumont School	100081154239	919	11	18	1277	Mrs Elizabeth Hitch				academy-school-eng:138286	SEC	C	M		2012-07-01	
 138288	St Catherine of Siena Catholic Primary School	200000936541	919	4	11	226	Ms Nicola Kane	C67		RC01	academy-school-eng:138288	PRI		M		2012-07-01	
 138292	St Mary Roman Catholic Primary School	100081260008	919	3	11	210	Mrs Julia Pearce	C67		RC01	academy-school-eng:138292	PRI		M		2012-07-01	
 138316	St John Roman Catholic Primary School	10070037695	919	3	11	233	Ms A Hanou	C67		RC01	academy-school-eng:138316	PRI		M		2012-07-01	
 138322	Our Lady Catholic Primary School	10070041860	919	5	11	201	Mrs S Brown	C67		RC01	academy-school-eng:138322	PRI		M		2012-07-01	
-138352	Tring School	100081180867	919	11	18	1507	 Susanna Collings	C22		CE32	academy-school-eng:138352	SEC		M		2012-07-01	
+138352	Tring School	100081180867	919	11	18	1507	 Susanna Collings	C22		CE32	academy-school-eng:138352	SEC	C	M		2012-07-01	
 138354	St Thomas More Roman Catholic Primary School	100081258156	919	3	11	240	Mrs Jane Perry	C67		RC01	academy-school-eng:138354	PRI		M		2012-07-01	
-138356	St George's School	100081339335	919	11	18	1462	Mr Raymond McGovern	C1			academy-school-eng:138356	SEC		M		2012-07-01	
-138360	St Mary's Church of England High School (VA)	148045045	919	11	18	877	Ms Stephanie Benbow	C22		CE32	academy-school-eng:138360	SEC		M		2012-07-01	
+138356	St George's School	100081339335	919	11	18	1462	Mr Raymond McGovern	C1			academy-school-eng:138356	SEC	C	M		2012-07-01	
+138360	St Mary's Church of England High School (VA)	148045045	919	11	18	877	Ms Stephanie Benbow	C22		CE32	academy-school-eng:138360	SEC	C	M		2012-07-01	
 138389	Garden City Academy	100081258085	919	3	11	210	 Linda Meredith				academy-school-eng:138389	PRI		M		2012-09-01	
-138484	The Sele School	100081251094	919	11	18	699	 Neil Dunn				academy-school-eng:138484	SEC		M		2012-08-01	
+138484	The Sele School	100081251094	919	11	18	699	 Neil Dunn				academy-school-eng:138484	SEC	C	M		2012-08-01	
 138485	Knightsfield School	200003856511	919	10	18	50	 Lucille Leith				academy-school-eng:138485			M		2012-08-01	
 138507	The Grove Academy	10008852628	919	3	11	630	Mr Philip Gray				academy-school-eng:138507	PRI		M		2012-09-01	
 138539	Northgate Primary School	100081159200	919	3	11	480	Mrs Louisa Hotson				academy-school-eng:138539	PRI		M		2012-08-01	
 138561	Harpenden Free School	10093185491	919	4	11	420	Mrs Lisa Davies				academy-school-eng:138561	PRI		M		2012-09-01	2016-08-31
-138582	Samuel Ryder Academy	100081150685	919	4	19	1120	Mr Matt Gauthier				academy-school-eng:138582	ALL		M		2012-09-01	
-138632	Monk's Walk School	200003856315	919	11	18	1341	 Kate Smith				academy-school-eng:138632	SEC		M		2012-09-01	
-138747	Hertswood Academy	10013904886	919	11	18	1861	 Peter Gillett				academy-school-eng:138747	SEC		M		2012-09-01	
-139036	Kings Langley School	200004060609	919	11	18	1143	Mr Gary Lewis				academy-school-eng:139036	SEC		M		2012-12-01	
-139154	Hitchin Boys' School	100081256237	919	11	18	1032	 Martin Brown				academy-school-eng:139154	SEC		B		2013-01-01	
+138582	Samuel Ryder Academy	100081150685	919	4	19	1120	Mr Matt Gauthier				academy-school-eng:138582	ALL	C	M		2012-09-01	
+138632	Monk's Walk School	200003856315	919	11	18	1341	 Kate Smith				academy-school-eng:138632	SEC	C	M		2012-09-01	
+138747	Hertswood Academy	10013904886	919	11	18	1861	 Peter Gillett				academy-school-eng:138747	SEC	C	M		2012-09-01	
+139036	Kings Langley School	200004060609	919	11	18	1143	Mr Gary Lewis				academy-school-eng:139036	SEC	C	M		2012-12-01	
+139154	Hitchin Boys' School	100081256237	919	11	18	1032	 Martin Brown				academy-school-eng:139154	SEC	C	B		2013-01-01	
 139159	Mandeville Primary School	100081149771	919	3	11	450	Mrs Cathy Longhurst				academy-school-eng:139159	PRI		M		2013-01-01	
 139197	Links Academy	200003633791	919	5	16	40	 David Allen				academy-school-eng:139197			M		2013-02-01	
-139416	The Elstree UTC	10013910516	919	14	19	600	Mr Chris Mitchell				academy-school-eng:139416	SEC		M		2013-09-01	
+139416	The Elstree UTC	10013910516	919	14	19	600	Mr Chris Mitchell				academy-school-eng:139416	SEC	C	M		2013-09-01	
 139507	Christ Church Chorleywood CofE School	200000939626	919	3	11	240	Mr Duncan Gauld	C22		CE32	academy-school-eng:139507	PRI		M		2013-04-01	
 139545	Flamstead End School	148003391	919	2	11	430	Mrs Susan Killey				academy-school-eng:139545	PRI		M		2013-04-01	
 139550	Chaulden Junior School	100081328294	919	7	11	240	Mrs Moira White				academy-school-eng:139550	PRI		M		2013-05-01	
-139662	The Reach Free School	10090787575	919	11	18	840	Mr Richard Booth				academy-school-eng:139662	SEC		M		2013-09-02	
-139835	Rhodes Farm School	100081158089	919	8	18	26	Mrs Karen El-Shirbini				school-type:11			M		2013-06-27	
-139873	Richard Hale School	10033098675	919	11	18	1116	Mr Stephen Neate				academy-school-eng:139873	SEC		B		2013-07-01	
-139902	The Da Vinci Studio School of Creative Enterprise	100081258154	919	14	19	400	 Mark Lewis				academy-school-eng:139902	SEC		M		2013-09-02	
-140037	The Thomas Alleyne School	10070250653	919	11	18	1100	Mr Mark Lewis				academy-school-eng:140037	SEC		M		2013-09-01	
-140049	Westfield Academy	100081285304	919	11	18	1217	Mr Tim Body				academy-school-eng:140049	SEC		M		2013-09-01	
+139662	The Reach Free School	10090787575	919	11	18	840	Mr Richard Booth				academy-school-eng:139662	SEC	C	M		2013-09-02	
+139835	Rhodes Farm School	100081158089	919	8	18	26	Mrs Karen El-Shirbini				school-type:11		N	M		2013-06-27	
+139873	Richard Hale School	10033098675	919	11	18	1116	Mr Stephen Neate				academy-school-eng:139873	SEC	C	B		2013-07-01	
+139902	The Da Vinci Studio School of Creative Enterprise	100081258154	919	14	19	400	 Mark Lewis				academy-school-eng:139902	SEC	C	M		2013-09-02	
+140037	The Thomas Alleyne School	10070250653	919	11	18	1100	Mr Mark Lewis				academy-school-eng:140037	SEC	C	M		2013-09-01	
+140049	Westfield Academy	100081285304	919	11	18	1217	Mr Tim Body				academy-school-eng:140049	SEC	C	M		2013-09-01	
 140238	Countess Anne Church of England School	200003854751	919	5	11	210	 David Lodge	C22		CE32	academy-school-eng:140238	PRI		M		2013-10-01	
 140249	Ralph Sadleir School	10033099252	919	9	13	360	 Dominic Spong				academy-school-eng:140249	MDS		M		2013-10-01	
-140294	Simon Balle All-Through School	100081250119	919	4	18	1037	Ms Alison Saunders				academy-school-eng:140294	ALL		M		2013-11-01	
+140294	Simon Balle All-Through School	100081250119	919	4	18	1037	Ms Alison Saunders				academy-school-eng:140294	ALL	C	M		2013-11-01	
 140611	Wilshere-Dacre Junior Academy	10070041104	919	7	11	230	Mrs Sarah Smith				academy-school-eng:140611	PRI		M		2014-03-01	
 140707	Crabtree Infants' School	100081155817	919	5	7	180	Mrs Sally Pattrick				academy-school-eng:140707	PRI		M		2014-04-01	
 140708	Crabtree Junior School	100081155829	919	7	11	256	Mr Ian Pattrick				academy-school-eng:140708	PRI		M		2014-04-01	
-140786	The Hertfordshire & Essex High School and Science College	100081330603	919	11	18	1042	 Cathy Tooze				academy-school-eng:140786	SEC		G		2014-04-01	
+140786	The Hertfordshire & Essex High School and Science College	100081330603	919	11	18	1042	 Cathy Tooze				academy-school-eng:140786	SEC	C	G		2014-04-01	
 140954	Lanchester Community Free School	10090230166	919	4	11	420	 Helen Lockham				academy-school-eng:140954	PRI		M		2014-09-01	
-140955	Jupiter Community Free School	100081177483	919	4	11	420	 Sue Attard				academy-school-eng:140955	PRI		M		2014-09-01	
+140955	Jupiter Community Free School	100081177483	919	4	11	420	 Sue Attard				academy-school-eng:140955	PRI	N	M		2014-09-01	
 140956	Ascot Road Community Free School	10090230309	919	4	11	420	Mrs Helen Lockham				academy-school-eng:140956	PRI		M		2014-09-01	
 141004	The Watford UTC	10090230432	919	14	19	600	Ms Emma Loveland				academy-school-eng:141004	SEC		M		2014-09-01	
 141251	Pinewood School	100081330309	919	11	16	159	 David McGachen				academy-school-eng:141251			M		2014-09-01	
 141851	Windhill21	100081159563	919	3	11	420	 Phillippa Moore				academy-school-eng:141851	PRI		M		2015-03-01	
 141898	Fair Field Junior School	10034169324	919	7	11	240	 Matt Johnson				academy-school-eng:141898	PRI		M		2015-04-01	
-142051	Haileybury Turnford	148017396	919	11	18	1088	Mr Robin Newman				academy-school-eng:142051	SEC		M		2015-09-01	
+142051	Haileybury Turnford	148017396	919	11	18	1088	Mr Robin Newman				academy-school-eng:142051	SEC	C	M		2015-09-01	
 142221	Watford St John's Church of England Primary School	100080934669	919	4	11	420	Mrs Helen Langeveld	C22;C1	C22		academy-school-eng:142221	PRI		M		2016-09-07	
 142257	Hailey Hall School	148025980	919	11	16		 P Flint				academy-school-eng:142257			B		2015-09-01	
 142413	Garden City Montessori School	100081258786	919	2	12	50	  				school-type:11			M		2015-09-22	
@@ -878,5 +878,5 @@ school-eng	name	address	school-authority-eng	minimum-age	maximum-age	school-capa
 143409	Roselands Primary School	148025794	919	5	11	315	Mrs J Carson				academy-school-eng:143409	PRI		M		2016-09-01	
 143410	The Cranbourne Primary School	148034021	919	4	11	497	Mrs Rachel Semark				academy-school-eng:143410	PRI		M		2016-09-01	
 143603	Laurance Haines School	200000933530	919	3	11	420	Mr James Roach				academy-school-eng:143603	PRI		M		2016-11-01	
-143604	Larwood School	200000586760	919	5	11	64	Mr S Trimble				academy-school-eng:143604			M		2016-11-01	
+143604	Larwood School	200000586760	919	5	11	64	Mr S Trimble				academy-school-eng:143604		N	M		2016-11-01	
 143648	Harpenden Free School	10093185491	919	4	11		Mrs Lisa Davies				academy-school-eng:143648	PRI				2016-09-01	
