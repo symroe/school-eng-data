@@ -78,7 +78,9 @@ def map_name(field, name):
     if field != 'school-trust':
         if field != 'school-trust-join-date':
             if field != 'school-umbrella-trust':
-                log("unknown %s value [%s]" % (field, name))
+                if name != 'Not applicable':
+                    if name != 'Not collected':
+                        log("unknown %s value [%s]" % (field, name))
     return ''
 
 
@@ -173,7 +175,8 @@ if __name__ == '__main__':
         # item['school-trust-join-date'] = map_name('school-trust-join-date', row['URN'])
         # item['school-umbrella-trust'] = map_name('school-umbrella-trust', row['URN'])
 
-        item['school-admissions-policy'] = ''
+        item['school-admissions-policy'] = map_name('school-admissions-policy',
+                                                    row['AdmissionsPolicy (name)'])
         item['school-authority'] = row['LA (code)']
         item['school-tags'] = ''
 
