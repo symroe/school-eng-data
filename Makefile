@@ -6,8 +6,7 @@ DATA=\
 	data/discovery/school-wls/schools.tsv\
 	data/alpha/school-eng/schools.tsv\
 	data/alpha/la-maintained-school-eng/la-maintained-schools.tsv\
-	$(SCHOOL_DATA)\
-	$(ADDRESS_DATA)
+	$(SCHOOL_DATA)
 
 SCHOOL_DATA=\
 	data/discovery/religious-character/religious-characters.tsv\
