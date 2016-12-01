@@ -2,6 +2,9 @@
 
 csvgrep -c 'TypeOfEstablishment (name)' -f lists/academy-types/types.txt ./cache/edubase.csv \
 | csvcut -c URN,'TypeOfEstablishment (name)','Trusts (name)','SchoolSponsors (name)' \
+| sed 's/Free Schools Special/Special Free School/' \
+| sed 's/Free Schools/Free School/' \
+| sed 's/Studio Schools/Studio School/' \
 | csvformat -T > tmp-edubase-academies.tsv \
 && csvjoin --left -tc 'TypeOfEstablishment (name)',name tmp-edubase-academies.tsv data/alpha/school-type/school-types.tsv \
 | csvcut -c URN,school-type,'Trusts (name)','SchoolSponsors (name)' \
