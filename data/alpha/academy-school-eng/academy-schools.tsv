@@ -665,9 +665,11 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 136737	34	company:07601680		
 136742	34	company:07469330		
 136745	28	company:07195175	2011-01-09	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+136750	35	company:07493696	2011-07-09	West London Free School Academy Trust
 136751	28	company:06625091	2011-01-09	Academies Enterprise Trust (AET)
 136753	28	company:06625091	2011-01-09	Academies Enterprise Trust (AET)
 136756	34	company:07627110		
+136757	35	company:07226557		
 136758	34	company:07628943		
 136759	34	company:07578861	2011-01-06	Lord Scudamore Foundation School, Herefordshire
 136760	34	company:08782544	2015-01-09	Atlantic Centre of Excellence (ACE)
@@ -713,6 +715,10 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 136800	34	company:07633694	2011-01-06	Greenshaw Learning Trust (Greenshaw High School)
 136803	34	company:07631985		
 136804	34	company:07365778	2016-01-06	Midsomer Norton Schools Partnership
+136807	35	company:07451568		Diocese of London
+136808	35	company:07313138		
+136821	35	company:07408229		
+136822	35	company:07452885	2011-05-09	Russell Education Trust
 136824	28	company:06415729	2011-01-09	Woodard Academies Trust
 136826	28	company:07958615	2011-01-09	Leeds City College
 136827	34	company:07656715		
@@ -812,10 +818,15 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 136925	34	company:07665364		
 136926	34	company:07649832	2011-01-07	The Redstart Learning Partnership
 136927	34	company:07666185		
+136930	35	company:07506598	2011-01-09	
 136932	28	company:07694050	2011-01-09	Woodland Academy Trust, The
 136933	40	company:07556132		
+136934	35	company:08743560	2011-01-09	Loxford School Trust Ltd
+136938	35	company:07471707		
 136944	28	company:06982127		This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
 136948	28	company:06864339	2012-01-09	Greenwood Academies Trust
+136951	35	company:07463031		
+136952	35	company:07355559	2011-05-09	
 136957	34	company:07736425	2016-01-05	Bridge Multi Academy Trust
 136958	34	company:07680513		
 136959	34	company:07694080		
@@ -873,6 +884,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 137012	34	company:07700494		
 137013	34	company:07687474	2011-01-08	Notley High School and Braintree Sixth Form
 137014	34	company:07686515		The Raleigh School
+137016	35	company:07413883	2011-09-13	
 137019	34	company:07694358		
 137020	34	company:07697027		
 137021	34	company:07698718	2011-01-08	BrandH Academy
@@ -1119,7 +1131,9 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 137271	34	company:07690119	2011-01-08	Gloucestershire Learning Alliance
 137272	34	company:07594562		
 137274	28	company:07654219	2015-01-04	Matrix Academy Trust
+137277	35	company:02303464	2011-12-09	Dixons Academy Trust
 137280	28	company:07718351		Diocese of Oxford
+137281	35	company:07468210	2011-06-09	CfBT Education Trust
 137282	28	company:07647805	2011-01-09	University of Lincoln
 137284	34	company:07700909		
 137285	34	company:07706776		
@@ -1154,8 +1168,14 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 137314	34	company:07692394		
 137315	34	company:07703800		
 137316	34	company:07462885	2011-08-17	Wakefield City Academies Trust
+137317	41	company:07662709		
 137319	34	company:07664012	2011-01-08	Diverse Academies Trust
+137320	35	company:07471734		
 137321	28	company:06625091	2011-01-09	Academies Enterprise Trust (AET)
+137323	35	company:05112090	2011-09-15	ARK Schools
+137324	35	company:05958361	2015-01-03	
+137326	35			
+137331	35	company:05112090	2011-09-15	ARK Schools
 137335	34	company:07705402		
 137336	34	company:07721594		
 137337	34	company:07733196		
@@ -1304,8 +1324,13 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 137483	34	company:07738386	2011-01-09	The Village Academy Trust
 137484	34	company:07736448		
 137485	34	company:07719938		
+137487	35	company:07509409		
+137488	35	company:03143086		
+137491	35	company:06486255		
+137492	35	company:07522245	2011-06-09	
 137493	44	company:07728112	2011-01-09	Fosse Way School
 137496	43			
+137498	35	company:01902341		
 137500	34	company:07599308	2011-08-17	Moor End Academies Trust
 137507	44	company:07736095		
 137512	34	company:07756219		
@@ -1864,7 +1889,13 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138193	34	company:08080096	2012-01-06	
 138194	28	company:07348167	2012-01-06	Ninestiles Academy Trust
 138195	28	company:02336587	2015-01-03	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+138196	35	company:07648389	2012-08-21	
+138198	35	company:07635438		
 138199	40	company:07651573		Bedford College
+138200	35	company:07749786	2012-08-28	Perry Beeches The Academy Trust
+138201	35	company:07648654		
+138202	35	company:07412515		
+138203	35	company:07355559	2012-03-08	
 138204	34	company:07829616		
 138205	34	company:08028375	2012-01-06	
 138206	34	company:08028375	2012-01-06	
@@ -1881,18 +1912,55 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138217	34	company:07838126		
 138218	34	company:08049062		
 138219	44	company:06625091	2012-01-06	Academies Enterprise Trust (AET)
+138220	35	company:07353849	2012-08-28	Tauheedul Education Trust.
 138221	34	company:08061075		
 138222	40	company:07166427		
+138223	41	company:07191874	2012-07-20	The Midland Academies Trust
+138225	41	company:07791933	2012-08-29	Hart Schools Trust
+138226	35	company:07643477		
+138227	35	company:07506598	2012-08-28	
+138228	35	company:07337888		
 138229	40	company:07695771	2015-01-03	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+138231	35	company:07644208		
+138232	35	company:06272751	2012-08-28	Future Schools Trust
+138233	35	company:07885963	2012-08-28	Chapel St Community Schools Trust
 138234	28	company:07917752	2012-01-09	St Marys Academy Trust
 138235	28	company:06526376	2012-01-09	E-ACT
 138236	28	company:07368292	2012-01-09	Brook Learning Trust
 138237	28	company:05398529	2012-01-09	Oasis Community Learning
+138239	35	company:08096798		Russell Education Trust
+138245	35	company:07638748		
 138246	28	company:06545396	2015-01-09	Sirius Academy
 138247	28	company:06995649	2012-01-06	Outwood Grange Academies Trust
 138248	28	company:06995649	2012-01-06	Outwood Grange Academies Trust
+138250	35	company:07432586		
+138251	35	company:02303464	2012-08-28	Dixons Academy Trust
+138252	35	company:02303464	2012-08-28	Dixons Academy Trust
 138253	33	company:07919427	2012-01-04	St Pauls Catholic School
+138254	35	company:02400784	2012-08-30	Brooke Weston Trust
+138255	41	company:06625091	2012-08-31	Academies Enterprise Trust (AET)
+138256	41	company:07272906	2012-08-29	Stoke-on-Trent College
+138257	35	company:07575016		
+138258	35	company:07640769		
+138259	35			
+138260	35	company:07641004	2015-01-09	Great Schools For All Children
+138261	35	company:07413872		
+138262	38	company:08111431		
+138263	35	company:07649385		
+138264	38	company:07217174		
 138265	40	company:07722672		
+138266	35	company:07634106		
+138267	35	company:05112090	2012-08-17	ARK Schools
+138268	35	company:07640198		
+138269	35	company:07649335		
+138270	35	company:06228587	2012-08-28	Harris Federation
+138271	36	company:06864339	2012-08-17	Greenwood Academies Trust
+138272	35	company:07643890		
+138273	35	company:08077362	2012-08-17	The Seckford Foundation Free Schools Trust
+138274	35	company:08077362	2012-08-17	The Seckford Foundation Free Schools Trust
+138275	35	company:08452281	2015-01-09	REAch2
+138276	35	company:08469218	2012-08-28	Paradigm Trust
+138277	38	company:07109892	2012-03-09	
 138278	28	company:05398529	2012-01-09	Oasis Community Learning
 138279	28	company:07386086	2012-01-07	School Partnership Trust Academies (SPTA)
 138280	28	company:08062508	2012-01-07	The Diamond Learning Partnership Trust
@@ -1947,6 +2015,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138330	34	company:07980317		
 138331	34	company:08083620	2012-01-07	
 138332	34	company:07386086	2012-01-07	School Partnership Trust Academies (SPTA)
+138334	35	company:05853746	2012-08-30	Gateway Academy Trust
 138335	34	company:08085808		
 138336	34	company:07990619	2012-01-07	The Rodillian Academy
 138337	34			
@@ -1963,6 +2032,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138348	34	company:08104111	2012-01-07	Discovery Schools Academies Trust Ltd
 138349	34	company:06228587	2012-01-07	Harris Federation
 138350	34	company:08100518		
+138351	35	company:07652211		South Staffordshire College
 138352	34	company:08056991		
 138353	34	company:08076374	2012-01-07	The Flying High Trust
 138354	34	company:07944160	2012-01-07	
@@ -1976,6 +2046,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138362	34	company:07748248	2012-01-07	
 138364	28	company:07893665	2015-01-04	The Griffin Schools Trust
 138365	28	company:07430317	2015-01-04	The Redhill Academy Trust
+138367	35	company:07468210	2012-08-16	CfBT Education Trust
+138368	41	company:07683702	2012-08-31	Rosedale Hewens Academy Trust
 138369	28	company:06625091	2012-01-09	Academies Enterprise Trust (AET)
 138370	28	company:07394671	2012-01-09	Torquay Boys Grammar School Multi-Academy Trust
 138371	28	company:05112090	2012-01-09	ARK Schools
@@ -1984,6 +2056,11 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138374	28	company:06526376	2012-01-09	E-ACT
 138375	28	company:08098956	2012-01-09	Bridgwater College Trust
 138377	28	company:06511936	2012-01-09	Merchant Venturers, The Society of
+138379	38	company:07664278		
+138380	36	company:07591868		
+138381	35	company:07355559	2012-08-15	
+138383	35	company:08102584		
+138385	41	company:08011930	2012-08-20	Learning and Achievement Federation (LeAF)
 138388	28	company:07927423		The Aldridge Foundation
 138389	28	company:08452281	2015-01-09	REAch2
 138390	28	company:08107711	2012-01-09	Aurora Academies Trust
@@ -1998,6 +2075,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138400	28	company:08107711	2012-01-09	Aurora Academies Trust
 138401	28	company:07386086	2012-01-08	School Partnership Trust Academies (SPTA)
 138402	28	company:07348231	2012-01-09	Kemnal Academy Trust, The (TKAT)
+138403	39	company:07643795		
 138404	28	company:07851097	2012-01-09	HEARTS Academy Trust
 138409	28	company:05398529	2012-01-09	Oasis Community Learning
 138410	28	company:06625091	2012-01-09	Academies Enterprise Trust (AET)
@@ -2132,6 +2210,10 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138558	34	company:08168245		
 138559	34	company:09630999	2015-01-09	Tees Valley Education
 138560	34	company:09630999	2015-01-09	Tees Valley Education
+138561	35	company:07697132	2016-01-09	Sir John Lawes Academies Trust
+138562	35	company:07641004	2012-03-09	Great Schools For All Children
+138566	41	company:06772181	2012-08-29	Bradford College Education Trust
+138567	35	company:05530130		
 138569	28	company:06864339	2012-01-09	Greenwood Academies Trust
 138570	28	company:06864339	2012-01-09	Greenwood Academies Trust
 138571	28	company:07468210	2012-01-09	CfBT Education Trust
@@ -2146,6 +2228,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138583	28	company:06526376	2012-01-09	E-ACT
 138584	28	company:07904096	2012-01-09	Wakefield Diocesan Academies Trust
 138585	28	company:06625091	2012-01-09	Academies Enterprise Trust (AET)
+138586	35	company:07522245	2012-08-31	
 138588	28	company:06625091	2015-01-08	Academies Enterprise Trust (AET)
 138589	28	company:06625091	2015-01-08	Academies Enterprise Trust (AET)
 138590	28	company:07730920	2012-01-09	The Arthur Terry School
@@ -2153,6 +2236,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138592	28	company:08291666		Diocese of Canterbury
 138593	28	company:07990619	2012-01-09	The Rodillian Academy
 138595	34	company:08062508	2012-01-08	The Diamond Learning Partnership Trust
+138600	41			
+138601	41			
 138603	34	company:08329993	2015-01-04	Inspirational Futures Trust
 138604	28	company:07673871	2012-01-09	Lee Chapel Academy Trust
 138605	28	company:08149829	2012-01-09	EMLC Academy Trust
@@ -2319,6 +2404,9 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 138772	34	company:09299975	2012-01-09	
 138773	34	company:09299975	2012-01-09	
 138774	28	company:08143249	2012-01-09	Diocese of Oxford
+138775	38	company:07665550	2015-01-11	East Birmingham Network
+138776	35	company:07970052		
+138780	35	company:07551989	2015-01-09	Camborne Science & International Academy
 138782	28	company:06625091	2012-01-09	Academies Enterprise Trust (AET)
 138783	28	company:06182612	2012-01-09	David Ross Education Trust (DRET)
 138784	28	company:07695771	2012-01-09	Bright Futures Educational Trust
@@ -2574,6 +2662,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139079	33	company:08340120	2013-01-02	The Propeller Academy Trust
 139080	28	company:06995649	2013-01-03	Outwood Grange Academies Trust
 139081	28	company:08142572	2013-01-03	Trinity School - Newbury Academy Trust
+139082	35	company:06864339	2013-01-09	Greenwood Academies Trust
 139083	34	company:08255683	2012-01-12	Pioneer Academies Co-operative Trust
 139084	34	company:08255683	2012-01-12	Pioneer Academies Co-operative Trust
 139085	34	company:08255683	2012-01-12	Pioneer Academies Co-operative Trust
@@ -2604,6 +2693,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139110	44	company:08299166		
 139112	28	company:06864339	2013-01-02	Greenwood Academies Trust
 139113	28	company:06864339	2013-01-02	Greenwood Academies Trust
+139114	38	company:07657235		
 139115	28	company:07691324	2013-01-04	The Pioneer Academy
 139116	28	company:08245853	2013-01-04	Little Mead Primary Academy Trust
 139117	28	company:07683702	2013-01-04	Rosedale Hewens Academy Trust
@@ -2704,7 +2794,9 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139231	28	company:08407961	2013-01-04	Shrewsbury Academies Trust
 139232	28	company:08296921	2013-01-02	L.E.A.D. Multi-Academy Trust
 139234	40	company:06346630		JCB
+139237	41	company:05958361	2015-01-03	
 139240	28	company:08182235	2013-01-02	Diocese of London
+139241	35	company:07745424		
 139242	28	company:05398529	2013-01-04	Oasis Community Learning
 139247	28	company:06511936	2013-01-04	Merchant Venturers, The Society of
 139248	28	company:07687474	2013-01-09	Notley High School and Braintree Sixth Form
@@ -2717,6 +2809,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139259	28	company:08452281	2015-01-09	REAch2
 139260	28	company:08024396	2013-01-04	The Mead Academy Trust
 139263	28	company:08438964	2013-01-04	The Willows Primary School Manchester
+139265	36	company:07667999		
 139266	28	company:08158309	2013-01-02	The Boston Witham Academies Federation
 139267	28	company:08509022		Diocese of Birmingham Education Trust
 139268	40	company:07652565		Activate Learning
@@ -2725,6 +2818,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139271	28	company:07846852	2013-01-09	Academy Transformation Trust (ATT)
 139272	28	company:07903002	2013-01-04	Active Learning Trust (ALT)
 139273	28	company:07348231	2013-01-04	Kemnal Academy Trust, The (TKAT)
+139274	35	company:07522245	2013-02-09	
 139275	28	company:08335073	2013-01-04	Diocese of London
 139276	28	company:07211219	2013-01-04	Academies Enterprise Trust (AET)
 139277	28	company:06995649	2013-01-04	Outwood Grange Academies Trust
@@ -2817,6 +2911,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139372	34	company:08285812		
 139373	40	company:07637061		This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
 139374	44	company:08397744		
+139376	35	company:07613612		
+139377	35	company:08203228		North West Academies Trust
 139378	28	company:07348167	2013-01-07	Ninestiles Academy Trust
 139379	28	company:08071176	2013-01-04	Focus-Trust
 139380	28	company:08452281	2013-01-04	REAch2
@@ -2833,6 +2929,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139392	28	company:08056907	2013-01-06	Enquire Learning Trust
 139393	28	company:07612865	2013-01-04	STEP Academy Trust
 139394	28	company:08438686	2013-01-06	Plymouth CAST
+139395	35	company:08174233		
 139396	28	company:08452281	2015-01-09	REAch2
 139397	28	company:08452281	2015-01-09	REAch2
 139398	28	company:07843166	2013-01-09	Burnt Mill Academy Trust
@@ -2844,10 +2941,18 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139404	28	company:04439859	2013-01-12	United Learning
 139405	28	company:07189647	2013-01-04	Northern Education Trust
 139406	28	company:08452281	2013-01-04	REAch2
+139408	35	company:07491945	2013-01-09	The Cam Academy Trust
+139409	35	company:07452885	2013-02-09	Russell Education Trust
+139410	35	company:07452885	2013-02-09	Russell Education Trust
+139411	38	company:07948348		
+139413	38	company:07950891	2013-02-09	Education Partnership Trust
 139416	40	company:07906423		David Meller
+139418	36	company:08619729		
 139420	28	company:07386086	2013-01-05	School Partnership Trust Academies (SPTA)
+139421	35	company:07956455		Diocese of London
 139424	28	company:07848783	2013-01-04	The Education Fellowship Trust
 139432	40	company:07645326		This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+139433	39	company:06897239		Trinity Academy Halifax (TAH)
 139434	40	company:07648803		
 139435	28	company:08526973	2013-01-07	Diocese of Lichfield
 139436	28	company:09035788	2016-01-09	Diocese of Canterbury
@@ -2887,6 +2992,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139471	34	company:08425918		
 139472	34	company:08391057		
 139473	34	company:08287618		
+139474	35	company:08008193		
 139476	34	company:06625091	2013-01-04	Academies Enterprise Trust (AET)
 139477	34	company:08453966	2013-01-04	The Dominic Barberi MAC (South Oxfordshire)
 139478	34	company:07962974	2013-01-04	Schoolsworks Academy Trust
@@ -2957,14 +3063,19 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139543	34	company:08445314		Rayleigh Primary School, Essex
 139544	34	company:08356745	2013-01-04	Steel City Schools Partnership
 139545	34	company:08436788		
+139546	35	company:07493696	2013-02-09	West London Free School Academy Trust
 139547	34	company:08462151	2013-01-04	
+139549	35	company:07916297	2013-09-09	
 139550	28	company:08322127	2013-01-05	Mandeville Primary School/Spiral Academies Trust
 139551	28	company:07848783	2013-01-05	The Education Fellowship Trust
 139552	28	company:07848783	2013-01-05	The Education Fellowship Trust
 139553	28	company:08486531	2013-01-05	Diocese of Exeter
+139554	35	company:07949294		
 139555	28	company:07534901	2013-01-09	The Staploe Education Trust
 139556	28	company:07903002	2013-01-09	Active Learning Trust (ALT)
 139557	28	company:07551959	2013-01-08	GLF Schools
+139561	35	company:07963778		
+139562	35	company:07958546		
 139564	28	company:06864339	2013-01-06	Greenwood Academies Trust
 139565	28	company:08116706	2013-01-07	The Elliot Foundation Academies Trust
 139566	28	company:07703865	2013-01-06	St Clere's Co-operative Academy Trust
@@ -2984,8 +3095,22 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139583	28	company:08068528	2013-01-09	St Thomas More's Catholic Primary School
 139584	28	company:08561049	2013-01-07	Stranton Primary School
 139585	28	company:04439859	2013-01-08	United Learning
+139587	35	company:07644380		
 139588	40	company:05067702	2013-02-09	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+139589	41	company:05067702	2013-02-09	Northern Schools Trust
+139590	41	company:07272906	2013-02-09	Stoke-on-Trent College
+139591	41	company:07781921	2013-03-09	
+139592	35	company:07687897	2013-02-09	
+139593	35	company:07962246		
+139594	35	company:07952786		
+139595	35	company:07923624	2013-02-09	
+139596	35	company:07641673		
+139597	35	company:08158309	2013-03-09	The Boston Witham Academies Federation
+139598	35	company:07937849		
+139599	35	company:07355559	2013-02-09	
+139600	36	company:08270125		
 139602	28	company:08452281	2015-01-09	REAch2
+139604	35	company:07194412	2013-02-09	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
 139605	34	company:08484553		
 139606	34	company:08372064		
 139607	44	company:08426360		
@@ -3024,6 +3149,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139644	28		2013-01-09	Portsmouth & Winchester Diocesan Academies Trust
 139645	28	company:05112090	2013-01-09	ARK Schools
 139646	28	company:07958615	2014-01-08	Leeds City College
+139648	38	company:08228379		
 139649	28	company:08623002		Nottingham Roman Catholic Diocesan Education Service (NRCDES)
 139650	28	company:07617529	2013-01-09	Creative Education Academies Trust (CEAT)
 139651	28	company:08840373	2014-01-11	The Harmony Trust
@@ -3031,7 +3157,19 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139655	28	company:08098956	2015-01-01	Bridgwater College Trust
 139656	28	company:07808732	2013-01-09	Carmel College Academy Trust
 139658	28	company:06415729	2013-01-09	Woodard Academies Trust
+139659	35	company:05398529	2013-02-09	Oasis Community Learning
+139660	38	company:07962209		
+139661	35	company:07956691		
+139662	35	company:07311261		
+139663	35	company:07955870		
+139664	35	company:04439859	2013-03-09	United Learning
+139665	38	company:08699493	2015-01-04	The Engage Multi Academy Trust
+139666	41	company:07941664		
+139667	41	company:07191874	2013-02-09	The Midland Academies Trust
+139668	35	company:07874411		
 139669	40	company:07638089		
+139671	38	company:07960515		
+139672	35	company:02535091	2013-02-09	The Haberdashers' Livery Company
 139673	28	company:07189647	2014-01-01	Northern Education Trust
 139674	28	company:08452281	2015-01-09	REAch2
 139675	28	company:08364709	2013-01-09	Fylde Coast Teaching School Ltd
@@ -3045,11 +3183,17 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139684	28			
 139685	28	company:08452281	2015-01-09	REAch2
 139686	28	company:08565932		Liverpool College
+139687	35	company:07864383		
+139688	35	company:07954683		
+139689	41	company:08177657	2013-02-09	
 139690	40	company:07649183		This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+139691	36	company:07748248	2013-04-09	
 139692	28	company:07867577	2013-01-09	Aspirations Academies Trust (AAT)
 139693	28	company:07530418	2013-01-09	The Robinswood Academy Trust
 139694	28	company:06207590	2013-01-09	Cabot Learning Federation
 139695	40	company:07652696	2013-02-09	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+139696	35	company:07923267		
+139697	35	company:07645462		
 139699	28	company:05112090	2013-01-09	ARK Schools
 139701	28	company:07747126	2014-01-09	The Co-operative Group
 139702	28	company:06864339	2014-01-09	Greenwood Academies Trust
@@ -3066,10 +3210,17 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139717	28	company:08098956	2013-01-09	Bridgwater College Trust
 139718	28	company:05112090	2013-01-09	ARK Schools
 139719	28	company:02387916	2013-01-09	Landau Forte Charitable Trust
+139720	35	company:07522245	2013-09-09	
 139721	28	company:08366199	2013-01-11	Diocese of Guildford
 139722	33	company:08476149	2013-01-09	Orchard Hill College
 139723	28	company:07893665	2013-01-11	The Griffin Schools Trust
 139724	28	company:08171341	2013-01-09	Lion Academy Trust
+139725	35	company:07648968	2013-02-09	Diocese of London
+139728	36	company:07954396	2013-02-09	National Autistic Society
+139729	35	company:07647538	2013-02-09	
+139730	39	company:07695771	2013-02-09	Bright Futures Educational Trust
+139731	38	company:07947806		
+139732	36	company:07400386	2013-02-09	Samuel Ward Academy Trust
 139735	34	company:08515862	2013-01-06	
 139736	34	company:07982312		Wensum Trust
 139737	34	company:08512087		
@@ -3106,7 +3257,25 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139768	34	company:04439859	2013-01-06	United Learning
 139769	34	company:08520569		
 139770	34	company:08516562		
+139773	35	company:07647432		
+139774	38	company:07654340		
+139775	35	company:07956784	2013-02-09	
+139776	35	company:07956473		
+139777	35	company:07885963	2013-02-09	Chapel St Community Schools Trust
+139781	41	company:07960235		
+139782	35	company:07650619		
+139783	41			
+139786	35	company:07742547		
+139788	41	company:08331922	2013-02-09	
+139789	41	company:08285206		
+139790	35	company:07945230	2013-02-09	
+139791	35	company:08339345	2013-02-09	Partnership Learning
 139792	40	company:07653051		This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
+139793	39	company:07867577	2015-01-10	Aspirations Academies Trust (AAT)
+139795	35	company:07952925		
+139796	35	company:08436285		East Sussex County Council
+139797	35	company:07749786	2013-02-09	Perry Beeches The Academy Trust
+139798	39	company:07740758	2013-02-09	
 139799	28	company:08542806	2013-01-07	Hull Collaborative Academy Trust
 139800	28	company:08578428	2013-01-07	The Bishop Cleary MAC (Wolverhampton)
 139802	28	company:07736246	2013-01-09	Passmores Cooperative Learning Community
@@ -3116,6 +3285,10 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139806	28	company:08452281	2013-01-10	REAch2
 139808	28	company:08452281	2013-01-12	REAch2
 139810	28	company:07738386	2013-01-09	The Village Academy Trust
+139813	35	company:07353849	2013-02-09	Tauheedul Education Trust.
+139814	35	company:07353849	2013-02-09	Tauheedul Education Trust.
+139815	35	company:05112090	2013-02-09	ARK Schools
+139816	35	company:07945060		
 139817	28	company:08116706	2013-01-09	The Elliot Foundation Academies Trust
 139818	28	company:08538844	2013-01-09	Diocese of Exeter
 139819	28	company:07617529	2013-01-09	Creative Education Academies Trust (CEAT)
@@ -3126,7 +3299,13 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139824	28	company:04439859	2013-01-09	United Learning
 139825	28	company:07967402	2013-01-09	The Vaynor First School
 139827	28	company:06864339	2013-01-09	Greenwood Academies Trust
+139828	35	company:06516626	2016-01-03	Bristol Cathedral School Trust
+139829	38	company:06228587	2013-02-09	Harris Federation
 139830	28	company:05112090	2013-01-09	ARK Schools
+139832	35	company:06929486	2013-02-09	UCAT
+139833	41	company:07462885	2013-02-09	Wakefield City Academies Trust
+139834	35	company:07962059		
+139837	35	company:07468210	2013-02-09	CfBT Education Trust
 139838	34	company:08542806	2013-01-07	Hull Collaborative Academy Trust
 139839	34	company:08521080	2013-01-07	
 139840	34	company:08426967		
@@ -3184,11 +3363,19 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139892	34	company:08578428	2013-01-07	The Bishop Cleary MAC (Wolverhampton)
 139893	34	company:08578428	2013-01-07	The Bishop Cleary MAC (Wolverhampton)
 139894	34	company:08578428	2013-01-07	The Bishop Cleary MAC (Wolverhampton)
+139895	35	company:08220540		
+139896	39	company:08179349	2013-02-09	Inspiration Trust
+139897	35	company:07549443	2013-03-09	
+139898	35	company:06543442	2013-09-09	Future Academies
 139899	28	company:07551959	2013-01-09	GLF Schools
 139900	28	company:07551959	2014-01-09	GLF Schools
+139902	41	company:07791933	2013-02-09	Hart Schools Trust
+139903	38	company:07954295		
 139904	28	company:08528845	2013-01-10	Hamstead Hall Academy
 139905	28	company:06228587	2013-01-09	Harris Federation
 139906	28	company:06228587	2013-01-09	Harris Federation
+139907	35	company:07468210	2013-03-09	CfBT Education Trust
+139909	35	company:07683702	2013-04-09	Rosedale Hewens Academy Trust
 139910	28	company:08735454	2013-01-11	Belgrave St Bartholomew's Academy
 139911	33	company:08478985	2013-01-09	RNIB Pears Centre for Specialist Learning
 139915	28	company:07551959	2013-01-09	GLF Schools
@@ -3198,6 +3385,10 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139920	28	company:08366199	2013-01-09	Diocese of Guildford
 139921	28	company:07386086	2013-01-10	School Partnership Trust Academies (SPTA)
 139922	28	company:07386086	2013-01-12	School Partnership Trust Academies (SPTA)
+139923	35	company:07953395		
+139924	41	company:05670663	2013-02-09	The Aldridge Foundation
+139925	38	company:07949213		
+139926	35	company:07416734	2013-02-09	
 139927	28	company:07893665	2013-01-09	The Griffin Schools Trust
 139928	28	company:07893665	2013-01-09	The Griffin Schools Trust
 139929	28	company:08179349	2013-01-09	Inspiration Trust
@@ -3237,6 +3428,9 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139966	28	company:06228587	2013-01-09	Harris Federation
 139967	33	company:08374351	2013-01-12	Mary Rose School
 139968	28	company:06182612	2013-01-10	David Ross Education Trust (DRET)
+139970	35	company:08178309		
+139971	35	company:07930340		
+139972	35	company:08334593		
 139974	44	company:08608287	2013-01-08	Horizons Specialist Academy Trust
 139975	34	company:08155088	2013-01-08	Beckfoot Trust
 139976	44	company:08604037	2013-01-08	
@@ -3260,12 +3454,14 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 139994	34	company:08496504		
 139995	28	company:05398529	2013-01-09	Oasis Community Learning
 139996	34	company:05112090	2013-01-09	ARK Schools
+139998	35	company:07926597		
 139999	28	company:08769073	2014-01-01	Bury College Education Trust
 140000	28	company:08452281	2015-01-09	REAch2
 140001	28	company:08010464	2013-01-09	The Rowan Learning Trust
 140002	28	company:07189647	2013-01-10	Northern Education Trust
 140003	28	company:07462885	2013-01-10	Wakefield City Academies Trust
 140004	28	company:07893665	2013-01-11	The Griffin Schools Trust
+140005	35	company:07959449		
 140007	28	company:04439859	2013-01-09	United Learning
 140008	28	company:04439859	2013-01-09	United Learning
 140011	28	company:08670427	2013-01-10	OUR Co-operative Academies Trust
@@ -3297,6 +3493,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140043	28	company:06864339	2013-01-10	Greenwood Academies Trust
 140044	28	company:07400386	2013-01-10	Samuel Ward Academy Trust
 140045	28	company:07612865	2013-01-11	STEP Academy Trust
+140047	35	company:08077362	2014-01-09	The Seckford Foundation Free Schools Trust
 140048	34	company:08603388	2013-01-09	
 140049	34	company:08526440		
 140050	34	company:08556180		
@@ -3401,6 +3598,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140152	34	company:08627834	2013-01-09	
 140153	34	company:08627834	2013-01-09	
 140154	34	company:08621160		
+140156	35	company:07703829	2014-01-09	
 140158	28	company:07867577	2013-01-10	Aspirations Academies Trust (AAT)
 140159	28	company:07893665	2014-01-02	The Griffin Schools Trust
 140160	40	company:07898669		
@@ -3435,6 +3633,11 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140197	33	company:08878604	2014-01-04	Whitefield Schools and Centre
 140198	28	company:08452281	2015-01-09	REAch2
 140199	28	company:06982127	2013-01-11	Ormiston Academies Trust
+140200	35	company:07649550		
+140201	38	company:05888220		
+140202	35	company:08232396		
+140203	35	company:07925067		
+140204	35	company:07951118		
 140207	28	company:07867334	2015-01-09	Bourton Meadow Academy
 140208	28	company:06228587	2014-01-09	Harris Federation
 140209	28	company:05398529	2015-01-09	Oasis Community Learning
@@ -3573,6 +3776,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140357	28	company:07726568	2014-01-04	Southwark Primary School Trust
 140358	28	company:02303464	2014-01-01	Dixons Academy Trust
 140359	28	company:07492165	2014-01-03	North East Learning Trust
+140360	36	company:08335297	2014-01-09	
 140362	28	company:08149829	2014-01-01	EMLC Academy Trust
 140363	28	company:07338780	2014-01-01	CWA Academy Trust
 140364	28	company:06982127	2014-01-01	Ormiston Academies Trust
@@ -3691,6 +3895,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140489	28	company:08452281	2015-01-09	REAch2
 140490	28	company:08452281	2015-01-09	REAch2
 140493	28	company:07185046	2014-01-01	University of Brighton
+140494	35	company:07956784	2014-01-09	
+140495	35	company:07956784	2014-01-09	
 140498	28	company:08158309	2014-01-09	The Boston Witham Academies Federation
 140499	34	company:08006711	2014-01-01	
 140500	34	company:08718062	2014-01-01	ConcertEd
@@ -3754,6 +3960,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140561	28	company:08656655	2014-01-02	Diocese of Salisbury
 140562	28	company:08735454	2014-01-03	Belgrave St Bartholomew's Academy
 140563	28	company:08806335	2014-01-02	Ebor Academy Trust
+140564	39	company:08475184		
+140565	35	company:07465701	2014-01-09	The GORSE Academies Trust
 140570	40	company:07653629		
 140573	28	company:07903002	2014-01-03	Active Learning Trust (ALT)
 140574	34	company:08840094	2014-01-02	The Aspire Multi-Academy Trust
@@ -3794,6 +4002,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140611	28	company:08452281	2015-01-09	REAch2
 140612	28	company:07614421	2014-01-04	The Heath Family Trust
 140613	28	company:07353824	2014-01-05	The Spencer Academies Trust
+140620	41	company:08298534	2014-01-09	Warrington Collegiate
+140621	39	company:08257461		
 140622	28	company:07482650	2014-01-04	Linton Village College
 140625	28	company:07386086	2014-01-04	School Partnership Trust Academies (SPTA)
 140627	43	company:08010464	2015-01-02	The Rowan Learning Trust
@@ -3858,6 +4068,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140687	28	company:08452281	2015-01-09	REAch2
 140688	28	company:08346116		GEMS Learning Trust
 140690	28			
+140691	35	company:08265245		
+140692	35	company:08339302	2014-01-04	
 140693	28	company:08438686	2014-01-04	Plymouth CAST
 140694	28	company:08422015	2014-01-04	Diocese of Coventry
 140695	28	company:08438686	2014-01-04	Plymouth CAST
@@ -3977,6 +4189,10 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140808	34	company:08924656	2014-01-04	Oaks Academy Trust
 140809	34	company:08863947	2014-01-04	
 140810	34	company:08924656	2014-01-04	Oaks Academy Trust
+140811	35	company:07493696	2014-01-09	West London Free School Academy Trust
+140812	41	company:08337041		
+140813	41	company:07984413	2014-01-09	
+140815	35	company:08179349	2014-01-09	Inspiration Trust
 140818	28	company:07035556	2014-01-07	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
 140819	28	company:08282834	2014-01-05	Rightforsuccess (formally Eaton Hall School)
 140820	28	company:08509710	2014-01-05	Diocese of Peterborough
@@ -4018,6 +4234,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140859	28	company:08657945	2014-01-07	Newstead Primary Multi Academy Trust
 140860	28	company:07768726	2014-01-06	Bourne Education Trust
 140861	43	company:08747464	2015-01-04	Olive Education
+140862	35	company:07645701		
+140863	35	company:07960887		
 140864	28	company:06982127	2014-01-09	Ormiston Academies Trust
 140865	34			
 140866	34	company:08920524		
@@ -4037,6 +4255,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140880	34	company:07551959	2014-01-05	GLF Schools
 140881	28			
 140882	33			
+140884	35	company:08339142		
+140886	41	company:07867577	2014-01-09	Aspirations Academies Trust (AAT)
 140887	28	company:07903002	2014-01-07	Active Learning Trust (ALT)
 140888	28	company:07903002	2014-01-07	Active Learning Trust (ALT)
 140889	34	company:08255492	2014-01-09	Education Central Multi Academy Trust
@@ -4078,18 +4298,49 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140931	34	company:09119526		
 140932	34	company:08943457		
 140933	34	company:08922754	2014-01-06	The Black Pear Academy Trust
+140934	35	company:06228587	2015-01-09	Harris Federation
+140935	35	company:06228587	2014-01-09	Harris Federation
+140936	35	company:06228587	2014-01-09	Harris Federation
+140937	35	company:06228587	2014-01-09	Harris Federation
+140938	35	company:06228587	2014-01-09	Harris Federation
+140939	39	company:06228587	2014-01-09	Harris Federation
+140940	39	company:08264865		
 140941	40	company:07510578		
+140944	41	company:07746787	2014-01-09	Wellsway School Academy Trust
 140945	40	company:07649596		University College London (UCL)
+140946	35	company:06182612	2014-01-09	David Ross Education Trust (DRET)
+140948	41	company:07781921	2014-01-09	
+140949	35	company:07386086	2014-01-09	School Partnership Trust Academies (SPTA)
 140950	40	company:07898536		
+140952	35	company:06228587	2014-01-09	Harris Federation
+140953	35	company:08991357		
+140954	35	company:08324782	2014-01-09	
+140955	35	company:08324782	2014-01-09	
+140956	35	company:08324782	2014-01-09	
+140957	35	company:07353849	2014-01-09	Tauheedul Education Trust.
+140958	35	company:07353849	2014-01-09	Tauheedul Education Trust.
+140959	35	company:07353849	2014-01-09	Tauheedul Education Trust.
 140961	40	company:07937014		
+140962	35	company:04439859	2014-01-09	United Learning
+140963	35	company:08333406		
+140964	35	company:08344767		
+140965	41	company:07964133	2014-01-09	
+140966	35	company:07847013		
+140967	35	company:07626303		
 140968	40	company:08291601		
 140969	28	company:07400386		Samuel Ward Academy Trust
+140970	38	company:08337776		
+140971	39	company:08515877		
 140972	40	company:07941864		
+140973	35	company:06731593	2014-01-09	Essa Foundation
+140976	35	company:07650604		Newcastle College Group (NCG)
+140977	41	company:08305242		
 140979	28	company:07189647	2015-01-03	Northern Education Trust
 140980	28	company:08176019	2014-01-06	Kent Catholic Schools Partnership (KCSP)
 140981	34	company:07538467	2014-01-06	
 140982	34	company:09030028	2014-01-06	
 140983	34	company:07939655	2014-01-06	Bartholomew School
+140984	35	company:08240435		Djanogly Learning Trust
 140985	28	company:06228587	2014-01-09	Harris Federation
 140987	40	company:02336587	2014-01-09	This is a co-sponsored academy. Details of the sponsors of co-sponsored academies are not included in the current version of performance tables but this information will be available early in 2016
 140988	28	company:08737412	2014-01-09	Diocese of Lincoln
@@ -4103,15 +4354,36 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 140996	28	company:07887796	2014-01-08	Victoria Park Primary Academy
 140997	33	company:09067175	2014-01-10	The Shaw Trust
 140998	28	company:07697600	2014-01-07	Bury St Edmunds County Upper School
+140999	35	company:07612865	2014-01-09	STEP Academy Trust
 141000	28	company:08422015	2014-01-07	Diocese of Coventry
+141002	35	company:02303464	2014-01-09	Dixons Academy Trust
+141003	35	company:07749786	2014-01-09	Perry Beeches The Academy Trust
 141004	40	company:08599329		David Meller
+141005	36	company:08605705	2016-01-04	Parallel Learning Trust
+141006	38	company:07835788	2014-01-09	Beal High School
+141009	35	company:07956692		
+141010	35	company:07635510	2014-01-09	Torch Academy Gateway Trust
+141011	35	company:08334743		
+141012	41	company:08038063	2014-01-09	
 141013	28	company:06625091	2014-01-09	Academies Enterprise Trust (AET)
+141016	36	company:07950891	2014-01-09	Education Partnership Trust
+141017	35	company:08336324		
 141019	28	company:05112090	2014-01-09	ARK Schools
 141020	28	company:05112090	2014-01-09	ARK Schools
 141021	28	company:05112090	2014-01-09	ARK Schools
 141022	28	company:05112090	2014-01-09	ARK Schools
+141025	35	company:08221258		
+141027	35	company:07885963	2014-01-09	Chapel St Community Schools Trust
+141028	35	company:07885963	2014-01-09	Chapel St Community Schools Trust
+141030	39	company:08333424		
 141032	28	company:06864339	2015-01-09	Greenwood Academies Trust
 141033	33	company:08725920	2014-01-09	The Adelaide Academy Trust
+141034	38	company:08330636		
+141035	41	company:07683702	2014-01-09	Rosedale Hewens Academy Trust
+141037	38	company:06544825	2014-01-09	Diocese of York Educational Trust
+141038	35	company:08107711	2014-01-09	Aurora Academies Trust
+141039	35	company:07413883	2014-01-09	
+141040	35	company:08329993	2014-01-09	Inspirational Futures Trust
 141041	28	company:07472799	2014-01-09	The Queen Katherine School
 141042	28	company:06207590	2014-01-09	Cabot Learning Federation
 141043	34	company:09050439	2014-01-07	
@@ -4149,18 +4421,28 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141078	34	company:08684162		
 141079	34	company:09071405	2014-01-07	
 141080	34	company:09071405	2014-01-07	
+141081	39	company:08318962		
+141082	35	company:05398529	2014-01-09	Oasis Community Learning
 141085	28	company:06912857	2015-01-09	The Skinners' Company
 141086	40	company:07911472		Transforming Education in Norfolk (the TEN Group)
 141088	33			
 141089	28	company:07867577	2015-01-09	Aspirations Academies Trust (AAT)
 141090	28			
 141091	33			
+141095	39	company:08246407		
 141097	28	company:07917752	2014-01-09	St Marys Academy Trust
 141098	28	company:08258994	2014-01-08	Bradford Diocesan Academies Trust
 141099	28	company:08289583	2014-01-08	Lilac Sky Academy Trust
 141100	28	company:09071623	2014-01-12	Community Inclusive Trust (CIT)
 141101	43	company:08120960	2014-01-12	Wellspring Academy Trust
 141102	28	company:07577113	2014-01-09	Aston Community Education Trust (ACET)
+141103	35	company:08314083		
+141104	35	company:08267703	2014-01-09	
+141105	35	company:07953354		
+141106	35	company:08963816		
+141107	41	company:08339878		
+141108	35	company:08300393		
+141109	41	company:08641815	2014-01-09	
 141110	28	company:08156759	2014-01-09	Diocese of Bristol Academies Trust (DBAT)
 141111	40	company:08296556		Activate Learning
 141113	28	company:08452281	2014-01-09	REAch2
@@ -4175,10 +4457,18 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141122	28	company:08289583	2014-01-09	Lilac Sky Academy Trust
 141123	43	company:08299181	2014-01-09	Catch 22
 141124	28	company:06864339	2014-01-09	Greenwood Academies Trust
+141126	38	company:08337957		
 141129	28	company:07191874	2014-01-09	The Midland Academies Trust
+141130	38	company:08333607		
 141131	28	company:05067702	2015-01-02	Northern Schools Trust
 141132	28	company:08364709	2014-01-09	Fylde Coast Teaching School Ltd
+141133	35	company:08632527		
+141135	35	company:07650064		
+141136	38	company:07386086	2014-01-09	School Partnership Trust Academies (SPTA)
 141137	28	company:08104111	2014-01-09	Discovery Schools Academies Trust Ltd
+141139	38	company:08341194		
+141140	38	company:07386086	2014-01-09	School Partnership Trust Academies (SPTA)
+141141	38	company:07386086	2014-01-09	School Partnership Trust Academies (SPTA)
 141142	34	company:08656655	2014-01-09	Diocese of Salisbury
 141143	28	company:06228587	2014-01-09	Harris Federation
 141144	28	company:07556117	2014-01-08	Airedale Academy
@@ -4201,6 +4491,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141161	34	company:09106277	2014-01-08	Cherry Tree Academy Trust
 141162	34	company:08207095	2014-01-08	Diocese of Bath and Wells Multi Academy Trust
 141163	34	company:09078530	2014-01-08	Woolwich Polytechnic School for Boys
+141164	38	company:07949464		
+141165	35	company:08331789		
 141166	28	company:06182612	2014-01-09	David Ross Education Trust (DRET)
 141167	28	company:08769073	2014-01-09	Bury College Education Trust
 141168	28	company:07546118	2014-01-09	West Norfolk Academies Trust
@@ -4240,6 +4532,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141203	28	company:08452281	2015-01-09	REAch2
 141205	28	company:08240918	2014-01-09	St Simon and Jude Church of England Academy Trust
 141206	28	company:07655702	2014-01-11	Plantsbrook School
+141209	35	company:09161091	2014-01-09	Lion Academy Trust
 141210	28	company:09187505		Coloma Trust
 141211	28	company:08464996	2014-01-11	Diocese of Ely
 141212	28	company:08464996	2014-01-11	Diocese of Ely
@@ -4476,6 +4769,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141497	34	company:08176019	2014-01-10	Kent Catholic Schools Partnership (KCSP)
 141498	34	company:09146848		
 141499	28	company:07698631	2015-01-09	William Howard Trust
+141500	35	company:08557665		
 141511	28	company:08823327	2015-01-09	Eveleigh LINK Academy Trust
 141512	33	company:07747149	2015-01-04	The Seax Trust
 141513	28	company:08397975	2015-01-09	The Castle School Education Trust
@@ -4508,12 +4802,14 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141546	34	company:08066451	2014-01-11	
 141547	34	company:08149299	2014-01-11	Diocese of Gloucester Academies Trust
 141548	28		2014-01-11	The Stour Academy Trust
+141549	35	company:07035556	2015-01-09	Drapers Company
 141550	34	company:09254238	2014-01-11	
 141551	34	company:09254238	2014-01-11	
 141552	34	company:08464996	2014-01-11	Diocese of Ely
 141553	34	company:07569727	2014-01-11	The Williamson Trust
 141554	34	company:09254238	2014-01-11	
 141556	28	company:07971665		Witham St Hughs Academy
+141559	36	company:07954396	2015-01-01	National Autistic Society
 141561	28	company:07683702	2014-01-11	Rosedale Hewens Academy Trust
 141563	44	company:08120960	2014-01-12	Wellspring Academy Trust
 141564	42	company:08120960	2014-01-12	Wellspring Academy Trust
@@ -4552,6 +4848,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141600	34	company:07962974	2014-01-12	Schoolsworks Academy Trust
 141601	34	company:08143249	2014-01-12	Diocese of Oxford
 141602	34	company:08143249	2014-01-12	Diocese of Oxford
+141605	36	company:08343491	2015-05-01	
+141606	36	company:08036395	2015-01-01	
 141610	34	company:09333191		
 141611	34	company:08822760	2015-01-03	Cidari Trust
 141613	34	company:09333163		
@@ -4669,6 +4967,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141734	34	company:09297519	2015-01-02	The Lime Academy Trust
 141735	34	company:08561222	2015-01-04	
 141736	28	company:08158619	2015-01-11	Costessey Academy Trust (Evolution Academy Trust)
+141739	38	company:07665550	2015-01-09	East Birmingham Network
 141740	28	company:07649832	2015-01-03	The Redstart Learning Partnership
 141741	28	company:07638800	2015-01-04	Brentwood Academies Trust
 141743	28	company:08221088	2015-01-03	NET Academies Trust (NETAT)
@@ -4676,7 +4975,11 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141745	28	company:07977940	2015-01-04	Ambitions Academies Trust
 141746	28	company:08359889	2015-01-04	Community First Academy Trust
 141747	28	company:09432692	2015-01-03	Holy Spirit MAC (Warwickshire)
+141748	35	company:04439859	2015-01-09	United Learning
 141749	40	company:08293776		
+141750	35	company:07956784	2015-01-09	
+141751	35	company:07956784	2015-01-09	
+141752	35	company:07749786	2015-01-09	Perry Beeches The Academy Trust
 141754	34	company:09404783		
 141755	34	company:09484306	2015-01-04	
 141757	34	company:09362004	2015-01-03	
@@ -4777,6 +5080,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141856	34	company:09422746	2015-01-04	
 141857	34	company:09408861	2015-01-03	
 141858	34	company:09323792	2016-01-02	Manor Multi Academy Trust
+141862	35	company:08334023		
 141865	44	company:08449062	2015-01-03	
 141866	28	company:08738750	2015-01-04	The Primary First Trust
 141867	28	company:07695771	2015-01-07	Bright Futures Educational Trust
@@ -4794,7 +5098,9 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141880	28	company:08806335		Ebor Academy Trust
 141881	28		2015-01-09	The Stour Academy Trust
 141882	28			
+141883	35	company:08816454		
 141884	28	company:08027943	2015-01-09	The Dean Trust
+141886	35	company:07548754	2015-01-09	Maiden Erlegh School
 141889	28	company:08439184	2015-01-04	Pelham Primary School
 141891	34	company:09498825		
 141892	34	company:09466013	2015-01-04	University of Brighton
@@ -4838,14 +5144,32 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 141931	34	company:09482572		
 141932	34	company:08737435	2015-01-12	Diocese of Norwich Education Academies Trust
 141933	34	company:09474500		
+141935	38	company:08827502		
+141936	35	company:09027131	2015-01-09	
+141938	35	company:06672920	2015-01-09	Sidney Stringer Academy Trust
+141939	35	company:07700317	2015-01-09	Finham Park Multi Academy Trust
+141940	39	company:07465701	2015-01-09	The GORSE Academies Trust
 141941	40	company:08292380		
+141942	38	company:09017575		
+141943	35	company:07654452	2015-01-09	
+141945	36	company:07747149		The Seax Trust
+141947	35	company:09000501		
 141948	33			
 141949	28	company:08464996		Diocese of Ely
 141950	28	company:08452281		REAch2
 141951	28			
 141952	28			
+141956	35	company:09007740	2015-01-09	Floreat Education
 141957	44	company:09494940		
+141959	35	company:07885963	2015-01-09	Chapel St Community Schools Trust
+141963	35	company:07452885	2016-01-01	Russell Education Trust
 141964	40	company:08282488		
+141965	39	company:07552631	2016-01-04	Catmose Federation Academy
+141966	35	company:07945230	2015-01-09	
+141967	35	company:08652284	2015-01-09	St James and Emmanuel Academy Trust
+141969	35	company:07353849	2015-01-09	Tauheedul Education Trust.
+141970	35	company:07353849	2015-01-09	Tauheedul Education Trust.
+141971	35	company:07353849	2015-01-09	Tauheedul Education Trust.
 141972	28	company:08582084	2015-01-10	Pride Multi Academy Trust
 141973	28	company:09700223	2015-11-27	Every Child Matters Academy Trust
 141974	28	company:09454169	2015-01-09	The Sandhill Trust
@@ -4878,7 +5202,9 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142004	28	company:08399801	2015-01-08	The Bishop Wheeler Catholic Academy Trust
 142005	28	company:08286818	2015-01-10	The Heart Education Trust
 142008	28	company:08397975	2015-01-09	The Castle School Education Trust
+142009	35	company:08833418		
 142010	40	company:07893811		The Aldridge Foundation
+142012	35	company:07956784	2015-01-09	
 142014	28	company:08452281	2015-01-07	REAch2
 142015	28	company:09067175	2015-01-09	The Shaw Trust
 142016	28	company:08452281	2015-01-07	REAch2
@@ -4929,7 +5255,9 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142062	28	company:06864339	2015-01-09	Greenwood Academies Trust
 142063	28	company:08149829	2015-01-09	EMLC Academy Trust
 142064	28	company:09436283	2015-01-09	St Luke Academies Trust
+142066	36	company:08872579		
 142070	28	company:08076374	2015-01-09	The Flying High Trust
+142071	38	company:08829472		
 142072	28	company:08452281	2015-01-11	REAch2
 142073	28			
 142074	28	company:07697171	2015-01-09	Tapton School Academy trust
@@ -4937,6 +5265,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142076	28	company:08158400	2015-01-09	Portswood Primary Academy Trust
 142077	28	company:08066610	2015-01-09	The Legra Academy Trust
 142078	28	company:08735454	2016-01-07	Belgrave St Bartholomew's Academy
+142079	41	company:06207590	2015-01-09	Cabot Learning Federation
+142080	35	company:07549443	2015-01-09	
 142081	40	company:07911362		
 142082	28			
 142083	28	company:08366199	2015-01-09	Diocese of Guildford
@@ -4945,6 +5275,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142086	33	company:08140768	2016-01-01	Northern House School Academy Trust
 142088	28	company:07950891	2016-01-02	Education Partnership Trust
 142089	28	company:09466013		University of Brighton
+142090	35	company:07531811	2015-01-09	
 142091	34	company:08076374	2015-01-10	The Flying High Trust
 142093	34	company:08901256	2015-01-07	
 142094	44	company:09067175	2015-01-11	The Shaw Trust
@@ -4959,8 +5290,27 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142105	34	company:09341374	2015-01-06	Diocese of Carlisle
 142106	34	company:09341374	2015-01-09	Diocese of Carlisle
 142107	42	company:08476149	2015-01-09	Orchard Hill College
+142108	35	company:09012630		Diocese of Durham
+142109	35	company:08628019		
+142110	35	company:05112090	2015-01-09	ARK Schools
+142112	35	company:07923624	2015-01-09	
+142114	35	company:07956784	2015-01-09	
+142116	41	company:08318068		
+142117	35	company:09449979	2015-01-09	
+142118	36	company:07728112	2015-01-09	Fosse Way School
+142119	35	company:07542211	2015-01-09	South Hunsley School and Sixth Form College
+142121	35	company:09200220		
+142122	35	company:08346116	2015-01-09	GEMS Learning Trust
+142123	36	company:07827368	2015-01-09	The Central Learning Partnership Trust
+142124	41	company:07561204	2015-01-09	
+142125	41	company:07728482	2015-01-09	
+142126	41	company:07867577	2015-01-09	Aspirations Academies Trust (AAT)
+142127	41	company:07746787	2015-01-09	Wellsway School Academy Trust
+142128	41	company:07732559		Lydiate Learning Trust
 142129	40	company:08289534		
 142130	40	company:08351953		
+142133	35	company:08339345	2014-01-10	Partnership Learning
+142134	36	company:08339345	2015-01-09	Partnership Learning
 142136	44	company:09610951	2015-01-07	
 142137	34	company:09628754	2015-01-09	
 142139	34	company:07577113	2015-01-07	Aston Community Education Trust (ACET)
@@ -4995,9 +5345,12 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142168	44	company:09610951	2015-01-07	
 142169	44	company:09461655	2015-01-08	
 142170	44	company:09461655	2015-01-08	
+142173	35	company:05358533	2015-01-09	Annabel Arbib Foundation
+142174	35	company:08829554		
 142175	34	company:08364709	2016-01-09	Fylde Coast Teaching School Ltd
 142176	34	company:08399801	2015-01-07	The Bishop Wheeler Catholic Academy Trust
 142177	34	company:09642581	2015-01-09	Cirrus Primary Academy Trust
+142178	35	company:07338707		
 142181	28	company:07535642		Bohunt School
 142182	28	company:09007740		Floreat Education
 142183	28	company:07821367	2015-01-09	The Primary Academies Trust
@@ -5035,6 +5388,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142218	34	company:09696059	2015-01-08	
 142219	34	company:08331922	2015-01-08	
 142220	34	company:07523507	2015-01-08	
+142221	35	company:09016294		
 142226	28	company:09693822	2015-01-09	St Mary's Catholic Infant School
 142227	34	company:07746787	2015-01-09	Wellsway School Academy Trust
 142228	34	company:09662313	2015-01-09	
@@ -5253,6 +5607,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142471	28			
 142472	28	company:09379253	2016-01-01	South Cheshire College
 142473	28			
+142485	35	company:08149829		EMLC Academy Trust
 142487	42	company:09861442	2016-01-04	River Tees Multi Academy Trust
 142489	34	company:07506598	2015-01-12	
 142490	34	company:08366199	2015-01-12	Diocese of Guildford
@@ -5309,6 +5664,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142564	34	company:08156955	2016-01-01	
 142565	34	company:07842369	2016-01-01	New Dawn Trust
 142566	34	company:09896672	2016-01-01	
+142569	38	company:08329993		Inspirational Futures Trust
 142570	28	company:09718257	2016-01-04	Prince Albert Community Trust
 142574	28	company:07729878	2016-01-02	SHARE Multi Academy Trust
 142575	28	company:07481145	2016-01-02	Priorslee Multi-Academy Trust
@@ -5342,6 +5698,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142604	40	company:09257096		
 142605	40	company:07652696		The Sheffield College
 142607	42	company:09606079	2016-01-18	
+142608	35	company:07644077		
 142609	28	company:07625556		Sir William Borlase's Grammar School
 142610	28	company:07671255	2016-01-05	Pickhurst Junior School
 142611	28	company:07542155	2016-01-04	Tenax Schools Trust
@@ -5368,6 +5725,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142650	34	company:08509710	2016-01-03	Diocese of Peterborough
 142651	34	company:08509710	2016-01-03	Diocese of Peterborough
 142652	34	company:10049068	2016-01-04	
+142654	35	company:08654079		
 142661	34	company:08509710	2016-01-03	Diocese of Peterborough
 142662	34	company:07557817	2016-01-03	The Roseland Community College
 142663	34	company:09913676	2016-01-04	
@@ -5377,6 +5735,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142667	44	company:09071623	2016-01-03	Community Inclusive Trust (CIT)
 142668	34	company:07557817	2016-01-03	The Roseland Community College
 142669	34	company:08538844	2016-01-05	Diocese of Exeter
+142670	35	company:09255130		
+142671	35	company:07565088		Twynham Learning Federation
 142673	34	company:08449062	2016-01-03	
 142679	28	company:08566185	2016-01-05	Perry Hall Multi Academy Trust
 142680	28	company:09443906	2016-01-04	St Martins Multi Academy Trust
@@ -5467,7 +5827,14 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142768	33	company:10075893	2016-01-06	Nexus Multi Academy Trust
 142769	28	company:07442789	2016-01-05	The de Ferrers Academy
 142770	28	company:07913261	2016-01-05	St John the Baptist Catholic Multi Academy Trust
+142771	35	company:07843166		Burnt Mill Academy Trust
+142772	35	company:07375627		Ashmole Academy
+142774	35	company:07599308		Moor End Academies Trust
 142775	28	company:08709542	2016-01-05	Diocese of Chelmsford
+142780	36	company:05598063		Merchant Venturers, The Society of
+142781	41	company:07798639		
+142782	36	company:08120128		The Dunham Trust
+142783	36	company:08355539		Education Excellence 4 All (EE4A)
 142785	28	company:08881720	2016-01-05	CECET The Church of England Central Education Trust
 142786	28	company:07913261	2016-01-05	St John the Baptist Catholic Multi Academy Trust
 142787	28	company:08296921	2016-01-06	L.E.A.D. Multi-Academy Trust
@@ -5532,15 +5899,42 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 142856	34	company:08263591		Pendle Education Trust
 142857	34	company:09079258	2016-01-06	Rushey Mead
 142858	34	company:10155032	2016-01-06	
+142861	35	company:07506598		
+142862	35	company:07643712		
+142863	41	company:08707909		Activate Learning
+142864	35	company:09026369		
+142866	35	company:07353849		Tauheedul Education Trust.
+142869	35	company:08782697		
+142871	35	company:08179349		Inspiration Trust
+142873	39	company:08425513		TBAP Trust
+142874	35	company:09026334		
+142875	35	company:04504128		City of London Corporation
+142879	35	company:07413883		
+142881	35	company:09027131		
+142882	38	company:09249132		
+142883	35	company:08179349		Inspiration Trust
 142884	40	company:08902599		
+142885	35	company:08452281		REAch2
+142886	35	company:07339625		Cornerstone Academy Trust
 142887	40	company:08713518		
+142888	35	company:07353849		Tauheedul Education Trust.
+142889	35	company:09013070		
 142890	40	company:08293553		
+142891	39	company:08825752		
+142893	36	company:09392787		
 142894	40	company:08706625		
+142896	35	company:07549443		
+142897	35	company:07697400		
+142898	35	company:07353849		Tauheedul Education Trust.
 142899	40	company:08714780		
 142900	40	company:07937014		
 142902	40	company:08290305		
 142903	40	company:08283657		
+142904	35	company:09010445		Diocese of London
 142905	40	company:08589525		London South Bank University
+142906	38	company:07546874		The Gryphon Trust
+142907	35	company:07698904		Inspiring Futures Through Learning Trust
+142908	35	company:08339345		Partnership Learning
 142923	34	company:10261477	2016-01-08	
 142924	28	company:08249884	2016-01-07	Allington Primary School Academy Trust
 142932	33	company:08425513	2016-01-07	TBAP Trust
@@ -5671,6 +6065,8 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 143097	34	company:07525735		Aquinas Church of England Education Trust Ltd
 143099	34	company:07387540	2016-01-08	ASPIRE Academy Trust
 143100	34	company:08207095		Diocese of Bath and Wells Multi Academy Trust
+143101	35	company:09250153		
+143104	35	company:07484717		
 143107	28			
 143108	28	company:08061092		Palladian Academy Trust
 143109	34	company:07656245		Spring Partnership Trust
@@ -5930,6 +6326,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 143419	28	company:10081995	2016-01-09	Richmond West Schools Trust
 143420	28	company:10081995	2016-01-09	Richmond West Schools Trust
 143421	34	company:07525820		Sponne School
+143422	41	company:07703865	2016-01-09	St Clere's Co-operative Academy Trust
 143424	34	company:07660783	2016-01-09	The Stanford & Corringham Schools Trust
 143426	28	company:06228587	2016-01-09	Harris Federation
 143427	28	company:06228587	2016-01-09	Harris Federation
@@ -6033,6 +6430,7 @@ academy-school-eng	school-type	academy-trust	school-trust-join-date	academy-spon
 143628	34			
 143635	34			
 143639	28	company:09270040		The Challenger Multi-Academy Trust
+143648	35	company:07697132		Sir John Lawes Academies Trust
 143649	34	company:07398467		Ivybridge Academy Trust
 143652	34			
 143768	34	company:07614421		The Heath Family Trust
