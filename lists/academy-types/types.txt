@@ -1,14 +1,19 @@
 Academy Sponsor Led
-Academy Special Sponsor Led
-Academy Converter
-Free School
-Special Free School
-Free School - Alternative Provision
-Free School - 16-19
-University Technical College
-Studio School
-Academy Alternative Provision Converter
-Academy Alternative Provision Sponsor Led
-Academy Special Converter
 Academy 16-19 Converter
 Academy 16-19 Sponsor Led
+Academy Alternative Provision Converter
+Academy Alternative Provision Sponsor Led
+Academy Converter
+Academy Special Converter
+Academy Special Sponsor Led
+Free School
+Free School - 16-19
+Free School - Alternative Provision
+Free Schools
+Free Schools - 16-19
+Free Schools - Alternative Provision
+Free Schools Special
+Special Free School
+Studio School
+Studio Schools
+University Technical College
