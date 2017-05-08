@@ -38,7 +38,16 @@ school_eng_new <-
   select(-organisation, -`school-type-name`)
 
 # Check for any missing values
+map(school_eng_new, anyNA)
+# $address
+# $`minimum-age`
+# $`maximum-age`
+# $`school-capacity`
+# $headteacher
+# $`start-date`
+# $`end-date`
+
 anyNA(school_eng_new$`school-type`)
 
 # Save the new file.
-write_tsv(school_eng_new, "./data/alpha/school-eng/schools.tsv")
+write_tsv(school_eng_new, "./data/alpha/school-eng/schools.tsv", na = "")
